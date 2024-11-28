@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "L'inattendue annonce la couleur",
+    "place": "Galerie L'Inattendue, Paris, 2012"
+  },
+  { "id": 1, "title": "ArtMuc Kunstmesse", "place": "Praterinsel Raum, Munich, 2015" },
+  { "id": 2, "title": "Fighting headhunters", "place": "Klasse Doberauer, AdBK München, 2015" },
+  { "id": 3, "title": "Réalités augmentées", "place": "Villa Kujoyama, Kyoto, 2016" },
+  { "id": 4, "title": "Le Secret", "place": "Galerie Ygrec, cur. Corinne Le Neun, Paris, 2017" },
+  {
+    "id": 5,
+    "title": "Viens, mais ne viens pas quand je serai seule",
+    "place": "Galerie Ygrec, cur.Théo Robine-Langlois, Paris, 2017"
+  },
+  { "id": 6, "title": "Les Montagnes hallucinées", "place": "Le 87 - Lieu de créations, 2018" },
+  {
+    "id": 7,
+    "title": "Bibelot summer show",
+    "place": "Wendy Gallery, cur.Callisto McNulty, Paris, 2018"
+  },
+  { "id": 8, "title": "Æmergence (FIAC off)", "place": "La Station, Paris, 2018" },
+  { "id": 9, "title": "Novembre à Vitry", "place": "Galerie Jean Collet, Vitry, 2019" },
+  { "id": 10, "title": "Voir en Vrai", "place": "The Place to see, La Courneuve, 2023" },
+  { "id": 11, "title": "Voir en Vrai #2", "place": "The Place to see, La Courneuve, 2024" },
+  { "id": 12, "title": "Voir en Vrai #3", "place": "The Place to see, La Courneuve, 2024" }
+]

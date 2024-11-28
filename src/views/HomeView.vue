@@ -17,7 +17,9 @@ import IconInstagram from '@/components/icons/IconInstagram.vue'
         <li><RouterLink to="/works">Oeuvres</RouterLink></li>
         <li><RouterLink to="/infos">Infos</RouterLink></li>
         <li>
-          <a href=""><IconInstagram></IconInstagram></a>
+          <a href="https://www.instagram.com/aurel_porte/"
+            ><IconInstagram></IconInstagram>Instagram</a
+          >
         </li>
       </ul>
     </nav>

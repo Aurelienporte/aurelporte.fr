@@ -6,7 +6,19 @@
 }
 a {
   text-decoration: none;
+  color: black;
 }
 li {
   list-style-type: none;
+}
+/******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
+@media screen and (767px < width < 1024px) {
+  p,
+  a,
+  span {
+    font-size: 1.1rem;
+  }
+  p {
+    line-height: 1.4rem;
+  }
 }
