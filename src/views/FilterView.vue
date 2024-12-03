@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import TheAppMenu from '@/components/TheAppMenu.vue'
 // import dataSrc from '@/data.json'
 // const works = dataSrc.works
 const works = [
@@ -9,6 +10,7 @@ const works = [
 </script>
 
 <template>
+  <TheAppMenu></TheAppMenu>
   <div class="about">
     <h1>Cette page appellera le mur en lui passant le filtre en props</h1>
     <p>le params de la route est vide</p>

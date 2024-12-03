@@ -1,11 +1,12 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import worksData from '@/data.json'
-// console.log(worksData)
+import TheAppMenu from '@/components/TheAppMenu.vue'
 const works = worksData
 </script>
 
 <template>
+  <TheAppMenu></TheAppMenu>
   <div class="about">
     <h1>This is the page with all the works</h1>
     <p>le params de la route est vide</p>

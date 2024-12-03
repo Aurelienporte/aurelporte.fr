@@ -22,6 +22,7 @@ defineProps({
   grid-template-columns: 15vw 1fr 15vw;
   grid-template-rows: 1fr;
   width: 100vw;
+  padding-top: 2rem;
 }
 .high-title,
 .low-title {
@@ -42,6 +43,7 @@ defineProps({
   .infos-wrapper {
     grid-template-columns: 10vw 1fr 10vw;
     width: 75vw;
+    padding-top: 0;
   }
   .high-title,
   .low-title {
@@ -61,6 +63,7 @@ defineProps({
   .infos-wrapper {
     grid-template-columns: 6vw 1fr 6vw;
     width: 43vw;
+    padding-top: 0;
   }
   .high-title,
   .low-title {

@@ -11,6 +11,15 @@ a {
 li {
   list-style-type: none;
 }
+button,
+input[type='submit'] {
+  cursor: pointer;
+  font-family: 'Exo 2', serif;
+  font-size: 1rem;
+}
+input[type='submit']:disabled {
+  cursor: not-allowed;
+}
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width < 1024px) {
   p,

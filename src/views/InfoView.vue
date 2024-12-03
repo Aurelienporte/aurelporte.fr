@@ -57,8 +57,7 @@ makeSlices()
 </script>
 
 <template>
-  <TheAppMenu></TheAppMenu>
-  <!-- <h1>Information et contact</h1> -->
+  <TheAppMenu header-title="A propos"></TheAppMenu>
   <main>
     <InfosWrapper title="Biographie">
       <p class="text">
@@ -98,6 +97,7 @@ makeSlices()
 
 <style scoped>
 main {
+  /* grid-area: 2/1/4/2; */
   height: 80vh;
   display: flex;
   width: fit-content;
