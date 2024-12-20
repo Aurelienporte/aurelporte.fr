@@ -74,6 +74,7 @@ header {
   border-image-slice: 0 0 1;
   border-image-width: 1px;
   border-bottom: 1px solid gray;
+
   .banner {
     display: flex;
     justify-content: space-between;
@@ -271,6 +272,81 @@ header {
   }
   100% {
     transform: translateY(0) rotate(0);
+  }
+}
+/******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
+@media screen and (767px < width < 1024px) {
+  header {
+    .navigation-menu {
+      width: 50vw;
+      height: 80vh;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      border-radius: 0 0 0 100px;
+
+      &:popover-open {
+        translate: 50vw 0;
+      }
+      &:popover-open::backdrop {
+        --buttonWidth: 50vw;
+        /*Because shape is not a square and dashes are not perfectly centered after rotation
+       it looks better with 89vw instead of 90vw*/
+        --borderRadius: 10vh;
+
+        opacity: 1;
+        background: radial-gradient(
+            circle at 100% 30%,
+            transparent 20%,
+            rgb(26 178 234 / 35%) 65%,
+            transparent 85%
+          ),
+          rgba(21, 20, 50, 0.5);
+        mask:
+          linear-gradient(#000 calc(10vh + 1px), #fff 0),
+          linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
+            100vh 10vh no-repeat,
+          radial-gradient(
+              calc(var(--borderRadius) * 2) circle at 0% 100%,
+              #000 50%,
+              #fff calc(50% + 1px)
+            )
+            calc(var(--buttonWidth) - var(--borderRadius) + 1px) 0 / var(--borderRadius)
+            var(--borderRadius) no-repeat;
+        mask-composite: add, subtract;
+        mask-mode: luminance;
+        transition:
+          background-color 0.3s ease 0.3s allow-discrete,
+          opacity 0.5 ease allow-discrete,
+          display 0.5s allow-discrete,
+          overlay 0.5s allow-discrete;
+      }
+      @starting-style {
+        &:popover-open::backdrop {
+          opacity: 0;
+          background: rgb(26 178 234 / 40%);
+          mask:
+            linear-gradient(#000 calc(10vh + 1px), #fff 0),
+            radial-gradient(
+                calc(var(--borderRadius) * 2) circle at 100% 100%,
+                #000 50%,
+                #fff calc(50% + 1px)
+              )
+              calc(var(--buttonWidth) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
+            linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
+              100vh 10vh no-repeat,
+            radial-gradient(
+                calc(var(--borderRadius) * 2) circle at 0% 0%,
+                #000 50%,
+                #fff calc(50% + 1px)
+              )
+              calc(var(--buttonWidth) - var(--borderRadius) + 1px) calc(10vh - var(--borderRadius)) /
+              var(--borderRadius) var(--borderRadius) no-repeat;
+          mask-composite: add, add, subtract;
+          mask-mode: luminance;
+        }
+      }
+    }
   }
 }
 </style>

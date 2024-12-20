@@ -5,8 +5,15 @@
     "year": "2015",
     "project": "",
     "urlSlug": "double_et_brise",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "double_et_brise_small.webp",
+      "jpeg": "double_et_brise_small.jpeg"
+    },
     "height": "114",
     "width": "146",
     "depth": "",
@@ -17,17 +24,24 @@
   },
   {
     "id": "1",
-    "title": "En tout et par tout, [...] rapiessement et bigarrure",
+    "title": "Reprise argus (1)",
     "year": "2016",
-    "project": "",
-    "urlSlug": "rapiessement_et_bigarrure",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "162",
-    "width": "146",
+    "project": "Reprise argus",
+    "urlSlug": "reprise_argus_1",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "reprise_argus_1_small.webp",
+      "jpeg": "reprise_argus_1_small.jpeg"
+    },
+    "height": "27",
+    "width": "35",
     "depth": "",
-    "materials": "huile et acrylique sur toile",
-    "text": "Salon de catalogue pour peinture de guerre. Celui qu'on vend, qu'on achète, on en veut mais on en veut pas, on s'y expose et on s'y dissimule en même temps.\n\nC'est des couches de peinture et des strates d'images qui s'empilent, des petites madeleines de peintre qui vous baladent quelque part, d'une digression à l'autre, de la Renaissance italienne au monde militaire, du repentir au clonage Gimp.\n\nPlanquez tout sous les tapis, ils sont là pour ça.",
+    "materials": "huile sur toile",
+    "text": "",
     "images": [],
     "imgAltText": ""
   },
@@ -37,8 +51,15 @@
     "year": "2016",
     "project": "Reprise argus",
     "urlSlug": "reprise_argus_2",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "reprise_argus_2_small.webp",
+      "jpeg": "reprise_argus_2_small.jpeg"
+    },
     "height": "27",
     "width": "35",
     "depth": "",
@@ -49,17 +70,24 @@
   },
   {
     "id": "3",
-    "title": "Reprise argus (1)",
+    "title": "En tout et par tout, [...] rapiessement et bigarrure",
     "year": "2016",
-    "project": "Reprise argus",
-    "urlSlug": "reprise_argus_1",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "27",
-    "width": "35",
+    "project": "",
+    "urlSlug": "rapiessement_et_bigarrure",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "rapiessement_et_bigarrure_small.webp",
+      "jpeg": "rapiessement_et_bigarrure_small.jpeg"
+    },
+    "height": "162",
+    "width": "146",
     "depth": "",
-    "materials": "huile sur toile",
-    "text": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "Salon de catalogue pour peinture de guerre. Celui qu'on vend, qu'on achète, on en veut mais on en veut pas, on s'y expose et on s'y dissimule en même temps.\n\nC'est des couches de peinture et des strates d'images qui s'empilent, des petites madeleines de peintre qui vous baladent quelque part, d'une digression à l'autre, de la Renaissance italienne au monde militaire, du repentir au clonage Gimp.\n\nPlanquez tout sous les tapis, ils sont là pour ça.",
     "images": [],
     "imgAltText": ""
   },
@@ -69,8 +97,15 @@
     "year": "2015",
     "project": "",
     "urlSlug": "quelque_chose_de_mondial",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "quelque_chose_de_mondial_small.webp",
+      "jpeg": "quelque_chose_de_mondial_small.jpeg"
+    },
     "height": "130",
     "width": "216",
     "depth": "",
@@ -81,44 +116,88 @@
   },
   {
     "id": "5",
-    "title": "Les Hannetons de l'espérance (12)",
+    "title": "Reprise argus (5)",
     "year": "2017",
-    "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_12",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "project": "Reprise argus",
+    "urlSlug": "reprise_argus_5",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "reprise_argus_5_small.webp",
+      "jpeg": "reprise_argus_5_small.jpeg"
+    },
     "height": "27",
-    "width": "22",
+    "width": "35",
     "depth": "",
-    "materials": "huile et posca sur toile",
+    "materials": "huile sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "6",
-    "title": "Les Hannetons de l'espérance (15)",
+    "title": "Reprise argus (3)",
     "year": "2017",
-    "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_15",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "project": "Reprise argus",
+    "urlSlug": "reprise_argus_3",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "reprise_argus_3_small.webp",
+      "jpeg": "reprise_argus_3_small.jpeg"
+    },
     "height": "27",
-    "width": "22",
+    "width": "35",
     "depth": "",
-    "materials": "huile et posca sur toile",
+    "materials": "huile sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "7",
+    "title": "Reprise argus (4)",
+    "year": "2017",
+    "project": "Reprise argus",
+    "urlSlug": "reprise_argus_4",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "reprise_argus_4_small.webp",
+      "jpeg": "reprise_argus_4_small.jpeg"
+    },
+    "height": "27",
+    "width": "35",
+    "depth": "",
+    "materials": "huile sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "8",
     "title": "Lointains alentours (1)",
     "year": "2018",
     "project": "Lointains alentours",
     "urlSlug": "lointains_alentours_1",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "lointains_alentours_1_small.png",
+      "jpeg": "lointains_alentours_1_small.jpeg"
+    },
     "height": "61",
     "width": "27",
     "depth": "27",
@@ -128,61 +207,66 @@
     "imgAltText": ""
   },
   {
-    "id": "8",
-    "title": "Reprise argus (4)",
-    "year": "2017",
-    "project": "Reprise argus",
-    "urlSlug": "reprise_argus_4",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "27",
-    "width": "35",
-    "depth": "",
-    "materials": "huile sur toile",
-    "text": "",
-    "images": [],
-    "imgAltText": ""
-  },
-  {
     "id": "9",
-    "title": "Reprise argus (3)",
+    "title": "Hamburgh #2",
     "year": "2017",
-    "project": "Reprise argus",
-    "urlSlug": "reprise_argus_3",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "hamburgh_2",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "hamburgh_2_small.webp",
+      "jpeg": "hamburgh_2_small.jpeg"
+    },
     "height": "27",
-    "width": "35",
+    "width": "22",
     "depth": "",
-    "materials": "huile sur toile",
+    "materials": "huile et posca sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "10",
-    "title": "Reprise argus (5)",
+    "title": "Parme",
     "year": "2017",
-    "project": "Reprise argus",
-    "urlSlug": "reprise_argus_5",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "parme",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "parme_small.webp",
+      "jpeg": "parme_small.jpeg"
+    },
     "height": "27",
-    "width": "35",
+    "width": "22",
     "depth": "",
-    "materials": "huile sur toile",
+    "materials": "huile et posca sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "11",
-    "title": "Les Hannetons de l'espérance (11)",
+    "title": "Brabant",
     "year": "2017",
     "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_11",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "urlSlug": "brabant",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "brabant_small.webp",
+      "jpeg": "brabant_small.jpeg"
+    },
     "height": "27",
     "width": "22",
     "depth": "",
@@ -193,28 +277,42 @@
   },
   {
     "id": "12",
-    "title": "Appâts feutrés",
-    "year": "2016",
-    "project": "",
-    "urlSlug": "",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "130",
-    "width": "195",
+    "title": "De sable au heaume d'argent",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "de_sable_au_heaume_d_argent",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "de_sable_au_heaume_d_argent_small.webp",
+      "jpeg": "de_sable_au_heaume_d_argent_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
     "depth": "",
-    "materials": "huile et acrylique sur toile",
-    "text": "Des espaces divers, figurés ou schématiques, que l'on découpe et que l'on déborde. Des horizons faits, défaits ou à faire ; des tracés, des cloisons, des limites et des remparts de sable qui s'avancent le long de trajectoires stratèges.\n\nIntérieurs standardisés, standards intériorisés, points névralgiques et champs de bataille.",
+    "materials": "huile et posca sur toile",
+    "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "13",
-    "title": "Les Hannetons de l'espérance (8 bis)",
+    "title": "Middleburgh",
     "year": "2017",
     "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_8bis",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "urlSlug": "middleburgh",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "middleburgh_small.webp",
+      "jpeg": "middleburgh_small.jpeg"
+    },
     "height": "27",
     "width": "22",
     "depth": "",
@@ -225,28 +323,42 @@
   },
   {
     "id": "14",
-    "title": "Les Hannetons de l'espérance (8 ter)",
-    "year": "2017",
-    "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_8ter",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "27",
-    "width": "22",
+    "title": "Appâts feutrés",
+    "year": "2016",
+    "project": "",
+    "urlSlug": "appats_feutres",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "appats_feutres_small.webp",
+      "jpeg": "appats_feutres_small.jpeg"
+    },
+    "height": "130",
+    "width": "195",
     "depth": "",
-    "materials": "huile et posca sur toile",
-    "text": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "Des espaces divers, figurés ou schématiques, que l'on découpe et que l'on déborde. Des horizons faits, défaits ou à faire ; des tracés, des cloisons, des limites et des remparts de sable qui s'avancent le long de trajectoires stratèges.\n\nIntérieurs standardisés, standards intériorisés, points névralgiques et champs de bataille.",
     "images": [],
     "imgAltText": ""
   },
   {
     "id": "15",
-    "title": "Les Hannetons de l'espérance (20)",
+    "title": "Dazzle-razzle",
     "year": "2017",
     "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_20",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "urlSlug": "dazzle-razzle",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "dazzle-razzle_small.webp",
+      "jpeg": "dazzle-razzle_small.jpeg"
+    },
     "height": "27",
     "width": "22",
     "depth": "",
@@ -257,12 +369,134 @@
   },
   {
     "id": "16",
+    "title": "Burgkmair, la flagellation du Christ",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "burgkmair_la_flagellation_du_christ",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "burgkmair_la_flagellation_du_christ_small.webp",
+      "jpeg": "burgkmair_la_flagellation_du_christ_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "17",
+    "title": "Hamburgh #3",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "hamburgh_3",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "hamburgh_3_small.webp",
+      "jpeg": "hamburgh_3_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "18",
+    "title": "Lointains alentours (3)",
+    "year": "2018",
+    "project": "Lointains alentours",
+    "urlSlug": "lointains_alentours_3",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "lointains_alentours_3_small.png",
+      "jpeg": "lointains_alentours_3_small.jpeg"
+    },
+    "height": "61",
+    "width": "27",
+    "depth": "27",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "19",
+    "title": "Riga",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "riga",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "riga_small.webp",
+      "jpeg": "riga_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "20",
+    "title": "Lointains alentours (2)",
+    "year": "2018",
+    "project": "Lointains alentours",
+    "urlSlug": "lointains_alentours_2",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "lointains_alentours_2_small.png",
+      "jpeg": "lointains_alentours_2_small.jpeg"
+    },
+    "height": "61",
+    "width": "27",
+    "depth": "27",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "21",
     "title": "Trophées",
     "year": "2017",
     "project": "",
     "urlSlug": "trophees",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "trophees_small.webp",
+      "jpeg": "trophees_small.jpeg"
+    },
     "height": "195",
     "width": "162",
     "depth": "",
@@ -272,13 +506,503 @@
     "imgAltText": ""
   },
   {
-    "id": "17",
-    "title": "Lointains alentours (2)",
-    "year": "2018",
-    "project": "Lointains alentours",
-    "urlSlug": "lointains_alentours_2",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "id": "22",
+    "title": "Parme #2",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "parme_2",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "parme_2_small.webp",
+      "jpeg": "parme_2_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "23",
+    "title": "Lippi, le banquet d'Hérode",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "lippi_le_banquet_d_herode",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "lippi_le_banquet_d_herode_small.webp",
+      "jpeg": "lippi_le_banquet_d_herode_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "24",
+    "title": "Lucca",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "lucca",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "lucca_small.webp",
+      "jpeg": "lucca_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "25",
+    "title": "Koningsberg",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "koningsberg",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "koningsberg_small.webp",
+      "jpeg": "koningsberg_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "26",
+    "title": "Hamburgh",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "hamburgh",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "hamburgh_small.webp",
+      "jpeg": "hamburgh_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "27",
+    "title": "Nassau",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "Nassau",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "Nassau_small.webp",
+      "jpeg": "Nassau_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "28",
+    "title": "Memelland",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "memelland",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "memelland_small.webp",
+      "jpeg": "memelland_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "29",
+    "title": "Modène",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "modene",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "modene_small.webp",
+      "jpeg": "modene_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "30",
+    "title": "Sarre",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "sarre",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "sarre_small.webp",
+      "jpeg": "sarre_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "31",
+    "title": "Oldenburg",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "oldenburg",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "oldenburg_small.webp",
+      "jpeg": "oldenburg_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "32",
+    "title": "Camp de bases",
+    "year": "2019",
+    "project": "",
+    "urlSlug": "camp_de_bases",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "camp_de_bases_small.webp",
+      "jpeg": "camp_de_bases_small.jpeg"
+    },
+    "height": "114",
+    "width": "162",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "Un point de départ, des allures d'arrivée... quelle ironie de l'image. Quand l'archéologie a quelque chose de l'exploration spatiale, la quête de l'origine rejoint celle de la fin. Une prospection trichromique à coup de petits fanions, abscons et plurivoques, piqués dans les couches de terres entremelées du plus vieil atelier du monde. La base est là, tout peut commencer.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "33",
+    "title": "Crète",
+    "year": "2017",
+    "project": "Les Hannetons de l'espérance",
+    "urlSlug": "crete",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "crete_small.webp",
+      "jpeg": "crete_small.jpeg"
+    },
+    "height": "27",
+    "width": "22",
+    "depth": "",
+    "materials": "huile et posca sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "34",
+    "title": "Masse diplomatie (9)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_9",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_9_small.png",
+      "jpeg": "masse_diplomatie_9_small.jpeg"
+    },
+    "height": "8,6",
+    "width": "40",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "35",
+    "title": "Masse diplomatie (8)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_8",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_8_small.png",
+      "jpeg": "masse_diplomatie_8_small.jpeg"
+    },
+    "height": "8,5",
+    "width": "36,7",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "36",
+    "title": "Masse diplomatie (7)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_7",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_7_small.png",
+      "jpeg": "masse_diplomatie_7_small.jpeg"
+    },
+    "height": "4",
+    "width": "28,3",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "37",
+    "title": "Masse diplomatie (6)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_6",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_6_small.png",
+      "jpeg": "masse_diplomatie_6_small.jpeg"
+    },
+    "height": "4,7",
+    "width": "30,3",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "38",
+    "title": "Masse diplomatie (5)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_5",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_5_small.png",
+      "jpeg": "masse_diplomatie_5_small.jpeg"
+    },
+    "height": "4,5",
+    "width": "29,7",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "39",
+    "title": "Masse diplomatie (4)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_4",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_4_small.png",
+      "jpeg": "masse_diplomatie_4_small.jpeg"
+    },
+    "height": "7,8",
+    "width": "36,8",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "40",
+    "title": "Masse diplomatie (3)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_3",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_3_small.png",
+      "jpeg": "masse_diplomatie_3_small.jpeg"
+    },
+    "height": "3,3",
+    "width": "20,2",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "41",
+    "title": "Masse diplomatie (2)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_2",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_2_small.png",
+      "jpeg": "masse_diplomatie_2_small.jpeg"
+    },
+    "height": "7,2",
+    "width": "33,2",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "42",
+    "title": "Masse diplomatie (1)",
+    "year": "2019",
+    "project": "Masse diplomatie",
+    "urlSlug": "masse_diplomatie_1",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "masse_diplomatie_1_small.png",
+      "jpeg": "masse_diplomatie_1_small.jpeg"
+    },
+    "height": "10,5",
+    "width": "38,5",
+    "depth": "",
+    "materials": "marqueterie de bois sur feuille magnétique",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "43",
+    "title": "Any where out of the world (3)",
+    "year": "2019",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_3",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_3_small.png",
+      "jpeg": "any_where_out_of_the_world_3_small.jpeg"
+    },
     "height": "61",
     "width": "27",
     "depth": "27",
@@ -288,45 +1012,1216 @@
     "imgAltText": ""
   },
   {
-    "id": "18",
-    "title": "Les Hannetons de l'espérance (4)",
-    "year": "2017",
-    "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_4",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "27",
-    "width": "22",
+    "id": "44",
+    "title": "Pyramides",
+    "year": "2021",
+    "project": "",
+    "urlSlug": "pyramides",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "pyramides_small.webp",
+      "jpeg": "pyramides_small.jpeg"
+    },
+    "height": "114",
+    "width": "146",
     "depth": "",
-    "materials": "huile et posca sur toile",
-    "text": "",
-    "images": [],
-    "imgAltText": ""
-  },
-  {
-    "id": "19",
-    "title": "Lointains alentours (3)",
-    "year": "2018",
-    "project": "Lointains alentours",
-    "urlSlug": "lointains_alentours_3",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "61",
-    "width": "27",
-    "depth": "27",
     "materials": "huile et acrylique sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
   },
   {
-    "id": "20",
-    "title": "Les Hannetons de l'espérance (19)",
+    "id": "45",
+    "title": "Any where out of the world (2)",
+    "year": "2019",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_2",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_2_small.png",
+      "jpeg": "any_where_out_of_the_world_2_small.jpeg"
+    },
+    "height": "61",
+    "width": "27",
+    "depth": "env 27",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "46",
+    "title": "Any where out of the world (1)",
+    "year": "2019",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_1",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_1_small.png",
+      "jpeg": "any_where_out_of_the_world_1_small.jpeg"
+    },
+    "height": "61",
+    "width": "27",
+    "depth": "env 27",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "47",
+    "title": "Néobucolique",
+    "year": "2020",
+    "project": "",
+    "urlSlug": "neobucollique",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "neobucollique_small.webp",
+      "jpeg": "neobucollique_small.jpeg"
+    },
+    "height": "79",
+    "width": "146",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "48",
+    "title": "Oh la la la vie en rose",
+    "year": "2021",
+    "project": "Home sweet home",
+    "urlSlug": "oh_la_la_la_vie_en_rose",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "oh_la_la_la_vie_en_rose_small.webp",
+      "jpeg": "oh_la_la_la_vie_en_rose_small.jpeg"
+    },
+    "height": "114",
+    "width": "146",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "49",
+    "title": "Any where out of the world (6)",
+    "year": "2020",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_6",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_6_small.png",
+      "jpeg": "any_where_out_of_the_world_6_small.jpeg"
+    },
+    "height": "80",
+    "width": "38",
+    "depth": "env 30",
+    "materials": "huile et acrylique sur médium",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "50",
+    "title": "Soviet soucoupe",
+    "year": "2021",
+    "project": "Les envahisseurs",
+    "urlSlug": "soviet_soucoupe",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "soviet_soucoupe_small.png",
+      "jpeg": "soviet_soucoupe_small.jpeg"
+    },
+    "height": "30",
+    "width": "40",
+    "depth": "20",
+    "materials": "tôle aluminium, planche de balsa, abs extrudé, barre d'acier, liège d'isolation, adhésifs, câbles et matériaux divers",
+    "text": "Sphères, cylindres, cônes et tores montés suivant une base rectangulaire, formant une petite pyramide. Prêt à alunir en pleine mer des crises ou... coiffer un nouveau toit moscovite !",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "51",
+    "title": "Viking",
+    "year": "2020",
+    "project": "Les envahisseurs",
+    "urlSlug": "viking",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "viking_small.png",
+      "jpeg": "viking_small.jpeg"
+    },
+    "height": "19",
+    "width": "30",
+    "depth": "25",
+    "materials": "tôle aluminium, planche de balsa, barre d'acier, câbles et matériaux divers",
+    "text": "Après l'Amérique, les Vikings sont les premiers a être allés sur Mars. C'était dans les années 70. La forme des vaisseaux serait tirée de leur casque à cornes. Toujours pas de traces des drakkars spatiaux qui auraient sillonné les eaux du lac Jezero ?",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "52",
+    "title": "Any where out of the world (5)",
+    "year": "2020",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_5",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_5_small.png",
+      "jpeg": "any_where_out_of_the_world_5_small.jpeg"
+    },
+    "height": "80",
+    "width": "38",
+    "depth": "env 30",
+    "materials": "huile et acrylique sur médium",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "53",
+    "title": "Chang'e",
+    "year": "2020",
+    "project": "Les envahisseurs",
+    "urlSlug": "change",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "change_small.png",
+      "jpeg": "change_small.jpeg"
+    },
+    "height": "27",
+    "width": "40",
+    "depth": "30",
+    "materials": "tôle aluminium, planche de balsa, adhésifs, liège d'isolation, abs extrudé, câbles et matériaux divers",
+    "text": "Chang'e est devenue immortelle : elle a quitté la Terre pour la Lune. Quatre pieds, cubique, accompagnée du lapin de jade. Depuis la vaste froidure, son palais, elle annonce un nouveau cycle... Car Chang'e est chinoise.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "54",
+    "title": "Horizon inverse",
+    "year": "2020",
+    "project": "",
+    "urlSlug": "horizon_inverse",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "horizon_inverse_small.webp",
+      "jpeg": "horizon_inverse_small.jpeg"
+    },
+    "height": "116",
+    "width": "89",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "55",
+    "title": "Digger",
+    "year": "2021",
+    "project": "Les envahisseurs",
+    "urlSlug": "digger",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "digger_small.png",
+      "jpeg": "digger_small.jpeg"
+    },
+    "height": "26",
+    "width": "36",
+    "depth": "48",
+    "materials": "tôle aluminium, planche de balsa, couverture de survie, adhésifs, liège d'isolation, câbles et matériaux divers",
+    "text": "Fin des années 90, le pôle Sud martien intrigue. Il faut prospecter... Prisme à base hexagonale, train d'atterrissage trois pieds, deux ailes solaires et un bras pelleteuse. La classe américaine ! La nouvelle ruée vers l'or peut commencer.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "56",
+    "title": "Arpenteur",
+    "year": "2020",
+    "project": "Les envahisseurs",
+    "urlSlug": "arpenteur",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "arpenteur_small.png",
+      "jpeg": "arpenteur_small.jpeg"
+    },
+    "height": "26",
+    "width": "39",
+    "depth": "34",
+    "materials": "tôle aluminium, planche de balsa, adhésifs, liège d'isolation, câbles et matériaux divers",
+    "text": "La voie est ouverte. Le voyage fut long. On inspecte, mesure, sonde. Prudence. D'autres viendront",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "57",
+    "title": "Any where out of the world (4)",
+    "year": "2020",
+    "project": "Any where out of the world",
+    "urlSlug": "any_where_out_of_the_world_4",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "any_where_out_of_the_world_4_small.png",
+      "jpeg": "any_where_out_of_the_world_4_small.jpeg"
+    },
+    "height": "80",
+    "width": "38",
+    "depth": "env 30",
+    "materials": "huile et acrylique sur médium",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "58",
+    "title": "Power flower",
+    "year": "2020",
+    "project": "Les envahisseurs",
+    "urlSlug": "power_flower",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "power_flower_small.png",
+      "jpeg": "power_flower_small.jpeg"
+    },
+    "height": "22",
+    "width": "45",
+    "depth": "45",
+    "materials": "tôle aluminium, planche de balsa, abs extrudé, adhésifs, câbles et matériaux divers",
+    "text": "Le premier objet à alunir en douceur était soviétique, il avait l'aspect d'une fleur. Une fois le bouton ouvert, les pétales dépliés servaient d'antenne parabolique. C'était en 1966, c'était pas encore le summer of love...",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "59",
+    "title": "La chute du mur",
+    "year": "2021",
+    "project": "Réensauvagement",
+    "urlSlug": "la_chute_du_mur",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "la_chute_du_mur_small.webp",
+      "jpeg": "la_chute_du_mur_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "31 août 2020, Montreuil. Spectaculaire regain d’intérêt pour les murs à pèches, anciens vergers clos. Stéphane Bern sur place. Petit ballet d’élus, journalistes, bénévoles, spectateurs. Et cette étrange impression. Là, face aux murs séculaires effondrés, enfrichés de végétation et hangars, dans une zone déclarée « urbanisable à 80 % » suite aux pressions immobilières, les feuilles virevoltent le vent se lève… Que porte-t-il ?",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "60",
+    "title": "Les vertus",
+    "year": "2021",
+    "project": "Réensauvagement",
+    "urlSlug": "les_vertus",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "les_vertus_small.webp",
+      "jpeg": "les_vertus_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "2021, Aubervilliers, Jardins des Vertus. Modestes ruptures vertes du continuum bétonné d’aujourd’hui, marques d’un maraîchage autrefois intense, des potagers ouvriers émaillent encore ça et là les alentours. Flagrant retard de la peinture ? Excès de vitesse du réel ? Les parcelles ne sont plus… Reste un tableau.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "61",
+    "title": "Cardons",
+    "year": "2021",
+    "project": "Réensauvagement",
+    "urlSlug": "cardons",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "cardons_small.webp",
+      "jpeg": "cardons_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "Quelque part à Vaulx-en-Velin, dans les années 60. Noël approche, les immeubles poussent, les cardons blanchissent. Surprise d’une tradition retrouvée au détour des mutations sociétales, on se souvient le légume oublié (on se souvient moins qui nous l’a ramené). Des maraîchers entre deux eaux, un flottement, que j’ai voulu sceller du pinceau.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "62",
+    "title": "New Sénart",
+    "year": "2022",
+    "project": "Home sweet home",
+    "urlSlug": "new_senart",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "new_senart_small.webp",
+      "jpeg": "new_senart_small.jpeg"
+    },
+    "height": "114",
+    "width": "146",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "63",
+    "title": "GBA & RAS",
+    "year": "2022",
+    "project": "Réensauvagement",
+    "urlSlug": "rba_&_ras",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "rba_&_ras_small.webp",
+      "jpeg": "rba_&_ras_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "C’est un totem moderne effondré ou un jeu de construction géant, éparpillé à un carrefour. C’est le crépuscule ou l’aube et dans l’air chargé de la poussière des chantiers les mauvaises herbes commencent à danser autour des blocs. C’est l’alchimie ou le sabbat d’une ville en pleine transition de phase. 2022, Porte de Paris.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "64",
+    "title": "Ici",
+    "year": "2022",
+    "project": "Réensauvagement",
+    "urlSlug": "ici",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "ici_small.webp",
+      "jpeg": "ici_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile, acrylique, papier peint et enduit sur BA13",
+    "text": "Ici, mais pas encore maintenant : ça arrive, on a dit. On va tout retaper : placo neuf, papier-peint tendance. Et ce sera beau. En attendant jungle d’interlude pousse devant façade condamnée. Qui pour voir, nature toquer aux portes, grande mue s’opérer ?",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "65",
+    "title": "Digue",
+    "year": "2022",
+    "project": "Réensauvagement",
+    "urlSlug": "digue",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "digue_small.webp",
+      "jpeg": "digue_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "Sur cette maçonnerie venue coiffer un petit édicule d’aération, des pariétaires de Judée campent obstinément. C’est une forme-barrage, l’image d’un morceau de notre quotidien endormi, qu’il fallait réveiller à coup de couleurs. 2022, Paris 18e, rue Leibniz",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "66",
+    "title": "Palissade",
+    "year": "2022",
+    "project": "Réensauvagement",
+    "urlSlug": "palissade",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "palissade_small.webp",
+      "jpeg": "palissade_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile, acrylique et papier peint sur BA13",
+    "text": "C’est un défilé d’espaces ceinturés de tôles et de grillages, suspendus entre deux temps, entre deux usages et entre deux mondes. La végétation comble le vide, dans l’attente, bien à l’abri des palissades. 2022, Saint-Denis, le long du T1.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "67",
+    "title": "Sortie de route",
+    "year": "2021",
+    "project": "Réensauvagement",
+    "urlSlug": "sortie_de_route",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "sortie_de_route_small.webp",
+      "jpeg": "sortie_de_route_small.jpeg"
+    },
+    "height": "35",
+    "width": "50",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "2021, Saint‐Denis, abords du Stade de France, à côté de la place de l’écluse, l’été tire sur sa fin, berces et folles herbes ont fanée. La pousse estivale fut spectaculaire. Besoin naturel de combler le vide des lieux, évacués l’année d’avant, pudique écho de la précipitation du nettoyage. Fragment choisi d’un paysage traversé à 90km/h, où tant d’existences auront fait halte.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "68",
+    "title": "Tambour",
+    "year": "2022",
+    "project": "Les envahisseurs",
+    "urlSlug": "tambour",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "tambour_small.png",
+      "jpeg": "tambour_small.jpeg"
+    },
+    "height": "18",
+    "width": "20",
+    "depth": "20",
+    "materials": "tôle aluminium, planche de balsa, abs extrudé, bâche, liège d'isolation, adhésifs et matériaux divers",
+    "text": "En 2008, l'ESA annonçait un projet d'alunisseur (ESA Lunar Lander) pour se relancer dans la course vers la Lune. Cependant l'engin ne vit jamais le jour, faute de financements. Ne reste qu'une annonce spectaculaire oubliée et les quelques images alors diffusées, d'un curieux cylindre juché sur quatre pieds dépliables.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "69",
+    "title": "Fisher",
+    "year": "2022",
+    "project": "Les envahisseurs",
+    "urlSlug": "fisher",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "fisher_small.png",
+      "jpeg": "fisher_small.jpeg"
+    },
+    "height": "19",
+    "width": "30",
+    "depth": "46",
+    "materials": "tôle aluminium, planche de balsa, abs extrudé, bâche, liège d'isolation, adhésifs et matériaux divers",
+    "text": "Avec son pseudo-habitacle muni d’une perche articulée, le tout jonché sur trois pieds télescopiques, cet objet reprend la silhouette de Philae, l’aterrisseur de l’ESA parti en 2015 à l’abordage de la comète 67P-Tchouri.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "70",
+    "title": "Vikram",
+    "year": "2022",
+    "project": "Les envahisseurs",
+    "urlSlug": "vikram",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "vikram_small.png",
+      "jpeg": "vikram_small.jpeg"
+    },
+    "height": "18",
+    "width": "20",
+    "depth": "21",
+    "materials": "tôle aluminium, planche de balsa, abs extrudé, couverture de survie, liège d'isolation, adhésifs et matériaux divers",
+    "text": "Après les engins américains, russes et chinois, c’était au tour de l’Inde en 2019 de venir tâter le régolithe lunaire. Avec son châssis remarquable (en prisme trapézoïdale), Vikram est le premier atterrisseur de l’ISRO, l’agence spatiale indienne. J'ai jugé la forme assez caractéristique pour la reprendre. Elle traduit visuellement la diversification du jeu politique spatial.",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "71",
+    "title": "On and on",
+    "year": "2023",
+    "project": "Home sweet home",
+    "urlSlug": "on_and_on",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "on_and_on_small.webp",
+      "jpeg": "on_and_on_small.jpeg"
+    },
+    "height": "114",
+    "width": "146",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "72",
+    "title": "Star pneumatic",
+    "year": "2023",
+    "project": "Les envahisseurs",
+    "urlSlug": "star_pneumatic",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "star_pneumatic_small.png",
+      "jpeg": "star_pneumatic_small.jpeg"
+    },
+    "height": "env 27",
+    "width": "60",
+    "depth": "60",
+    "materials": "toile K-Way, drap coton, abs extrudé, tôle aluminium, planche de balsa, adhésifs et matériaux divers",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "73",
+    "title": "Structure de dissipation",
+    "year": "2023",
+    "project": "Les envahisseurs",
+    "urlSlug": "structure_de_dissipation",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "structure_de_dissipation_small.png",
+      "jpeg": "structure_de_dissipation_small.jpeg"
+    },
+    "height": "26",
+    "width": "62",
+    "depth": "50",
+    "materials": "tôle aluminium, planche de balsa, liège d'isolation, adhésifs et matériaux divers",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "74",
+    "title": "Haie d'honneur",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "haie_d_honneur",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "haie_d_honneur_small.webp",
+      "jpeg": "haie_d_honneur_small.jpeg"
+    },
+    "height": "50",
+    "width": "40",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "75",
+    "title": "Surface de projection",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "surface_de_projection",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "surface_de_projection_small.webp",
+      "jpeg": "surface_de_projection_small.jpeg"
+    },
+    "height": "62,5",
+    "width": "40",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "76",
+    "title": "Substrat",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "substrat",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "substrat_small.webp",
+      "jpeg": "substrat_small.jpeg"
+    },
+    "height": "28",
+    "width": "24",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "77",
+    "title": "Substrat #2",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "substrat_2",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "substrat_2_small.webp",
+      "jpeg": "substrat_2_small.jpeg"
+    },
+    "height": "40",
+    "width": "20",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "78",
+    "title": "Crushed",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "crushed",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "crushed_small.webp",
+      "jpeg": "crushed_small.jpeg"
+    },
+    "height": "29,5",
+    "width": "50,5",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "79",
+    "title": "Become",
+    "year": "2023",
+    "project": "Réensauvagement",
+    "urlSlug": "become",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "become_small.webp",
+      "jpeg": "become_small.jpeg"
+    },
+    "height": "62,5",
+    "width": "40",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "80",
+    "title": "La grande lessive",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "la_grande_lessive",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "la_grande_lessive_small.webp",
+      "jpeg": "la_grande_lessive_small.jpeg"
+    },
+    "height": "130",
+    "width": "162",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "81",
+    "title": "The wind waker",
+    "year": "2024",
+    "project": "Les envahisseurs",
+    "urlSlug": "",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "",
+      "jpeg": ""
+    },
+    "height": "82",
+    "width": "80",
+    "depth": "68",
+    "materials": "tôle et profilé aluminum, contreplaqué, abs extrudé, furin, adhésifs et matériaux divers",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "82",
+    "title": "Welcome to the hors champ",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "welcome_to_the_hors_champ",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "welcome_to_the_hors_champ_small.webp",
+      "jpeg": "welcome_to_the_hors_champ_small.jpeg"
+    },
+    "height": "162",
+    "width": "130",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "83",
+    "title": "Première pierre",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "premiere_pierre",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "premiere_pierre_small.webp",
+      "jpeg": "premiere_pierre_small.jpeg"
+    },
+    "height": "env 24",
+    "width": "28",
+    "depth": "",
+    "materials": "huile, acrylique et crépi sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "84",
+    "title": "Prisme",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "prisme",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "prisme_small.webp",
+      "jpeg": "prisme_small.jpeg"
+    },
+    "height": "env 24",
+    "width": "28",
+    "depth": "",
+    "materials": "huile, acrylique et crépi sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "85",
+    "title": "Industrial plants",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "industrial plants",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "industrial plants_small.webp",
+      "jpeg": "industrial plants_small.jpeg"
+    },
+    "height": "42",
+    "width": "65",
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "86",
+    "title": "Untitled (2024, concrete block)",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "untitled_2024_concrete_block",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "untitled_2024_concrete_block_small.webp",
+      "jpeg": "untitled_2024_concrete_block_small.jpeg"
+    },
+    "height": "50",
+    "width": "40",
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "87",
+    "title": "Le bord du monde",
+    "year": "2024",
+    "project": "Réensauvagement",
+    "urlSlug": "le_bord_du_monde",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "le_bord_du_monde_small.webp",
+      "jpeg": "le_bord_du_monde_small.jpeg"
+    },
+    "height": "60",
+    "width": "83,3",
+    "depth": "",
+    "materials": "huile, acrylique et crépi sur BA13",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "88",
+    "title": "Inculture (seed)",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_seed",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_seed_small.png",
+      "jpeg": "inculture_seed_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "89",
+    "title": "Inculture #1",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_1",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_1_small.png",
+      "jpeg": "inculture_1_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "90",
+    "title": "Inculture #2",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_2",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_2_small.png",
+      "jpeg": "inculture_2_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "91",
+    "title": "Inculture #3",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_3",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_3_small.png",
+      "jpeg": "inculture_3_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "92",
+    "title": "Inculture #4",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_4",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_4_small.png",
+      "jpeg": "inculture_4_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "93",
+    "title": "Inculture #5",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_5",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_5_small.png",
+      "jpeg": "inculture_5_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "94",
+    "title": "Inculture #6",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_6",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_6_small.png",
+      "jpeg": "inculture_6_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "95",
+    "title": "Inculture #7",
+    "year": "2024",
+    "project": "Incultures",
+    "urlSlug": "inculture_7",
+    "display": {
+      "order": "",
+      "tableau": false,
+      "hanging": "floor"
+    },
+    "icon": {
+      "webp_png": "inculture_7_small.png",
+      "jpeg": "inculture_7_small.jpeg"
+    },
+    "height": "dv",
+    "width": "dv",
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "",
+    "images": [],
+    "imgAltText": ""
+  },
+  {
+    "id": "96",
+    "title": "Sarre #2",
     "year": "2017",
     "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_19",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
+    "urlSlug": "sarre_2",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "sarre_2_small.webp",
+      "jpeg": "sarre_2_small.jpeg"
+    },
     "height": "27",
     "width": "22",
     "depth": "",
@@ -336,17 +2231,24 @@
     "imgAltText": ""
   },
   {
-    "id": "20",
-    "title": "Les Hannetons de l'espérance (13 bis)",
-    "year": "2017",
-    "project": "Les Hannetons de l'espérance",
-    "urlSlug": "hannetons_esperance_13bis",
-    "hanging": { "order": "", "height": "" },
-    "icon": "",
-    "height": "27",
-    "width": "22",
+    "id": "97",
+    "title": "Sans-titre (2024)",
+    "year": "2024",
+    "project": "",
+    "urlSlug": "sans_titre_2024",
+    "display": {
+      "order": "",
+      "tableau": true,
+      "hanging": ""
+    },
+    "icon": {
+      "webp_png": "sans_titre_2024_small.webp",
+      "jpeg": "sans_titre_2024_small.jpeg"
+    },
+    "height": "89",
+    "width": "116",
     "depth": "",
-    "materials": "huile et posca sur toile",
+    "materials": "huile et acrylique sur toile",
     "text": "",
     "images": [],
     "imgAltText": ""
