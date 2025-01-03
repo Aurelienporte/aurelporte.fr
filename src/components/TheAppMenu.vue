@@ -62,15 +62,26 @@ const activePath = route.fullPath
     </nav>
   </header>
 </template>
+
 <style scoped>
+/****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/
 header {
+  --bannerHeight: 10vh;
   --buttonSide: 30px;
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 9px;
-
+  --navWidth: 100vw;
+  position: sticky;
+  left: 0;
+  top: 0;
   border-width: 1px;
   border-style: solid;
-  border-image-source: linear-gradient(90deg, transparent 10%, gray 20% 80%, transparent 90%);
+  border-image-source: linear-gradient(
+    90deg,
+    transparent 10%,
+    rgb(128, 128, 128) 20% 80%,
+    transparent 90%
+  );
   border-image-slice: 0 0 1;
   border-image-width: 1px;
   border-bottom: 1px solid gray;
@@ -79,7 +90,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: var(--bannerHeight);
     padding-inline: 5vw calc(5vw - var(--buttonPadding));
     padding-block: 0;
 
@@ -132,19 +143,21 @@ header {
       }
     }
   }
-
   .navigation-menu {
     position: absolute;
-    top: 10vh;
+    top: var(--bannerHeight);
     left: 0;
-    width: 100vw;
-    translate: 100vh 0;
+    width: var(--navWidth);
+    height: 33vh;
+    translate: 100vw 0;
     transition: all 0.4s ease allow-discrete;
 
     &:popover-open {
-      position: absolute;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
       transition: all 0.4s ease allow-discrete;
-      translate: 0 0;
+      translate: calc(100vw - var(--navWidth)) 0;
       border: none;
     }
     &::backdrop {
@@ -156,10 +169,10 @@ header {
     }
 
     &:popover-open::backdrop {
-      --buttonWidth: calc(89vw - var(--buttonSide));
-      /*Because shape is not a square and dashes are not perfectly centered after rotation
-       it looks better with 89vw instead of 90vw*/
-      --borderRadius: 30px;
+      --tabX: calc(89vw - var(--buttonSide));
+      /*computed empty space length, give visible width to the X tab.
+      89vw looks better than 90vw because of the irregular shape*/
+      --borderRadius: 20px;
 
       opacity: 1;
       background: radial-gradient(
@@ -170,27 +183,28 @@ header {
         ),
         rgba(21, 20, 50, 0.5);
       mask:
-        linear-gradient(#000 calc(10vh + 1px), #fff 0),
+        linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
         radial-gradient(
             calc(var(--borderRadius) * 2) circle at 100% 100%,
             #000 50%,
             #fff calc(50% + 1px)
           )
-          calc(var(--buttonWidth) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
-        linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
-          100vh 10vh no-repeat,
+          calc(var(--tabX) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
+        linear-gradient(90deg, #fff var(--tabX), #000 calc(var(--tabX) + 1px)) 0 0 / 100vh
+          var(--bannerHeight) no-repeat,
         radial-gradient(
             calc(var(--borderRadius) * 2) circle at 0% 0%,
             #000 50%,
             #fff calc(50% + 1px)
           )
-          calc(var(--buttonWidth) - var(--borderRadius) + 1px) calc(10vh - var(--borderRadius)) /
-          var(--borderRadius) var(--borderRadius) no-repeat;
+          calc(var(--tabX) - var(--borderRadius) + 1px)
+          calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius) var(--borderRadius)
+          no-repeat;
       mask-composite: add, add, subtract;
       mask-mode: luminance;
       transition:
         background-color 0.3s ease 0.3s allow-discrete,
-        opacity 0.5 ease allow-discrete,
+        opacity 0.5s ease allow-discrete,
         display 0.5s allow-discrete,
         overlay 0.5s allow-discrete;
     }
@@ -199,38 +213,40 @@ header {
         opacity: 0;
         background: rgb(26 178 234 / 40%);
         mask:
-          linear-gradient(#000 calc(10vh + 1px), #fff 0),
+          linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
           radial-gradient(
               calc(var(--borderRadius) * 2) circle at 100% 100%,
               #000 50%,
               #fff calc(50% + 1px)
             )
-            calc(var(--buttonWidth) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
-          linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
-            100vh 10vh no-repeat,
+            calc(var(--tabX) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
+          linear-gradient(90deg, #fff var(--tabX), #000 calc(var(--tabX) + 1px)) 0 0 / 100vh
+            var(--bannerHeight) no-repeat,
           radial-gradient(
               calc(var(--borderRadius) * 2) circle at 0% 0%,
               #000 50%,
               #fff calc(50% + 1px)
             )
-            calc(var(--buttonWidth) - var(--borderRadius) + 1px) calc(10vh - var(--borderRadius)) /
-            var(--borderRadius) var(--borderRadius) no-repeat;
+            calc(var(--tabX) - var(--borderRadius) + 1px)
+            calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius)
+            var(--borderRadius) no-repeat;
         mask-composite: add, add, subtract;
         mask-mode: luminance;
       }
     }
     @starting-style {
       &:popover-open {
-        translate: 100vh 0;
+        translate: 100vw 0;
       }
     }
   }
 
   .navigation-menu__item {
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 10vh;
-    background-color: white;
+    background: white;
     border-width: 1px;
     border-style: solid;
     border-image-source: linear-gradient(90deg, transparent 10%, gray 20% 80%, transparent 90%);
@@ -238,8 +254,35 @@ header {
     border-image-width: 1px;
     border-bottom: 1px solid gray;
 
+    &::after,
+    &::before {
+      content: '';
+      height: 0vh;
+      width: 4px;
+      transition: height 0.4s ease;
+      align-self: center;
+    }
+
+    &:hover {
+      &::after,
+      &::before {
+        height: 10vh;
+        transition: height 0.4s ease;
+        background: linear-gradient(transparent 10%, black 20% 80%, transparent 90%);
+      }
+    }
     &:last-child {
       border: none;
+    }
+    &:hover {
+      :is(a, .navigation-menu__button) {
+        font-weight: 700;
+        transition: font-weight 0.2s ease;
+      }
+    }
+    :is(a, .navigation-menu__button) {
+      padding: 8px 16px;
+      transition: font-weight 0.2s ease;
     }
     & .navigation-menu__button {
       font-size: 1rem;
@@ -277,22 +320,30 @@ header {
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width < 1024px) {
   header {
+    --bannerHeight: 8vh;
+    --navWidth: 50vw;
+    border-image-width: 2px;
+    border-image-source: linear-gradient(
+      90deg,
+      transparent,
+      rgb(128, 128, 128) 50%,
+      transparent 100%
+    );
+    &:has(:popover-open) {
+      border-image-source: linear-gradient(
+        90deg,
+        transparent,
+        gray 50% calc(100vw - var(--navWidth)),
+        transparent 0
+      );
+    }
     .navigation-menu {
-      width: 50vw;
-      height: 80vh;
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-      border-radius: 0 0 0 100px;
+      height: calc(100vh - 2 * (var(--bannerHeight)));
+      border-radius: 0 0 0 var(--bannerHeight);
 
-      &:popover-open {
-        translate: 50vw 0;
-      }
       &:popover-open::backdrop {
-        --buttonWidth: 50vw;
-        /*Because shape is not a square and dashes are not perfectly centered after rotation
-       it looks better with 89vw instead of 90vw*/
-        --borderRadius: 10vh;
+        --borderRadius: var(--bannerHeight);
+        --tabX: calc(100vw - var(--navWidth));
 
         opacity: 1;
         background: radial-gradient(
@@ -303,21 +354,20 @@ header {
           ),
           rgba(21, 20, 50, 0.5);
         mask:
-          linear-gradient(#000 calc(10vh + 1px), #fff 0),
-          linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
-            100vh 10vh no-repeat,
+          linear-gradient(#000 var(--bannerHeight), #fff 0),
+          linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
           radial-gradient(
-              calc(var(--borderRadius) * 2) circle at 0% 100%,
+              calc(var(--borderRadius) * 2) circle at -1px 100%,
               #000 50%,
               #fff calc(50% + 1px)
             )
-            calc(var(--buttonWidth) - var(--borderRadius) + 1px) 0 / var(--borderRadius)
-            var(--borderRadius) no-repeat;
+            calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
+            no-repeat;
         mask-composite: add, subtract;
         mask-mode: luminance;
         transition:
           background-color 0.3s ease 0.3s allow-discrete,
-          opacity 0.5 ease allow-discrete,
+          opacity 0.5s ease allow-discrete,
           display 0.5s allow-discrete,
           overlay 0.5s allow-discrete;
       }
@@ -326,25 +376,110 @@ header {
           opacity: 0;
           background: rgb(26 178 234 / 40%);
           mask:
-            linear-gradient(#000 calc(10vh + 1px), #fff 0),
+            linear-gradient(#000 var(--bannerHeight), #fff 0),
+            linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
             radial-gradient(
-                calc(var(--borderRadius) * 2) circle at 100% 100%,
+                calc(var(--borderRadius) * 2) circle at -1px 100%,
                 #000 50%,
                 #fff calc(50% + 1px)
               )
-              calc(var(--buttonWidth) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
-            linear-gradient(90deg, #fff var(--buttonWidth), #000 calc(var(--buttonWidth) + 1px)) 0 0 /
-              100vh 10vh no-repeat,
-            radial-gradient(
-                calc(var(--borderRadius) * 2) circle at 0% 0%,
-                #000 50%,
-                #fff calc(50% + 1px)
-              )
-              calc(var(--buttonWidth) - var(--borderRadius) + 1px) calc(10vh - var(--borderRadius)) /
-              var(--borderRadius) var(--borderRadius) no-repeat;
-          mask-composite: add, add, subtract;
+              calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
+              no-repeat;
+          mask-composite: add, subtract;
           mask-mode: luminance;
         }
+      }
+    }
+    & .navigation-menu__item {
+      :is(a, .navigation-menu__button) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+/******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/
+@media screen and (1024px <= width) and (orientation: landscape) {
+  header {
+    --navWidth: 25vw;
+
+    border-image-width: 2px;
+    /*for unkwnown reasons border-image is not displayed if width is under 2px */
+    border-image-source: linear-gradient(
+      90deg,
+      transparent,
+      rgb(128, 128, 128) 50%,
+      transparent 100%
+    );
+
+    &:has(:popover-open) {
+      border-image-source: linear-gradient(
+        90deg,
+        transparent,
+        gray 50% calc(100vw - var(--navWidth)),
+        transparent 0
+      );
+    }
+    .banner {
+      padding-inline: 1vw calc(1vw - var(--buttonPadding));
+    }
+    .navigation-menu {
+      height: calc(100vh - 2 * var(--bannerHeight));
+      border-radius: 0 0 0 var(--bannerHeight);
+
+      &:popover-open::backdrop {
+        --borderRadius: var(--bannerHeight);
+        --tabX: calc(100vw - var(--navWidth));
+
+        opacity: 1;
+        background: radial-gradient(
+            circle at 100% 30%,
+            transparent 20%,
+            rgb(26 178 234 / 35%) 65%,
+            transparent 85%
+          ),
+          rgba(21, 20, 50, 0.5);
+        mask:
+          linear-gradient(#000 var(--bannerHeight), #fff 0),
+          linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
+          radial-gradient(
+              calc(var(--borderRadius) * 2) circle at -1px 100%,
+              #000 50%,
+              #fff calc(50% + 1px)
+            )
+            calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
+            no-repeat;
+        mask-composite: add, subtract;
+        mask-mode: luminance;
+        transition:
+          background-color 0.3s ease 0.3s allow-discrete,
+          opacity 0.5s ease allow-discrete,
+          display 0.5s allow-discrete,
+          overlay 0.5s allow-discrete;
+      }
+      @starting-style {
+        &:popover-open::backdrop {
+          opacity: 0;
+          background: rgb(26 178 234 / 40%);
+          mask:
+            linear-gradient(#000 10vh, #fff 0),
+            linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
+            radial-gradient(
+                calc(var(--borderRadius) * 2) circle at -1px 100%,
+                #000 50%,
+                #fff calc(50% + 1px)
+              )
+              calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
+              no-repeat;
+          mask-composite: add, subtract;
+          mask-mode: luminance;
+        }
+      }
+    }
+    & .navigation-menu__item {
+      border-image-width: 2px;
+
+      :is(a, .navigation-menu__button) {
+        font-size: 1.5rem;
       }
     }
   }

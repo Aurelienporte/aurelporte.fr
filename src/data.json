@@ -7,12 +7,14 @@
     "urlSlug": "double_et_brise",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "double_et_brise_small.webp",
-      "jpeg": "double_et_brise_small.jpeg"
+      "jpeg": "double_et_brise_small.jpeg",
+      "height": 171,
+      "width": 220
     },
     "height": "114",
     "width": "146",
@@ -30,12 +32,14 @@
     "urlSlug": "reprise_argus_1",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "reprise_argus_1_small.webp",
-      "jpeg": "reprise_argus_1_small.jpeg"
+      "jpeg": "reprise_argus_1_small.jpeg",
+      "height": 54,
+      "width": 70
     },
     "height": "27",
     "width": "35",
@@ -53,12 +57,14 @@
     "urlSlug": "reprise_argus_2",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "reprise_argus_2_small.webp",
-      "jpeg": "reprise_argus_2_small.jpeg"
+      "jpeg": "reprise_argus_2_small.jpeg",
+      "height": 54,
+      "width": 70
     },
     "height": "27",
     "width": "35",
@@ -76,12 +82,14 @@
     "urlSlug": "rapiessement_et_bigarrure",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "rapiessement_et_bigarrure_small.webp",
-      "jpeg": "rapiessement_et_bigarrure_small.jpeg"
+      "jpeg": "rapiessement_et_bigarrure_small.jpeg",
+      "height": 227,
+      "width": 204
     },
     "height": "162",
     "width": "146",
@@ -99,12 +107,14 @@
     "urlSlug": "quelque_chose_de_mondial",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "quelque_chose_de_mondial_small.webp",
-      "jpeg": "quelque_chose_de_mondial_small.jpeg"
+      "jpeg": "quelque_chose_de_mondial_small.jpeg",
+      "height": 182,
+      "width": 302
     },
     "height": "130",
     "width": "216",
@@ -122,12 +132,14 @@
     "urlSlug": "reprise_argus_5",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "reprise_argus_5_small.webp",
-      "jpeg": "reprise_argus_5_small.jpeg"
+      "jpeg": "reprise_argus_5_small.jpeg",
+      "height": 54,
+      "width": 70
     },
     "height": "27",
     "width": "35",
@@ -145,12 +157,14 @@
     "urlSlug": "reprise_argus_3",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "reprise_argus_3_small.webp",
-      "jpeg": "reprise_argus_3_small.jpeg"
+      "jpeg": "reprise_argus_3_small.jpeg",
+      "height": 54,
+      "width": 70
     },
     "height": "27",
     "width": "35",
@@ -168,12 +182,14 @@
     "urlSlug": "reprise_argus_4",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "reprise_argus_4_small.webp",
-      "jpeg": "reprise_argus_4_small.jpeg"
+      "jpeg": "reprise_argus_4_small.jpeg",
+      "height": 54,
+      "width": 70
     },
     "height": "27",
     "width": "35",
@@ -191,12 +207,14 @@
     "urlSlug": "lointains_alentours_1",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "lointains_alentours_1_small.png",
-      "jpeg": "lointains_alentours_1_small.jpeg"
+      "jpeg": "lointains_alentours_1_small.jpeg",
+      "height": 98,
+      "width": 55
     },
     "height": "61",
     "width": "27",
@@ -214,12 +232,14 @@
     "urlSlug": "hamburgh_2",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "hamburgh_2_small.webp",
-      "jpeg": "hamburgh_2_small.jpeg"
+      "jpeg": "hamburgh_2_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -237,12 +257,14 @@
     "urlSlug": "parme",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "parme_small.webp",
-      "jpeg": "parme_small.jpeg"
+      "jpeg": "parme_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -260,12 +282,14 @@
     "urlSlug": "brabant",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "brabant_small.webp",
-      "jpeg": "brabant_small.jpeg"
+      "jpeg": "brabant_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -283,12 +307,14 @@
     "urlSlug": "de_sable_au_heaume_d_argent",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "de_sable_au_heaume_d_argent_small.webp",
-      "jpeg": "de_sable_au_heaume_d_argent_small.jpeg"
+      "jpeg": "de_sable_au_heaume_d_argent_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -306,12 +332,14 @@
     "urlSlug": "middleburgh",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "middleburgh_small.webp",
-      "jpeg": "middleburgh_small.jpeg"
+      "jpeg": "middleburgh_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -329,12 +357,14 @@
     "urlSlug": "appats_feutres",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "appats_feutres_small.webp",
-      "jpeg": "appats_feutres_small.jpeg"
+      "jpeg": "appats_feutres_small.jpeg",
+      "height": 182,
+      "width": 273
     },
     "height": "130",
     "width": "195",
@@ -352,12 +382,14 @@
     "urlSlug": "dazzle-razzle",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "dazzle-razzle_small.webp",
-      "jpeg": "dazzle-razzle_small.jpeg"
+      "jpeg": "dazzle-razzle_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -375,12 +407,14 @@
     "urlSlug": "burgkmair_la_flagellation_du_christ",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "burgkmair_la_flagellation_du_christ_small.webp",
-      "jpeg": "burgkmair_la_flagellation_du_christ_small.jpeg"
+      "jpeg": "burgkmair_la_flagellation_du_christ_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -398,12 +432,14 @@
     "urlSlug": "hamburgh_3",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "hamburgh_3_small.webp",
-      "jpeg": "hamburgh_3_small.jpeg"
+      "jpeg": "hamburgh_3_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -421,12 +457,14 @@
     "urlSlug": "lointains_alentours_3",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "lointains_alentours_3_small.png",
-      "jpeg": "lointains_alentours_3_small.jpeg"
+      "jpeg": "lointains_alentours_3_small.jpeg",
+      "height": 98,
+      "width": 59
     },
     "height": "61",
     "width": "27",
@@ -444,12 +482,14 @@
     "urlSlug": "riga",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "riga_small.webp",
-      "jpeg": "riga_small.jpeg"
+      "jpeg": "riga_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -467,12 +507,14 @@
     "urlSlug": "lointains_alentours_2",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "lointains_alentours_2_small.png",
-      "jpeg": "lointains_alentours_2_small.jpeg"
+      "jpeg": "lointains_alentours_2_small.jpeg",
+      "height": 98,
+      "width": 55
     },
     "height": "61",
     "width": "27",
@@ -490,12 +532,14 @@
     "urlSlug": "trophees",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "trophees_small.webp",
-      "jpeg": "trophees_small.jpeg"
+      "jpeg": "trophees_small.jpeg",
+      "height": 273,
+      "width": 227
     },
     "height": "195",
     "width": "162",
@@ -513,12 +557,14 @@
     "urlSlug": "parme_2",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "parme_2_small.webp",
-      "jpeg": "parme_2_small.jpeg"
+      "jpeg": "parme_2_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -536,12 +582,14 @@
     "urlSlug": "lippi_le_banquet_d_herode",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "lippi_le_banquet_d_herode_small.webp",
-      "jpeg": "lippi_le_banquet_d_herode_small.jpeg"
+      "jpeg": "lippi_le_banquet_d_herode_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -559,12 +607,14 @@
     "urlSlug": "lucca",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "lucca_small.webp",
-      "jpeg": "lucca_small.jpeg"
+      "jpeg": "lucca_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -582,12 +632,14 @@
     "urlSlug": "koningsberg",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "koningsberg_small.webp",
-      "jpeg": "koningsberg_small.jpeg"
+      "jpeg": "koningsberg_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -605,12 +657,14 @@
     "urlSlug": "hamburgh",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "hamburgh_small.webp",
-      "jpeg": "hamburgh_small.jpeg"
+      "jpeg": "hamburgh_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -628,12 +682,14 @@
     "urlSlug": "Nassau",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "Nassau_small.webp",
-      "jpeg": "Nassau_small.jpeg"
+      "jpeg": "Nassau_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -651,12 +707,14 @@
     "urlSlug": "memelland",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "memelland_small.webp",
-      "jpeg": "memelland_small.jpeg"
+      "jpeg": "memelland_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -674,12 +732,14 @@
     "urlSlug": "modene",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "modene_small.webp",
-      "jpeg": "modene_small.jpeg"
+      "jpeg": "modene_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -697,12 +757,14 @@
     "urlSlug": "sarre",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "sarre_small.webp",
-      "jpeg": "sarre_small.jpeg"
+      "jpeg": "sarre_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -720,12 +782,14 @@
     "urlSlug": "oldenburg",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "oldenburg_small.webp",
-      "jpeg": "oldenburg_small.jpeg"
+      "jpeg": "oldenburg_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -743,12 +807,14 @@
     "urlSlug": "camp_de_bases",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "camp_de_bases_small.webp",
-      "jpeg": "camp_de_bases_small.jpeg"
+      "jpeg": "camp_de_bases_small.jpeg",
+      "height": 166,
+      "width": 227
     },
     "height": "114",
     "width": "162",
@@ -766,12 +832,14 @@
     "urlSlug": "crete",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "crete_small.webp",
-      "jpeg": "crete_small.jpeg"
+      "jpeg": "crete_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -789,12 +857,14 @@
     "urlSlug": "masse_diplomatie_9",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_9_small.png",
-      "jpeg": "masse_diplomatie_9_small.jpeg"
+      "jpeg": "masse_diplomatie_9_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "8,6",
     "width": "40",
@@ -812,12 +882,14 @@
     "urlSlug": "masse_diplomatie_8",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_8_small.png",
-      "jpeg": "masse_diplomatie_8_small.jpeg"
+      "jpeg": "masse_diplomatie_8_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "8,5",
     "width": "36,7",
@@ -835,12 +907,14 @@
     "urlSlug": "masse_diplomatie_7",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_7_small.png",
-      "jpeg": "masse_diplomatie_7_small.jpeg"
+      "jpeg": "masse_diplomatie_7_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "4",
     "width": "28,3",
@@ -858,12 +932,14 @@
     "urlSlug": "masse_diplomatie_6",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_6_small.png",
-      "jpeg": "masse_diplomatie_6_small.jpeg"
+      "jpeg": "masse_diplomatie_6_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "4,7",
     "width": "30,3",
@@ -881,12 +957,14 @@
     "urlSlug": "masse_diplomatie_5",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_5_small.png",
-      "jpeg": "masse_diplomatie_5_small.jpeg"
+      "jpeg": "masse_diplomatie_5_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "4,5",
     "width": "29,7",
@@ -904,12 +982,14 @@
     "urlSlug": "masse_diplomatie_4",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_4_small.png",
-      "jpeg": "masse_diplomatie_4_small.jpeg"
+      "jpeg": "masse_diplomatie_4_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "7,8",
     "width": "36,8",
@@ -927,12 +1007,14 @@
     "urlSlug": "masse_diplomatie_3",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_3_small.png",
-      "jpeg": "masse_diplomatie_3_small.jpeg"
+      "jpeg": "masse_diplomatie_3_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "3,3",
     "width": "20,2",
@@ -950,12 +1032,14 @@
     "urlSlug": "masse_diplomatie_2",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_2_small.png",
-      "jpeg": "masse_diplomatie_2_small.jpeg"
+      "jpeg": "masse_diplomatie_2_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "7,2",
     "width": "33,2",
@@ -973,12 +1057,14 @@
     "urlSlug": "masse_diplomatie_1",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": ""
+      "hasShadow": false,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "masse_diplomatie_1_small.png",
-      "jpeg": "masse_diplomatie_1_small.jpeg"
+      "jpeg": "masse_diplomatie_1_small.jpeg",
+      "height": 23,
+      "width": 76
     },
     "height": "10,5",
     "width": "38,5",
@@ -996,12 +1082,14 @@
     "urlSlug": "any_where_out_of_the_world_3",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_3_small.png",
-      "jpeg": "any_where_out_of_the_world_3_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_3_small.jpeg",
+      "height": 98,
+      "width": 56
     },
     "height": "61",
     "width": "27",
@@ -1019,12 +1107,14 @@
     "urlSlug": "pyramides",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "pyramides_small.webp",
-      "jpeg": "pyramides_small.jpeg"
+      "jpeg": "pyramides_small.jpeg",
+      "height": 171,
+      "width": 219
     },
     "height": "114",
     "width": "146",
@@ -1042,12 +1132,14 @@
     "urlSlug": "any_where_out_of_the_world_2",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_2_small.png",
-      "jpeg": "any_where_out_of_the_world_2_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_2_small.jpeg",
+      "height": 98,
+      "width": 56
     },
     "height": "61",
     "width": "27",
@@ -1065,12 +1157,14 @@
     "urlSlug": "any_where_out_of_the_world_1",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_1_small.png",
-      "jpeg": "any_where_out_of_the_world_1_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_1_small.jpeg",
+      "height": 98,
+      "width": 56
     },
     "height": "61",
     "width": "27",
@@ -1085,15 +1179,17 @@
     "title": "Néobucolique",
     "year": "2020",
     "project": "",
-    "urlSlug": "neobucollique",
+    "urlSlug": "neobucolique",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "neobucollique_small.webp",
-      "jpeg": "neobucollique_small.jpeg"
+      "webp_png": "neobucolique_small.webp",
+      "jpeg": "neobucolique_small.jpeg",
+      "height": 145,
+      "width": 219
     },
     "height": "79",
     "width": "146",
@@ -1111,12 +1207,14 @@
     "urlSlug": "oh_la_la_la_vie_en_rose",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "oh_la_la_la_vie_en_rose_small.webp",
-      "jpeg": "oh_la_la_la_vie_en_rose_small.jpeg"
+      "jpeg": "oh_la_la_la_vie_en_rose_small.jpeg",
+      "height": 171,
+      "width": 219
     },
     "height": "114",
     "width": "146",
@@ -1134,12 +1232,14 @@
     "urlSlug": "any_where_out_of_the_world_6",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_6_small.png",
-      "jpeg": "any_where_out_of_the_world_6_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_6_small.jpeg",
+      "height": 128,
+      "width": 68
     },
     "height": "80",
     "width": "38",
@@ -1157,12 +1257,14 @@
     "urlSlug": "soviet_soucoupe",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "soviet_soucoupe_small.png",
-      "jpeg": "soviet_soucoupe_small.jpeg"
+      "jpeg": "soviet_soucoupe_small.jpeg",
+      "height": 69,
+      "width": 84
     },
     "height": "30",
     "width": "40",
@@ -1180,12 +1282,14 @@
     "urlSlug": "viking",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "viking_small.png",
-      "jpeg": "viking_small.jpeg"
+      "jpeg": "viking_small.jpeg",
+      "height": 44,
+      "width": 61
     },
     "height": "19",
     "width": "30",
@@ -1203,12 +1307,14 @@
     "urlSlug": "any_where_out_of_the_world_5",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_5_small.png",
-      "jpeg": "any_where_out_of_the_world_5_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_5_small.jpeg",
+      "height": 128,
+      "width": 68
     },
     "height": "80",
     "width": "38",
@@ -1226,12 +1332,14 @@
     "urlSlug": "change",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "change_small.png",
-      "jpeg": "change_small.jpeg"
+      "jpeg": "change_small.jpeg",
+      "height": 62,
+      "width": 68
     },
     "height": "27",
     "width": "40",
@@ -1249,12 +1357,14 @@
     "urlSlug": "horizon_inverse",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "horizon_inverse_small.webp",
-      "jpeg": "horizon_inverse_small.jpeg"
+      "jpeg": "horizon_inverse_small.jpeg",
+      "height": 174,
+      "width": 141
     },
     "height": "116",
     "width": "89",
@@ -1272,12 +1382,14 @@
     "urlSlug": "digger",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "digger_small.png",
-      "jpeg": "digger_small.jpeg"
+      "jpeg": "digger_small.jpeg",
+      "height": 60,
+      "width": 78
     },
     "height": "26",
     "width": "36",
@@ -1295,12 +1407,14 @@
     "urlSlug": "arpenteur",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "arpenteur_small.png",
-      "jpeg": "arpenteur_small.jpeg"
+      "jpeg": "arpenteur_small.jpeg",
+      "height": 60,
+      "width": 62
     },
     "height": "26",
     "width": "39",
@@ -1318,12 +1432,14 @@
     "urlSlug": "any_where_out_of_the_world_4",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "any_where_out_of_the_world_4_small.png",
-      "jpeg": "any_where_out_of_the_world_4_small.jpeg"
+      "jpeg": "any_where_out_of_the_world_4_small.jpeg",
+      "height": 128,
+      "width": 68
     },
     "height": "80",
     "width": "38",
@@ -1341,12 +1457,14 @@
     "urlSlug": "power_flower",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "power_flower_small.png",
-      "jpeg": "power_flower_small.jpeg"
+      "jpeg": "power_flower_small.jpeg",
+      "height": 51,
+      "width": 81
     },
     "height": "22",
     "width": "45",
@@ -1364,12 +1482,14 @@
     "urlSlug": "la_chute_du_mur",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "la_chute_du_mur_small.webp",
-      "jpeg": "la_chute_du_mur_small.jpeg"
+      "jpeg": "la_chute_du_mur_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1387,12 +1507,14 @@
     "urlSlug": "les_vertus",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "les_vertus_small.webp",
-      "jpeg": "les_vertus_small.jpeg"
+      "jpeg": "les_vertus_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1410,12 +1532,14 @@
     "urlSlug": "cardons",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "cardons_small.webp",
-      "jpeg": "cardons_small.jpeg"
+      "jpeg": "cardons_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1433,12 +1557,14 @@
     "urlSlug": "new_senart",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "new_senart_small.webp",
-      "jpeg": "new_senart_small.jpeg"
+      "jpeg": "new_senart_small.jpeg",
+      "height": 171,
+      "width": 219
     },
     "height": "114",
     "width": "146",
@@ -1453,15 +1579,17 @@
     "title": "GBA & RAS",
     "year": "2022",
     "project": "Réensauvagement",
-    "urlSlug": "rba_&_ras",
+    "urlSlug": "gba_&_ras",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "rba_&_ras_small.webp",
-      "jpeg": "rba_&_ras_small.jpeg"
+      "webp_png": "gba_&_ras_small.webp",
+      "jpeg": "gba_&_ras_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1479,12 +1607,14 @@
     "urlSlug": "ici",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "ici_small.webp",
-      "jpeg": "ici_small.jpeg"
+      "webp_png": "ici_small.png",
+      "jpeg": "ici_small.jpeg",
+      "height": 56,
+      "width": 79
     },
     "height": "35",
     "width": "50",
@@ -1502,12 +1632,14 @@
     "urlSlug": "digue",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "digue_small.webp",
-      "jpeg": "digue_small.jpeg"
+      "jpeg": "digue_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1525,12 +1657,14 @@
     "urlSlug": "palissade",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "palissade_small.webp",
-      "jpeg": "palissade_small.jpeg"
+      "jpeg": "palissade_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1548,12 +1682,14 @@
     "urlSlug": "sortie_de_route",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "sortie_de_route_small.webp",
-      "jpeg": "sortie_de_route_small.jpeg"
+      "jpeg": "sortie_de_route_small.jpeg",
+      "height": 56,
+      "width": 80
     },
     "height": "35",
     "width": "50",
@@ -1571,12 +1707,14 @@
     "urlSlug": "tambour",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "tambour_small.png",
-      "jpeg": "tambour_small.jpeg"
+      "jpeg": "tambour_small.jpeg",
+      "height": 41,
+      "width": 56
     },
     "height": "18",
     "width": "20",
@@ -1594,12 +1732,14 @@
     "urlSlug": "fisher",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "fisher_small.png",
-      "jpeg": "fisher_small.jpeg"
+      "jpeg": "fisher_small.jpeg",
+      "height": 44,
+      "width": 65
     },
     "height": "19",
     "width": "30",
@@ -1617,12 +1757,14 @@
     "urlSlug": "vikram",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "vikram_small.png",
-      "jpeg": "vikram_small.jpeg"
+      "jpeg": "vikram_small.jpeg",
+      "height": 41,
+      "width": 55
     },
     "height": "18",
     "width": "20",
@@ -1640,12 +1782,14 @@
     "urlSlug": "on_and_on",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "on_and_on_small.webp",
-      "jpeg": "on_and_on_small.jpeg"
+      "jpeg": "on_and_on_small.jpeg",
+      "height": 120,
+      "width": 219
     },
     "height": "114",
     "width": "146",
@@ -1663,12 +1807,14 @@
     "urlSlug": "star_pneumatic",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "star_pneumatic_small.png",
-      "jpeg": "star_pneumatic_small.jpeg"
+      "jpeg": "star_pneumatic_small.jpeg",
+      "height": 73,
+      "width": 111
     },
     "height": "env 27",
     "width": "60",
@@ -1686,12 +1832,14 @@
     "urlSlug": "structure_de_dissipation",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "structure_de_dissipation_small.png",
-      "jpeg": "structure_de_dissipation_small.jpeg"
+      "jpeg": "structure_de_dissipation_small.jpeg",
+      "height": 81,
+      "width": 123
     },
     "height": "26",
     "width": "62",
@@ -1709,12 +1857,14 @@
     "urlSlug": "haie_d_honneur",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "haie_d_honneur_small.webp",
-      "jpeg": "haie_d_honneur_small.jpeg"
+      "jpeg": "haie_d_honneur_small.jpeg",
+      "height": 80,
+      "width": 64
     },
     "height": "50",
     "width": "40",
@@ -1732,12 +1882,14 @@
     "urlSlug": "surface_de_projection",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "surface_de_projection_small.webp",
-      "jpeg": "surface_de_projection_small.jpeg"
+      "jpeg": "surface_de_projection_small.jpeg",
+      "height": 100,
+      "width": 64
     },
     "height": "62,5",
     "width": "40",
@@ -1755,12 +1907,14 @@
     "urlSlug": "substrat",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "substrat_small.webp",
-      "jpeg": "substrat_small.jpeg"
+      "jpeg": "substrat_small.jpeg",
+      "height": 45,
+      "width": 39
     },
     "height": "28",
     "width": "24",
@@ -1778,12 +1932,14 @@
     "urlSlug": "substrat_2",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "substrat_2_small.webp",
-      "jpeg": "substrat_2_small.jpeg"
+      "jpeg": "substrat_2_small.jpeg",
+      "height": 64,
+      "width": 32
     },
     "height": "40",
     "width": "20",
@@ -1801,12 +1957,14 @@
     "urlSlug": "crushed",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "crushed_small.webp",
-      "jpeg": "crushed_small.jpeg"
+      "jpeg": "crushed_small.jpeg",
+      "height": 48,
+      "width": 81
     },
     "height": "29,5",
     "width": "50,5",
@@ -1824,12 +1982,14 @@
     "urlSlug": "become",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "become_small.webp",
-      "jpeg": "become_small.jpeg"
+      "jpeg": "become_small.jpeg",
+      "height": 100,
+      "width": 64
     },
     "height": "62,5",
     "width": "40",
@@ -1847,12 +2007,14 @@
     "urlSlug": "la_grande_lessive",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "la_grande_lessive_small.webp",
-      "jpeg": "la_grande_lessive_small.jpeg"
+      "jpeg": "la_grande_lessive_small.jpeg",
+      "height": 182,
+      "width": 227
     },
     "height": "130",
     "width": "162",
@@ -1867,15 +2029,17 @@
     "title": "The wind waker",
     "year": "2024",
     "project": "Les envahisseurs",
-    "urlSlug": "",
+    "urlSlug": "the_wind_waker",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "",
-      "jpeg": ""
+      "webp_png": "the_wind_waker_small.png",
+      "jpeg": "the_wind_waker_small.jpeg",
+      "height": 154,
+      "width": 131
     },
     "height": "82",
     "width": "80",
@@ -1893,12 +2057,14 @@
     "urlSlug": "welcome_to_the_hors_champ",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "welcome_to_the_hors_champ_small.webp",
-      "jpeg": "welcome_to_the_hors_champ_small.jpeg"
+      "jpeg": "welcome_to_the_hors_champ_small.jpeg",
+      "height": 227,
+      "width": 182
     },
     "height": "162",
     "width": "130",
@@ -1916,12 +2082,14 @@
     "urlSlug": "premiere_pierre",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "premiere_pierre_small.webp",
-      "jpeg": "premiere_pierre_small.jpeg"
+      "webp_png": "premiere_pierre_small.png",
+      "jpeg": "premiere_pierre_small.jpeg",
+      "height": 40,
+      "width": 45
     },
     "height": "env 24",
     "width": "28",
@@ -1939,12 +2107,14 @@
     "urlSlug": "prisme",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "prisme_small.webp",
-      "jpeg": "prisme_small.jpeg"
+      "webp_png": "prisme_small.png",
+      "jpeg": "prisme_small.jpeg",
+      "height": 40,
+      "width": 45
     },
     "height": "env 24",
     "width": "28",
@@ -1959,15 +2129,17 @@
     "title": "Industrial plants",
     "year": "2024",
     "project": "Réensauvagement",
-    "urlSlug": "industrial plants",
+    "urlSlug": "industrial_plants",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "industrial plants_small.webp",
-      "jpeg": "industrial plants_small.jpeg"
+      "webp_png": "industrial_plants_small.webp",
+      "jpeg": "industrial_plants_small.jpeg",
+      "height": 67,
+      "width": 104
     },
     "height": "42",
     "width": "65",
@@ -1985,12 +2157,14 @@
     "urlSlug": "untitled_2024_concrete_block",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "untitled_2024_concrete_block_small.webp",
-      "jpeg": "untitled_2024_concrete_block_small.jpeg"
+      "jpeg": "untitled_2024_concrete_block_small.jpeg",
+      "height": 80,
+      "width": 64
     },
     "height": "50",
     "width": "40",
@@ -2008,12 +2182,14 @@
     "urlSlug": "le_bord_du_monde",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "le_bord_du_monde_small.webp",
-      "jpeg": "le_bord_du_monde_small.jpeg"
+      "jpeg": "le_bord_du_monde_small.jpeg",
+      "height": 96,
+      "width": 133
     },
     "height": "60",
     "width": "83,3",
@@ -2031,12 +2207,14 @@
     "urlSlug": "inculture_seed",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_seed_small.png",
-      "jpeg": "inculture_seed_small.jpeg"
+      "jpeg": "inculture_seed_small.jpeg",
+      "height": 62,
+      "width": 49
     },
     "height": "dv",
     "width": "dv",
@@ -2054,12 +2232,14 @@
     "urlSlug": "inculture_1",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_1_small.png",
-      "jpeg": "inculture_1_small.jpeg"
+      "jpeg": "inculture_1_small.jpeg",
+      "height": 72,
+      "width": 57
     },
     "height": "dv",
     "width": "dv",
@@ -2077,12 +2257,14 @@
     "urlSlug": "inculture_2",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_2_small.png",
-      "jpeg": "inculture_2_small.jpeg"
+      "jpeg": "inculture_2_small.jpeg",
+      "height": 78,
+      "width": 62
     },
     "height": "dv",
     "width": "dv",
@@ -2100,12 +2282,14 @@
     "urlSlug": "inculture_3",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_3_small.png",
-      "jpeg": "inculture_3_small.jpeg"
+      "jpeg": "inculture_3_small.jpeg",
+      "height": 92,
+      "width": 73
     },
     "height": "dv",
     "width": "dv",
@@ -2123,12 +2307,14 @@
     "urlSlug": "inculture_4",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_4_small.png",
-      "jpeg": "inculture_4_small.jpeg"
+      "jpeg": "inculture_4_small.jpeg",
+      "height": 81,
+      "width": 58
     },
     "height": "dv",
     "width": "dv",
@@ -2146,12 +2332,14 @@
     "urlSlug": "inculture_5",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_5_small.png",
-      "jpeg": "inculture_5_small.jpeg"
+      "jpeg": "inculture_5_small.jpeg",
+      "height": 85,
+      "width": 52
     },
     "height": "dv",
     "width": "dv",
@@ -2169,12 +2357,14 @@
     "urlSlug": "inculture_6",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_6_small.png",
-      "jpeg": "inculture_6_small.jpeg"
+      "jpeg": "inculture_6_small.jpeg",
+      "height": 60,
+      "width": 52
     },
     "height": "dv",
     "width": "dv",
@@ -2192,12 +2382,14 @@
     "urlSlug": "inculture_7",
     "display": {
       "order": "",
-      "tableau": false,
-      "hanging": "floor"
+      "hasShadow": false,
+      "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
       "webp_png": "inculture_7_small.png",
-      "jpeg": "inculture_7_small.jpeg"
+      "jpeg": "inculture_7_small.jpeg",
+      "height": 59,
+      "width": 49
     },
     "height": "dv",
     "width": "dv",
@@ -2215,12 +2407,14 @@
     "urlSlug": "sarre_2",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "sarre_2_small.webp",
-      "jpeg": "sarre_2_small.jpeg"
+      "jpeg": "sarre_2_small.jpeg",
+      "height": 54,
+      "width": 44
     },
     "height": "27",
     "width": "22",
@@ -2238,12 +2432,14 @@
     "urlSlug": "sans_titre_2024",
     "display": {
       "order": "",
-      "tableau": true,
-      "hanging": ""
+      "hasShadow": true,
+      "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
       "webp_png": "sans_titre_2024_small.webp",
-      "jpeg": "sans_titre_2024_small.jpeg"
+      "jpeg": "sans_titre_2024_small.jpeg",
+      "height": 174,
+      "width": 134
     },
     "height": "89",
     "width": "116",

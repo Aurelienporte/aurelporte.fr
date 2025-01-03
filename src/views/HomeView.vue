@@ -1,5 +1,4 @@
 <script setup>
-import work from '@/assets/st_2017_ic.jpeg'
 import IconInstagram from '@/components/icons/IconInstagram.vue'
 </script>
 
@@ -9,9 +8,9 @@ import IconInstagram from '@/components/icons/IconInstagram.vue'
       <h1 class="high-title"><span>Aurel</span><span>Porté</span></h1>
       <div class="low-title"><span>Porté</span><span>Aurel</span></div>
     </div>
-    <RouterLink class="random-work" to="/infos"
+    <!-- <RouterLink class="random-work" to="/infos"
       ><img :src="work" alt="une oeuvre au hasard" height="175"
-    /></RouterLink>
+    /></RouterLink> -->
     <nav class="nav-menu">
       <ul>
         <li><RouterLink to="/works">&OElig;uvres</RouterLink></li>

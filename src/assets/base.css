@@ -1,10 +1,46 @@
+/*  RESET RESET RESET RESET RESET RESET RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+
+/*Styles for html elements not in component*/
+
+html {
+  overflow: hidden;
+}
 body {
   min-height: 100vh;
   font-family: 'Exo 2', serif;
+  overflow: hidden;
 }
 #app {
-  /* display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 10vh 40vh 1fr; */
-  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+/*Default styles for elements in several components*/
+
+button {
+  cursor: pointer;
+  font-family: 'Exo 2', serif;
+  font-size: 1rem;
+}
+/******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
+@media screen and (767px < width < 1024px) {
+  p,
+  a,
+  span {
+    font-size: 1.1rem;
+  }
+  p {
+    line-height: 1.4rem;
+  }
 }

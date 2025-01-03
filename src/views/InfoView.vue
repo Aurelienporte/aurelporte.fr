@@ -21,21 +21,19 @@ const tablet = breakpoints.between('tablet', 'laptop')
 const laptop = breakpoints.between('laptop', 'desktop')
 const desktop = breakpoints.greater('desktop')
 
-console.log(laptop.value, tablet.value, mobile.value, desktop.value)
-
 const exhibSlices = []
 
 function makeSlices() {
   const exhibitions = dataExhibitions.reverse()
   let showsPerSlice
   if (mobile.value) {
-    showsPerSlice = 7
+    showsPerSlice = 6
   }
   if (tablet.value) {
     showsPerSlice = 10
   }
   if (laptop.value) {
-    showsPerSlice = 9
+    showsPerSlice = 8
   }
   if (desktop.value) {
     showsPerSlice = 10
@@ -58,7 +56,7 @@ makeSlices()
 
 <template>
   <TheAppMenu header-title="A propos"></TheAppMenu>
-  <main>
+  <main ref="main">
     <InfosWrapper title="Biographie">
       <p class="text">
         Né en 1991, je vis à Saint-Denis et travaille à la Courneuve. Mes objets manifestent une
@@ -97,7 +95,6 @@ makeSlices()
 
 <style scoped>
 main {
-  /* grid-area: 2/1/4/2; */
   height: 80vh;
   display: flex;
   width: fit-content;

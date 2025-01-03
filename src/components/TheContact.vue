@@ -179,6 +179,14 @@ function sendEmail() {
 }
 </script>
 <style scoped>
+input[type='submit'] {
+  cursor: pointer;
+  font-family: 'Exo 2', serif;
+  font-size: 1rem;
+}
+input[type='submit']:disabled {
+  cursor: not-allowed;
+}
 .form-item {
   display: grid;
   grid-template-rows: 1.25rem 1.25rem;
