@@ -43,16 +43,21 @@ function getType(fileName) {
 }
 </script>
 <template>
-  <RouterLink :to="`/works/${url}`">
+  <RouterLink
+    :to="`/works/${url}`"
+    :class="{
+      'thumbnail__link--high': hanging.high,
+      'thumbnail__link--low': hanging.low,
+      'thumbnail__link--floor': hanging.floor
+    }"
+    class="thumbnail__link"
+  >
     <picture>
-      <source :srcset="`../../public/thumbnails/${srcset}`" :type="getType(srcset)" />
+      <source :srcset="`/thumbnails/${srcset}`" :type="getType(srcset)" />
       <img
         class="thumbnail__img"
         :class="{
-          'thumbnail__img--no-shadow': !shadow,
-          'thumbnail__img--high': hanging.high,
-          'thumbnail__img--low': hanging.low,
-          'thumbnail__img--floor': hanging.floor
+          'thumbnail__img--no-shadow': !shadow
         }"
         :src="`../../public/thumbnails/${src}`"
         :alt="`Lien vers ${title}`"
@@ -65,20 +70,24 @@ function getType(fileName) {
 <style scoped>
 .thumbnail__img {
   border-radius: 2px;
-  margin-bottom: 3rem;
   filter: drop-shadow(-5px -1px 5px #fff) drop-shadow(0 7px 5px #0003)
     drop-shadow(2px 4px 5px #0002);
 }
 .thumbnail__img--no-shadow {
   filter: initial;
 }
-.thumbnail__img--high {
-  margin-bottom: 4rem;
+.thumbnail__link {
+  height: fit-content;
+  align-self: center;
 }
-.thumbnail__img--low {
-  margin-bottom: 2rem;
+.thumbnail__link--hight {
+  align-self: flex-start;
 }
-.thumbnail__img--floor {
-  margin-bottom: 0;
+.thumbnail__link--low {
+  margin-bottom: 50px;
+  align-self: flex-end;
+}
+.thumbnail__link--floor {
+  align-self: flex-end;
 }
 </style>

@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { useRoute } from 'vue-router'
+import TheAppMenuFilterList from './TheAppMenuFilterList.vue'
 
 defineProps({
   headerTitle: {
@@ -59,6 +60,7 @@ const activePath = route.fullPath
           <RouterLink to="/infos">Infos</RouterLink>
         </li>
       </ul>
+      <TheAppMenuFilterList></TheAppMenuFilterList>
     </nav>
   </header>
 </template>
@@ -76,12 +78,7 @@ header {
   top: 0;
   border-width: 1px;
   border-style: solid;
-  border-image-source: linear-gradient(
-    90deg,
-    transparent 10%,
-    rgb(128, 128, 128) 20% 80%,
-    transparent 90%
-  );
+  border-image-source: linear-gradient(90deg, transparent 10%, rgb(128, 128, 128) 20% 0%);
   border-image-slice: 0 0 1;
   border-image-width: 1px;
   border-bottom: 1px solid gray;
@@ -111,7 +108,16 @@ header {
     padding: var(--buttonPadding);
     box-sizing: content-box;
     border: none;
-
+    &:hover {
+      .burger__dash {
+        background-color: rgb(26, 179, 234);
+        transition: color 150ms ease;
+      }
+    }
+    &:focus-visible.burger__dash {
+      color: rgb(26, 179, 234);
+      transition: color 150ms ease;
+    }
     & .burger__dash {
       --dashHeight: 4px;
 
@@ -123,7 +129,9 @@ header {
       }
       &:nth-child(2) {
         width: calc(var(--buttonSide) * 0.75);
-        transition: all 200ms ease 200ms;
+        transition:
+          opacity 200ms ease,
+          width 200ms ease;
       }
       &:nth-child(3) {
         --switch: -1;
@@ -139,7 +147,9 @@ header {
       &.fadeIn {
         opacity: 0;
         width: 0;
-        transition: all 200ms ease;
+        transition:
+          opacity 200ms ease,
+          width 200ms ease;
       }
     }
   }

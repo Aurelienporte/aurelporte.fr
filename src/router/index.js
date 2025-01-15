@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-
-const yearsList = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
-const namesList = ['test']
-const worksList = ['firstwork', 'worktest']
+import { normalizeProjectName } from '@/utils'
+import { getYears } from '@/utils'
+const yearsList = getYears()
+const projectList = normalizeProjectName()
+import worksData from '@/data.json'
+const works = worksData
+let worksList = []
+works.forEach((work) => worksList.push(work.urlSlug))
 
 const routes = [
   {
@@ -29,10 +33,10 @@ const routes = [
       { path: 'explorer', redirect: '/works' },
       {
         path: 'explorer/:filter',
-        component: () => import('../views/FilterView.vue'),
+        component: () => import('../views/WorksView.vue'),
         beforeEnter: (to) => {
-          const isExistingYear = yearsList.find((filter) => filter === parseInt(to.params.filter))
-          const isExistingName = namesList.find(
+          const isExistingYear = yearsList.find((filter) => filter === to.params.filter)
+          const isExistingName = projectList.find(
             (filter) => filter.localeCompare(to.params.filter) === 0
           )
           // reject the navigation

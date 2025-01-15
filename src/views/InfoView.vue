@@ -27,7 +27,7 @@ function makeSlices() {
   const exhibitions = dataExhibitions.reverse()
   let showsPerSlice
   if (mobile.value) {
-    showsPerSlice = 6
+    showsPerSlice = 7
   }
   if (tablet.value) {
     showsPerSlice = 10
@@ -56,7 +56,7 @@ makeSlices()
 
 <template>
   <TheAppMenu header-title="A propos"></TheAppMenu>
-  <main ref="main">
+  <main ref="main" class="main--scroll-x infos__main">
     <InfosWrapper title="Biographie">
       <p class="text">
         Né en 1991, je vis à Saint-Denis et travaille à la Courneuve. Mes objets manifestent une
@@ -94,12 +94,10 @@ makeSlices()
 </template>
 
 <style scoped>
-main {
-  height: 80vh;
-  display: flex;
-  width: fit-content;
-  flex-flow: row;
+.infos__main {
   gap: 15vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 .text {
   place-self: center;
@@ -124,7 +122,7 @@ main {
 }
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width < 1024px) {
-  main {
+  .infos__main {
     gap: 0;
   }
   .container {
@@ -142,7 +140,7 @@ main {
 }
 /******* LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP *******/
 @media screen and (1024px <= width) {
-  main {
+  .infos__main {
     gap: 0;
   }
   .container {

@@ -686,8 +686,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "Nassau_small.webp",
-      "jpeg": "Nassau_small.jpeg",
+      "webp_png": "nassau_small.webp",
+      "jpeg": "nassau_small.jpeg",
       "height": 54,
       "width": 44
     },

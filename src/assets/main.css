@@ -1,3 +1,16 @@
 @import './base.css';
 
 /*Styles for class common to different elements*/
+.main--scroll-x {
+  height: 80vh;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-flow: row;
+}
+.title--vertical {
+  font-family: 'Questrial', serif;
+  writing-mode: vertical-lr;
+  font-weight: 700;
+}
