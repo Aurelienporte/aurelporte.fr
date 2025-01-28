@@ -4,16 +4,15 @@ import TheAppMenu from '@/components/TheAppMenu.vue'
 import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
 const route = useRoute()
-const path = route.path
-const routeFilter = ref(route.params.filter)
+const path = ref(route.path)
 
-import { ref, computed, watch } from 'vue'
+import { ref, watch } from 'vue'
 const works = worksData
 
 watch(
-  () => route.params.filter,
-  (newFilter) => {
-    filteredWorks.value = sortWorks(newFilter)
+  () => route.path,
+  (newPath) => {
+    filteredWorks.value = sortWorks(newPath)
   }
 )
 
@@ -23,25 +22,26 @@ const projects = getProjects()
 const normalizedProjects = normalizeProjectName()
 
 let worksNumber = ref(20)
-let filteredWorks = ref(sortWorks(routeFilter.value))
-const lastWorks = computed(() => works.slice(-worksNumber.value).reverse())
-const selectedWorks = path === '/works' ? lastWorks : filteredWorks
+let filteredWorks = ref(sortWorks(path.value))
 
 function showMoreWorks() {
   worksNumber.value += 20
-  if (worksNumber.value > works.length) {
-    console.log('plus rien à monter')
-  }
+  filteredWorks.value = sortWorks('/works')
 }
 
-function sortWorks(filter) {
-  if (years.includes(filter)) {
-    return filterByYear(filter)
-  }
-  if (normalizedProjects.includes(filter)) {
-    for (let i = 0; i < projects.length; i++) {
-      if (normalizedProjects[i] === filter) {
-        return filterByProject(projects[i])
+function sortWorks(path) {
+  if (path === '/works') {
+    return works.slice(-worksNumber.value).reverse()
+  } else {
+    let filter = route.params.filter
+    if (years.includes(filter)) {
+      return filterByYear(filter)
+    }
+    if (normalizedProjects.includes(filter)) {
+      for (let i = 0; i < projects.length; i++) {
+        if (normalizedProjects[i] === filter) {
+          return filterByProject(projects[i])
+        }
       }
     }
   }
@@ -67,7 +67,7 @@ function filterByProject(project) {
       {{ path === '/works' ? '&OElig;uvres récentes' : route.params.filter }}
     </h1>
     <ThumbnailLink
-      v-for="work in selectedWorks"
+      v-for="work in filteredWorks"
       :key="work.id"
       :url="work.urlSlug"
       :srcset="work.icon.webp_png"
@@ -80,7 +80,7 @@ function filterByProject(project) {
     ></ThumbnailLink>
     <div class="action-bar">
       <button
-        v-if="worksNumber < works.length"
+        v-if="path === '/works' && worksNumber < works.length"
         class="action-bar__see-more-button"
         @click="showMoreWorks"
       >

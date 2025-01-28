@@ -1,5 +1,23 @@
 <script setup>
-import IconInstagram from '@/components/icons/IconInstagram.vue'
+import IconPixelfed from '@/components/icons/IconPixelfed.vue'
+import worksData from '@/data.json'
+import ThumbnailLink from '@/components/ThumbnailLink.vue'
+
+const data = worksData
+const lastYears = ['2024', '2023', '2022']
+
+function getRandomWork() {
+  let recentWorks = []
+  for (let y of lastYears) {
+    let filteredWorks = data.filter((work) => work.year === y)
+    recentWorks.push(filteredWorks)
+  }
+  let number = Math.round(Math.random() * recentWorks.length)
+  let work = recentWorks.flat()[number]
+  console.log({ work })
+  return work
+}
+const work = getRandomWork()
 </script>
 
 <template>
@@ -8,16 +26,25 @@ import IconInstagram from '@/components/icons/IconInstagram.vue'
       <h1 class="high-title"><span>Aurel</span><span>Porté</span></h1>
       <div class="low-title"><span>Porté</span><span>Aurel</span></div>
     </div>
-    <!-- <RouterLink class="random-work" to="/infos"
-      ><img :src="work" alt="une oeuvre au hasard" height="175"
-    /></RouterLink> -->
+    <ThumbnailLink
+      :url="work.urlSlug"
+      :srcset="work.icon.webp_png"
+      :src="work.icon.jpeg"
+      :title="work.title"
+      :width="work.icon.width"
+      :height="work.icon.height"
+      :shadow="work.display.hasShadow"
+      :hanging="work.display.hanging"
+    ></ThumbnailLink>
     <nav class="nav-menu">
       <ul>
-        <li><RouterLink to="/works">&OElig;uvres</RouterLink></li>
-        <li><RouterLink to="/infos">Infos</RouterLink></li>
+        <li><RouterLink class="home__nav-menu__link" to="/works">&OElig;uvres</RouterLink></li>
+        <li><RouterLink class="home__nav-menu__link" to="/infos">Infos</RouterLink></li>
         <li>
-          <a href="https://www.instagram.com/aurel_porte/"
-            ><IconInstagram></IconInstagram>Instagram</a
+          <a
+            class="home__nav-menu__link"
+            href="https://pixelfed.fr/i/web/profile/787962229803910124"
+            ><IconPixelfed class="nav-menu__icon"></IconPixelfed>Pixelfed</a
           >
         </li>
       </ul>
@@ -94,13 +121,24 @@ main,
     align-items: end;
     gap: 0.5rem;
   }
-  a {
+  .home__nav-menu__link {
     font-size: 1.5rem;
+    min-height: 32px;
+    display: inline-block;
     font-weight: 500;
     color: black;
   }
+  .home__nav-menu__link:has(.nav-menu__icon) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  & .nav-menu__icon {
+    height: 32px;
+    width: 32px;
+  }
 }
-/******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
+/****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
   main,
   .titles-container {
@@ -132,12 +170,16 @@ main,
     ul {
       gap: 0.75rem;
     }
-    a {
+    .home__nav-menu__link {
       font-size: 2rem;
+    }
+    & .nav-menu__icon {
+      height: 40px;
+      width: 40px;
     }
   }
 }
-/******* LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP LAPTOP *******/
+/***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) {
   main {
     grid-template-rows: 10vh repeat(3, auto) 10vh;
@@ -185,6 +227,13 @@ main,
   }
   .nav-menu {
     grid-area: 4/2/5/3;
+    .home__nav-menu__link {
+      font-size: 2rem;
+    }
+    & .nav-menu__icon {
+      height: 48px;
+      width: 48px;
+    }
   }
 }
 </style>

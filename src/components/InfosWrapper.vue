@@ -17,6 +17,7 @@ defineProps({
 </template>
 
 <style scoped>
+/***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .infos-wrapper {
   display: grid;
   grid-template-columns: 15vw 70vw 15vw;

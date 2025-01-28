@@ -4,6 +4,7 @@
 .main--scroll-x {
   height: 80vh;
   overflow-x: scroll;
+  overflow-y: hidden;
   scrollbar-width: thin;
   scroll-behavior: smooth;
   display: flex;

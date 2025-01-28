@@ -12,10 +12,22 @@ defineProps({
 })
 const setCloseButton = ref(false)
 const clicked = ref(false)
+const isSubmenuVisible = ref(false)
+const isMainMenuVisible = ref(true)
+
 function toogleButton() {
   setCloseButton.value = !setCloseButton.value
   clicked.value = true
 }
+function showFilters() {
+  isMainMenuVisible.value = false
+  isSubmenuVisible.value = true
+}
+function hideFilters() {
+  isMainMenuVisible.value = true
+  isSubmenuVisible.value = false
+}
+
 const route = useRoute()
 const activePath = route.fullPath
 </script>
@@ -25,7 +37,6 @@ const activePath = route.fullPath
     <div class="banner">
       <h1 class="banner__title" v-if="headerTitle">{{ headerTitle }}</h1>
       <span v-else class="banner__title">Aurel Porté</span>
-
       <button class="burger" popovertarget="navigation-menu" popoveraction="toggle">
         <span
           class="burger__dash"
@@ -39,7 +50,7 @@ const activePath = route.fullPath
       </button>
     </div>
     <nav class="navigation-menu" popover id="navigation-menu" @toggle="toogleButton()">
-      <ul>
+      <ul class="navigation-menu__list" v-if="isMainMenuVisible">
         <li class="navigation-menu__item"><RouterLink to="/">Accueil</RouterLink></li>
         <!-- Display a link to the works if you're not already in the page -->
         <li
@@ -53,14 +64,14 @@ const activePath = route.fullPath
           v-if="activePath === '/works' || activePath.substring(0, 16) === '/works/explorer/'"
           class="navigation-menu__item"
         >
-          <button class="navigation-menu__button">Filtres</button>
+          <button class="navigation-menu__button" @click="showFilters">Filtres</button>
         </li>
         <!-- Display a link to infos if you're not already in the page -->
         <li v-if="!(activePath === '/infos')" class="navigation-menu__item">
           <RouterLink to="/infos">Infos</RouterLink>
         </li>
       </ul>
-      <TheAppMenuFilterList></TheAppMenuFilterList>
+      <TheAppMenuFilterList v-if="isSubmenuVisible" @visible="hideFilters"></TheAppMenuFilterList>
     </nav>
   </header>
 </template>
@@ -110,12 +121,12 @@ header {
     border: none;
     &:hover {
       .burger__dash {
-        background-color: rgb(26, 179, 234);
+        background-color: var(--saillanceColor);
         transition: color 150ms ease;
       }
     }
     &:focus-visible.burger__dash {
-      color: rgb(26, 179, 234);
+      color: var(--saillanceColor);
       transition: color 150ms ease;
     }
     & .burger__dash {
@@ -158,10 +169,13 @@ header {
     top: var(--bannerHeight);
     left: 0;
     width: var(--navWidth);
-    height: 33vh;
     translate: 100vw 0;
     transition: all 0.4s ease allow-discrete;
 
+    & .navigation-menu__list {
+      --inlinePadding: 48px;
+      padding: 0 var(--inlinePadding);
+    }
     &:popover-open {
       display: flex;
       flex-flow: column;
@@ -253,7 +267,7 @@ header {
 
   .navigation-menu__item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 10vh;
     background: white;
@@ -487,6 +501,7 @@ header {
     }
     & .navigation-menu__item {
       border-image-width: 2px;
+      border-image-source: linear-gradient(90deg, transparent 0%, gray 20% 80%, transparent 100%);
 
       :is(a, .navigation-menu__button) {
         font-size: 1.5rem;

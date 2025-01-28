@@ -2053,7 +2053,7 @@
     "id": "82",
     "title": "Welcome to the hors champ",
     "year": "2024",
-    "project": "Réensauvagement",
+    "project": "",
     "urlSlug": "welcome_to_the_hors_champ",
     "display": {
       "order": "",
@@ -2128,7 +2128,7 @@
     "id": "85",
     "title": "Industrial plants",
     "year": "2024",
-    "project": "Réensauvagement",
+    "project": "",
     "urlSlug": "industrial_plants",
     "display": {
       "order": "",
@@ -2395,7 +2395,7 @@
     "width": "dv",
     "depth": "",
     "materials": "acrylique sur mur",
-    "text": "",
+    "text": "Here goes some text about incultures 7",
     "images": [],
     "imgAltText": ""
   },

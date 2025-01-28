@@ -41,3 +41,14 @@ export function normalizeProjectName() {
   }
   return normalizedProjects
 }
+
+export function getType(fileName) {
+  let type = ''
+  if (fileName.slice(-3) === 'png') {
+    type = 'image/png'
+  }
+  if (fileName.slice(-4) === 'webp') {
+    type = 'image/webp'
+  }
+  return type
+}

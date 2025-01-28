@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { getType } from '@/utils'
+
 defineProps({
   url: {
     type: String,
@@ -31,16 +33,6 @@ defineProps({
     required: true
   }
 })
-function getType(fileName) {
-  let type = ''
-  if (fileName.slice(-3) === 'png') {
-    type = 'image/png'
-  }
-  if (fileName.slice(-4) === 'webp') {
-    type = 'image/webp'
-  }
-  return type
-}
 </script>
 <template>
   <RouterLink
@@ -70,15 +62,30 @@ function getType(fileName) {
 <style scoped>
 .thumbnail__img {
   border-radius: 2px;
-  filter: drop-shadow(-5px -1px 5px #fff) drop-shadow(0 7px 5px #0003)
-    drop-shadow(2px 4px 5px #0002);
+  box-shadow:
+    -5px -1px 5px 0px #fff,
+    0 7px 5px 0px #0003,
+    2px 4px 5px 0px #0002;
+  transition: all ease-in 150ms;
+  &:hover {
+    transform: scale(1.1);
+    filter: contrast(1.1);
+    transition: all ease-in-out 100ms;
+  }
 }
 .thumbnail__img--no-shadow {
-  filter: initial;
+  box-shadow: none;
 }
 .thumbnail__link {
   height: fit-content;
   align-self: center;
+  &:focus-visible {
+    transform: scale(1.1);
+    filter: contrast(1.1);
+    transition: all ease-in-out 100ms;
+    outline: 5px solid var(--saillanceColor);
+    outline-offset: 10px;
+  }
 }
 .thumbnail__link--hight {
   align-self: flex-start;

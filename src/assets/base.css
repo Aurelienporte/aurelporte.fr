@@ -5,6 +5,7 @@
 }
 a {
   text-decoration: none;
+  color: black;
 }
 li {
   list-style-type: none;
@@ -31,8 +32,19 @@ button {
   cursor: pointer;
   font-family: 'Exo 2', serif;
   font-size: 1rem;
+  background: white;
+  border: none;
 }
-/******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
+:root {
+  --saillanceColor: rgb(26, 179, 234);
+}
+/* @property --property-name {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: ;
+} */
+
+/****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
   p,
   a,
@@ -42,4 +54,15 @@ button {
   p {
     line-height: 1.4rem;
   }
+}
+
+/*style sheet template*/
+
+/***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
+
+/****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
+@media screen and (767px < width < 1024px) {
+}
+/***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
+@media screen and (1024px <= width) and (orientation: landscape) {
 }
