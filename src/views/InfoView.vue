@@ -1,11 +1,8 @@
 <script setup>
-import IconBlueSky from '@/components/icons/IconBlueSky.vue'
-import IconBlueskyColor from '@/components/icons/IconBlueskyColor.vue'
-import IconPixelfed from '@/components/icons/IconPixelfed.vue'
-import IconPixelfedColor from '@/components/icons/IconPixelfedColor.vue'
 import InfosWrapper from '@/components/InfosWrapper.vue'
 import ShowCard from '@/components/ShowCard.vue'
 import TheContact from '@/components/TheContact.vue'
+import SocialLink from '@/components/SocialLink.vue'
 import TheAppMenu from '@/components/TheAppMenu.vue'
 import dataExhibitions from '@/dataExhibitions.json'
 import { useBreakpoints } from '@vueuse/core'
@@ -82,18 +79,14 @@ makeSlices()
       <div class="contact-container">
         <h3 class="contact__title">Mes réseaux</h3>
         <div class="socials">
-          <a class="socials__link" href="https://pixelfed.fr/i/web/profile/787962229803910124"
-            ><span class="socials__container"
-              ><IconPixelfed class="socials__icon" /><IconPixelfedColor
-                class="socials__icon" /></span
-            >Pixelfed</a
-          >
-          <a class="socials__link" href="https://bsky.app/profile/aurel-porte.bsky.social">
-            <span class="socials__container"
-              ><IconBlueSky class="socials__icon" /><IconBlueskyColor class="socials__icon"
-            /></span>
-            Bluesky</a
-          >
+          <SocialLink
+            social="pixelfed"
+            url="https://pixelfed.fr/i/web/profile/787962229803910124"
+          ></SocialLink>
+          <SocialLink
+            social="bluesky"
+            url="https://bsky.app/profile/aurel-porte.bsky.social"
+          ></SocialLink>
         </div>
         <TheContact></TheContact>
       </div>
@@ -122,41 +115,6 @@ makeSlices()
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-
-  .socials__link {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    &:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 5px;
-      transition: all 200ms ease;
-
-      & .socials__icon {
-        &:nth-child(2) {
-          opacity: 1;
-          transition: opacity 200ms ease;
-        }
-      }
-    }
-  }
-  & .socials__container {
-    display: grid;
-    place-content: center;
-
-    & .socials__icon {
-      grid-area: 1/1;
-      height: 32px;
-      width: 32px;
-
-      &:nth-child(2) {
-        opacity: 0;
-        transition: opacity 200ms ease;
-      }
-    }
-  }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
@@ -200,11 +158,6 @@ makeSlices()
   .socials {
     justify-content: flex-start;
     gap: 2rem;
-
-    & .socials__icon {
-      height: 40px;
-      width: 40px;
-    }
   }
 }
 </style>
