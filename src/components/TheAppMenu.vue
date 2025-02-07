@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
-import { useRoute } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
 import TheAppMenuFilterList from './TheAppMenuFilterList.vue'
 
 defineProps({
@@ -30,6 +29,8 @@ function hideFilters() {
 
 const route = useRoute()
 const activePath = route.fullPath
+const regex = /\//g
+const slashInPath = activePath.match(regex)
 </script>
 
 <template>
@@ -52,16 +53,24 @@ const activePath = route.fullPath
     <nav class="navigation-menu" popover id="navigation-menu" @toggle="toogleButton()">
       <ul class="navigation-menu__list" v-if="isMainMenuVisible">
         <li class="navigation-menu__item"><RouterLink to="/">Accueil</RouterLink></li>
-        <!-- Display a link to the works if you're not already in the page -->
+        <!-- Display a link to the works if you're not on the page or a on single work page -->
         <li
-          v-if="!(activePath === '/works' || activePath.substring(0, 16) === '/works/explorer/')"
+          v-if="
+            !(
+              activePath === '/works' ||
+              (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
+            )
+          "
           class="navigation-menu__item"
         >
           <RouterLink to="/works">&OElig;uvres</RouterLink>
         </li>
-        <!-- Display filters if you're on the works pages -->
+        <!-- Display filters if you're on the works pages  -->
         <li
-          v-if="activePath === '/works' || activePath.substring(0, 16) === '/works/explorer/'"
+          v-if="
+            activePath === '/works' ||
+            (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
+          "
           class="navigation-menu__item"
         >
           <button class="navigation-menu__button" @click="showFilters">Filtres</button>
@@ -505,6 +514,13 @@ header {
 
       :is(a, .navigation-menu__button) {
         font-size: 1.5rem;
+        line-height: 1.5rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
       }
     }
   }

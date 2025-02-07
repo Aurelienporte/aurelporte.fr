@@ -2,7 +2,11 @@
 import { RouterLink } from 'vue-router'
 import { getType } from '@/utils'
 
-defineProps({
+const props = defineProps({
+  filter: {
+    type: [Boolean, String],
+    required: false
+  },
   url: {
     type: String,
     required: true
@@ -33,10 +37,11 @@ defineProps({
     required: true
   }
 })
+const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/works/${props.url}`
 </script>
 <template>
   <RouterLink
-    :to="`/works/${url}`"
+    :to="path"
     :class="{
       'thumbnail__link--high': hanging.high,
       'thumbnail__link--low': hanging.low,

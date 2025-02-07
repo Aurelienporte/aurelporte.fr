@@ -158,6 +158,22 @@ function isToogled(payload) {
       /*for unkwnown reasons border-image is not displayed if width is under 2px */
       border-image-source: linear-gradient(90deg, transparent 0%, gray 20% 80%, transparent 100%);
 
+      & .filter__title {
+        --buttonHeight: calc(10vh - 2px);
+        --error: -3px;
+
+        line-height: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        transition: font-weight 0.2s ease;
+
+        & span {
+          font-size: 1.5rem;
+        }
+      }
       &:hover .filter__title {
         font-weight: 700;
         transition: font-weight 0.2s ease;
@@ -182,14 +198,6 @@ function isToogled(payload) {
           transition: height 0.4s ease;
           background: linear-gradient(transparent 10%, black 20% 80%, transparent 90%);
         }
-      }
-    }
-    & .filter__title {
-      --error: 1px;
-      transition: font-weight 0.2s ease;
-
-      & span {
-        font-size: 1.5rem;
       }
     }
   }

@@ -52,3 +52,15 @@ export function getType(fileName) {
   }
   return type
 }
+
+export function filterByYear(year) {
+  let filteredWorks = []
+  filteredWorks = works.filter((work) => work.year === year)
+  return filteredWorks
+}
+
+export function filterByProject(project) {
+  let filteredWorks = []
+  filteredWorks = works.filter((work) => work.project === project)
+  return filteredWorks
+}

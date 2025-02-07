@@ -45,7 +45,7 @@ function toogleList(listName) {
       :visible="isProjectsVisible"
       @toogle="toogleList($event)"
     ></TheAppMenuFilter>
-    <li class="filter-menu__back-button">
+    <li class="filter-menu__back-item">
       <button @click="showMainMenu">
         <IconArrowBack class="back-button__arrow-back"></IconArrowBack>
       </button>
@@ -64,7 +64,7 @@ function toogleList(listName) {
   grid-template-rows: auto auto;
   place-content: center;
 }
-.filter-menu__back-button {
+.filter-menu__back-item {
   grid-area: 1/1/3/2;
   align-self: flex-start; /*If center (and no translate) then it will move when a filter is open */
   transform: translate(0, calc((10vh + 2px) - 50%));
@@ -117,7 +117,7 @@ function toogleList(listName) {
     grid-template-columns: calc(50vw - var(--inlinePadding) * 2);
     grid-template-rows: auto auto 10vh;
   }
-  .filter-menu__back-button {
+  .filter-menu__back-item {
     grid-area: 3/1/4/2;
     align-self: center;
     justify-self: center;
@@ -136,17 +136,27 @@ function toogleList(listName) {
     --inlinePadding: 48px;
     padding: 0 var(--inlinePadding);
     grid-template-columns: calc(25vw - var(--inlinePadding) * 2);
-    grid-template-rows: auto auto 10vh;
+    grid-template-rows: repeat(3, auto);
   }
-  .filter-menu__back-button {
+  .filter-menu__back-item {
     grid-area: 3/1/4/2;
     align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transform: translate(0, 0);
+    height: 10vh;
 
     & button {
+      line-height: 1.5rem;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      background-color: transparent;
+
       & .back-button__arrow-back {
         height: 32px;
         width: 32px;
