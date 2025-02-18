@@ -11,8 +11,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "double_et_brise_small.webp",
-      "jpeg": "double_et_brise_small.jpeg",
+      "webp_png": "double_et_brise_xs.webp",
+      "jpeg": "double_et_brise_xs.jpeg",
       "height": 171,
       "width": 220
     },
@@ -23,10 +23,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "double_et_brise.webp",
-        "jpeg": "double_et_brise.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "double_et_brise_s.webp",
+        "jpeg": "double_et_brise_s.jpeg",
+        "width": 430,
+        "height": 334
       }
     },
     "imgAltText": ""
@@ -43,8 +43,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "reprise_argus_1_small.webp",
-      "jpeg": "reprise_argus_1_small.jpeg",
+      "webp_png": "reprise_argus_1_xs.webp",
+      "jpeg": "reprise_argus_1_xs.jpeg",
       "height": 54,
       "width": 70
     },
@@ -55,10 +55,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "reprise_argus_1.webp",
-        "jpeg": "reprise_argus_1.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "reprise_argus_1_s.webp",
+        "jpeg": "reprise_argus_1_s.jpeg",
+        "width": 430,
+        "height": 332
       }
     },
     "imgAltText": ""
@@ -75,8 +75,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "reprise_argus_2_small.webp",
-      "jpeg": "reprise_argus_2_small.jpeg",
+      "webp_png": "reprise_argus_2_xs.webp",
+      "jpeg": "reprise_argus_2_xs.jpeg",
       "height": 54,
       "width": 70
     },
@@ -87,10 +87,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "reprise_argus_2.webp",
-        "jpeg": "reprise_argus_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "reprise_argus_2_s.webp",
+        "jpeg": "reprise_argus_2_s.jpeg",
+        "width": 430,
+        "height": 332
       }
     },
     "imgAltText": ""
@@ -107,8 +107,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "rapiessement_et_bigarrure_small.webp",
-      "jpeg": "rapiessement_et_bigarrure_small.jpeg",
+      "webp_png": "rapiessement_et_bigarrure_xs.webp",
+      "jpeg": "rapiessement_et_bigarrure_xs.jpeg",
       "height": 227,
       "width": 204
     },
@@ -119,10 +119,10 @@
     "text": "Salon de catalogue pour peinture de guerre. Celui qu'on vend, qu'on achète, on en veut mais on en veut pas, on s'y expose et on s'y dissimule en même temps.\n\nC'est des couches de peinture et des strates d'images qui s'empilent, des petites madeleines de peintre qui vous baladent quelque part, d'une digression à l'autre, de la Renaissance italienne au monde militaire, du repentir au clonage Gimp.\n\nPlanquez tout sous les tapis, ils sont là pour ça.",
     "images": {
       "small": {
-        "webp": "rapiessement_et_bigarrure.webp",
-        "jpeg": "rapiessement_et_bigarrure.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "rapiessement_et_bigarrure_s.webp",
+        "jpeg": "rapiessement_et_bigarrure_s.jpeg",
+        "width": 390,
+        "height": 434
       }
     },
     "imgAltText": ""
@@ -139,8 +139,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "quelque_chose_de_mondial_small.webp",
-      "jpeg": "quelque_chose_de_mondial_small.jpeg",
+      "webp_png": "quelque_chose_de_mondial_xs.webp",
+      "jpeg": "quelque_chose_de_mondial_xs.jpeg",
       "height": 182,
       "width": 302
     },
@@ -151,10 +151,10 @@
     "text": "Au départ il y a une image de catalogue d'enseigne de bricolage, à l'arrivée le débordement de l'horizon consommable et consommé par un temps, un espace, un ordre de grandeur qui excèdent la vision individualisante ; et la peinture pour se loger dans la tension du mouvement qui irait du premier point vers le second.\n\nDes ailleurs depuis chez soi, des récits alternatifs, des géographies nouvelles. Là‐bas commence ici et l'embarquement est imminent.",
     "images": {
       "small": {
-        "webp": "quelque_chose_de_mondial.webp",
-        "jpeg": "quelque_chose_de_mondial.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "quelque_chose_de_mondial_s.webp",
+        "jpeg": "quelque_chose_de_mondial_s.jpeg",
+        "width": 430,
+        "height": 258
       }
     },
     "imgAltText": ""
@@ -171,8 +171,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "reprise_argus_5_small.webp",
-      "jpeg": "reprise_argus_5_small.jpeg",
+      "webp_png": "reprise_argus_5_xs.webp",
+      "jpeg": "reprise_argus_5_xs.jpeg",
       "height": 54,
       "width": 70
     },
@@ -183,10 +183,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "reprise_argus_5.webp",
-        "jpeg": "reprise_argus_5.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "reprise_argus_5_s.webp",
+        "jpeg": "reprise_argus_5_s.jpeg",
+        "width": 430,
+        "height": 332
       }
     },
     "imgAltText": ""
@@ -203,8 +203,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "reprise_argus_3_small.webp",
-      "jpeg": "reprise_argus_3_small.jpeg",
+      "webp_png": "reprise_argus_3_xs.webp",
+      "jpeg": "reprise_argus_3_xs.jpeg",
       "height": 54,
       "width": 70
     },
@@ -215,10 +215,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "reprise_argus_3.webp",
-        "jpeg": "reprise_argus_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "reprise_argus_3_s.webp",
+        "jpeg": "reprise_argus_3_s.jpeg",
+        "width": 430,
+        "height": 332
       }
     },
     "imgAltText": ""
@@ -235,8 +235,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "reprise_argus_4_small.webp",
-      "jpeg": "reprise_argus_4_small.jpeg",
+      "webp_png": "reprise_argus_4_xs.webp",
+      "jpeg": "reprise_argus_4_xs.jpeg",
       "height": 54,
       "width": 70
     },
@@ -247,10 +247,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "reprise_argus_4.webp",
-        "jpeg": "reprise_argus_4.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "reprise_argus_4_s.webp",
+        "jpeg": "reprise_argus_4_s.jpeg",
+        "width": 430,
+        "height": 332
       }
     },
     "imgAltText": ""
@@ -267,8 +267,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "lointains_alentours_1_small.png",
-      "jpeg": "lointains_alentours_1_small.jpeg",
+      "webp_png": "lointains_alentours_1_xs.png",
+      "jpeg": "lointains_alentours_1_xs.jpeg",
       "height": 98,
       "width": 55
     },
@@ -279,10 +279,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "lointains_alentours_1.webp",
-        "jpeg": "lointains_alentours_1.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "lointains_alentours_1_s.webp",
+        "jpeg": "lointains_alentours_1_s.jpeg",
+        "width": 390,
+        "height": 658
       }
     },
     "imgAltText": ""
@@ -299,8 +299,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "hamburgh_2_small.webp",
-      "jpeg": "hamburgh_2_small.jpeg",
+      "webp_png": "hamburgh_2_xs.webp",
+      "jpeg": "hamburgh_2_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -311,10 +311,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "hamburgh_2.webp",
-        "jpeg": "hamburgh_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "hamburgh_2_s.webp",
+        "jpeg": "hamburgh_2_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -331,8 +331,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "parme_small.webp",
-      "jpeg": "parme_small.jpeg",
+      "webp_png": "parme_xs.webp",
+      "jpeg": "parme_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -343,10 +343,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "parme.webp",
-        "jpeg": "parme.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "parme_s.webp",
+        "jpeg": "parme_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -363,8 +363,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "brabant_small.webp",
-      "jpeg": "brabant_small.jpeg",
+      "webp_png": "brabant_xs.webp",
+      "jpeg": "brabant_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -375,10 +375,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "brabant.webp",
-        "jpeg": "brabant.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "brabant_s.webp",
+        "jpeg": "brabant_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -395,8 +395,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "de_sable_au_heaume_d_argent_small.webp",
-      "jpeg": "de_sable_au_heaume_d_argent_small.jpeg",
+      "webp_png": "de_sable_au_heaume_d_argent_xs.webp",
+      "jpeg": "de_sable_au_heaume_d_argent_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -407,10 +407,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "de_sable_au_heaume_d_argent.webp",
-        "jpeg": "de_sable_au_heaume_d_argent.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "de_sable_au_heaume_d_argent_s.webp",
+        "jpeg": "de_sable_au_heaume_d_argent_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -427,8 +427,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "middleburgh_small.webp",
-      "jpeg": "middleburgh_small.jpeg",
+      "webp_png": "middleburgh_xs.webp",
+      "jpeg": "middleburgh_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -439,10 +439,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "middleburgh.webp",
-        "jpeg": "middleburgh.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "middleburgh_s.webp",
+        "jpeg": "middleburgh_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -459,8 +459,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "appats_feutres_small.webp",
-      "jpeg": "appats_feutres_small.jpeg",
+      "webp_png": "appats_feutres_xs.webp",
+      "jpeg": "appats_feutres_xs.jpeg",
       "height": 182,
       "width": 273
     },
@@ -471,10 +471,10 @@
     "text": "Des espaces divers, figurés ou schématiques, que l'on découpe et que l'on déborde. Des horizons faits, défaits ou à faire ; des tracés, des cloisons, des limites et des remparts de sable qui s'avancent le long de trajectoires stratèges.\n\nIntérieurs standardisés, standards intériorisés, points névralgiques et champs de bataille.",
     "images": {
       "small": {
-        "webp": "appats_feutres.webp",
-        "jpeg": "appats_feutres.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "appats_feutres_s.webp",
+        "jpeg": "appats_feutres_s.jpeg",
+        "width": 390,
+        "height": 284
       }
     },
     "imgAltText": ""
@@ -491,8 +491,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "dazzle-razzle_small.webp",
-      "jpeg": "dazzle-razzle_small.jpeg",
+      "webp_png": "dazzle-razzle_xs.webp",
+      "jpeg": "dazzle-razzle_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -503,10 +503,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "dazzle-razzle.webp",
-        "jpeg": "dazzle-razzle.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "dazzle-razzle_s.webp",
+        "jpeg": "dazzle-razzle_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -523,8 +523,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "burgkmair_la_flagellation_du_christ_small.webp",
-      "jpeg": "burgkmair_la_flagellation_du_christ_small.jpeg",
+      "webp_png": "burgkmair_la_flagellation_du_christ_xs.webp",
+      "jpeg": "burgkmair_la_flagellation_du_christ_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -535,10 +535,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "burgkmair_la_flagellation_du_christ.webp",
-        "jpeg": "burgkmair_la_flagellation_du_christ.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "burgkmair_la_flagellation_du_christ_s.webp",
+        "jpeg": "burgkmair_la_flagellation_du_christ_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -555,8 +555,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "hamburgh_3_small.webp",
-      "jpeg": "hamburgh_3_small.jpeg",
+      "webp_png": "hamburgh_3_xs.webp",
+      "jpeg": "hamburgh_3_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -567,10 +567,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "hamburgh_3.webp",
-        "jpeg": "hamburgh_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "hamburgh_3_s.webp",
+        "jpeg": "hamburgh_3_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -587,8 +587,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "lointains_alentours_3_small.png",
-      "jpeg": "lointains_alentours_3_small.jpeg",
+      "webp_png": "lointains_alentours_3_xs.png",
+      "jpeg": "lointains_alentours_3_xs.jpeg",
       "height": 98,
       "width": 59
     },
@@ -599,10 +599,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "lointains_alentours_3.webp",
-        "jpeg": "lointains_alentours_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "lointains_alentours_3_s.webp",
+        "jpeg": "lointains_alentours_3_s.jpeg",
+        "width": 390,
+        "height": 871
       }
     },
     "imgAltText": ""
@@ -619,8 +619,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "riga_small.webp",
-      "jpeg": "riga_small.jpeg",
+      "webp_png": "riga_xs.webp",
+      "jpeg": "riga_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -631,10 +631,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "riga.webp",
-        "jpeg": "riga.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "riga_s.webp",
+        "jpeg": "riga_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -651,8 +651,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "lointains_alentours_2_small.png",
-      "jpeg": "lointains_alentours_2_small.jpeg",
+      "webp_png": "lointains_alentours_2_xs.png",
+      "jpeg": "lointains_alentours_2_xs.jpeg",
       "height": 98,
       "width": 55
     },
@@ -663,10 +663,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "lointains_alentours_2.webp",
-        "jpeg": "lointains_alentours_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "lointains_alentours_2_s.webp",
+        "jpeg": "lointains_alentours_2_s.jpeg",
+        "width": 390,
+        "height": 658
       }
     },
     "imgAltText": ""
@@ -683,8 +683,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "trophees_small.webp",
-      "jpeg": "trophees_small.jpeg",
+      "webp_png": "trophees_xs.webp",
+      "jpeg": "trophees_xs.jpeg",
       "height": 273,
       "width": 227
     },
@@ -695,10 +695,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "trophees.webp",
-        "jpeg": "trophees.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "trophees_s.webp",
+        "jpeg": "trophees_s.jpeg",
+        "width": 390,
+        "height": 469
       }
     },
     "imgAltText": ""
@@ -715,8 +715,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "parme_2_small.webp",
-      "jpeg": "parme_2_small.jpeg",
+      "webp_png": "parme_2_xs.webp",
+      "jpeg": "parme_2_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -727,10 +727,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "parme_2.webp",
-        "jpeg": "parme_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "parme_2_s.webp",
+        "jpeg": "parme_2_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -747,8 +747,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "lippi_le_banquet_d_herode_small.webp",
-      "jpeg": "lippi_le_banquet_d_herode_small.jpeg",
+      "webp_png": "lippi_le_banquet_d_herode_xs.webp",
+      "jpeg": "lippi_le_banquet_d_herode_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -759,10 +759,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "lippi_le_banquet_d_herode.webp",
-        "jpeg": "lippi_le_banquet_d_herode.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "lippi_le_banquet_d_herode_s.webp",
+        "jpeg": "lippi_le_banquet_d_herode_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -779,8 +779,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "lucca_small.webp",
-      "jpeg": "lucca_small.jpeg",
+      "webp_png": "lucca_xs.webp",
+      "jpeg": "lucca_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -791,10 +791,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "lucca.webp",
-        "jpeg": "lucca.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "lucca_s.webp",
+        "jpeg": "lucca_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -811,8 +811,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "koningsberg_small.webp",
-      "jpeg": "koningsberg_small.jpeg",
+      "webp_png": "koningsberg_xs.webp",
+      "jpeg": "koningsberg_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -823,10 +823,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "koningsberg.webp",
-        "jpeg": "koningsberg.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "koningsberg_s.webp",
+        "jpeg": "koningsberg_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -843,8 +843,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "hamburgh_small.webp",
-      "jpeg": "hamburgh_small.jpeg",
+      "webp_png": "hamburgh_xs.webp",
+      "jpeg": "hamburgh_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -855,10 +855,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "hamburgh.webp",
-        "jpeg": "hamburgh.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "hamburgh_s.webp",
+        "jpeg": "hamburgh_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -875,8 +875,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "nassau_small.webp",
-      "jpeg": "nassau_small.jpeg",
+      "webp_png": "nassau_xs.webp",
+      "jpeg": "nassau_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -887,10 +887,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "nassau.webp",
-        "jpeg": "nassau.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "nassau_s.webp",
+        "jpeg": "nassau_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -907,8 +907,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "memelland_small.webp",
-      "jpeg": "memelland_small.jpeg",
+      "webp_png": "memelland_xs.webp",
+      "jpeg": "memelland_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -919,10 +919,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "memelland.webp",
-        "jpeg": "memelland.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "memelland_s.webp",
+        "jpeg": "memelland_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -939,8 +939,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "modene_small.webp",
-      "jpeg": "modene_small.jpeg",
+      "webp_png": "modene_xs.webp",
+      "jpeg": "modene_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -951,10 +951,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "modene.webp",
-        "jpeg": "modene.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "modene_s.webp",
+        "jpeg": "modene_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -971,8 +971,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "sarre_small.webp",
-      "jpeg": "sarre_small.jpeg",
+      "webp_png": "sarre_xs.webp",
+      "jpeg": "sarre_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -983,10 +983,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "sarre.webp",
-        "jpeg": "sarre.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "sarre_s.webp",
+        "jpeg": "sarre_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -1003,8 +1003,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "oldenburg_small.webp",
-      "jpeg": "oldenburg_small.jpeg",
+      "webp_png": "oldenburg_xs.webp",
+      "jpeg": "oldenburg_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -1015,10 +1015,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "oldenburg.webp",
-        "jpeg": "oldenburg.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "oldenburg_s.webp",
+        "jpeg": "oldenburg_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -1035,8 +1035,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "camp_de_bases_small.webp",
-      "jpeg": "camp_de_bases_small.jpeg",
+      "webp_png": "camp_de_bases_xs.webp",
+      "jpeg": "camp_de_bases_xs.jpeg",
       "height": 166,
       "width": 227
     },
@@ -1047,9 +1047,9 @@
     "text": "Un point de départ, des allures d'arrivée... quelle ironie de l'image. Quand l'archéologie a quelque chose de l'exploration spatiale, la quête de l'origine rejoint celle de la fin. Une prospection trichromique à coup de petits fanions, abscons et plurivoques, piqués dans les couches de terres entremelées du plus vieil atelier du monde. La base est là, tout peut commencer.",
     "images": {
       "small": {
-        "webp": "camp_de_bases.webp",
-        "jpeg": "camp_de_bases.jpeg",
-        "width": 375,
+        "webp": "camp_de_bases_s.webp",
+        "jpeg": "camp_de_bases_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -1067,8 +1067,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "crete_small.webp",
-      "jpeg": "crete_small.jpeg",
+      "webp_png": "crete_xs.webp",
+      "jpeg": "crete_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -1079,10 +1079,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "crete.webp",
-        "jpeg": "crete.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "crete_s.webp",
+        "jpeg": "crete_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -1099,8 +1099,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_9_small.png",
-      "jpeg": "masse_diplomatie_9_small.jpeg",
+      "webp_png": "masse_diplomatie_9_xs.png",
+      "jpeg": "masse_diplomatie_9_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1111,10 +1111,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_9.webp",
-        "jpeg": "masse_diplomatie_9.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_9_s.webp",
+        "jpeg": "masse_diplomatie_9_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1131,8 +1131,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_8_small.png",
-      "jpeg": "masse_diplomatie_8_small.jpeg",
+      "webp_png": "masse_diplomatie_8_xs.png",
+      "jpeg": "masse_diplomatie_8_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1143,10 +1143,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_8.webp",
-        "jpeg": "masse_diplomatie_8.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_8_s.webp",
+        "jpeg": "masse_diplomatie_8_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1163,8 +1163,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_7_small.png",
-      "jpeg": "masse_diplomatie_7_small.jpeg",
+      "webp_png": "masse_diplomatie_7_xs.png",
+      "jpeg": "masse_diplomatie_7_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1175,10 +1175,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_7.webp",
-        "jpeg": "masse_diplomatie_7.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_7_s.webp",
+        "jpeg": "masse_diplomatie_7_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1195,8 +1195,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_6_small.png",
-      "jpeg": "masse_diplomatie_6_small.jpeg",
+      "webp_png": "masse_diplomatie_6_xs.png",
+      "jpeg": "masse_diplomatie_6_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1207,10 +1207,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_6.webp",
-        "jpeg": "masse_diplomatie_6.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_6_s.webp",
+        "jpeg": "masse_diplomatie_6_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1227,8 +1227,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_5_small.png",
-      "jpeg": "masse_diplomatie_5_small.jpeg",
+      "webp_png": "masse_diplomatie_5_xs.png",
+      "jpeg": "masse_diplomatie_5_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1239,10 +1239,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_5.webp",
-        "jpeg": "masse_diplomatie_5.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_5_s.webp",
+        "jpeg": "masse_diplomatie_5_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1259,8 +1259,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_4_small.png",
-      "jpeg": "masse_diplomatie_4_small.jpeg",
+      "webp_png": "masse_diplomatie_4_xs.png",
+      "jpeg": "masse_diplomatie_4_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1271,10 +1271,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_4.webp",
-        "jpeg": "masse_diplomatie_4.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_4_s.webp",
+        "jpeg": "masse_diplomatie_4_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1291,8 +1291,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_3_small.png",
-      "jpeg": "masse_diplomatie_3_small.jpeg",
+      "webp_png": "masse_diplomatie_3_xs.png",
+      "jpeg": "masse_diplomatie_3_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1303,10 +1303,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_3.webp",
-        "jpeg": "masse_diplomatie_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_3_s.webp",
+        "jpeg": "masse_diplomatie_3_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1323,8 +1323,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_2_small.png",
-      "jpeg": "masse_diplomatie_2_small.jpeg",
+      "webp_png": "masse_diplomatie_2_xs.png",
+      "jpeg": "masse_diplomatie_2_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1335,10 +1335,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_2.webp",
-        "jpeg": "masse_diplomatie_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_2_s.webp",
+        "jpeg": "masse_diplomatie_2_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1355,8 +1355,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "masse_diplomatie_1_small.png",
-      "jpeg": "masse_diplomatie_1_small.jpeg",
+      "webp_png": "masse_diplomatie_1_xs.png",
+      "jpeg": "masse_diplomatie_1_xs.jpeg",
       "height": 23,
       "width": 76
     },
@@ -1367,10 +1367,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "masse_diplomatie_1.webp",
-        "jpeg": "masse_diplomatie_1.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "masse_diplomatie_1_s.webp",
+        "jpeg": "masse_diplomatie_1_s.jpeg",
+        "width": 430,
+        "height": 128
       }
     },
     "imgAltText": ""
@@ -1387,8 +1387,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_3_small.png",
-      "jpeg": "any_where_out_of_the_world_3_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_3_xs.png",
+      "jpeg": "any_where_out_of_the_world_3_xs.jpeg",
       "height": 98,
       "width": 56
     },
@@ -1399,10 +1399,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_3.webp",
-        "jpeg": "any_where_out_of_the_world_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_3_s.webp",
+        "jpeg": "any_where_out_of_the_world_3_s.jpeg",
+        "width": 390,
+        "height": 760
       }
     },
     "imgAltText": ""
@@ -1419,8 +1419,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "pyramides_small.webp",
-      "jpeg": "pyramides_small.jpeg",
+      "webp_png": "pyramides_xs.webp",
+      "jpeg": "pyramides_xs.jpeg",
       "height": 171,
       "width": 219
     },
@@ -1431,10 +1431,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "pyramides.webp",
-        "jpeg": "pyramides.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "pyramides_s.webp",
+        "jpeg": "pyramides_s.jpeg",
+        "width": 430,
+        "height": 334
       }
     },
     "imgAltText": ""
@@ -1451,8 +1451,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_2_small.png",
-      "jpeg": "any_where_out_of_the_world_2_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_2_xs.png",
+      "jpeg": "any_where_out_of_the_world_2_xs.jpeg",
       "height": 98,
       "width": 56
     },
@@ -1463,10 +1463,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_2.webp",
-        "jpeg": "any_where_out_of_the_world_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_2_s.webp",
+        "jpeg": "any_where_out_of_the_world_2_s.jpeg",
+        "width": 390,
+        "height": 760
       }
     },
     "imgAltText": ""
@@ -1483,8 +1483,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_1_small.png",
-      "jpeg": "any_where_out_of_the_world_1_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_1_xs.png",
+      "jpeg": "any_where_out_of_the_world_1_xs.jpeg",
       "height": 98,
       "width": 56
     },
@@ -1495,10 +1495,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_1.webp",
-        "jpeg": "any_where_out_of_the_world_1.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_1_s.webp",
+        "jpeg": "any_where_out_of_the_world_1_s.jpeg",
+        "width": 390,
+        "height": 760
       }
     },
     "imgAltText": ""
@@ -1515,8 +1515,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "neobucolique_small.webp",
-      "jpeg": "neobucolique_small.jpeg",
+      "webp_png": "neobucolique_xs.webp",
+      "jpeg": "neobucolique_xs.jpeg",
       "height": 145,
       "width": 219
     },
@@ -1527,10 +1527,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "neobucolique.webp",
-        "jpeg": "neobucolique.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "neobucolique_s.webp",
+        "jpeg": "neobucolique_s.jpeg",
+        "width": 430,
+        "height": 286
       }
     },
     "imgAltText": ""
@@ -1547,8 +1547,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "oh_la_la_la_vie_en_rose_small.webp",
-      "jpeg": "oh_la_la_la_vie_en_rose_small.jpeg",
+      "webp_png": "oh_la_la_la_vie_en_rose_xs.webp",
+      "jpeg": "oh_la_la_la_vie_en_rose_xs.jpeg",
       "height": 171,
       "width": 219
     },
@@ -1559,10 +1559,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "oh_la_la_la_vie_en_rose.webp",
-        "jpeg": "oh_la_la_la_vie_en_rose.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "oh_la_la_la_vie_en_rose_s.webp",
+        "jpeg": "oh_la_la_la_vie_en_rose_s.jpeg",
+        "width": 430,
+        "height": 336
       }
     },
     "imgAltText": ""
@@ -1579,8 +1579,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_6_small.png",
-      "jpeg": "any_where_out_of_the_world_6_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_6_xs.png",
+      "jpeg": "any_where_out_of_the_world_6_xs.jpeg",
       "height": 128,
       "width": 68
     },
@@ -1591,10 +1591,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_6.webp",
-        "jpeg": "any_where_out_of_the_world_6.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_6_s.webp",
+        "jpeg": "any_where_out_of_the_world_6_s.jpeg",
+        "width": 390,
+        "height": 589
       }
     },
     "imgAltText": ""
@@ -1611,8 +1611,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "soviet_soucoupe_small.png",
-      "jpeg": "soviet_soucoupe_small.jpeg",
+      "webp_png": "soviet_soucoupe_xs.png",
+      "jpeg": "soviet_soucoupe_xs.jpeg",
       "height": 69,
       "width": 84
     },
@@ -1623,10 +1623,10 @@
     "text": "Sphères, cylindres, cônes et tores montés suivant une base rectangulaire, formant une petite pyramide. Prêt à alunir en pleine mer des crises ou... coiffer un nouveau toit moscovite !",
     "images": {
       "small": {
-        "webp": "soviet_soucoupe.webp",
-        "jpeg": "soviet_soucoupe.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "soviet_soucoupe_s.webp",
+        "jpeg": "soviet_soucoupe_s.jpeg",
+        "width": 430,
+        "height": 323
       }
     },
     "imgAltText": ""
@@ -1643,8 +1643,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "viking_small.png",
-      "jpeg": "viking_small.jpeg",
+      "webp_png": "viking_xs.png",
+      "jpeg": "viking_xs.jpeg",
       "height": 44,
       "width": 61
     },
@@ -1655,10 +1655,10 @@
     "text": "Après l'Amérique, les Vikings sont les premiers a être allés sur Mars. C'était dans les années 70. La forme des vaisseaux serait tirée de leur casque à cornes. Toujours pas de traces des drakkars spatiaux qui auraient sillonné les eaux du lac Jezero ?",
     "images": {
       "small": {
-        "webp": "viking.webp",
-        "jpeg": "viking.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "viking_s.webp",
+        "jpeg": "viking_s.jpeg",
+        "width": 390,
+        "height": 337
       }
     },
     "imgAltText": ""
@@ -1675,8 +1675,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_5_small.png",
-      "jpeg": "any_where_out_of_the_world_5_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_5_xs.png",
+      "jpeg": "any_where_out_of_the_world_5_xs.jpeg",
       "height": 128,
       "width": 68
     },
@@ -1687,10 +1687,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_5.webp",
-        "jpeg": "any_where_out_of_the_world_5.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_5_s.webp",
+        "jpeg": "any_where_out_of_the_world_5_s.jpeg",
+        "width": 390,
+        "height": 589
       }
     },
     "imgAltText": ""
@@ -1707,8 +1707,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "change_small.png",
-      "jpeg": "change_small.jpeg",
+      "webp_png": "change_xs.png",
+      "jpeg": "change_xs.jpeg",
       "height": 62,
       "width": 68
     },
@@ -1719,10 +1719,10 @@
     "text": "Chang'e est devenue immortelle : elle a quitté la Terre pour la Lune. Quatre pieds, cubique, accompagnée du lapin de jade. Depuis la vaste froidure, son palais, elle annonce un nouveau cycle... Car Chang'e est chinoise.",
     "images": {
       "small": {
-        "webp": "change.webp",
-        "jpeg": "change.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "change_s.webp",
+        "jpeg": "change_s.jpeg",
+        "width": 430,
+        "height": 324
       }
     },
     "imgAltText": ""
@@ -1739,8 +1739,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "horizon_inverse_small.webp",
-      "jpeg": "horizon_inverse_small.jpeg",
+      "webp_png": "horizon_inverse_xs.webp",
+      "jpeg": "horizon_inverse_xs.jpeg",
       "height": 174,
       "width": 141
     },
@@ -1751,10 +1751,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "horizon_inverse.webp",
-        "jpeg": "horizon_inverse.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "horizon_inverse_s.webp",
+        "jpeg": "horizon_inverse_s.jpeg",
+        "width": 390,
+        "height": 481
       }
     },
     "imgAltText": ""
@@ -1771,8 +1771,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "digger_small.png",
-      "jpeg": "digger_small.jpeg",
+      "webp_png": "digger_xs.png",
+      "jpeg": "digger_xs.jpeg",
       "height": 60,
       "width": 78
     },
@@ -1783,10 +1783,10 @@
     "text": "Fin des années 90, le pôle Sud martien intrigue. Il faut prospecter... Prisme à base hexagonale, train d'atterrissage trois pieds, deux ailes solaires et un bras pelleteuse. La classe américaine ! La nouvelle ruée vers l'or peut commencer.",
     "images": {
       "small": {
-        "webp": "digger.webp",
-        "jpeg": "digger.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "digger_s.webp",
+        "jpeg": "digger_s.jpeg",
+        "width": 430,
+        "height": 285
       }
     },
     "imgAltText": ""
@@ -1803,8 +1803,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "arpenteur_small.png",
-      "jpeg": "arpenteur_small.jpeg",
+      "webp_png": "arpenteur_xs.png",
+      "jpeg": "arpenteur_xs.jpeg",
       "height": 60,
       "width": 62
     },
@@ -1815,10 +1815,10 @@
     "text": "La voie est ouverte. Le voyage fut long. On inspecte, mesure, sonde. Prudence. D'autres viendront",
     "images": {
       "small": {
-        "webp": "arpenteur.webp",
-        "jpeg": "arpenteur.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "arpenteur_s.webp",
+        "jpeg": "arpenteur_s.jpeg",
+        "width": 430,
+        "height": 399
       }
     },
     "imgAltText": ""
@@ -1835,8 +1835,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "any_where_out_of_the_world_4_small.png",
-      "jpeg": "any_where_out_of_the_world_4_small.jpeg",
+      "webp_png": "any_where_out_of_the_world_4_xs.png",
+      "jpeg": "any_where_out_of_the_world_4_xs.jpeg",
       "height": 128,
       "width": 68
     },
@@ -1847,10 +1847,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "any_where_out_of_the_world_4.webp",
-        "jpeg": "any_where_out_of_the_world_4.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "any_where_out_of_the_world_4_s.webp",
+        "jpeg": "any_where_out_of_the_world_4_s.jpeg",
+        "width": 390,
+        "height": 589
       }
     },
     "imgAltText": ""
@@ -1867,8 +1867,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "power_flower_small.png",
-      "jpeg": "power_flower_small.jpeg",
+      "webp_png": "power_flower_xs.png",
+      "jpeg": "power_flower_xs.jpeg",
       "height": 51,
       "width": 81
     },
@@ -1879,10 +1879,10 @@
     "text": "Le premier objet à alunir en douceur était soviétique, il avait l'aspect d'une fleur. Une fois le bouton ouvert, les pétales dépliés servaient d'antenne parabolique. C'était en 1966, c'était pas encore le summer of love...",
     "images": {
       "small": {
-        "webp": "power_flower.webp",
-        "jpeg": "power_flower.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "power_flower_s.webp",
+        "jpeg": "power_flower_s.jpeg",
+        "width": 430,
+        "height": 329
       }
     },
     "imgAltText": ""
@@ -1899,8 +1899,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "la_chute_du_mur_small.webp",
-      "jpeg": "la_chute_du_mur_small.jpeg",
+      "webp_png": "la_chute_du_mur_xs.webp",
+      "jpeg": "la_chute_du_mur_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -1911,10 +1911,10 @@
     "text": "31 août 2020, Montreuil. Spectaculaire regain d’intérêt pour les murs à pèches, anciens vergers clos. Stéphane Bern sur place. Petit ballet d’élus, journalistes, bénévoles, spectateurs. Et cette étrange impression. Là, face aux murs séculaires effondrés, enfrichés de végétation et hangars, dans une zone déclarée « urbanisable à 80 % » suite aux pressions immobilières, les feuilles virevoltent le vent se lève… Que porte-t-il ?",
     "images": {
       "small": {
-        "webp": "la_chute_du_mur.webp",
-        "jpeg": "la_chute_du_mur.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "la_chute_du_mur_s.webp",
+        "jpeg": "la_chute_du_mur_s.jpeg",
+        "width": 430,
+        "height": 302
       }
     },
     "imgAltText": ""
@@ -1931,8 +1931,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "les_vertus_small.webp",
-      "jpeg": "les_vertus_small.jpeg",
+      "webp_png": "les_vertus_xs.webp",
+      "jpeg": "les_vertus_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -1943,10 +1943,10 @@
     "text": "2021, Aubervilliers, Jardins des Vertus. Modestes ruptures vertes du continuum bétonné d’aujourd’hui, marques d’un maraîchage autrefois intense, des potagers ouvriers émaillent encore ça et là les alentours. Flagrant retard de la peinture ? Excès de vitesse du réel ? Les parcelles ne sont plus… Reste un tableau.",
     "images": {
       "small": {
-        "webp": "les_vertus.webp",
-        "jpeg": "les_vertus.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "les_vertus_s.webp",
+        "jpeg": "les_vertus_s.jpeg",
+        "width": 430,
+        "height": 302
       }
     },
     "imgAltText": ""
@@ -1963,8 +1963,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "cardons_small.webp",
-      "jpeg": "cardons_small.jpeg",
+      "webp_png": "cardons_xs.webp",
+      "jpeg": "cardons_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -1975,9 +1975,9 @@
     "text": "Quelque part à Vaulx-en-Velin, dans les années 60. Noël approche, les immeubles poussent, les cardons blanchissent. Surprise d’une tradition retrouvée au détour des mutations sociétales, on se souvient le légume oublié (on se souvient moins qui nous l’a ramené). Des maraîchers entre deux eaux, un flottement, que j’ai voulu sceller du pinceau.",
     "images": {
       "small": {
-        "webp": "cardons.webp",
-        "jpeg": "cardons.jpeg",
-        "width": 375,
+        "webp": "cardons_s.webp",
+        "jpeg": "cardons_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -1995,8 +1995,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "new_senart_small.webp",
-      "jpeg": "new_senart_small.jpeg",
+      "webp_png": "new_senart_xs.webp",
+      "jpeg": "new_senart_xs.jpeg",
       "height": 171,
       "width": 219
     },
@@ -2007,10 +2007,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "new_senart.webp",
-        "jpeg": "new_senart.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "new_senart_s.webp",
+        "jpeg": "new_senart_s.jpeg",
+        "width": 430,
+        "height": 336
       }
     },
     "imgAltText": ""
@@ -2027,8 +2027,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "gba_&_ras_small.webp",
-      "jpeg": "gba_&_ras_small.jpeg",
+      "webp_png": "gba_&_ras_xs.webp",
+      "jpeg": "gba_&_ras_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -2039,10 +2039,10 @@
     "text": "C’est un totem moderne effondré ou un jeu de construction géant, éparpillé à un carrefour. C’est le crépuscule ou l’aube et dans l’air chargé de la poussière des chantiers les mauvaises herbes commencent à danser autour des blocs. C’est l’alchimie ou le sabbat d’une ville en pleine transition de phase. 2022, Porte de Paris.",
     "images": {
       "small": {
-        "webp": "gba_&_ras.webp",
-        "jpeg": "gba_&_ras.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "gba_&_ras_s.webp",
+        "jpeg": "gba_&_ras_s.jpeg",
+        "width": 430,
+        "height": 301
       }
     },
     "imgAltText": ""
@@ -2059,8 +2059,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "ici_small.png",
-      "jpeg": "ici_small.jpeg",
+      "webp_png": "ici_xs.png",
+      "jpeg": "ici_xs.jpeg",
       "height": 56,
       "width": 79
     },
@@ -2071,10 +2071,10 @@
     "text": "Ici, mais pas encore maintenant : ça arrive, on a dit. On va tout retaper : placo neuf, papier-peint tendance. Et ce sera beau. En attendant jungle d’interlude pousse devant façade condamnée. Qui pour voir, nature toquer aux portes, grande mue s’opérer ?",
     "images": {
       "small": {
-        "webp": "ici.webp",
-        "jpeg": "ici.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "ici_s.webp",
+        "jpeg": "ici_s.jpeg",
+        "width": 430,
+        "height": 307
       }
     },
     "imgAltText": ""
@@ -2091,8 +2091,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "digue_small.webp",
-      "jpeg": "digue_small.jpeg",
+      "webp_png": "digue_xs.webp",
+      "jpeg": "digue_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -2103,10 +2103,10 @@
     "text": "Sur cette maçonnerie venue coiffer un petit édicule d’aération, des pariétaires de Judée campent obstinément. C’est une forme-barrage, l’image d’un morceau de notre quotidien endormi, qu’il fallait réveiller à coup de couleurs. 2022, Paris 18e, rue Leibniz",
     "images": {
       "small": {
-        "webp": "digue.webp",
-        "jpeg": "digue.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "digue_s.webp",
+        "jpeg": "digue_s.jpeg",
+        "width": 430,
+        "height": 302
       }
     },
     "imgAltText": ""
@@ -2123,8 +2123,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "palissade_small.webp",
-      "jpeg": "palissade_small.jpeg",
+      "webp_png": "palissade_xs.webp",
+      "jpeg": "palissade_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -2135,10 +2135,10 @@
     "text": "C’est un défilé d’espaces ceinturés de tôles et de grillages, suspendus entre deux temps, entre deux usages et entre deux mondes. La végétation comble le vide, dans l’attente, bien à l’abri des palissades. 2022, Saint-Denis, le long du T1.",
     "images": {
       "small": {
-        "webp": "palissade.webp",
-        "jpeg": "palissade.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "palissade_s.webp",
+        "jpeg": "palissade_s.jpeg",
+        "width": 430,
+        "height": 306
       }
     },
     "imgAltText": ""
@@ -2155,8 +2155,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "sortie_de_route_small.webp",
-      "jpeg": "sortie_de_route_small.jpeg",
+      "webp_png": "sortie_de_route_xs.webp",
+      "jpeg": "sortie_de_route_xs.jpeg",
       "height": 56,
       "width": 80
     },
@@ -2167,10 +2167,10 @@
     "text": "2021, Saint‐Denis, abords du Stade de France, à côté de la place de l’écluse, l’été tire sur sa fin, berces et folles herbes ont fanée. La pousse estivale fut spectaculaire. Besoin naturel de combler le vide des lieux, évacués l’année d’avant, pudique écho de la précipitation du nettoyage. Fragment choisi d’un paysage traversé à 90km/h, où tant d’existences auront fait halte.",
     "images": {
       "small": {
-        "webp": "sortie_de_route.webp",
-        "jpeg": "sortie_de_route.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "sortie_de_route_s.webp",
+        "jpeg": "sortie_de_route_s.jpeg",
+        "width": 430,
+        "height": 302
       }
     },
     "imgAltText": ""
@@ -2187,8 +2187,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "tambour_small.png",
-      "jpeg": "tambour_small.jpeg",
+      "webp_png": "tambour_xs.png",
+      "jpeg": "tambour_xs.jpeg",
       "height": 41,
       "width": 56
     },
@@ -2199,10 +2199,10 @@
     "text": "En 2008, l'ESA annonçait un projet d'alunisseur (ESA Lunar Lander) pour se relancer dans la course vers la Lune. Cependant l'engin ne vit jamais le jour, faute de financements. Ne reste qu'une annonce spectaculaire oubliée et les quelques images alors diffusées, d'un curieux cylindre juché sur quatre pieds dépliables.",
     "images": {
       "small": {
-        "webp": "tambour.webp",
-        "jpeg": "tambour.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "tambour_s.webp",
+        "jpeg": "tambour_s.jpeg",
+        "width": 430,
+        "height": 298
       }
     },
     "imgAltText": ""
@@ -2219,8 +2219,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "fisher_small.png",
-      "jpeg": "fisher_small.jpeg",
+      "webp_png": "fisher_xs.png",
+      "jpeg": "fisher_xs.jpeg",
       "height": 44,
       "width": 65
     },
@@ -2231,10 +2231,10 @@
     "text": "Avec son pseudo-habitacle muni d’une perche articulée, le tout jonché sur trois pieds télescopiques, cet objet reprend la silhouette de Philae, l’aterrisseur de l’ESA parti en 2015 à l’abordage de la comète 67P-Tchouri.",
     "images": {
       "small": {
-        "webp": "fisher.webp",
-        "jpeg": "fisher.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "fisher_s.webp",
+        "jpeg": "fisher_s.jpeg",
+        "width": 430,
+        "height": 276
       }
     },
     "imgAltText": ""
@@ -2251,8 +2251,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "vikram_small.png",
-      "jpeg": "vikram_small.jpeg",
+      "webp_png": "vikram_xs.png",
+      "jpeg": "vikram_xs.jpeg",
       "height": 41,
       "width": 55
     },
@@ -2263,10 +2263,10 @@
     "text": "Après les engins américains, russes et chinois, c’était au tour de l’Inde en 2019 de venir tâter le régolithe lunaire. Avec son châssis remarquable (en prisme trapézoïdale), Vikram est le premier atterrisseur de l’ISRO, l’agence spatiale indienne. J'ai jugé la forme assez caractéristique pour la reprendre. Elle traduit visuellement la diversification du jeu politique spatial.",
     "images": {
       "small": {
-        "webp": "vikram.webp",
-        "jpeg": "vikram.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "vikram_s.webp",
+        "jpeg": "vikram_s.jpeg",
+        "width": 390,
+        "height": 298
       }
     },
     "imgAltText": ""
@@ -2283,8 +2283,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "on_and_on_small.webp",
-      "jpeg": "on_and_on_small.jpeg",
+      "webp_png": "on_and_on_xs.webp",
+      "jpeg": "on_and_on_xs.jpeg",
       "height": 120,
       "width": 219
     },
@@ -2295,10 +2295,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "on_and_on.webp",
-        "jpeg": "on_and_on.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "on_and_on_s.webp",
+        "jpeg": "on_and_on_s.jpeg",
+        "width": 430,
+        "height": 236
       }
     },
     "imgAltText": ""
@@ -2315,8 +2315,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "star_pneumatic_small.png",
-      "jpeg": "star_pneumatic_small.jpeg",
+      "webp_png": "star_pneumatic_xs.png",
+      "jpeg": "star_pneumatic_xs.jpeg",
       "height": 73,
       "width": 111
     },
@@ -2327,9 +2327,9 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "star_pneumatic.webp",
-        "jpeg": "star_pneumatic.jpeg",
-        "width": 375,
+        "webp": "star_pneumatic_s.webp",
+        "jpeg": "star_pneumatic_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -2347,8 +2347,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "structure_de_dissipation_small.png",
-      "jpeg": "structure_de_dissipation_small.jpeg",
+      "webp_png": "structure_de_dissipation_xs.png",
+      "jpeg": "structure_de_dissipation_xs.jpeg",
       "height": 81,
       "width": 123
     },
@@ -2359,9 +2359,9 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "structure_de_dissipation.webp",
-        "jpeg": "structure_de_dissipation.jpeg",
-        "width": 375,
+        "webp": "structure_de_dissipation_s.webp",
+        "jpeg": "structure_de_dissipation_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -2379,8 +2379,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "haie_d_honneur_small.webp",
-      "jpeg": "haie_d_honneur_small.jpeg",
+      "webp_png": "haie_d_honneur_xs.webp",
+      "jpeg": "haie_d_honneur_xs.jpeg",
       "height": 80,
       "width": 64
     },
@@ -2391,10 +2391,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "haie_d_honneur.webp",
-        "jpeg": "haie_d_honneur.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "haie_d_honneur_s.webp",
+        "jpeg": "haie_d_honneur_s.jpeg",
+        "width": 390,
+        "height": 488
       }
     },
     "imgAltText": ""
@@ -2411,8 +2411,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "surface_de_projection_small.webp",
-      "jpeg": "surface_de_projection_small.jpeg",
+      "webp_png": "surface_de_projection_xs.webp",
+      "jpeg": "surface_de_projection_xs.jpeg",
       "height": 100,
       "width": 64
     },
@@ -2423,10 +2423,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "surface_de_projection.webp",
-        "jpeg": "surface_de_projection.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "surface_de_projection_s.webp",
+        "jpeg": "surface_de_projection_s.jpeg",
+        "width": 390,
+        "height": 603
       }
     },
     "imgAltText": ""
@@ -2443,8 +2443,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "substrat_small.webp",
-      "jpeg": "substrat_small.jpeg",
+      "webp_png": "substrat_xs.webp",
+      "jpeg": "substrat_xs.jpeg",
       "height": 45,
       "width": 39
     },
@@ -2455,10 +2455,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "substrat.webp",
-        "jpeg": "substrat.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "substrat_s.webp",
+        "jpeg": "substrat_s.jpeg",
+        "width": 390,
+        "height": 455
       }
     },
     "imgAltText": ""
@@ -2475,8 +2475,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "substrat_2_small.webp",
-      "jpeg": "substrat_2_small.jpeg",
+      "webp_png": "substrat_2_xs.webp",
+      "jpeg": "substrat_2_xs.jpeg",
       "height": 64,
       "width": 32
     },
@@ -2484,13 +2484,13 @@
     "width": "20",
     "depth": "",
     "materials": "huile et acrylique sur BA13",
-    "text": "",
+    "text": "Ici de l'info sur l'oeuvre substrat 2 où on voit des coquelicots pousser dans un sac de gravas",
     "images": {
       "small": {
-        "webp": "substrat_2.webp",
-        "jpeg": "substrat_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "substrat_2_s.webp",
+        "jpeg": "substrat_2_s.jpeg",
+        "width": 390,
+        "height": 769
       }
     },
     "imgAltText": ""
@@ -2507,8 +2507,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "crushed_small.webp",
-      "jpeg": "crushed_small.jpeg",
+      "webp_png": "crushed_xs.webp",
+      "jpeg": "crushed_xs.jpeg",
       "height": 48,
       "width": 81
     },
@@ -2519,10 +2519,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "crushed.webp",
-        "jpeg": "crushed.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "crushed_s.webp",
+        "jpeg": "crushed_s.jpeg",
+        "width": 430,
+        "height": 254
       }
     },
     "imgAltText": ""
@@ -2539,8 +2539,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "become_small.webp",
-      "jpeg": "become_small.jpeg",
+      "webp_png": "become_xs.webp",
+      "jpeg": "become_xs.jpeg",
       "height": 100,
       "width": 64
     },
@@ -2551,10 +2551,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "become.webp",
-        "jpeg": "become.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "become_s.webp",
+        "jpeg": "become_s.jpeg",
+        "width": 390,
+        "height": 609
       }
     },
     "imgAltText": ""
@@ -2571,8 +2571,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "la_grande_lessive_small.webp",
-      "jpeg": "la_grande_lessive_small.jpeg",
+      "webp_png": "la_grande_lessive_xs.webp",
+      "jpeg": "la_grande_lessive_xs.jpeg",
       "height": 182,
       "width": 227
     },
@@ -2583,9 +2583,9 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "la_grande_lessive.webp",
-        "jpeg": "la_grande_lessive.jpeg",
-        "width": 375,
+        "webp": "la_grande_lessive_s.webp",
+        "jpeg": "la_grande_lessive_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -2603,8 +2603,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "the_wind_waker_small.png",
-      "jpeg": "the_wind_waker_small.jpeg",
+      "webp_png": "the_wind_waker_xs.png",
+      "jpeg": "the_wind_waker_xs.jpeg",
       "height": 154,
       "width": 131
     },
@@ -2615,10 +2615,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "the_wind_waker.webp",
-        "jpeg": "the_wind_waker.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "the_wind_waker_s.webp",
+        "jpeg": "the_wind_waker_s.jpeg",
+        "width": 390,
+        "height": 446
       }
     },
     "imgAltText": ""
@@ -2635,8 +2635,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "welcome_to_the_hors_champ_small.webp",
-      "jpeg": "welcome_to_the_hors_champ_small.jpeg",
+      "webp_png": "welcome_to_the_hors_champ_xs.webp",
+      "jpeg": "welcome_to_the_hors_champ_xs.jpeg",
       "height": 227,
       "width": 182
     },
@@ -2647,10 +2647,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "welcome_to_the_hors_champ.webp",
-        "jpeg": "welcome_to_the_hors_champ.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "welcome_to_the_hors_champ_s.webp",
+        "jpeg": "welcome_to_the_hors_champ_s.jpeg",
+        "width": 390,
+        "height": 486
       }
     },
     "imgAltText": ""
@@ -2667,8 +2667,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "premiere_pierre_small.png",
-      "jpeg": "premiere_pierre_small.jpeg",
+      "webp_png": "premiere_pierre_xs.png",
+      "jpeg": "premiere_pierre_xs.jpeg",
       "height": 40,
       "width": 45
     },
@@ -2679,10 +2679,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "premiere_pierre.webp",
-        "jpeg": "premiere_pierre.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "premiere_pierre_s.webp",
+        "jpeg": "premiere_pierre_s.jpeg",
+        "width": 430,
+        "height": 380
       }
     },
     "imgAltText": ""
@@ -2699,10 +2699,10 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "prisme_small.png",
-      "jpeg": "prisme_small.jpeg",
+      "webp_png": "prisme_xs.png",
+      "jpeg": "prisme_xs.jpeg",
       "height": 40,
-      "width": 45
+      "width": 46
     },
     "height": "env 24",
     "width": "28",
@@ -2711,10 +2711,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "prisme.webp",
-        "jpeg": "prisme.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "prisme_s.webp",
+        "jpeg": "prisme_s.jpeg",
+        "width": 430,
+        "height": 372
       }
     },
     "imgAltText": ""
@@ -2731,8 +2731,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "industrial_plants_small.webp",
-      "jpeg": "industrial_plants_small.jpeg",
+      "webp_png": "industrial_plants_xs.webp",
+      "jpeg": "industrial_plants_xs.jpeg",
       "height": 67,
       "width": 104
     },
@@ -2743,10 +2743,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "industrial_plants.webp",
-        "jpeg": "industrial_plants.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "industrial_plants_s.webp",
+        "jpeg": "industrial_plants_s.jpeg",
+        "width": 430,
+        "height": 278
       }
     },
     "imgAltText": ""
@@ -2763,8 +2763,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "untitled_2024_concrete_block_small.webp",
-      "jpeg": "untitled_2024_concrete_block_small.jpeg",
+      "webp_png": "untitled_2024_concrete_block_xs.webp",
+      "jpeg": "untitled_2024_concrete_block_xs.jpeg",
       "height": 80,
       "width": 64
     },
@@ -2775,10 +2775,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "untitled_2024_concrete_block.webp",
-        "jpeg": "untitled_2024_concrete_block.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "untitled_2024_concrete_block_s.webp",
+        "jpeg": "untitled_2024_concrete_block_s.jpeg",
+        "width": 390,
+        "height": 488
       }
     },
     "imgAltText": ""
@@ -2795,8 +2795,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "le_bord_du_monde_small.webp",
-      "jpeg": "le_bord_du_monde_small.jpeg",
+      "webp_png": "le_bord_du_monde_xs.webp",
+      "jpeg": "le_bord_du_monde_xs.jpeg",
       "height": 96,
       "width": 133
     },
@@ -2807,9 +2807,9 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "le_bord_du_monde.webp",
-        "jpeg": "le_bord_du_monde.jpeg",
-        "width": 375,
+        "webp": "le_bord_du_monde_s.webp",
+        "jpeg": "le_bord_du_monde_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },
@@ -2827,8 +2827,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_seed_small.png",
-      "jpeg": "inculture_seed_small.jpeg",
+      "webp_png": "inculture_seed_xs.png",
+      "jpeg": "inculture_seed_xs.jpeg",
       "height": 62,
       "width": 49
     },
@@ -2839,10 +2839,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_seed.webp",
-        "jpeg": "inculture_seed.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_seed_s.webp",
+        "jpeg": "inculture_seed_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -2859,8 +2859,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_1_small.png",
-      "jpeg": "inculture_1_small.jpeg",
+      "webp_png": "inculture_1_xs.png",
+      "jpeg": "inculture_1_xs.jpeg",
       "height": 72,
       "width": 57
     },
@@ -2871,10 +2871,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_1.webp",
-        "jpeg": "inculture_1.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_1_s.webp",
+        "jpeg": "inculture_1_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -2891,8 +2891,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_2_small.png",
-      "jpeg": "inculture_2_small.jpeg",
+      "webp_png": "inculture_2_xs.png",
+      "jpeg": "inculture_2_xs.jpeg",
       "height": 78,
       "width": 62
     },
@@ -2903,10 +2903,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_2.webp",
-        "jpeg": "inculture_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_2_s.webp",
+        "jpeg": "inculture_2_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -2923,8 +2923,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_3_small.png",
-      "jpeg": "inculture_3_small.jpeg",
+      "webp_png": "inculture_3_xs.png",
+      "jpeg": "inculture_3_xs.jpeg",
       "height": 92,
       "width": 73
     },
@@ -2935,10 +2935,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_3.webp",
-        "jpeg": "inculture_3.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_3_s.webp",
+        "jpeg": "inculture_3_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -2955,8 +2955,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_4_small.png",
-      "jpeg": "inculture_4_small.jpeg",
+      "webp_png": "inculture_4_xs.png",
+      "jpeg": "inculture_4_xs.jpeg",
       "height": 81,
       "width": 58
     },
@@ -2967,10 +2967,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_4.webp",
-        "jpeg": "inculture_4.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_4_s.webp",
+        "jpeg": "inculture_4_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -2987,8 +2987,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_5_small.png",
-      "jpeg": "inculture_5_small.jpeg",
+      "webp_png": "inculture_5_xs.png",
+      "jpeg": "inculture_5_xs.jpeg",
       "height": 85,
       "width": 52
     },
@@ -2999,10 +2999,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_5.webp",
-        "jpeg": "inculture_5.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_5_s.webp",
+        "jpeg": "inculture_5_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -3019,8 +3019,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_6_small.png",
-      "jpeg": "inculture_6_small.jpeg",
+      "webp_png": "inculture_6_xs.png",
+      "jpeg": "inculture_6_xs.jpeg",
       "height": 60,
       "width": 52
     },
@@ -3031,10 +3031,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "inculture_6.webp",
-        "jpeg": "inculture_6.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_6_s.webp",
+        "jpeg": "inculture_6_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -3051,8 +3051,8 @@
       "hanging": { "high": false, "low": false, "floor": true }
     },
     "icon": {
-      "webp_png": "inculture_7_small.png",
-      "jpeg": "inculture_7_small.jpeg",
+      "webp_png": "inculture_7_xs.png",
+      "jpeg": "inculture_7_xs.jpeg",
       "height": 59,
       "width": 49
     },
@@ -3063,10 +3063,10 @@
     "text": "Here goes some text about incultures 7",
     "images": {
       "small": {
-        "webp": "inculture_7.webp",
-        "jpeg": "inculture_7.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "inculture_7_s.webp",
+        "jpeg": "inculture_7_s.jpeg",
+        "width": 390,
+        "height": 520
       }
     },
     "imgAltText": ""
@@ -3083,8 +3083,8 @@
       "hanging": { "high": true, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "sarre_2_small.webp",
-      "jpeg": "sarre_2_small.jpeg",
+      "webp_png": "sarre_2_xs.webp",
+      "jpeg": "sarre_2_xs.jpeg",
       "height": 54,
       "width": 44
     },
@@ -3095,10 +3095,10 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "sarre_2.webp",
-        "jpeg": "sarre_2.jpeg",
-        "width": 375,
-        "height": ""
+        "webp": "sarre_2_s.webp",
+        "jpeg": "sarre_2_s.jpeg",
+        "width": 390,
+        "height": 479
       }
     },
     "imgAltText": ""
@@ -3115,8 +3115,8 @@
       "hanging": { "high": false, "low": false, "floor": false }
     },
     "icon": {
-      "webp_png": "sans_titre_2024_small.webp",
-      "jpeg": "sans_titre_2024_small.jpeg",
+      "webp_png": "sans_titre_2024_xs.webp",
+      "jpeg": "sans_titre_2024_xs.jpeg",
       "height": 174,
       "width": 134
     },
@@ -3127,9 +3127,9 @@
     "text": "",
     "images": {
       "small": {
-        "webp": "sans_titre_2024.webp",
-        "jpeg": "sans_titre_2024.jpeg",
-        "width": 375,
+        "webp": "sans_titre_2024_s.webp",
+        "jpeg": "sans_titre_2024_s.jpeg",
+        "width": 390,
         "height": ""
       }
     },

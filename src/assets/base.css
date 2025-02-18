@@ -36,6 +36,7 @@ button {
   border: none;
 }
 :root {
+  --mainColor: #54143b;
   --saillanceColor: rgb(26, 179, 234);
 }
 /* @property --property-name {

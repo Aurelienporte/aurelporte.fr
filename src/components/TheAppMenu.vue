@@ -98,7 +98,12 @@ header {
   top: 0;
   border-width: 1px;
   border-style: solid;
-  border-image-source: linear-gradient(90deg, transparent 10%, rgb(128, 128, 128) 20% 0%);
+  border-image-source: linear-gradient(
+    90deg,
+    transparent 10%,
+    rgb(128, 128, 128) 20% 80%,
+    transparent 90%
+  );
   border-image-slice: 0 0 1;
   border-image-width: 1px;
   border-bottom: 1px solid gray;
@@ -358,9 +363,9 @@ header {
     border-image-width: 2px;
     border-image-source: linear-gradient(
       90deg,
-      transparent,
-      rgb(128, 128, 128) 50%,
-      transparent 100%
+      transparent 10%,
+      rgb(128, 128, 128) 20% 80%,
+      transparent 90%
     );
     &:has(:popover-open) {
       border-image-source: linear-gradient(

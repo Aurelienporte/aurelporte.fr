@@ -12,13 +12,14 @@ const props = defineProps({
 })
 </script>
 <template>
-  <section class="artwork__img">
+  <section class="artwork">
     <picture>
       <source
         :srcset="`/images/${props.images.small.webp}`"
         :type="getType(props.images.small.webp)"
       />
       <img
+        class="artwork__img"
         :src="`../../public/images/${props.images.small.jpeg}`"
         :alt="`Lien vers ${title}`"
         :width="props.images.small.width"
@@ -32,10 +33,22 @@ const props = defineProps({
   </section>
 </template>
 <style scoped>
-.artwork__img {
-  width: 90vw;
-  & img {
+/***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
+.artwork {
+  & .artwork__img {
     width: 100%;
+    max-height: 60vh;
+    border-radius: 2px;
+    filter: drop-shadow(4px 7px 4px #0007);
+  }
+}
+/***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
+@media screen and (1024px <= width) and (orientation: landscape) {
+  .artwork {
+    & .artwork__img {
+      translate: 0 -5vh; /*centered in screen (banner = 10vh) */
+      filter: drop-shadow(-4px 7px 4px #0007);
+    }
   }
 }
 </style>

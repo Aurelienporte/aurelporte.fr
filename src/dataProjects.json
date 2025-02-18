@@ -1,1 +1,7 @@
-[{ "name": "incultures", "description": "Here we got some text about the project" }]
+[
+  { "name": "incultures", "description": "Here we got some text about the project" },
+  {
+    "name": "reensauvagement",
+    "description": "Informations à porpos du projet réensauvagement qui décrit les changement urbain vibible en banlieu"
+  }
+]
