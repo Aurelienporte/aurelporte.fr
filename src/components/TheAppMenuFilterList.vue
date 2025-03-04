@@ -110,7 +110,7 @@ function toogleList(listName) {
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .filter-menu {
     --inlinePadding: 48px;
     padding: 0 var(--inlinePadding);

@@ -137,7 +137,7 @@ function isToogled(payload) {
   transition: all 300ms ease;
 }
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .filter {
     & .filter__container {
       border-image-source: linear-gradient(90deg, transparent 0, gray 20% 80%, transparent 100%);

@@ -1,16 +1,16 @@
 <script setup>
 import TheAppMenu from '@/components/TheAppMenu.vue'
 import ArtworkPicture from '@/components/ArtworkPicture.vue'
-import ArtworkCartel from '@/components/ArtworkLabel.vue'
+import ArtworkLabel from '@/components/ArtworkLabel.vue'
 import TextIcon from '@/components/icons/TextIcon.vue'
 import InfoIcon from '@/components/icons/InfoIcon.vue'
 import MapIcon from '@/components/icons/MapIcon.vue'
 import IconArrowBack from '@/components/icons/IconArrowBack.vue'
 import ArrowNextIcon from '@/components/icons/ArrowNextIcon.vue'
 import CloseIcon from '@/components/icons/CloseIcon.vue'
-import { watch, ref } from 'vue'
+import { watch, ref, computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
-import { normalizeName, getYears, filterByProject, filterByYear } from '@/utils'
+import { getYears, filterByProject, filterByYear } from '@/utils'
 import worksData from '@/data.json'
 import projectsDdata from '@/dataProjects.json'
 
@@ -28,9 +28,8 @@ watch(
 const data = worksData
 const projects = projectsDdata
 const artwork = ref(data.find((work) => work.urlSlug === pageUrlSlug))
-const projectText = projects.find(
-  (project) => project.name === normalizeName(artwork.value.project)
-)
+const hasText = computed(() => (artwork.value.text === 'noText' ? true : false))
+const projectText = projects.find((project) => project.name === artwork.value.project)
 
 function getUrlSlugList() {
   let list = []
@@ -105,13 +104,13 @@ function toogleArrows(buttonNumber) {
   <TheAppMenu></TheAppMenu>
   <main class="artwork__main">
     <ArtworkPicture class="work" :images="artwork.images" :title="artwork.title"></ArtworkPicture>
-    <ArtworkCartel
+    <ArtworkLabel
       id="description"
       :data-sheet="false"
       :text="artwork.text"
       title="En quelques mots"
-    ></ArtworkCartel>
-    <ArtworkCartel
+    ></ArtworkLabel>
+    <ArtworkLabel
       id="infos"
       :data-sheet="true"
       :title="artwork.title"
@@ -120,19 +119,24 @@ function toogleArrows(buttonNumber) {
       :width="artwork.width"
       :depth="artwork.depth"
       :year="artwork.year"
-    ></ArtworkCartel>
-    <ArtworkCartel
+    ></ArtworkLabel>
+    <ArtworkLabel
       id="project"
       :data-sheet="false"
       :text="projectText.description"
-      :title="artwork.project"
-    ></ArtworkCartel>
+      :title="projectText.name"
+    ></ArtworkLabel>
 
     <div class="toolbar">
       <RouterLink v-show="!isLabelActive" :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
-      <button popovertarget="description" @click="toogleArrows(1)" class="toolbar__button">
+      <button
+        :disabled="hasText"
+        popovertarget="description"
+        @click="toogleArrows(1)"
+        class="toolbar__button"
+      >
         <TextIcon v-show="!isDescriptionActive" class="toolbar__svg"></TextIcon>
         <CloseIcon v-show="isDescriptionActive" class="toolbar__svg"></CloseIcon></button
       ><button popovertarget="infos" @click="toogleArrows(2)" class="toolbar__button">
@@ -190,6 +194,10 @@ function toogleArrows(buttonNumber) {
   & .toolbar__button {
     display: grid;
     place-content: center;
+
+    &:disabled {
+      opacity: 0.5;
+    }
   }
   & :is(.toolbar__link, .toolbar__button) {
     height: var(--toolHeight);
@@ -197,7 +205,11 @@ function toogleArrows(buttonNumber) {
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
+  .artwork__main {
+    height: 84vh;
+    grid-template-rows: 76vh 8vh;
+  }
   & .toolbar {
     --toolHeight: 44px;
     --toolGap: var(--toolHeight);

@@ -13,17 +13,23 @@ defineProps({
     required: false
   }
 })
+function addBreaks(string) {
+  let newStr = string.replaceAll(/[\n]/g, '<br>')
+  return newStr
+}
 </script>
 <template>
   <section :id="id" popover class="work-label" :class="{ 'work-label__datasheet': dataSheet }">
-    <h3 class="title--small" :class="{ 'title--italic': dataSheet }">{{ title }}</h3>
+    <h3 class="title--small" :class="{ 'title--italic': dataSheet }">
+      {{ title === 'noproject' ? "Née au fil de l'eau" : title }}
+    </h3>
     <p v-if="dataSheet">
       {{ materials }},<br />{{
         height === 'dv' ? 'dimensions variables' : `${height}cm x ${width}cm`
       }}{{ depth === '' ? '' : `${depth}cm` }} ,
       {{ year }}
     </p>
-    <p v-else class="work-label__text">{{ text }}</p>
+    <p v-else class="work-label__text" v-html="addBreaks(text)"></p>
   </section>
 </template>
 <style scoped>
@@ -92,6 +98,8 @@ defineProps({
       line-height: 1.5rem;
     }
   }
+  /* .work-label__text {
+  } */
 }
 @starting-style {
   .work-label:popover-open {
@@ -100,14 +108,14 @@ defineProps({
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .work-label {
     width: 75%;
     align-self: end;
     translate: 0 calc(-50vh + 50%);
 
     &:popover-open {
-      height: 33vh;
+      height: 40vh;
       justify-self: center;
       opacity: 1;
       transition:
@@ -132,7 +140,7 @@ defineProps({
   }
 }
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
-@media screen and (1024px <= width) and (orientation: landscape) {
+@media screen and (1024px <= width) {
   .work-label {
     --toolbarWidth: -58px; /* = burger width (48px) + lr padding (5px) */
     width: calc(50% + var(--toolbarWidth));

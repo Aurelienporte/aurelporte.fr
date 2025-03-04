@@ -35,7 +35,7 @@ defineProps({
   align-self: end;
 }
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .infos-wrapper {
     grid-template-columns: 10vw 55vw 10vw;
     width: 75vw;

@@ -188,7 +188,7 @@ function filterByProject(project) {
 }
 
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .works__main {
     --titleSize: 12vw;
     --titleOffset: -2vw;

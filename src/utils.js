@@ -14,7 +14,7 @@ export function getYears() {
 export function getProjects() {
   let projects = []
   works.forEach((work) => {
-    if (work.project === '') {
+    if (work.project === 'noproject') {
       return
     }
     if (!projects.includes(work.project)) {

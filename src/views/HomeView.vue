@@ -358,7 +358,7 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   .home {
     grid-template-rows: 1fr 28vh 1fr;
     grid-template-columns: 15vw 1fr 15vw;

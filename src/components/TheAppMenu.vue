@@ -356,7 +356,7 @@ header {
   }
 }
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
-@media screen and (767px < width < 1024px) {
+@media screen and (767px < width <= 1024px) {
   header {
     --bannerHeight: 8vh;
     --navWidth: 50vw;
