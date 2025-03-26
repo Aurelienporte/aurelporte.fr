@@ -42,10 +42,10 @@ const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/w
 <template>
   <RouterLink
     :to="path"
-    :class="{
-      'thumbnail__link--high': hanging.high,
-      'thumbnail__link--low': hanging.low,
-      'thumbnail__link--floor': hanging.floor
+    :style="{
+      '--x': hanging.x,
+      '--y': hanging.y,
+      '--leftGap': hanging.leftGap
     }"
     class="thumbnail__link"
   >
@@ -67,10 +67,7 @@ const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/w
 <style scoped>
 .thumbnail__img {
   border-radius: 2px;
-  box-shadow:
-    -5px -1px 5px 0px #fff,
-    0 7px 5px 0px #0003,
-    2px 4px 5px 0px #0002;
+  filter: drop-shadow(4px 5px 2px rgba(50, 55, 68, 0.4));
   transition: all ease-in 150ms;
   &:hover {
     transform: scale(1.1);
@@ -79,11 +76,13 @@ const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/w
   }
 }
 .thumbnail__img--no-shadow {
-  box-shadow: none;
+  filter: none;
 }
 .thumbnail__link {
   height: fit-content;
-  align-self: center;
+  transform: translate(var(--x), var(--y));
+  margin-left: var(--leftGap);
+
   &:focus-visible {
     transform: scale(1.1);
     filter: contrast(1.1);

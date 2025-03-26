@@ -143,7 +143,8 @@ function filterByProject(project) {
 }
 .thumbnails__container {
   display: flex;
-  gap: 16px;
+  align-items: flex-end;
+  /* gap: 16px; */
 }
 .action-bar {
   writing-mode: vertical-lr;

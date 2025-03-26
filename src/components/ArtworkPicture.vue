@@ -12,16 +12,25 @@ const props = defineProps({
 })
 </script>
 <template>
-  <section class="artwork">
-    <picture>
+  <div class="artwork">
+    <picture class="artwork__container">
       <source
-        :srcset="`/images/${props.images.small.webp}`"
+        :srcset="`/images/${props.images.large.webp} ${props.images.large.width}w`"
         :type="getType(props.images.small.webp)"
+        media="(min-width: 1024px) and (orientation: landscape)"
       />
+      <source
+        :srcset="`/images/${props.images.medium.webp} ${props.images.medium.width}w`"
+        :type="getType(props.images.small.webp)"
+        media="(min-width: 768px)"
+      />
+      <source :srcset="`/images/${props.images.small.webp} ${props.images.small.width}w`" />
       <img
         class="artwork__img"
-        :src="`../../public/images/${props.images.small.jpeg}`"
-        :alt="`Lien vers ${title}`"
+        :srcset="`/images/${props.images.large.jpeg} ${props.images.large.width}w, /images/${props.images.medium.jpeg} ${props.images.medium.width}w, /images/${props.images.small.jpeg} ${props.images.small.width}w`"
+        sizes="(min-width: 1024px) and (orientation: landscape) 40vw, (min-width: 768px) 75vw, 100vw"
+        :src="`/images/${props.images.large.jpeg}`"
+        :alt="`Photo de l'oeuvre ${title}`"
         :width="props.images.small.width"
         :height="props.images.small.height"
       />
@@ -30,11 +39,15 @@ const props = defineProps({
       <span class="dot"></span><span class="dot"></span><span class="dot"></span
       ><span class="dot"></span>
     </div>
-  </section>
+  </div>
 </template>
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .artwork {
+  & .artwork__container {
+    display: grid;
+    justify-items: center;
+  }
   & .artwork__img {
     width: 100%;
     height: auto;
@@ -49,6 +62,7 @@ const props = defineProps({
     & .artwork__img {
       height: auto;
       max-height: 68vh;
+      width: 75%;
     }
   }
 }

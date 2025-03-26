@@ -126,7 +126,7 @@ function addBreaks(string) {
       --toolDiam: 44px;
       --toolGap: var(--toolDiam);
       --offset: 1px;
-      --maskY: 83.2%;
+      --maskY: 88.1%;
     }
     &.work-label__datasheet {
       justify-content: center;
