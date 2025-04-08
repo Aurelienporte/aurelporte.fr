@@ -1,68 +1,3 @@
-<template>
-  <form ref="form" @submit.prevent="sendEmail">
-    <h3 class="contact__title">M'écrire</h3>
-    <div class="form-item">
-      <label class="form-item__label"
-        >Nom<span class="error" v-if="errors.name">{{ errors.name }}</span></label
-      >
-      <input
-        class="form-item__input"
-        type="text"
-        name="user_name"
-        v-model="formData.name"
-        @blur="validateField('name')"
-      />
-    </div>
-
-    <div class="form-item">
-      <label class="form-item__label"
-        >Prénom<span class="error" v-if="errors.forename">{{ errors.forename }}</span></label
-      >
-      <input
-        class="form-item__input"
-        type="text"
-        name="user_forename"
-        v-model="formData.forename"
-        @blur="validateField('forename')"
-      />
-    </div>
-
-    <div class="form-item">
-      <label class="form-item__label"
-        >Adresse mél<span class="error" v-if="errors.email">{{ errors.email }}</span></label
-      >
-      <input
-        class="form-item__input"
-        type="email"
-        name="user_email"
-        v-model="formData.email"
-        @blur="validateField('email')"
-      />
-    </div>
-
-    <div class="form-item">
-      <label class="form-item__label"
-        >Message<span class="error" v-if="errors.message">{{ errors.message }}</span></label
-      >
-      <textarea
-        class="form-item__input"
-        name="message"
-        v-model="formData.message"
-        @blur="validateField('message')"
-      ></textarea>
-    </div>
-
-    <input
-      type="submit"
-      class="form-item__button"
-      value="Envoyer"
-      :disabled="isDisabled"
-      @keydown.enter="goToNextField(4)"
-    />
-    <p class="confirmation">{{ confirmation }}</p>
-  </form>
-</template>
-
 <script setup>
 import emailjs from '@emailjs/browser'
 import { useTemplateRef, reactive, ref } from 'vue'
@@ -73,6 +8,14 @@ const isValid = reactive({ name: false, forename: false, email: false, message: 
 const errors = reactive({})
 const isDisabled = ref(true)
 let confirmation = ref('')
+
+const emits = defineEmits(['textAreaOnfocus'])
+let textAreaFocus = ref(false)
+
+function emitFocus() {
+  textAreaFocus.value = !textAreaFocus.value
+  emits('textAreaOnfocus', textAreaFocus.value)
+}
 
 // const forename = useTemplateRef('forename')
 // const name = useTemplateRef('name')
@@ -178,6 +121,81 @@ function sendEmail() {
     )
 }
 </script>
+
+<template>
+  <form ref="form" @submit.prevent="sendEmail">
+    <h3 class="contact__title">M'écrire</h3>
+    <div class="form-item">
+      <label class="form-item__label" for="user_name"
+        >Nom<span class="error" v-if="errors.name">{{ errors.name }}</span></label
+      >
+      <input
+        class="form-item__input"
+        type="text"
+        name="user_name"
+        id="user_name"
+        autocomplete="name"
+        v-model="formData.name"
+        @blur="validateField('name')"
+      />
+    </div>
+
+    <div class="form-item">
+      <label class="form-item__label" for="user_forename"
+        >Prénom<span class="error" v-if="errors.forename">{{ errors.forename }}</span></label
+      >
+      <input
+        class="form-item__input"
+        type="text"
+        name="user_forename"
+        id="user_forename"
+        autocomplete="given-name"
+        v-model="formData.forename"
+        @blur="validateField('forename')"
+      />
+    </div>
+
+    <div class="form-item">
+      <label class="form-item__label" for="user_email"
+        >Adresse mél<span class="error" v-if="errors.email">{{ errors.email }}</span></label
+      >
+      <input
+        class="form-item__input"
+        type="email"
+        name="user_email"
+        id="user_email"
+        autocomplete="email"
+        v-model="formData.email"
+        @blur="validateField('email')"
+      />
+    </div>
+
+    <div class="form-item">
+      <label class="form-item__label" for="message"
+        >Message<span class="error" v-if="errors.message">{{ errors.message }}</span></label
+      >
+      <textarea
+        class="form-item__input"
+        name="message"
+        id="message"
+        v-model="formData.message"
+        @focus="emitFocus"
+        @focusout="emitFocus"
+        @blur="validateField('message')"
+      ></textarea>
+    </div>
+
+    <input
+      type="submit"
+      class="form-item__button"
+      value="Envoyer"
+      :disabled="isDisabled"
+      @keydown.enter="goToNextField(4)"
+    />
+    <p class="confirmation">{{ confirmation }}</p>
+  </form>
+</template>
+
 <style scoped>
 input[type='submit'] {
   cursor: pointer;

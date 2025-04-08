@@ -6,6 +6,7 @@ import SocialLink from '@/components/SocialLink.vue'
 import TheAppMenu from '@/components/TheAppMenu.vue'
 import dataExhibitions from '@/dataExhibitions.json'
 import { useBreakpoints } from '@vueuse/core'
+import { ref, useTemplateRef } from 'vue'
 
 const breakpoints = useBreakpoints({
   mobile: 0,
@@ -51,11 +52,25 @@ function makeSlices() {
   console.log(exhibSlices)
 }
 makeSlices()
+
+const main = useTemplateRef('scrollable')
+function scrollWithWheel(e) {
+  if (isScrollable.value) {
+    e.preventDefault()
+    main.value.scrollLeft += e.deltaY * 5
+  } else {
+    return
+  }
+}
+let isScrollable = ref(true)
+function stopMainScroll(e) {
+  isScrollable.value = !e
+}
 </script>
 
 <template>
   <TheAppMenu header-title="A propos"></TheAppMenu>
-  <main ref="main" class="main--scroll-x infos__main">
+  <main class="main--scroll-x infos__main" @wheel="scrollWithWheel" ref="scrollable">
     <InfosWrapper title="Biographie">
       <p class="text">
         Né en 1991, je vis à Saint-Denis et travaille à la Courneuve. Mes objets manifestent une
@@ -88,7 +103,7 @@ makeSlices()
             url="https://bsky.app/profile/aurel-porte.bsky.social"
           ></SocialLink>
         </div>
-        <TheContact></TheContact>
+        <TheContact @text-area-onfocus="stopMainScroll($event)"></TheContact>
       </div>
     </InfosWrapper>
   </main>
@@ -104,9 +119,13 @@ makeSlices()
 .text {
   place-self: center;
 }
+.container {
+  padding-top: 2rem;
+}
 .contact-container {
   display: flex;
   flex-flow: column;
+  padding-top: 2rem;
 }
 .contact__title {
   margin-bottom: 10px;

@@ -123,7 +123,6 @@ header {
       color: var(--mainColor);
     }
   }
-
   .burger {
     display: flex;
     flex-flow: column;
@@ -223,7 +222,7 @@ header {
           rgb(26 178 234 / 35%) 65%,
           transparent 85%
         ),
-        rgba(21, 20, 50, 0.5);
+        rgba(21, 20, 50, 0.3);
       mask:
         linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
         radial-gradient(
@@ -387,14 +386,6 @@ header {
         --borderRadius: var(--bannerHeight);
         --tabX: calc(100vw - var(--navWidth));
 
-        opacity: 1;
-        background: radial-gradient(
-            circle at 100% 30%,
-            transparent 20%,
-            rgb(26 178 234 / 35%) 65%,
-            transparent 85%
-          ),
-          rgba(21, 20, 50, 0.5);
         mask:
           linear-gradient(#000 var(--bannerHeight), #fff 0),
           linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
@@ -472,14 +463,6 @@ header {
         --borderRadius: var(--bannerHeight);
         --tabX: calc(100vw - var(--navWidth));
 
-        opacity: 1;
-        background: radial-gradient(
-            circle at 100% 30%,
-            transparent 20%,
-            rgb(26 178 234 / 35%) 65%,
-            transparent 85%
-          ),
-          rgba(21, 20, 50, 0.5);
         mask:
           linear-gradient(#000 var(--bannerHeight), #fff 0),
           linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),

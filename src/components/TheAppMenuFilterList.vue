@@ -9,7 +9,6 @@ const years = getYears()
 const projects = getProjects()
 const emit = defineEmits(['visible'])
 function showMainMenu() {
-  console.log('showmainmenu tourne')
   emit('visible')
 }
 

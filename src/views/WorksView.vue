@@ -4,6 +4,7 @@ import TheAppMenu from '@/components/TheAppMenu.vue'
 import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
 import PlusIcon from '@/components/icons/PlusIcon.vue'
+import { useTemplateRef } from 'vue'
 
 const route = useRoute()
 const path = ref(route.path)
@@ -81,11 +82,17 @@ function resetHanging(workHanging, workWidth) {
   }
   return hangingParams
 }
+
+const main = useTemplateRef('main')
+function scrollWithWheel(e) {
+  e.preventDefault()
+  main.value.scrollLeft += e.deltaY * 5
+}
 </script>
 
 <template>
   <TheAppMenu></TheAppMenu>
-  <main class="works__main main--scroll-x">
+  <main class="works__main main--scroll-x" @wheel="scrollWithWheel" ref="main">
     <h1 class="works__title title--vertical" id="title">
       {{ route.path === '/works' ? '&OElig;uvres récentes' : route.params.filter }}
     </h1>

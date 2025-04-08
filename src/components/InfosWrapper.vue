@@ -22,7 +22,7 @@ defineProps({
   display: grid;
   grid-template-columns: 15vw 70vw 15vw;
   grid-template-rows: 1fr;
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 .infos-wrapper__title {
   font-size: 12vw;
@@ -55,6 +55,7 @@ defineProps({
   .infos-wrapper {
     grid-template-columns: 6vw 31vw 6vw;
     width: 43vw;
+    scroll-snap-align: start;
   }
   .infos-wrapper__title {
     font-size: 4vw;
