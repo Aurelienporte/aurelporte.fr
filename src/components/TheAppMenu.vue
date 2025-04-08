@@ -120,6 +120,7 @@ header {
       font-family: 'Questrial', serif;
       font-size: 1.5rem;
       font-weight: 700;
+      color: var(--mainColor);
     }
   }
 
@@ -133,7 +134,9 @@ header {
     padding: var(--buttonPadding);
     box-sizing: content-box;
     border: none;
-    &:hover {
+
+    &:hover,
+    &:focus-visible {
       .burger__dash {
         background-color: var(--saillanceColor);
         transition: color 150ms ease;
@@ -148,7 +151,8 @@ header {
 
       height: var(--dashHeight);
       width: var(--buttonSide);
-      background-color: black;
+      background-color: var(--mainColor);
+
       &:nth-child(1) {
         --switch: 1;
       }

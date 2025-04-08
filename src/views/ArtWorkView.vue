@@ -33,23 +33,49 @@ const projectText = projects.find((project) => project.name === artwork.value.pr
 
 function getUrlSlugList() {
   let list = []
-  const years = getYears()
-  const filter = route.params.filter
+  const path = route.path
 
-  if (years.includes(filter)) {
-    let selectedYear = filterByYear(artwork.value.year)
+  //if a filter is active
+  if (path.includes('explorer')) {
+    const years = getYears()
+    const filter = route.params.filter
 
-    for (let work of selectedYear) {
-      list.push(work.urlSlug)
+    if (years.includes(filter)) {
+      let selectedYear = filterByYear(artwork.value.year)
+
+      for (let work of selectedYear) {
+        list.push(work.urlSlug)
+      }
+    } else {
+      const project = filterByProject(artwork.value.project)
+
+      for (let work of project) {
+        list.push(work.urlSlug)
+      }
     }
+    return list
+    //if no filter active navigation occurs in the slice
   } else {
-    const project = filterByProject(artwork.value.project)
+    const workIndex = data.findIndex((work) => work.id === artwork.value.id)
+    const worksNumber = data.length
+    const increment = 20
+    const slices = Math.trunc(worksNumber / increment) + 1
+    const remainder = worksNumber % increment
 
-    for (let work of project) {
-      list.push(work.urlSlug)
+    for (let i = -1; i < slices; i++) {
+      let lowerLimit = i != -1 ? increment * i + remainder : 0
+      let upperLimit = i != 5 ? increment * (i + 1) + remainder : worksNumber
+
+      if (workIndex >= lowerLimit && workIndex < upperLimit) {
+        const sliceWorks = data.slice(lowerLimit, upperLimit).reverse()
+
+        for (let work of sliceWorks) {
+          list.push(work.urlSlug)
+        }
+        return list
+      }
     }
   }
-  return list
 }
 const workUrlSlugList = getUrlSlugList()
 
@@ -72,38 +98,16 @@ function updateWorks(urlSlug) {
   return update
 }
 const comingWorks = ref(updateWorks(pageUrlSlug))
-const isLabelActive = ref(false)
-const isDescriptionActive = ref(false)
-const isInfosActive = ref(false)
-const isProjectActive = ref(false)
-
-function toogleArrows(buttonNumber) {
-  if (buttonNumber == 1) {
-    isDescriptionActive.value = !isDescriptionActive.value
-    isInfosActive.value = false
-    isProjectActive.value = false
-  }
-  if (buttonNumber == 2) {
-    isInfosActive.value = !isInfosActive.value
-    isDescriptionActive.value = false
-    isProjectActive.value = false
-  }
-  if (buttonNumber == 3) {
-    isProjectActive.value = !isProjectActive.value
-    isDescriptionActive.value = false
-    isInfosActive.value = false
-  }
-  if (isDescriptionActive.value || isInfosActive.value || isProjectActive.value) {
-    isLabelActive.value = true
-  } else {
-    isLabelActive.value = false
-  }
-}
 </script>
 <template>
   <TheAppMenu></TheAppMenu>
   <main class="artwork__main">
-    <ArtworkPicture class="work" :images="artwork.images" :title="artwork.title"></ArtworkPicture>
+    <ArtworkPicture
+      class="work"
+      :images="artwork.images"
+      :alt-text="artwork.altText"
+      :shadow="artwork.display.hasShadow"
+    ></ArtworkPicture>
     <ArtworkLabel
       id="description"
       :data-sheet="false"
@@ -128,7 +132,7 @@ function toogleArrows(buttonNumber) {
     ></ArtworkLabel>
 
     <div class="toolbar">
-      <RouterLink v-show="!isLabelActive" :to="comingWorks.previousWork" class="toolbar__link"
+      <RouterLink :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
       <button
@@ -137,16 +141,16 @@ function toogleArrows(buttonNumber) {
         @click="toogleArrows(1)"
         class="toolbar__button"
       >
-        <TextIcon v-show="!isDescriptionActive" class="toolbar__svg"></TextIcon>
-        <CloseIcon v-show="isDescriptionActive" class="toolbar__svg"></CloseIcon></button
+        <TextIcon class="toolbar__svg toolbar--open"></TextIcon>
+        <CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
       ><button popovertarget="infos" @click="toogleArrows(2)" class="toolbar__button">
-        <InfoIcon v-show="!isInfosActive" class="toolbar__svg"></InfoIcon
-        ><CloseIcon v-show="isInfosActive" class="toolbar__svg"></CloseIcon></button
+        <InfoIcon class="toolbar__svg toolbar--open"></InfoIcon
+        ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
       ><button popovertarget="project" @click="toogleArrows(3)" class="toolbar__button">
-        <MapIcon v-show="!isProjectActive" class="toolbar__svg"></MapIcon
-        ><CloseIcon v-show="isProjectActive" class="toolbar__svg"></CloseIcon>
+        <MapIcon class="toolbar__svg toolbar--open"></MapIcon
+        ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon>
       </button>
-      <RouterLink v-show="!isLabelActive" :to="comingWorks.nextWork" class="toolbar__link"
+      <RouterLink :to="comingWorks.nextWork" class="toolbar__link"
         ><ArrowNextIcon class="toolbar__svg"></ArrowNextIcon
       ></RouterLink>
     </div>
@@ -161,6 +165,44 @@ function toogleArrows(buttonNumber) {
   grid-template-rows: 70vh 10vh;
   grid-template-columns: 1fr;
   place-content: center;
+}
+.artwork__main:has(:popover-open) {
+  & .toolbar__link {
+    display: none;
+  }
+}
+.toolbar--close {
+  display: none;
+}
+.artwork__main:has(#description:popover-open) {
+  & .toolbar__button:first-of-type {
+    & .toolbar--open {
+      display: none;
+    }
+    & .toolbar--close {
+      display: block;
+    }
+  }
+}
+.artwork__main:has(#infos:popover-open) {
+  & .toolbar__button:nth-of-type(2) {
+    & .toolbar--open {
+      display: none;
+    }
+    & .toolbar--close {
+      display: block;
+    }
+  }
+}
+.artwork__main:has(#project:popover-open) {
+  & .toolbar__button:last-of-type {
+    & .toolbar--open {
+      display: none;
+    }
+    & .toolbar--close {
+      display: block;
+    }
+  }
 }
 & .work {
   grid-area: 1/1/2/2;
@@ -196,12 +238,18 @@ function toogleArrows(buttonNumber) {
     place-content: center;
 
     &:disabled {
-      opacity: 0.5;
+      & .toolbar__svg {
+        fill: #999999;
+      }
     }
   }
   & :is(.toolbar__link, .toolbar__button) {
     height: var(--toolHeight);
     padding: 8px;
+
+    & .toolbar__svg {
+      fill: #323232;
+    }
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
@@ -247,12 +295,13 @@ function toogleArrows(buttonNumber) {
     --toolGap: calc(var(--toolHeight) / 2);
 
     grid-area: 1/2/2/3;
-    translate: 0 -5vh; /*centered in screen (banner = 10vh) */
+    height: 80vh; /*centered in screen (banner = 10vh) */
     justify-self: end;
     flex-flow: column;
     width: 58px; /* = burger with (48px) + lr padding (5px) */
     border-image-width: 0;
     border-top: none;
+    z-index: 5;
 
     & :is(.toolbar__link, .toolbar__button) {
       &:hover .toolbar__svg {
@@ -264,6 +313,19 @@ function toogleArrows(buttonNumber) {
       height: 28px;
       width: 28px;
       transition: all 200ms ease;
+    }
+    & :first-child {
+      order: 1;
+    }
+    & :last-child {
+      order: -1;
+    }
+    & .toolbar__button:disabled:hover {
+      cursor: auto;
+
+      & .toolbar__svg {
+        fill: #999999;
+      }
     }
   }
 }

@@ -11,7 +11,12 @@ li {
   list-style-type: none;
 }
 
-/*Styles for html elements not in component*/
+/*Styles for extra component html elements*/
+:root {
+  /* --mainColor: #54143b; */
+  --mainColor: black;
+  --saillanceColor: rgb(26, 179, 234);
+}
 
 html {
   overflow: hidden;
@@ -35,9 +40,17 @@ button {
   background: white;
   border: none;
 }
-:root {
-  --mainColor: #54143b;
-  --saillanceColor: rgb(26, 179, 234);
+
+*:focus-visible {
+  transition: all ease-in-out 100ms;
+  outline: 3px solid var(--saillanceColor);
+  color: var(--saillanceColor);
+  outline-offset: 8px;
+  border-radius: 4px;
+}
+
+h1 {
+  color: var(--mainColor);
 }
 /* @property --property-name {
   syntax: "<color>";

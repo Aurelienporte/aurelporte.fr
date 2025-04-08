@@ -1,12 +1,16 @@
 <script setup>
 import { getType } from '@/utils'
 const props = defineProps({
-  title: {
-    type: String,
-    required: true
-  },
   images: {
     type: Object,
+    required: true
+  },
+  shadow: {
+    type: Boolean,
+    required: true
+  },
+  altText: {
+    type: String,
     required: true
   }
 })
@@ -27,10 +31,11 @@ const props = defineProps({
       <source :srcset="`/images/${props.images.small.webp} ${props.images.small.width}w`" />
       <img
         class="artwork__img"
+        :class="{ 'artwork__img--shadow': shadow }"
         :srcset="`/images/${props.images.large.jpeg} ${props.images.large.width}w, /images/${props.images.medium.jpeg} ${props.images.medium.width}w, /images/${props.images.small.jpeg} ${props.images.small.width}w`"
         sizes="(min-width: 1024px) and (orientation: landscape) 40vw, (min-width: 768px) 75vw, 100vw"
         :src="`/images/${props.images.large.jpeg}`"
-        :alt="`Photo de l'oeuvre ${title}`"
+        :alt="altText"
         :width="props.images.small.width"
         :height="props.images.small.height"
       />
@@ -53,6 +58,8 @@ const props = defineProps({
     height: auto;
     max-height: 60vh;
     border-radius: 2px;
+  }
+  & .artwork__img--shadow {
     filter: drop-shadow(4px 7px 4px #0007);
   }
 }
@@ -71,7 +78,10 @@ const props = defineProps({
   .artwork {
     & .artwork__img {
       max-height: 70vh;
+      max-width: 50vw;
       translate: 0 -5vh; /*centered in screen (banner = 10vh) */
+    }
+    & .artwork__img--shadow {
       filter: drop-shadow(-4px 7px 4px #0007);
     }
   }

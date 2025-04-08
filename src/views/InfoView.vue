@@ -80,11 +80,11 @@ makeSlices()
         <h3 class="contact__title">Mes réseaux</h3>
         <div class="socials">
           <SocialLink
-            social="pixelfed"
+            social="Pixelfed"
             url="https://pixelfed.fr/i/web/profile/787962229803910124"
           ></SocialLink>
           <SocialLink
-            social="bluesky"
+            social="Bluesky"
             url="https://bsky.app/profile/aurel-porte.bsky.social"
           ></SocialLink>
         </div>

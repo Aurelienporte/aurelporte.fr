@@ -7,10 +7,10 @@
     "urlSlug": "die_zukunft_wird_zeigen",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 113px)", "leftGap": "170px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "170px" }
     },
-    "height": "114",
-    "width": "150",
+    "height": 114,
+    "width": 150,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -40,7 +40,7 @@
         "height": 676
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture d'une usine désaffectée"
   },
   {
     "id": "0",
@@ -50,10 +50,10 @@
     "urlSlug": "double_et_brise",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 113px)", "leftGap": "171px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "171px" }
     },
-    "height": "114",
-    "width": "146",
+    "height": 114,
+    "width": 146,
     "depth": "",
     "materials": "acrylique et huile sur toile",
     "text": "C'est l'image d'une chambre à coucher tirée d'un document commercial. Une zone dédiée à l'intime, saturée de normes, de clichés, de standards. Une coquille vide pour singularités quelconques et profilées.\n\nC'était l'occasion d'y infiltrer la peinture, d'y faire dialoguer ses propres codes et lieux communs : la forme et l'informe, le plat et la profondeur, l'abstrait et le figuratif...\n\nÉternels (d)ébats",
@@ -83,7 +83,7 @@
         "height": 697
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une chambre à coucher avec un grand lit défait en son centre"
   },
   {
     "id": "103",
@@ -93,10 +93,10 @@
     "urlSlug": "dazzle-razzle_version_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Un drapeau ne répond-il qu'à un besoin de visibilité ?\n\nEt si, paradoxalement il était aussi un instrument de camouflage ?\n\nLors de mes recherches j'ai rencontré de nombreux drapeaux à rayures blanches et noires. Cela m'a donnée l'idée d'inventer un drapeau dazzle-razzle.\n\nAprès tout, si la vexillologie (la science d'établir des drapeaux) qui succède à la hiéraldique (l'art de blasonner) avait poursuivi la tradition de figurer des armes, n'aurait-il pas alors été possible d'avoir de tels drapeaux ?",
@@ -126,7 +126,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à rayures noires et blanches inspirées d'un camouflage dazzle"
   },
   {
     "id": "102",
@@ -136,10 +136,10 @@
     "urlSlug": "middleburgh_version_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "44px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "44px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -169,7 +169,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond rouge avec une tour jaune comme emblème central"
   },
   {
     "id": "101",
@@ -179,10 +179,10 @@
     "urlSlug": "de_sable_au_heaume_d_argent_version_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on s'abitre derrière les couleurs, comme sous son heaume.",
@@ -212,7 +212,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond noir avec un heaume gris au centre"
   },
   {
     "id": "3",
@@ -222,10 +222,10 @@
     "urlSlug": "rapiessement_et_bigarrure",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "204px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "204px" }
     },
-    "height": "162",
-    "width": "146",
+    "height": 162,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "C'est un salon de catalogue, celui qu'on vous vend, qu'on achète, on en veut mais on en veut pas vraiment, on s'y expose et on s'y dissimule en même temps.\n\nLa peinture aussi peut camoufler, sa matière, sa finalité, son histoire. Elle montre et cache, présente au regard et dérobe à l'esprit.\n\nPlanquons tout sous les tapis dazzle-razzle, ils sont là pour ça.",
@@ -255,7 +255,7 @@
         "height": 570
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un salon dans un loft avec fauteuil, canapé, tapis et table basse"
   },
   {
     "id": "2",
@@ -265,10 +265,10 @@
     "urlSlug": "reprise_argus_2",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "-40vh", "leftGap": "8px" }
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "8px" }
     },
-    "height": "27",
-    "width": "35",
+    "height": 27,
+    "width": 35,
     "depth": "",
     "materials": "huile sur toile",
     "text": "Le Dazzle et la peinture fonctionnent comme la lettre volée de Poe. Ils restituent les choses sous nos yeux avec une évidence telle qu'on ne sait plus les voir. Ils donnent à l'oeil, et volent à l'attention.\n\nUn outil pour inquièter les formes, permuter les répertoires, confondre les histoires.",
@@ -298,7 +298,7 @@
         "height": 691
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
     "id": "1",
@@ -308,10 +308,10 @@
     "urlSlug": "reprise_argus_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "-40vh", "leftGap": "148px" }
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "148px" }
     },
-    "height": "27",
-    "width": "35",
+    "height": 27,
+    "width": 35,
     "depth": "",
     "materials": "huile sur toile",
     "text": "Le dazzle razzle est une technique de camouflage moderne mise au point pendant la première guerre mondiale pour les navires. Bien que très visible, le motif du vaisseau brouillait l’appréciation des artilleurs.\n\nA l’origine du dazzle on trouve des peintres britanniques proches du courant cubo-futuriste. C’est en quelque sorte l’enfant caché de ce mouvement.",
@@ -341,7 +341,7 @@
         "height": "692"
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
     "id": "14",
@@ -351,10 +351,10 @@
     "urlSlug": "appats_feutres",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 113px)", "leftGap": "182px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "182px" }
     },
-    "height": "130",
-    "width": "195",
+    "height": 130,
+    "width": 195,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Des espaces figurés ou schématiques, des tracés, des cloisons, des limites et des remparts de sable qui s'avancent le long de trajectoires stratèges.\n\nIntérieurs standardisés, standards intériorisés, points névralgiques et champs de bataille.\n\nUne occasion d'y inviter différentes réalités de la peinture : la décoration, le bâtiment, le marquage et de jouer avec la matière ou sa capacité à la figurer.",
@@ -384,7 +384,7 @@
         "height": 593
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un salon avec  plusieurs fauteuils, un meuble de rangement et des châteaux de sable au sol."
   },
   {
     "id": "100",
@@ -394,10 +394,10 @@
     "urlSlug": "lippi_le_banquet_d_herode_version_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "L'histoire de la peinture est remplie de damiers. Carrelages, ornements muraux, voûtes à caissons… Une récurrence telle qu’on pourrait en faire un emblème.\n\nEt pourquoi alors ne pas produire un drapeau issu d'un damier conçu par un peintre ? ",
@@ -427,7 +427,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond blanc avec un motif géométrique rouge et noir."
   },
   {
     "id": "99",
@@ -437,10 +437,10 @@
     "urlSlug": "brabant_version_1",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "88px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "L'histoire de la peinture est remplie de damiers. Carrelages, ornements muraux, voûtes à caissons… Une récurrence telle qu'on pourrait en faire un emblème.\n\nSi Tintin avait planté sur la lune un drapeau avec la même identité graphique que sa fusée, il aurait planté un damier de rouge et de blanc me suis-je dit... Quelle ne fut pas ma surprise quand j'ai découvert que c'est en fait le drapeau de l'ancien Etat du Brabant !",
@@ -470,7 +470,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à damier rouge et blanc."
   },
   {
     "id": "4",
@@ -480,10 +480,10 @@
     "urlSlug": "quelque_chose_de_mondial",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 113px)", "leftGap": "151px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "151px" }
     },
-    "height": "130",
-    "width": "216",
+    "height": 130,
+    "width": 216,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Au départ, une image de catalogue d'enseigne de bricolage, à l'arrivée, la tentative de déborder l'échelle individuelle, de chercher un espace, une histoire, un ordre de grandeur qui la dépassent.\n\nDe l'ailleurs depuis chez soi et la peinture pour se loger dans la tension du mouvement qui irait du premier point vers le second.\n\nLà-bas commence ici et l'embarquement est imminent.",
@@ -513,7 +513,7 @@
         "height": 538
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une façade de maison avec un petit jardin devant"
   },
   {
     "id": "8",
@@ -523,10 +523,10 @@
     "urlSlug": "lointains_alentours_1",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "27px" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "27px" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -556,7 +556,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "9",
@@ -566,10 +566,10 @@
     "urlSlug": "hamburgh_2",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -599,7 +599,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond blanc avec une petite tour noire en haut à gauche"
   },
   {
     "id": "26",
@@ -609,10 +609,10 @@
     "urlSlug": "hamburgh",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -642,7 +642,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond rouge avec une grosse tour blanche au centre"
   },
   {
     "id": "17",
@@ -652,10 +652,10 @@
     "urlSlug": "hamburgh_3",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -685,7 +685,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond rouge avec trois petites tours blanches au centre"
   },
   {
     "id": "12",
@@ -695,10 +695,10 @@
     "urlSlug": "de_sable_au_heaume_d_argent",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on s'abitre derrière les couleurs, comme sous son heaume.",
@@ -728,7 +728,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond noir avec un heaume gris au centre"
   },
   {
     "id": "13",
@@ -744,8 +744,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -775,7 +775,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond rouge avec une tour jaune au centre"
   },
   {
     "id": "19",
@@ -791,8 +791,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -822,7 +822,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond blanc avec un château rouge bordeaux au centre"
   },
   {
     "id": "28",
@@ -838,8 +838,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Les drapeaux sont les héritiers des blasons, où l'on représentait son clan par des couleurs et par des armes.\n\nLa construction des identités graphiques nationales provient d'une histoire de défense et d'attaque où dissimulation et affirmation se retrouvent dans le même geste : on se retranche derrière l'emblème, comme dans une tour fortifiée.",
@@ -869,7 +869,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau biparti horizontalement jaune et rouge avec rond rouge en haut à gauche"
   },
   {
     "id": "5",
@@ -879,10 +879,10 @@
     "urlSlug": "reprise_argus_5",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "-40vh", "leftGap": "35px" }
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "35px" }
     },
-    "height": "27",
-    "width": "35",
+    "height": 27,
+    "width": 35,
     "depth": "",
     "materials": "huile sur toile",
     "text": "Ce motif a été élaboré à partir du drapeau d'un Etat désormais disparu. Il imagine ainsi un possible passé où le vocabulaire graphique de l’emblème national serait devenu un élément de camouflage.",
@@ -912,7 +912,7 @@
         "height": 691
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
     "id": "20",
@@ -922,10 +922,10 @@
     "urlSlug": "lointains_alentours_2",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -955,7 +955,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "6",
@@ -965,10 +965,10 @@
     "urlSlug": "reprise_argus_3",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "-40vh", "leftGap": "35px" }
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "35px" }
     },
-    "height": "27",
-    "width": "35",
+    "height": 27,
+    "width": 35,
     "depth": "",
     "materials": "huile sur toile",
     "text": "\"Je n'arrivais pas à rendre invisible par la peinture, alors j'ai peint de façon si voyante qu'on ne reconnaissait plus la chose.\"\n\nNorman Wilkinson, militaire, peintre, auteur du camouflage Dazzle.",
@@ -998,7 +998,7 @@
         "height": 691
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
     "id": "7",
@@ -1008,10 +1008,10 @@
     "urlSlug": "reprise_argus_4",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "-40vh", "leftGap": "70px" }
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "70px" }
     },
-    "height": "27",
-    "width": "35",
+    "height": 27,
+    "width": 35,
     "depth": "",
     "materials": "huile sur toile",
     "text": "Le camouflage dazzle était destiné à brouiller la mise au point des périscopes. Il deviendra obsolète avec l’usage du radar.\n\nDans l’acte de (dis)paraître, ne se remarque en fait plus qu’une chose : la nature du regard qui vous observe.",
@@ -1041,7 +1041,7 @@
         "height": 691
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
     "id": "21",
@@ -1051,10 +1051,10 @@
     "urlSlug": "trophees",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 113px)", "leftGap": "273px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "273px" }
     },
-    "height": "195",
-    "width": "162",
+    "height": 195,
+    "width": 162,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Dans cet intérieur qui semble un peu vide, les surfaces se livrent à un étrange dialogue, fait de clins d'\u0153il à des références de tous genres. C'est une lutte d'influences, il est question de traque et de dissimulation, d'être perdu ou trouvé.",
@@ -1084,7 +1084,7 @@
         "height": 616
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un salon avec un parquet, un canapé, un grand tapis des trophées de chasse."
   },
   {
     "id": "24",
@@ -1094,10 +1094,10 @@
     "urlSlug": "lucca",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1127,7 +1127,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond blanc et à bordure bleue avec un losange rouge au centre"
   },
   {
     "id": "15",
@@ -1138,13 +1138,13 @@
     "display": {
       "hasShadow": true,
       "hanging": {
-        "x": "0px",
+        "x": "0",
         "y": "calc(-40vh + 50% - 162px)",
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "Un drapeau ne répond-il qu'à un besoin de visibilité ?\n\nEt si, paradoxalement il était aussi un instrument de camouflage ?\n\nLors de mes recherches j'ai rencontré de nombreux drapeaux à rayures blanches et noires. Cela m'a donnée l'idée d'inventer un drapeau dazzle-razzle.\n\nAprès tout, si la vexillologie (la science d'établir des drapeaux) qui succède à la hiéraldique (l'art de blasonner) avait poursuivi la tradition de figurer des armes, n'aurait-il pas alors été possible d'avoir de tels drapeaux ?",
@@ -1174,7 +1174,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à rayures noires et blanches inspirées d'un camouflage dazzle"
   },
   {
     "id": "11",
@@ -1184,10 +1184,10 @@
     "urlSlug": "brabant",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "L'histoire de la peinture est remplie de damiers. Carrelages, ornements muraux, voûtes à caissons… Une récurrence telle qu'on pourrait en faire un emblème.\n\nSi Tintin avait planté sur la lune un drapeau avec la même identité graphique que sa fusée, il aurait planté un damier de rouge et de blanc me suis-je dit... Quelle ne fut pas ma surprise quand j'ai découvert que c'est en fait le drapeau de l'ancien Etat du Brabant !",
@@ -1217,7 +1217,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à damier rouge et blanc."
   },
   {
     "id": "25",
@@ -1227,10 +1227,10 @@
     "urlSlug": "koningsberg",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1260,7 +1260,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à rayures horizontales noires et blanches."
   },
   {
     "id": "23",
@@ -1276,8 +1276,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "L'histoire de la peinture est remplie de damiers. Carrelages, ornements muraux, voûtes à caissons… Une récurrence telle qu’on pourrait en faire un emblème.\n\nEt pourquoi alors ne pas produire un drapeau issu d'un damier conçu par un peintre ? ",
@@ -1307,7 +1307,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à fond blanc avec un motif géométrique rouge et noir."
   },
   {
     "id": "10",
@@ -1323,8 +1323,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1354,7 +1354,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à bordure rouge avec le centre divisé en huit triangles jaunes et bleus"
   },
   {
     "id": "16",
@@ -1370,8 +1370,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "L'histoire de la peinture est remplie de damiers. Carrelages, ornements muraux, voûtes à caissons… Une récurrence telle qu’on pourrait en faire un emblème.\n\nEt pourquoi alors ne pas produire un drapeau issu d'un damier conçu par un peintre ? ",
@@ -1401,7 +1401,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeeu à fond bleu avec ule contour d'un grand losange blanc dessiné au centre"
   },
   {
     "id": "22",
@@ -1417,8 +1417,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1448,9 +1448,8 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à bordure de barettes rouges et blanches, centre à fond blanc avec un losange rouge."
   },
-
   {
     "id": "96",
     "title": "Sarre #2",
@@ -1465,8 +1464,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1496,7 +1495,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau triparti horizontalement bleu blanc noir."
   },
   {
     "id": "32",
@@ -1506,10 +1505,10 @@
     "urlSlug": "camp_de_bases",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "166px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "166px" }
     },
-    "height": "114",
-    "width": "162",
+    "height": 114,
+    "width": 162,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Un point de départ, des allures d'arrivée... quelle ironie de l'image.\n\nQuand l'archéologie a quelque chose de l'exploration spatiale, la quête de l'origine rejoint celle de la fin.\n\nUne prospection trichromique à coup de petits fanions, abscons et plurivoques, piqués dans les couches de terres entremelées du plus vieil atelier du monde. La base est là, tout peut commencer.\n\nBien que d'apparence lunaire, la scène représentée provient de prospections archéologiques à Lomekwi au Kenya. Ces fouilles dirigées par Sonia Harmand ont alors mis à jour des outils de pierres antérieurs au genre Homo. Ce que, à bien y réfléchir, je trouve complétement vertigineux, car en un sens cela atteste que nous humains sommes des produits de l'outil, et non l'inverse.\n\nJe trouvais aussi très émouvant la vision chaotique de cet ébouli dans le lequel du signifiant est en train d'être projeté. Un regard est à l'oeuvre mais, au non-spécialiste, tout échappe.\n\nNe nous reste alors qu'à nous tenir face au mystère",
@@ -1539,7 +1538,7 @@
         "height": 656
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un ébouli avec des fanion jaunes, rouges et bleus plantés dans le sol"
   },
   {
     "id": "27",
@@ -1550,13 +1549,13 @@
     "display": {
       "hasShadow": true,
       "hanging": {
-        "x": "0px",
+        "x": "0",
         "y": "calc(-40vh + 50% - 81px)",
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1586,7 +1585,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau triparti horizontalement orange bleu orange."
   },
   {
     "id": "29",
@@ -1596,10 +1595,10 @@
     "urlSlug": "modene",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 81px)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1629,7 +1628,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau triparti horizontalement orange blanc orange au centre un liseré vertical bleu blanc bleu."
   },
   {
     "id": "30",
@@ -1639,10 +1638,10 @@
     "urlSlug": "sarre",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1672,7 +1671,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à croix blanche sur fond biparti bleu et rouge"
   },
   {
     "id": "31",
@@ -1682,10 +1681,10 @@
     "urlSlug": "oldenburg",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "22px" }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1715,7 +1714,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à croix orange sur fond violet indigo"
   },
   {
     "id": "33",
@@ -1731,8 +1730,8 @@
         "leftGap": "22px"
       }
     },
-    "height": "27",
-    "width": "22",
+    "height": 27,
+    "width": 22,
     "depth": "",
     "materials": "huile et posca sur toile",
     "text": "noText",
@@ -1762,7 +1761,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un drapeau à croix blanche sur fond bleu au quart supérieur gauche rouge avec une étoile blanche"
   },
   {
     "id": "18",
@@ -1772,10 +1771,10 @@
     "urlSlug": "lointains_alentours_3",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "0" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -1805,7 +1804,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "34",
@@ -1815,10 +1814,10 @@
     "urlSlug": "masse_diplomatie_9",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "8,6",
-    "width": "40",
+    "height": 8.6,
+    "width": 40,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -1848,7 +1847,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "35",
@@ -1860,8 +1859,8 @@
       "hasShadow": false,
       "hanging": { "x": "-152px", "y": "calc(-40vh + 50% + 56px)", "leftGap": "0" }
     },
-    "height": "8,5",
-    "width": "36,7",
+    "height": 8.5,
+    "width": 36.7,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -1891,7 +1890,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "36",
@@ -1901,10 +1900,10 @@
     "urlSlug": "masse_diplomatie_7",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "4",
-    "width": "28,3",
+    "height": 4,
+    "width": 28.3,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -1934,7 +1933,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "37",
@@ -1944,10 +1943,10 @@
     "urlSlug": "masse_diplomatie_6",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 112px)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 112px)", "leftGap": "0" }
     },
-    "height": "4,7",
-    "width": "30,3",
+    "height": 4.7,
+    "width": 30.3,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -1977,7 +1976,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "38",
@@ -1987,10 +1986,10 @@
     "urlSlug": "masse_diplomatie_5",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "4,5",
-    "width": "29,7",
+    "height": 4.5,
+    "width": 29.7,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -2020,7 +2019,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "39",
@@ -2030,10 +2029,10 @@
     "urlSlug": "masse_diplomatie_4",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% - 56px)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% - 56px)", "leftGap": "0" }
     },
-    "height": "7,8",
-    "width": "36,8",
+    "height": 7.8,
+    "width": 36.8,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -2063,7 +2062,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "40",
@@ -2073,10 +2072,10 @@
     "urlSlug": "masse_diplomatie_3",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "3,3",
-    "width": "20,2",
+    "height": 3.3,
+    "width": 20.2,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -2106,7 +2105,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "41",
@@ -2118,8 +2117,8 @@
       "hasShadow": false,
       "hanging": { "x": "228px", "y": "calc(-40vh + 50% + 112px)", "leftGap": "0" }
     },
-    "height": "7,2",
-    "width": "33,2",
+    "height": 7.2,
+    "width": 33.2,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -2149,7 +2148,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "42",
@@ -2161,8 +2160,8 @@
       "hasShadow": false,
       "hanging": { "x": "152px", "y": "calc(-40vh + 50% - 168px)", "leftGap": "0" }
     },
-    "height": "10,5",
-    "width": "38,5",
+    "height": 10.5,
+    "width": 38.5,
     "depth": "",
     "materials": "marqueterie de bois sur feuille magnétique",
     "text": "noText",
@@ -2192,7 +2191,7 @@
         "height": 267
       }
     },
-    "imgAltText": ""
+    "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
     "id": "48",
@@ -2202,10 +2201,10 @@
     "urlSlug": "oh_la_la_la_vie_en_rose",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "114",
-    "width": "146",
+    "height": 114,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2235,7 +2234,7 @@
         "height": 700
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
     "id": "43",
@@ -2247,8 +2246,8 @@
       "hasShadow": false,
       "hanging": { "x": "0px", "y": "-1vh", "leftGap": "49px" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2278,7 +2277,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "55",
@@ -2288,10 +2287,10 @@
     "urlSlug": "digger",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-4vh", "leftGap": "49px" }
+      "hanging": { "x": "0", "y": "-4vh", "leftGap": "49px" }
     },
-    "height": "26",
-    "width": "36",
+    "height": 26,
+    "width": 36,
     "depth": "48",
     "materials": "tôle aluminium, planche de balsa, couverture de survie, adhésifs, liège d'isolation, câbles et matériaux divers",
     "text": "La nouvelle ruée vers l'or peut commencer.",
@@ -2321,7 +2320,7 @@
         "height": 652
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "44",
@@ -2333,8 +2332,8 @@
       "hasShadow": true,
       "hanging": { "x": "150px", "y": "calc(-40vh + 50%)", "leftGap": "0" }
     },
-    "height": "114",
-    "width": "146",
+    "height": 114,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2364,7 +2363,7 @@
         "height": 697
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
     "id": "45",
@@ -2374,10 +2373,10 @@
     "urlSlug": "any_where_out_of_the_world_2",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "0" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "env 27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2407,7 +2406,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "46",
@@ -2417,10 +2416,10 @@
     "urlSlug": "any_where_out_of_the_world_1",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "49px" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "49px" }
     },
-    "height": "61",
-    "width": "27",
+    "height": 61,
+    "width": 27,
     "depth": "env 27",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2450,7 +2449,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
     "id": "50",
@@ -2462,8 +2461,8 @@
       "hasShadow": false,
       "hanging": { "x": "0", "y": "-3vh", "leftGap": "21px" }
     },
-    "height": "30",
-    "width": "40",
+    "height": 30,
+    "width": 40,
     "depth": "20",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, barre d'acier, liège d'isolation, adhésifs, câbles et matériaux divers",
     "text": "noText",
@@ -2493,7 +2492,7 @@
         "height": 759
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "51",
@@ -2505,8 +2504,8 @@
       "hasShadow": false,
       "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "19",
-    "width": "30",
+    "height": 19,
+    "width": 30,
     "depth": "25",
     "materials": "tôle aluminium, planche de balsa, barre d'acier, câbles et matériaux divers",
     "text": "Après l'Amérique, les Vikings sont les premiers a être allés sur Mars. C'était dans les années 70. La forme des vaisseaux serait tirée de leur casque à cornes. Toujours pas de traces des drakkars spatiaux qui auraient sillonné les eaux du lac Jezero ?",
@@ -2536,7 +2535,7 @@
         "height": 699
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "53",
@@ -2548,8 +2547,8 @@
       "hasShadow": false,
       "hanging": { "x": "-68px", "y": "-4vh", "leftGap": "0" }
     },
-    "height": "27",
-    "width": "40",
+    "height": 27,
+    "width": 40,
     "depth": "30",
     "materials": "tôle aluminium, planche de balsa, adhésifs, liège d'isolation, abs extrudé, câbles et matériaux divers",
     "text": "Chang'e est devenue immortelle quand elle a quitté la Terre pour la Lune. Quatre pieds, cubique, accompagnée du lapin de jade. Depuis son palais, la vaste froidure, elle annonce une nouvelle ère : Chang'e est chinoise.",
@@ -2579,7 +2578,7 @@
         "height": 805
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "47",
@@ -2591,8 +2590,8 @@
       "hasShadow": true,
       "hanging": { "x": "50px", "y": "calc(-50vh + 50%)", "leftGap": "0" }
     },
-    "height": "79",
-    "width": "146",
+    "height": 79,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2622,7 +2621,7 @@
         "height": 595
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un grand paludarium avec un paysage miniature et un agent d'entretiene et un spectateur"
   },
   {
     "id": "54",
@@ -2632,10 +2631,10 @@
     "urlSlug": "horizon_inverse",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-50vh + 50%)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "0" }
     },
-    "height": "116",
-    "width": "89",
+    "height": 116,
+    "width": 89,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -2665,7 +2664,7 @@
         "height": 632
       }
     },
-    "imgAltText": ""
+    "altText": "Portrait d'un homme le nez en l'air. Il porte des lunettes et des mitaines. En haut il y a un paysage à l'envers"
   },
   {
     "id": "49",
@@ -2675,10 +2674,10 @@
     "urlSlug": "any_where_out_of_the_world_6",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "64px" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "64px" }
     },
-    "height": "80",
-    "width": "38",
+    "height": 80,
+    "width": 38,
     "depth": "env 30",
     "materials": "huile et acrylique sur médium",
     "text": "noText",
@@ -2708,7 +2707,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
     "id": "56",
@@ -2718,10 +2717,10 @@
     "urlSlug": "arpenteur",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-3vh", "leftGap": "15px" }
+      "hanging": { "x": "0", "y": "-3vh", "leftGap": "15px" }
     },
-    "height": "26",
-    "width": "39",
+    "height": 26,
+    "width": 39,
     "depth": "34",
     "materials": "tôle aluminium, planche de balsa, adhésifs, liège d'isolation, câbles et matériaux divers",
     "text": "La voie est ouverte. Le voyage fut long. On inspecte, mesure, sonde. Prudence. D'autres viendront",
@@ -2751,7 +2750,7 @@
         "height": 824
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "58",
@@ -2761,10 +2760,10 @@
     "urlSlug": "power_flower",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "0" }
     },
-    "height": "22",
-    "width": "45",
+    "height": 22,
+    "width": 45,
     "depth": "45",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, adhésifs, câbles et matériaux divers",
     "text": "Le premier objet à alunir en douceur était soviétique, il avait l'aspect d'une fleur. Une fois le bouton ouvert, les pétales dépliés servaient d'antenne parabolique. C'était en 1966 et pas vraimment le summer of love...",
@@ -2794,7 +2793,7 @@
         "height": 686
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "60",
@@ -2810,8 +2809,8 @@
         "leftGap": "28px"
       }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "2021, Aubervilliers, Jardins des Vertus. Modestes ruptures vertes du continuum bétonné d'aujourd'hui, marques d'un maraîchage autrefois intense, des potagers ouvriers émaillent encore ça et là les alentours. Flagrant retard de la peinture ? Excès de vitesse du réel ? Les parcelles ne sont plus… Reste un tableau.",
@@ -2841,7 +2840,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un paysage urbain avec des jardins ouvriers au premier plan et des tours au fond"
   },
   {
     "id": "61",
@@ -2857,8 +2856,8 @@
         "leftGap": "28px"
       }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Quelque part à Vaulx-en-Velin, dans les années 60. Noël approche, les immeubles poussent, les cardons blanchissent. Surprise d'une tradition retrouvée au détour des mutations sociétales, on se souvient le légume oublié (on se souvient moins qui nous l'a ramené). Des maraîchers entre deux eaux, un flottement, que j'ai voulu sceller du pinceau.",
@@ -2888,7 +2887,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un paysage urbain avec des cultures maraichères au premier plan et des tours au fond"
   },
   {
     "id": "52",
@@ -2900,8 +2899,8 @@
       "hasShadow": false,
       "hanging": { "x": "68px", "y": "-2vh", "leftGap": "34px" }
     },
-    "height": "80",
-    "width": "38",
+    "height": 80,
+    "width": 38,
     "depth": "env 30",
     "materials": "huile et acrylique sur médium",
     "text": "noText",
@@ -2931,7 +2930,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
     "id": "57",
@@ -2943,8 +2942,8 @@
       "hasShadow": false,
       "hanging": { "x": "68px", "y": "-2vh", "leftGap": "0" }
     },
-    "height": "80",
-    "width": "38",
+    "height": 80,
+    "width": 38,
     "depth": "env 30",
     "materials": "huile et acrylique sur médium",
     "text": "noText",
@@ -2974,7 +2973,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
     "id": "62",
@@ -2984,10 +2983,10 @@
     "urlSlug": "new_senart",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "40px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "40px" }
     },
-    "height": "114",
-    "width": "146",
+    "height": 114,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -3017,7 +3016,7 @@
         "height": 700
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
     "id": "63",
@@ -3027,10 +3026,10 @@
     "urlSlug": "gba_&_ras",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% + 58px)", "leftGap": "80px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% + 58px)", "leftGap": "80px" }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "C'est un totem moderne effondré ou un jeu de construction géant, éparpillé à un carrefour. C'est le crépuscule ou l'aube et dans l'air chargé de la poussière des chantiers les mauvaises herbes commencent à danser autour des blocs. C'est l'alchimie ou le sabbat d'une ville en pleine transition de phase. 2022, Porte de Paris.",
@@ -3060,7 +3059,7 @@
         "height": 627
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un paysage urbain avec un bord de route au premier plan"
   },
   {
     "id": "76",
@@ -3076,8 +3075,8 @@
         "leftGap": "16px"
       }
     },
-    "height": "28",
-    "width": "24",
+    "height": 28,
+    "width": 24,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "Les choses nous tapissent parfois l'oeil sans qu'il soit possible de les remarquer ; placées sous notre nez en même temps qu'à l'arrière-plan de notre perception, trop loin pour remonter jusqu'à la conscience.\n\nDans la ville en refonte effrénée, le gravats est un de ces familiers invisibles. Il est partout où on démolit, déblaie, excave, remblaie. Il forme des dunes, remplit des bennes, s'entasse en sacs ; et il y en a tellement qu'on ne voit plus. Sagement stocké ça attend son heure, d'être réutilisé ou évacué à la décharge.\n\nJusqu'au jour où, une percée verte et rouge au milieu de tout ce minéral nous rappelle le temps écoulé, l'omniprésence des chantiers, la réalité d'un décor effondré dont les rebuts qui nous entourent sont devenus\nle substrat",
@@ -3107,7 +3106,7 @@
         "height": 597
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau montrant l'intérieur d'un sac de gravats dans lequeul poussent des coquelicots"
   },
   {
     "id": "77",
@@ -3117,7 +3116,7 @@
     "urlSlug": "substrat_2",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% + 117px)", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% + 117px)", "leftGap": "0" }
     },
     "height": "40",
     "width": "20",
@@ -3150,7 +3149,7 @@
         "height": 928
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau montrant l'intérieur d'un sac de gravats dans lequeul poussent des coquelicots"
   },
   {
     "id": "59",
@@ -3166,8 +3165,8 @@
         "leftGap": "56px"
       }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "31 août 2020, Montreuil. Spectaculaire regain d'intérêt pour les murs à pèches, anciens vergers clos. Stéphane Bern sur place. Petit ballet d'élus, journalistes, bénévoles, spectateurs. Et cette étrange impression. Là, face aux murs séculaires effondrés, enfrichés de végétation et hangars, dans une zone déclarée « urbanisable à 80 % » suite aux pressions immobilières, les feuilles virevoltent le vent se lève… Que porte-t-il ?",
@@ -3197,7 +3196,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un paysage urbain montrant une zone en friche avec un mur effondré et une assemblée de personnes au centre"
   },
   {
     "id": "75",
@@ -3213,8 +3212,8 @@
         "leftGap": "48px"
       }
     },
-    "height": "62,5",
-    "width": "40",
+    "height": 62.5,
+    "width": 40,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "Il nous faut des dents creuses, beaucoup.\n\nComme nous voulons omniconstruire, il faut omnivider.\n\n\"Oh rien à faire, tout le monde est fou ici !\"\n\nC'est ainsi.\n\nCependant le vide véritable ne reste jamais longtemps.\n\nLa nature en a horreur et nos imaginations aussi.\nAlors elles le peuplent.\n\nDe présences\nplantes, animaux, objets, qui lui donnent une âme, un quelque chose de familier.\n\n\"où vous désirez vous rendre, il est inutile de vous tourmenter... un chemin vaut l'autre\"Vers la\nSurface de projection",
@@ -3244,7 +3243,7 @@
         "height": 792
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une dent creuse avec un étai et des buddléia au premier plan"
   },
   {
     "id": "66",
@@ -3256,8 +3255,8 @@
       "hasShadow": true,
       "hanging": { "x": "32px", "y": "calc(-40vh + 50% - 4px)", "leftGap": "32px" }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile, acrylique et papier peint sur BA13",
     "text": "C'est un défilé d'espaces ceinturés de tôles et de grillages, suspendus entre deux temps, entre deux usages et entre deux mondes. La végétation comble le vide, dans l'attente, bien à l'abri des palissades. 2022, Saint-Denis, le long du T1.",
@@ -3287,7 +3286,7 @@
         "height": 637
       }
     },
-    "imgAltText": ""
+    "altText": "tableau d'un bord de route avec un terrain vague encadré de palissades"
   },
   {
     "id": "74",
@@ -3299,8 +3298,8 @@
       "hasShadow": true,
       "hanging": { "x": "32px", "y": "calc(-40vh + 50% - 16px)", "leftGap": "0" }
     },
-    "height": "50",
-    "width": "40",
+    "height": 50,
+    "width": 40,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "Nous sommes en période de construction permantente, il y a des chantiers qui jamais ne finissent.\n\nIl y a des travaux qui jamais ne débutent.\n\nCependant quand même, on continue à faire provision d’espaces, encore.\n\nÀ grand coup de tôles,\ndans ta vue.\n\nNous rentrons dans le temps suspendu, c’est l’occasion de tout bien scruter. Partout, nous longeons des barrières, nos yeux lèchent l’acier ondulé laqué blanc qui grise jaunit rouille, les années passant.\n\nOn dissimule les terrains, on fait écran au regard, encore., toujours.\n\nDerrière début d’ensauvagement, des buddleia poussent sans autorisation. Tellement, que leurs branches fleuries enjambent bientôt les clotûres.\n\nDes doigts roses bruns verts, tendus bien haut.\n\nCurieuse,\n\nHaie d’honneur",
@@ -3330,7 +3329,7 @@
         "height": 640
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une palissade avec des buddleia en fleur qui en dépassent"
   },
   {
     "id": "64",
@@ -3342,8 +3341,8 @@
       "hasShadow": true,
       "hanging": { "x": "-32px", "y": "calc(-40vh + 50% - 60px)", "leftGap": "0" }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile, acrylique, papier peint et enduit sur BA13",
     "text": "Ici, mais pas encore maintenant : ça arrive, on a dit. On va tout retaper : placo neuf, papier-peint tendance. Et ce sera beau. En attendant jungle d'interlude pousse devant façade condamnée. Qui pour voir, nature toquer aux portes, grande mue s'opérer ?",
@@ -3373,7 +3372,7 @@
         "height": 640
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une façade condamnée avec de la végétation qui a poussé devant"
   },
   {
     "id": "67",
@@ -3385,8 +3384,8 @@
       "hasShadow": true,
       "hanging": { "x": "48px", "y": "calc(-40vh + 50% + 58px)", "leftGap": "0" }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "2021, Saint-Denis, abords du Stade de France, à côté de la place de l'écluse, l'été tire sur sa fin, berces et folles herbes ont fanée. La pousse estivale fut spectaculaire. Besoin naturel de combler le vide des lieux, évacués l'année d'avant, pudique écho de la précipitation du nettoyage. Fragment choisi d'un paysage traversé à 90km/h, où tant d'existences auront fait halte.",
@@ -3416,7 +3415,7 @@
         "height": 629
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un bord de route avec un grand talus terrassé"
   },
   {
     "id": "65",
@@ -3432,8 +3431,8 @@
         "leftGap": "28px"
       }
     },
-    "height": "35",
-    "width": "50",
+    "height": 35,
+    "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "Sur cette maçonnerie venue coiffer un petit édicule d'aération, des pariétaires de Judée campent obstinément. C'est une forme-barrage, l'image d'un morceau de notre quotidien endormi, qu'il fallait réveiller à coup de couleurs. 2022, Paris 18e, rue Leibniz",
@@ -3463,7 +3462,7 @@
         "height": 628
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un édicule coiffé d'un assemblage de pavés destiné à rendre impossible toute assise"
   },
   {
     "id": "78",
@@ -3479,8 +3478,8 @@
         "leftGap": "28px"
       }
     },
-    "height": "29,5",
-    "width": "50,5",
+    "height": 29.5,
+    "width": 50.5,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "noText",
@@ -3510,7 +3509,7 @@
         "height": 529
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau avec des sacs à gravats remplis."
   },
   {
     "id": "68",
@@ -3520,10 +3519,10 @@
     "urlSlug": "tambour",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-7vh", "leftGap": "25px" }
+      "hanging": { "x": "0", "y": "-7vh", "leftGap": "25px" }
     },
-    "height": "18",
-    "width": "20",
+    "height": 18,
+    "width": 20,
     "depth": "20",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, bâche, liège d'isolation, adhésifs et matériaux divers",
     "text": "En 2008, l'ESA annonçait un projet d'alunisseur (ESA Lunar Lander) pour se relancer dans la course vers la Lune. Cependant l'engin ne vit jamais le jour, faute de financements. Ne reste qu'une annonce spectaculaire oubliée et les quelques images alors diffusées, d'un curieux cylindre juché sur quatre pieds dépliables.",
@@ -3553,7 +3552,7 @@
         "height": 824
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "73",
@@ -3563,10 +3562,10 @@
     "urlSlug": "structure_de_dissipation",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "50px" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "50px" }
     },
-    "height": "26",
-    "width": "62",
+    "height": 26,
+    "width": 62,
     "depth": "50",
     "materials": "tôle aluminium, planche de balsa, liège d'isolation, adhésifs et matériaux divers",
     "text": "noText",
@@ -3596,7 +3595,7 @@
         "height": 512
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "72",
@@ -3606,10 +3605,10 @@
     "urlSlug": "star_pneumatic",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-3vh", "leftGap": "50px" }
+      "hanging": { "x": "0", "y": "-3vh", "leftGap": "50px" }
     },
-    "height": "env 27",
-    "width": "60",
+    "height": 27,
+    "width": 60,
     "depth": "60",
     "materials": "toile K-Way, drap coton, abs extrudé, tôle aluminium, planche de balsa, adhésifs et matériaux divers",
     "text": "L'ingénieurie spatiale explore depuis quelques années l'usage de matériaux souples qui se déplient et pour certains même se gonflent.\n\nAlors, le spatial de demain aura-t-il l'air d'une collection d'objets pneumatiques ?\n\nEn attendant je teste l'introduction du tissu dans mes propres réalisations.Entre tension et affaissement, un peu de mouvement et de fragilité, à opposer à la raideur du bois et du métal.",
@@ -3639,7 +3638,7 @@
         "height": 752
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "69",
@@ -3649,10 +3648,10 @@
     "urlSlug": "fisher",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-5vh", "leftGap": "25px" }
+      "hanging": { "x": "0", "y": "-5vh", "leftGap": "25px" }
     },
-    "height": "19",
-    "width": "30",
+    "height": 19,
+    "width": 30,
     "depth": "46",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, bâche, liège d'isolation, adhésifs et matériaux divers",
     "text": "Avec son pseudo-habitacle muni d'une perche articulée, le tout jonché sur trois pieds télescopiques, cet objet reprend la silhouette de Philae, l'aterrisseur de l'ESA parti en 2015 à l'abordage de la comète 67P-Tchouri.",
@@ -3682,7 +3681,7 @@
         "height": 594
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "70",
@@ -3692,10 +3691,10 @@
     "urlSlug": "vikram",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "25px" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "25px" }
     },
-    "height": "18",
-    "width": "20",
+    "height": 18,
+    "width": 20,
     "depth": "21",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, couverture de survie, liège d'isolation, adhésifs et matériaux divers",
     "text": "Après les engins américains, russes et chinois, c'était au tour de l'Inde en 2019 de venir fouler le régolithe lunaire. Avec son châssis remarquable (en prisme trapézoïdale), Vikram est le premier atterrisseur de l'ISRO, l'agence spatiale indienne. Sa forme caractéristique traduit visuellement la diversification du jeu politique spatial.",
@@ -3725,7 +3724,7 @@
         "height": 801
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "81",
@@ -3735,10 +3734,10 @@
     "urlSlug": "the_wind_waker",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-2vh", "leftGap": "65px" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "65px" }
     },
-    "height": "82",
-    "width": "80",
+    "height": 82,
+    "width": 80,
     "depth": "68",
     "materials": "tôle et profilé aluminum, contreplaqué, abs extrudé, furin, adhésifs et matériaux divers",
     "text": "Je me suis basé sur l'architecture de la sonde Pathfinder qui s'est posée sur Mars en 1997 et nous en a rapporté des images de la surface ainsi que, c'est moins connu, des relevés météorologiques.\n\nThe wind Waker est équipé de quatre cornets acoustiques qui lui permettent de tout entendre et de trois furin suspendus à un mât-antenne...\n\nC'est une bouteille à la mer des temps modernes, qui tinte quand le vent souffle. ",
@@ -3768,7 +3767,7 @@
         "height": 586
       }
     },
-    "imgAltText": ""
+    "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
     "id": "86",
@@ -3780,8 +3779,8 @@
       "hasShadow": true,
       "hanging": { "x": "-105px", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "50",
-    "width": "40",
+    "height": 50,
+    "width": 40,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "noText",
@@ -3811,7 +3810,7 @@
         "height": 640
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un massif béton pour poteau électrique temporaire sur fond bleu"
   },
   {
     "id": "71",
@@ -3821,10 +3820,10 @@
     "urlSlug": "on_and_on",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
     },
-    "height": "80",
-    "width": "146",
+    "height": 80,
+    "width": 146,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -3854,7 +3853,7 @@
         "height": 491
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
     "id": "83",
@@ -3864,10 +3863,10 @@
     "urlSlug": "premiere_pierre",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
     },
-    "height": "env 24",
-    "width": "28",
+    "height": 24,
+    "width": 28,
     "depth": "",
     "materials": "huile, acrylique et crépi sur BA13",
     "text": "Les représentants sont venus donner le coup d'envoi.\nLa première pierre a été posée.\nLes costumes, les rôles, endossés\nLes postures, les photos, prises\nConstuire, c'est d'abord mettre en scène, qu'ils disent.",
@@ -3897,7 +3896,7 @@
         "height": 793
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau avec scène d'inauguration d'un chantier de construction."
   },
   {
     "id": "90",
@@ -3909,8 +3908,8 @@
       "hasShadow": false,
       "hanging": { "x": "70px", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -3940,7 +3939,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "95",
@@ -3952,8 +3951,8 @@
       "hasShadow": false,
       "hanging": { "x": "70px", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -3983,7 +3982,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "88",
@@ -3993,10 +3992,10 @@
     "urlSlug": "inculture_seed",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "Le point de départ du projet est une plante peinte par Hieronymous Bosch vers 1490 dans un tableau de Saint Jean-Baptiste méditant en pleine nature. Le saint est accompagné d'un buisson étrange, incarnation du mauvais et de l'impie. Il est composé selon le procédé habituel du peintre : par collage d'éléments empruntés au réel. C'est un Frankenstein végétal, aux lignes serpentines, à tiges de ronces porteuses de divers fruits qui attirent la faune alentour et au feuillage polymorphe inspiré du buis, de la vigne et du chardon.\n\nDès lors, osons faire de la plante mauvaise une mauvaise herbe. Supposons ses graines tombées du tableau. Elle essaiment et poussent à leur place \"naturelle\" d'adventice, soit en ville dans la maigre fissure séparant le trottoir de la façade. Que reconnait-on alors du vétégal du maitre flamand, posé là à une hauteur infâme et rendu à une taille insignifiante ?\n\nComment est regardée la verdure indésirable, qu'en retient-on en mémoire, c'est en fait la question. En vérité, pas grand-chose. Contrairement à la tulipe, à la pivoine, à la rose etc, les mauvaises herbes n'ont pas de place dans nos imaginaires, sinon celle de nuisibles aux cultures. Elles se contentent de \"faire du vert\" et ne produisent rien. Cet inesthétisme improductif les place en hors-champ, les constitue en vivant illégitime à la réprésentation. Ainsi tourne la fabrique de l'ignorance où poussent nos incultures.",
@@ -4026,7 +4025,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "80",
@@ -4038,8 +4037,8 @@
       "hasShadow": true,
       "hanging": { "x": "96px", "y": "calc(-40vh + 50% - 33px)", "leftGap": "0" }
     },
-    "height": "130",
-    "width": "162",
+    "height": 114,
+    "width": 162,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -4069,7 +4068,7 @@
         "height": ""
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un trottoir nettoyé au jet d'eau avec une grand flaque dans laquelle se reflète la ville."
   },
   {
     "id": "87",
@@ -4081,8 +4080,8 @@
       "hasShadow": true,
       "hanging": { "x": "32px", "y": "calc(-40vh + 50% - 33px)", "leftGap": "0" }
     },
-    "height": "60",
-    "width": "83,3",
+    "height": 60,
+    "width": 83.3,
     "depth": "",
     "materials": "huile, acrylique et crépi sur BA13",
     "text": "noText",
@@ -4112,7 +4111,7 @@
         "height": ""
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un bord de route avec un talus surlequel sont disposés des blocs de béton"
   },
   {
     "id": "84",
@@ -4124,8 +4123,8 @@
       "hasShadow": true,
       "hanging": { "x": "78px", "y": "calc(-40vh + 50% - 125px)", "leftGap": "0" }
     },
-    "height": "env 24",
-    "width": "28",
+    "height": 24,
+    "width": 28,
     "depth": "",
     "materials": "huile, acrylique et crépi sur BA13",
     "text": "Il suffit d'un geste-coloriage, vide rempli, et ainsi bascule le réel dans sa réprésentation.\nUn instant scellé dans le béton pendant que s'écoule dans les médias l'image,\nétrange, rare, parodique, du travail figuré sans le travailleur.\nTableau-fenêtre d'Alberti, ou tableau-mur de Butades\nQuestion d'absence\nQui fait bouger le cadre ? ",
@@ -4155,7 +4154,7 @@
         "height": 768
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau avec scène d'inauguration d'un chantier de construction."
   },
   {
     "id": "79",
@@ -4167,8 +4166,8 @@
       "hasShadow": true,
       "hanging": { "x": "115px", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "62,5",
-    "width": "40",
+    "height": 62.5,
+    "width": 40,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
     "text": "à venir prochainement\nwork in progress\nà s’en boucher la vue\nbientôt ici\nprojet en cours\nbusiness in process\nvotre région agit\nà s’en péter la panse\nBecome",
@@ -4198,20 +4197,20 @@
         "height": 800
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un massif béton pour poteau électrique temporaire"
   },
   {
     "id": "85",
     "title": "Industrial plants",
     "year": "2024",
-    "project": "",
+    "project": "noproject",
     "urlSlug": "industrial_plants",
     "display": {
       "hasShadow": true,
       "hanging": { "x": "115px", "y": "calc(-40vh + 50% - 92px)", "leftGap": "0" }
     },
-    "height": "42",
-    "width": "65",
+    "height": 42,
+    "width": 65,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -4241,7 +4240,7 @@
         "height": 579
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'une végétation arborée sous dôme géodésique avec des faux nuages"
   },
   {
     "id": "89",
@@ -4251,10 +4250,10 @@
     "urlSlug": "inculture_1",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -4284,7 +4283,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "82",
@@ -4294,10 +4293,10 @@
     "urlSlug": "welcome_to_the_hors_champ",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-40vh + 50% + 54px)", "leftGap": "91px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50% + 54px)", "leftGap": "91px" }
     },
-    "height": "162",
-    "width": "130",
+    "height": 162,
+    "width": 130,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "Soient quelques plantes sauvages prélevées sur le premier talus trouvé, prises en photo, les photos réagencées sur logiciel, l'image finale peinte agrandie avec des couleurs saturées. Du résultat divers scénarios s'esquissent sans se contredire. Nous avons changé de point de vue : nous percevons le monde à la hauteur d'un petit animal. Nous avons changé de point de vue : nous regardons avec des yeux autrement sensibles au spectre de la lumière. Nous avons changé d'époque : projetés dans un futur où les plantes ont muté. Nous avons changé d'époque : renvoyés aux confins de l'histoire du vivant, dans les forêts du Permien ou du Dévonien. Ce qui demeure certain : on se joue de notre ignorance du vivant, car la seule chose reconnaissable c'était la forme des herbes du talus d'à côté.\n\nEn fait, quelle est la place de tels végétaux dans l'histoire de l'art ? Rare, voire inexistante si l'on omet quelques études de plantes de Dürer. Et quelle diversité dans le monde végétal couramment représenté ? Faible, tenant surtout à la tradition du mille-fleurs et son penchant pour l'inventaire de plantes sauvages (à fleurs remarquables donc toujours assez \"nobles\" pour être figurées). Alors que retrouvre-t-on le plus souvent en peinture à leur endroit ? Des taches vertes, quelques effets de texture. Les artistes en réalité font très souvent preuve d'un rapport au vivant appauvri et à travers cela c'est la relation à la nature de nos sociétés qui s'exprime.\n\nWelcome to the hors champ ne se destine pas à être qu'un correctif, un moyen de faire accéder à la représentation un pan du monde végétal trop méconnu et cantonné aux planches illustrées des botanistes. C'est dabord un moyen d'enchanter le quotidien à peu de frais, en regardant autrement les vététaux des friches (ces habitants du tiers-paysage) et de faire surgir des visions d'ailleurs à partir d'ici, affirmant la porosité du monde, où exotique et banal ne font qu'un, le premier n'étant qu'un moment de l'autre.",
@@ -4327,7 +4326,7 @@
         "height": 638
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau représentant une jungle"
   },
   {
     "id": "91",
@@ -4337,10 +4336,10 @@
     "urlSlug": "inculture_3",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "26px" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "26px" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -4370,7 +4369,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "92",
@@ -4380,10 +4379,10 @@
     "urlSlug": "inculture_4",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -4413,7 +4412,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "94",
@@ -4423,10 +4422,10 @@
     "urlSlug": "inculture_6",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -4456,7 +4455,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "93",
@@ -4466,10 +4465,10 @@
     "urlSlug": "inculture_5",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
     },
-    "height": "dv",
-    "width": "dv",
+    "height": -1,
+    "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
     "text": "noText",
@@ -4499,7 +4498,7 @@
         "height": 770
       }
     },
-    "imgAltText": ""
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
     "id": "97",
@@ -4509,10 +4508,10 @@
     "urlSlug": "sans_titre_2024",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0px", "y": "calc(-50vh + 50%)", "leftGap": "87px" }
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "87px" }
     },
-    "height": "89",
-    "width": "116",
+    "height": 89,
+    "width": 116,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
@@ -4542,6 +4541,6 @@
         "height": 687
       }
     },
-    "imgAltText": ""
+    "altText": "Tableau d'un verger clos qui évoque un labyrinthe dans lequel pousseraient des arbres"
   }
 ]

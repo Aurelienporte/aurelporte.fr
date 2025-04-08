@@ -84,11 +84,8 @@ const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/w
   margin-left: var(--leftGap);
 
   &:focus-visible {
-    transform: scale(1.1);
+    transform: translate(var(--x), var(--y)) scale(1.1);
     filter: contrast(1.1);
-    transition: all ease-in-out 100ms;
-    outline: 5px solid var(--saillanceColor);
-    outline-offset: 10px;
   }
 }
 .thumbnail__link--hight {

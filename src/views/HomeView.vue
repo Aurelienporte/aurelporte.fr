@@ -41,6 +41,8 @@ setInterval(() => (isMoving.value = !isMoving.value), 7000)
 
 const isAppearing = ref(false)
 setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
+
+const resetHanging = { x: '0', y: '0', leftGap: '0' }
 </script>
 
 <template>
@@ -60,7 +62,7 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
       :width="work.icon.width"
       :height="work.icon.height"
       :shadow="work.display.hasShadow"
-      :hanging="work.display.hanging"
+      :hanging="resetHanging"
     ></ThumbnailLink>
     <ThumbnailLink
       v-if="laptop || desktop"
@@ -72,7 +74,7 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
       :width="secondWork.icon.width"
       :height="secondWork.icon.height"
       :shadow="secondWork.display.hasShadow"
-      :hanging="secondWork.display.hanging"
+      :hanging="resetHanging"
     ></ThumbnailLink>
     <nav class="nav-menu">
       <ul class="nav-menu__list">
@@ -85,7 +87,7 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
         <li :class="{ 'nav-menu__item--appearing': isAppearing }">
           <SocialLink
             class="nav-menu__link"
-            social="pixelfed"
+            social="Pixelfed"
             url="https://pixelfed.fr/i/web/profile/787962229803910124"
           ></SocialLink>
         </li>
@@ -300,7 +302,6 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
     & .nav-menu__link {
       font-size: 1.5rem;
       font-weight: 500;
-      color: black;
     }
     & .nav-menu__link:not(.socials__link) {
       font-size: 1.5rem;
@@ -308,7 +309,6 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
       display: inline-block;
       min-height: 32px;
       font-weight: 500;
-      color: black;
     }
     .nav-menu__item--appearing {
       --staggering: 2s;
@@ -323,7 +323,7 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
       --staggering: 2.6s;
     }
   }
-  .nav-menu__link:has(.nav-menu__icon) {
+  & .nav-menu__link:has(.nav-menu__icon) {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -538,14 +538,28 @@ setInterval(() => (isAppearing.value = !isAppearing.value), 13000)
   .nav-menu {
     grid-area: 3/2/4/3;
     margin-right: 32px;
-    .nav-menu__link {
-      font-size: 2rem;
 
+    & .nav-menu__link:not(.socials__link) {
+      font-size: 2rem;
+      position: relative;
+
+      &::after {
+        height: 2px;
+        width: 0;
+        content: '';
+        position: absolute;
+        right: 3px;
+        bottom: 6px;
+        background-color: var(--saillanceColor);
+      }
       &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
-        text-underline-offset: 5px;
         transition: all 200ms ease;
+        color: var(--saillanceColor);
+
+        &::after {
+          width: 90%;
+          transition: width 200ms ease;
+        }
       }
     }
   }

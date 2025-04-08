@@ -3,6 +3,8 @@ import worksData from '@/data.json'
 import TheAppMenu from '@/components/TheAppMenu.vue'
 import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
+import PlusIcon from '@/components/icons/PlusIcon.vue'
+
 const route = useRoute()
 const path = ref(route.path)
 
@@ -20,7 +22,6 @@ watch(
   () => route.params.filter,
   (newFilter) => {
     filterActive.value = route.path === '/works' ? false : newFilter
-    console.log('le filtrer a change')
   }
 )
 
@@ -66,6 +67,20 @@ function filterByProject(project) {
   filteredWorks = works.filter((work) => work.project === project)
   return filteredWorks
 }
+
+function resetHanging(workHanging, workWidth) {
+  let hangingParams = { x: '0', y: workHanging.y, leftGap: '0' }
+  if (workWidth <= 50) {
+    hangingParams.leftGap = '25px'
+  } else if (workWidth > 50 && workWidth <= 100) {
+    hangingParams.leftGap = '50px'
+  } else if (workWidth > 100 && workWidth <= 150) {
+    hangingParams.leftGap = '75px'
+  } else {
+    hangingParams.leftGap = '100px'
+  }
+  return hangingParams
+}
 </script>
 
 <template>
@@ -86,7 +101,7 @@ function filterByProject(project) {
         :width="work.icon.width"
         :height="work.icon.height"
         :shadow="work.display.hasShadow"
-        :hanging="work.display.hanging"
+        :hanging="resetHanging(work.display.hanging, work.width)"
       ></ThumbnailLink>
     </div>
     <div v-else class="thumbnails__container">
@@ -110,7 +125,7 @@ function filterByProject(project) {
         class="action-bar__see-more-button"
         @click="showMoreWorks"
       >
-        Voir <span>+</span>
+        Voir <PlusIcon class="action-bar_plus-icon" />
       </button>
       <a class="action-bar__return-link" href="#title" v-if="filteredWorks.length >= 10"
         >Retour <span>&uarr;</span></a
@@ -144,46 +159,49 @@ function filterByProject(project) {
 .thumbnails__container {
   display: flex;
   align-items: flex-end;
-  /* gap: 16px; */
 }
 .action-bar {
   writing-mode: vertical-lr;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  width: calc(10vw + 30px);
   font-family: 'Questrial', serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
 
   & .action-bar__see-more-button,
   .action-bar__return-link {
     transform: rotateZ(180deg);
-    color: black;
+    color: var(--mainColor);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 100%;
-    width: calc(10vw + 30px);
+    height: auto;
+    width: 40px;
+    padding: 5px;
+    background: rgb(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
     transition: color 150ms ease;
 
-    &:hover {
-      color: rgb(26, 179, 234);
-      transition: color 150ms ease;
-    }
+    &:hover,
     &:focus-visible {
-      color: rgb(26, 179, 234);
+      color: var(--saillanceColor);
       transition: color 150ms ease;
     }
   }
   & .action-bar__see-more-button {
-    background: inherit;
+    gap: 10px;
     font-family: inherit;
     font-weight: inherit;
     font-size: inherit;
-    border: none;
-    outline: none;
-    & span {
-      translate: 1vw 0;
+
+    &:hover .action-bar_plus-icon,
+    &:focus-visible .action-bar_plus-icon {
+      fill: var(--saillanceColor);
+      transition: fill 150ms ease;
     }
   }
 }
