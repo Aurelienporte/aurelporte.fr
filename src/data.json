@@ -4045,27 +4045,27 @@
     "icon": {
       "webp_png": "la_grande_lessive_xs.webp",
       "jpeg": "la_grande_lessive_xs.jpeg",
-      "height": 182,
-      "width": 227
+      "height": 171,
+      "width": 243
     },
     "images": {
       "small": {
         "webp": "la_grande_lessive_s.webp",
         "jpeg": "la_grande_lessive_s.jpeg",
-        "width": 390,
-        "height": ""
+        "width": 430,
+        "height": 303
       },
       "medium": {
         "webp": "la_grande_lessive_m.webp",
         "jpeg": "la_grande_lessive_m.jpeg",
-        "width": "",
-        "height": ""
+        "width": 704,
+        "height": 495
       },
       "large": {
         "webp": "la_grande_lessive_l.webp",
         "jpeg": "la_grande_lessive_l.jpeg",
-        "width": "",
-        "height": ""
+        "width": 896,
+        "height": 631
       }
     },
     "altText": "Tableau d'un trottoir nettoyé au jet d'eau avec une grand flaque dans laquelle se reflète la ville."

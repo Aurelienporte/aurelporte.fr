@@ -94,10 +94,7 @@ function stopMainScroll(e) {
       <div class="contact-container">
         <h3 class="contact__title">Mes réseaux</h3>
         <div class="socials">
-          <SocialLink
-            social="Pixelfed"
-            url="https://pixelfed.fr/i/web/profile/787962229803910124"
-          ></SocialLink>
+          <SocialLink social="Pixelfed" url="https://pixelfed.social/Aurel-Porte"></SocialLink>
           <SocialLink
             social="Bluesky"
             url="https://bsky.app/profile/aurel-porte.bsky.social"

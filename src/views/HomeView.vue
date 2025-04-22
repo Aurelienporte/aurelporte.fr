@@ -88,7 +88,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
           <SocialLink
             class="nav-menu__link"
             social="Pixelfed"
-            url="https://pixelfed.fr/i/web/profile/787962229803910124"
+            url="https://pixelfed.social/Aurel-Porte"
           ></SocialLink>
         </li>
       </ul>
