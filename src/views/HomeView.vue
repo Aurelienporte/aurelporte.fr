@@ -79,10 +79,10 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
     <nav class="nav-menu">
       <ul class="nav-menu__list">
         <li :class="{ 'nav-menu__item--appearing': isAppearing }">
-          <RouterLink class="nav-menu__link" to="/infos">Infos</RouterLink>
+          <RouterLink class="nav-menu__link" to="/works">&OElig;uvres</RouterLink>
         </li>
         <li :class="{ 'nav-menu__item--appearing': isAppearing }">
-          <RouterLink class="nav-menu__link" to="/works">&OElig;uvres</RouterLink>
+          <RouterLink class="nav-menu__link" to="/infos">Infos</RouterLink>
         </li>
         <li :class="{ 'nav-menu__item--appearing': isAppearing }">
           <SocialLink
@@ -135,7 +135,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
 }
 .high-title {
   grid-area: 1/1/3/2;
-  grid-template-columns: auto 11vh 25vh;
+  grid-template-columns: auto 8vh 25vh;
   align-content: end;
   translate: 17vw;
 
@@ -176,7 +176,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
 }
 .low-title {
   grid-area: 2/3/4/4;
-  grid-template-columns: 25vh 11vh auto;
+  grid-template-columns: 25vh 8vh auto;
   translate: -17vw;
 
   span {
@@ -322,15 +322,6 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
     li:nth-child(3) {
       --staggering: 2.6s;
     }
-  }
-  & .nav-menu__link:has(.nav-menu__icon) {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  & .nav-menu__icon {
-    height: 32px;
-    width: 32px;
   }
 }
 @keyframes move {

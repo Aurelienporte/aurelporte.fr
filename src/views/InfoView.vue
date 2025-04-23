@@ -27,7 +27,7 @@ function makeSlices() {
   const exhibitions = dataExhibitions.reverse()
   let showsPerSlice
   if (mobile.value) {
-    showsPerSlice = 7
+    showsPerSlice = 6
   }
   if (tablet.value) {
     showsPerSlice = 10
