@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import { getType } from '@/utils'
+import { reactive, computed } from 'vue'
 
 const props = defineProps({
   filter: {
@@ -37,7 +38,10 @@ const props = defineProps({
     required: true
   }
 })
-const path = props.filter ? `/works/explorer/${props.filter}/${props.url}` : `/works/${props.url}`
+const url = reactive(props)
+const path = computed(() => {
+  return props.filter ? `/works/explorer/${props.filter}/${url.url}` : `/works/${url.url}`
+})
 </script>
 <template>
   <RouterLink

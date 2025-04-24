@@ -29,7 +29,9 @@ const data = worksData
 const projects = projectsDdata
 const artwork = ref(data.find((work) => work.urlSlug === pageUrlSlug))
 const hasText = computed(() => (artwork.value.text === 'noText' ? true : false))
-const projectText = projects.find((project) => project.name === artwork.value.project)
+const projectText = computed(() =>
+  projects.find((project) => project.name === artwork.value.project)
+)
 
 function getUrlSlugList() {
   let list = []

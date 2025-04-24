@@ -88,7 +88,7 @@ const slashInPath = activePath.match(regex)
 <style scoped>
 /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/
 header {
-  --bannerHeight: 10vh;
+  --bannerHeight: 64px;
   --buttonSide: 30px;
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 9px;
@@ -146,7 +146,7 @@ header {
       transition: color 150ms ease;
     }
     & .burger__dash {
-      --dashHeight: 4px;
+      --dashHeight: 3px;
 
       height: var(--dashHeight);
       width: var(--buttonSide);
