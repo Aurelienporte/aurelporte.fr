@@ -8,7 +8,6 @@ import MapIcon from '@/components/icons/MapIcon.vue'
 import IconArrowBack from '@/components/icons/IconArrowBack.vue'
 import ArrowNextIcon from '@/components/icons/ArrowNextIcon.vue'
 import CloseIcon from '@/components/icons/CloseIcon.vue'
-// import { watch, ref, computed, reactive, useTemplateRef } from 'vue'
 import { watch, ref, computed, useTemplateRef } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 import { useRoute, RouterLink } from 'vue-router'
@@ -103,41 +102,6 @@ function updateWorks(urlSlug) {
 }
 const comingWorks = ref(updateWorks(pageUrlSlug))
 
-// const isActive = reactive({ description: false, infos: false, project: false })
-
-// const isLinkVisible = computed(() =>
-//   isActive.description || isActive.infos || isActive.project ? false : true
-// )
-
-// function showLabel(name) {
-//   if (name === 'description') {
-//     isActive.description = !isActive.description
-//     isActive.infos = false
-//     isActive.project = false
-//   }
-//   if (name === 'infos') {
-//     isActive.description = false
-//     isActive.infos = !isActive.infos
-//     isActive.project = false
-//   }
-//   if (name === 'project') {
-//     isActive.description = false
-//     isActive.infos = false
-//     isActive.project = !isActive.project
-//   }
-// }
-
-// const infos = useTemplateRef('infos')
-
-// onClickOutside(infos, (event) => {
-//   if (isActive.description || isActive.infos || isActive.project) {
-//     if (event.target.className === 'artwork__overlay') {
-//       isActive.description = false
-//       isActive.infos = false
-//       isActive.project = false
-//     }
-//   }
-// })
 const isActive = ref({ description: false, infos: false, project: false })
 
 const isLinkVisible = computed(() =>
@@ -160,6 +124,7 @@ function showLabel(name) {
     isActive.value.infos = false
     isActive.value.project = !isActive.value.project
   }
+  console.log(isActive.value)
 }
 
 const infos = useTemplateRef('infos')
@@ -173,7 +138,8 @@ onClickOutside(infos, (event) => {
       'artwork__container',
       'artwork__img',
       'artwork__img artwork__img--shadow',
-      'toolbar'
+      'toolbar',
+      'pseudo-target'
     ]
     if (
       event.target.className === 'artwork__overlay' ||
@@ -223,6 +189,7 @@ onClickOutside(infos, (event) => {
       <RouterLink v-show="isLinkVisible" :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
+      <span v-if="hasText" class="pseudo-target"></span>
       <button
         :disabled="hasText"
         class="toolbar__button"
@@ -332,10 +299,11 @@ onClickOutside(infos, (event) => {
   --toolGap: calc(20vw - var(--toolHeight));
 
   grid-area: 2/1/3/2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--toolGap);
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 1fr;
+  place-content: center;
+  gap: 0 var(--toolGap);
   width: 100%;
   border-width: 1px;
   border-style: solid;
@@ -351,8 +319,18 @@ onClickOutside(infos, (event) => {
 
   & .toolbar__link {
     box-sizing: border-box;
+    align-self: center;
+
+    &:first-of-type {
+      grid-area: 1/1/2/2;
+    }
+    &:last-of-type {
+      grid-area: 1/5/2/6;
+    }
   }
   & .toolbar__button {
+    align-self: center;
+    justify-self: center;
     display: grid;
     place-content: center;
     background-color: white;
@@ -366,6 +344,21 @@ onClickOutside(infos, (event) => {
         fill: #999999;
       }
     }
+    &:first-of-type {
+      grid-area: 1/2/2/3;
+    }
+    &:nth-of-type(2) {
+      grid-area: 1/3/2/4;
+    }
+    &:last-of-type {
+      grid-area: 1/4/2/5;
+    }
+  }
+  & .pseudo-target {
+    grid-area: 1/2/2/3;
+    height: 44px;
+    background-color: transparent;
+    z-index: 1;
   }
   & :is(.toolbar__link, .toolbar__button) {
     height: var(--toolHeight);
@@ -457,16 +450,42 @@ onClickOutside(infos, (event) => {
     grid-area: 1/2/2/3;
     height: 80vh; /*centered in screen (banner = 10vh) */
     justify-self: end;
-    flex-flow: column;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 1fr;
+    gap: var(--toolGap) 0;
     width: 58px; /* = burger with (48px) + lr padding (5px) */
     border-image-width: 0;
     border-top: none;
     z-index: 5;
 
+    & .pseudo-target {
+      grid-area: 2/1/3/2;
+    }
     & :is(.toolbar__link, .toolbar__button) {
       &:hover .toolbar__svg {
         fill: var(--saillanceColor);
         transition: all 200ms ease;
+      }
+    }
+    & .toolbar__button {
+      &:first-of-type {
+        grid-area: 2/1/3/2;
+      }
+      &:nth-of-type(2) {
+        grid-area: 3/1/4/2;
+      }
+      &:last-of-type {
+        grid-area: 4/1/5/2;
+      }
+    }
+    & .toolbar__link {
+      justify-self: center;
+
+      &:first-of-type {
+        grid-area: 5/1/6/2;
+      }
+      &:last-of-type {
+        grid-area: 1/1/2/2;
       }
     }
     & .toolbar__svg {
