@@ -166,7 +166,19 @@ const infos = useTemplateRef('infos')
 
 onClickOutside(infos, (event) => {
   if (isActive.value.description || isActive.value.infos || isActive.value.project) {
-    if (event.target.className === 'artwork__overlay') {
+    console.log(event.target.className)
+    const classList = [
+      'artwork__main',
+      'artwork work',
+      'artwork__container',
+      'artwork__img',
+      'artwork__img artwork__img--shadow',
+      'toolbar'
+    ]
+    if (
+      event.target.className === 'artwork__overlay' ||
+      classList.includes(event.target.className)
+    ) {
       isActive.value.description = false
       isActive.value.infos = false
       isActive.value.project = false
@@ -216,13 +228,24 @@ onClickOutside(infos, (event) => {
         class="toolbar__button"
         @click="showLabel('description')"
         popovertarget="description"
+        popoveraction="toggle"
       >
         <TextIcon class="toolbar__svg toolbar--open"></TextIcon>
         <CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
-      ><button class="toolbar__button" @click="showLabel('infos')" popovertarget="infos">
+      ><button
+        class="toolbar__button"
+        @click="showLabel('infos')"
+        popovertarget="infos"
+        popoveraction="toggle"
+      >
         <InfoIcon class="toolbar__svg toolbar--open"></InfoIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
-      ><button class="toolbar__button" @click="showLabel('project')" popovertarget="project">
+      ><button
+        class="toolbar__button"
+        @click="showLabel('project')"
+        popovertarget="project"
+        popoveraction="toggle"
+      >
         <MapIcon class="toolbar__svg toolbar--open"></MapIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon>
       </button>
@@ -242,6 +265,7 @@ onClickOutside(infos, (event) => {
   grid-template-rows: 70vh 10vh;
   grid-template-columns: 1fr;
   place-content: center;
+  overflow: hidden;
 }
 .artwork__main:has(:popover-open) {
   & .toolbar__link {

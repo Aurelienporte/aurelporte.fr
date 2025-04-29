@@ -37,23 +37,30 @@ function addBreaks(string) {
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .work-label {
-  position: absolute;
-  top: 66px;
-  display: flex;
-  flex-flow: column;
-  gap: 1rem;
   height: 70vh;
   width: 100%;
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 10px;
   background-color: rgb(255 255 255 / 0.95);
-  translate: 100vw 0;
-  transition: all 400ms ease;
+  translate: 100vw 66px;
+  transition: all 400ms ease allow-discrete;
   border: none;
 
   &:popover-open {
-    translate: 0;
+    /* position: absolute;
+    top: 66px; */
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    translate: 0 66px;
+    transition: all 400ms ease allow-discrete;
+  }
+  @starting-style {
+    &:popover-open {
+      translate: 100vw 66px;
+      transition: all 400ms ease allow-discrete;
+    }
   }
   &.work-label__datasheet {
     justify-content: center;
@@ -67,12 +74,6 @@ function addBreaks(string) {
   /* .work-label__text {
   } */
 }
-/* @starting-style {
-  .work-label:popover-open {
-    height: 0;
-    opacity: 0;
-  }
-} */
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .work-label {
@@ -80,9 +81,15 @@ function addBreaks(string) {
     top: calc(46vh - var(--labelHeight) / 2);
     width: 75%;
     height: var(--labelHeight);
+    translate: 100vw 0;
 
     &:popover-open {
       translate: calc(50vw - 50%) 0;
+    }
+    @starting-style {
+      &:popover-open {
+        translate: 100vw 0;
+      }
     }
     &.work-label__datasheet {
       justify-content: center;
@@ -104,16 +111,19 @@ function addBreaks(string) {
     top: 0;
     align-self: center;
     justify-self: end;
-    translate: 100% 0vh;
+    translate: 100% 0;
     padding: 3rem;
     /* box-shadow: -3px 2px 3px 0px #0003; */
 
     &:popover-open {
       opacity: 1;
-      translate: var(--toolbarWidth) 0vh;
-      transition:
-        opacity 0.4s ease,
-        translate 0.4s ease;
+      translate: var(--toolbarWidth) 0;
+      transition: all 400ms ease allow-discrete;
+    }
+    @starting-style {
+      &:popover-open {
+        translate: 100% 0;
+      }
     }
     /* &::backdrop {
       background: radial-gradient(
