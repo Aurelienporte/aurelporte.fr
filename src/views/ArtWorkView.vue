@@ -8,7 +8,9 @@ import MapIcon from '@/components/icons/MapIcon.vue'
 import IconArrowBack from '@/components/icons/IconArrowBack.vue'
 import ArrowNextIcon from '@/components/icons/ArrowNextIcon.vue'
 import CloseIcon from '@/components/icons/CloseIcon.vue'
-import { watch, ref, computed } from 'vue'
+// import { watch, ref, computed, reactive, useTemplateRef } from 'vue'
+import { watch, ref, computed, useTemplateRef } from 'vue'
+import { onClickOutside } from '@vueuse/core'
 import { useRoute, RouterLink } from 'vue-router'
 import { getYears, filterByProject, filterByYear } from '@/utils'
 import worksData from '@/data.json'
@@ -100,6 +102,77 @@ function updateWorks(urlSlug) {
   return update
 }
 const comingWorks = ref(updateWorks(pageUrlSlug))
+
+// const isActive = reactive({ description: false, infos: false, project: false })
+
+// const isLinkVisible = computed(() =>
+//   isActive.description || isActive.infos || isActive.project ? false : true
+// )
+
+// function showLabel(name) {
+//   if (name === 'description') {
+//     isActive.description = !isActive.description
+//     isActive.infos = false
+//     isActive.project = false
+//   }
+//   if (name === 'infos') {
+//     isActive.description = false
+//     isActive.infos = !isActive.infos
+//     isActive.project = false
+//   }
+//   if (name === 'project') {
+//     isActive.description = false
+//     isActive.infos = false
+//     isActive.project = !isActive.project
+//   }
+// }
+
+// const infos = useTemplateRef('infos')
+
+// onClickOutside(infos, (event) => {
+//   if (isActive.description || isActive.infos || isActive.project) {
+//     if (event.target.className === 'artwork__overlay') {
+//       isActive.description = false
+//       isActive.infos = false
+//       isActive.project = false
+//     }
+//   }
+// })
+const isActive = ref({ description: false, infos: false, project: false })
+
+const isLinkVisible = computed(() =>
+  isActive.value.description || isActive.value.infos || isActive.value.project ? false : true
+)
+
+function showLabel(name) {
+  if (name === 'description') {
+    isActive.value.description = !isActive.value.description
+    isActive.value.infos = false
+    isActive.value.project = false
+  }
+  if (name === 'infos') {
+    isActive.value.description = false
+    isActive.value.infos = !isActive.value.infos
+    isActive.value.project = false
+  }
+  if (name === 'project') {
+    isActive.value.description = false
+    isActive.value.infos = false
+    isActive.value.project = !isActive.value.project
+  }
+}
+
+const infos = useTemplateRef('infos')
+
+onClickOutside(infos, (event) => {
+  if (isActive.value.description || isActive.value.infos || isActive.value.project) {
+    if (event.target.className === 'artwork__overlay') {
+      isActive.value.description = false
+      isActive.value.infos = false
+      isActive.value.project = false
+    }
+  }
+})
 </script>
 <template>
   <TheAppMenu></TheAppMenu>
@@ -118,6 +191,7 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
     ></ArtworkLabel>
     <ArtworkLabel
       id="infos"
+      ref="infos"
       :data-sheet="true"
       :title="artwork.title"
       :materials="artwork.materials"
@@ -134,29 +208,30 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
     ></ArtworkLabel>
 
     <div class="toolbar">
-      <RouterLink :to="comingWorks.previousWork" class="toolbar__link"
+      <RouterLink v-show="isLinkVisible" :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
       <button
         :disabled="hasText"
-        popovertarget="description"
-        @click="toogleArrows(1)"
         class="toolbar__button"
+        @click="showLabel('description')"
+        popovertarget="description"
       >
         <TextIcon class="toolbar__svg toolbar--open"></TextIcon>
         <CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
-      ><button popovertarget="infos" @click="toogleArrows(2)" class="toolbar__button">
+      ><button class="toolbar__button" @click="showLabel('infos')" popovertarget="infos">
         <InfoIcon class="toolbar__svg toolbar--open"></InfoIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
-      ><button popovertarget="project" @click="toogleArrows(3)" class="toolbar__button">
+      ><button class="toolbar__button" @click="showLabel('project')" popovertarget="project">
         <MapIcon class="toolbar__svg toolbar--open"></MapIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon>
       </button>
-      <RouterLink :to="comingWorks.nextWork" class="toolbar__link"
+      <RouterLink v-show="isLinkVisible" :to="comingWorks.nextWork" class="toolbar__link"
         ><ArrowNextIcon class="toolbar__svg"></ArrowNextIcon
       ></RouterLink>
     </div>
   </main>
+  <div class="artwork__overlay"></div>
 </template>
 
 <style scoped>
@@ -172,9 +247,6 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
   & .toolbar__link {
     display: none;
   }
-}
-.toolbar--close {
-  display: none;
 }
 .artwork__main:has(#description:popover-open) {
   & .toolbar__button:first-of-type {
@@ -206,6 +278,26 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
     }
   }
 }
+.artwork__main:has(:popover-open) + .artwork__overlay {
+  opacity: 1;
+  clip-path: polygon(
+    36% 0,
+    0 0,
+    0 50%,
+    0 100%,
+    35% 100%,
+    66% 100%,
+    100% 100%,
+    100% 80%,
+    100% 48%,
+    100% 20%,
+    100% 0,
+    68% 0
+  );
+  transition:
+    clip-path 300ms ease 100ms,
+    opacity 400ms ease 100ms;
+}
 & .work {
   grid-area: 1/1/2/2;
   display: grid;
@@ -232,14 +324,20 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
   border-image-slice: 1 0 0;
   border-image-width: 1px;
   border-top: 1px solid gray;
+
   & .toolbar__link {
     box-sizing: border-box;
   }
   & .toolbar__button {
     display: grid;
     place-content: center;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
 
     &:disabled {
+      z-index: 0;
+
       & .toolbar__svg {
         fill: #999999;
       }
@@ -253,6 +351,42 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
       fill: #323232;
     }
   }
+}
+.toolbar--close {
+  display: none;
+}
+& .artwork__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(
+      circle at 100% 30%,
+      transparent 20%,
+      rgb(26 178 234 / 35%) 65%,
+      transparent 85%
+    ),
+    rgba(21, 20, 50, 0.5);
+  backdrop-filter: blur(1px);
+  clip-path: polygon(
+    0 39%,
+    0 44%,
+    0 48%,
+    0 54%,
+    0 59%,
+    0 63%,
+    0 68%,
+    0 72%,
+    0 76%,
+    0 27%,
+    0 31%,
+    0 35%
+  );
+  transition:
+    clip-path 400ms ease,
+    opacity 200ms ease;
+  opacity: 0.5;
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
@@ -329,6 +463,18 @@ const comingWorks = ref(updateWorks(pageUrlSlug))
         fill: #999999;
       }
     }
+  }
+  & .artwork__overlay {
+    transition:
+      clip-path 750ms ease 50ms,
+      opacity 400ms ease;
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0);
+  }
+  & .artwork__main:has(:popover-open) + .artwork__overlay {
+    transition:
+      clip-path 500ms ease 100ms,
+      opacity 300ms ease 300ms;
+    clip-path: polygon(0 0, 0 10%, 100% 10%, 100% 90%, 0 90%, 0 100%, 100% 100%, 100% 0);
   }
 }
 </style>

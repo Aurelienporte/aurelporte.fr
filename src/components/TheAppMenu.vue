@@ -433,10 +433,11 @@ header {
 /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/
 @media screen and (1024px <= width) and (orientation: landscape) {
   header {
+    --bannerHeight: 10vh;
     --navWidth: 25vw;
 
     border-image-width: 2px;
-    /*for unkwnown reasons border-image is not displayed if width is under 2px */
+    /*border-image is not displayed if width is under 2px */
     border-image-source: linear-gradient(
       90deg,
       transparent,
