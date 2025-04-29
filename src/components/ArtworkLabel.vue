@@ -37,7 +37,7 @@ function addBreaks(string) {
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .work-label {
-  height: 70vh;
+  height: var(--mainHeight);
   width: 100%;
   padding: 2rem;
   box-sizing: border-box;
@@ -48,8 +48,6 @@ function addBreaks(string) {
   border: none;
 
   &:popover-open {
-    /* position: absolute;
-    top: 66px; */
     display: flex;
     flex-flow: column;
     gap: 1rem;

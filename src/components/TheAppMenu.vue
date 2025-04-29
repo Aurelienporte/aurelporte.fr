@@ -37,7 +37,7 @@ const slashInPath = activePath.match(regex)
   <header>
     <div class="banner">
       <h1 class="banner__title" v-if="headerTitle">{{ headerTitle }}</h1>
-      <span v-else class="banner__title">Aurel Porté</span>
+      <RouterLink v-else class="banner__title" to="/">Aurel Porté</RouterLink>
       <button class="burger" popovertarget="navigation-menu" popoveraction="toggle">
         <span
           class="burger__dash"
@@ -88,11 +88,12 @@ const slashInPath = activePath.match(regex)
 <style scoped>
 /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/
 header {
-  --bannerHeight: 64px;
-  --buttonSide: 30px;
+  --buttonSide: 24px;
   --halfSide: calc(var(--buttonSide) * 0.5);
-  --buttonPadding: 9px;
+  --buttonPadding: 12px;
   --navWidth: 100vw;
+
+  box-sizing: border-box;
   position: sticky;
   left: 0;
   top: 0;
@@ -361,8 +362,8 @@ header {
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
   header {
-    --bannerHeight: 8vh;
     --navWidth: 50vw;
+
     border-image-width: 2px;
     border-image-source: linear-gradient(
       90deg,
@@ -433,7 +434,8 @@ header {
 /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/
 @media screen and (1024px <= width) and (orientation: landscape) {
   header {
-    --bannerHeight: 10vh;
+    --buttonSide: 30px;
+    --buttonPadding: 9px;
     --navWidth: 25vw;
 
     border-image-width: 2px;

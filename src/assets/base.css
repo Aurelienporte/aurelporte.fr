@@ -16,6 +16,8 @@ li {
   /* --mainColor: #54143b; */
   --mainColor: black;
   --saillanceColor: rgb(26, 179, 234);
+  --bannerHeight: 64px;
+  --mainHeight: 65vh;
 }
 
 html {
@@ -60,6 +62,11 @@ h1 {
 
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
+  :root {
+    --bannerHeight: 8vh;
+    --mainHeight: 76vh;
+  }
+
   p {
     line-height: 1.4rem;
   }
@@ -74,4 +81,7 @@ h1 {
 }
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) and (orientation: landscape) {
+  :root {
+    --bannerHeight: 10vh;
+  }
 }

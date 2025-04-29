@@ -227,12 +227,8 @@ onClickOutside(infos, (event) => {
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .artwork__main {
-  height: 80vh;
   display: grid;
-  grid-template-rows: 70vh 10vh;
-  grid-template-columns: 1fr;
-  place-content: center;
-  overflow: hidden;
+  grid-template-rows: var(--mainHeight) auto;
 }
 .artwork__main:has(:popover-open) {
   & .toolbar__link {
@@ -305,6 +301,8 @@ onClickOutside(infos, (event) => {
   place-content: center;
   gap: 0 var(--toolGap);
   width: 100%;
+  height: var(--bannerHeight);
+  box-sizing: border-box;
   border-width: 1px;
   border-style: solid;
   border-image-source: linear-gradient(
@@ -408,8 +406,7 @@ onClickOutside(infos, (event) => {
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .artwork__main {
-    height: 84vh;
-    grid-template-rows: 76vh 8vh;
+    grid-template-rows: var(--mainHeight) 8vh;
   }
   & .toolbar {
     --toolHeight: 44px;
