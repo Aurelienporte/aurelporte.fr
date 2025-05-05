@@ -5,6 +5,7 @@ import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
 import PlusIcon from '@/components/icons/PlusIcon.vue'
 import { useTemplateRef } from 'vue'
+import { useScroll } from '@vueuse/core'
 
 const route = useRoute()
 const path = ref(route.path)
@@ -84,15 +85,30 @@ function resetHanging(workHanging, workWidth) {
 }
 
 const main = useTemplateRef('main')
+
 function scrollWithWheel(e) {
   e.preventDefault()
-  main.value.scrollLeft += e.deltaY * 5
+  const scrollX = useScroll(main, { behavior: 'smooth' }).x
+  scrollX.value += e.deltaY * 10
+}
+
+const isArrived = ref(false)
+
+function updateScroll(e) {
+  e.preventDefault()
+  const scrollEnd = useScroll(main).arrivedState
+  isArrived.value = scrollEnd.right
 }
 </script>
 
 <template>
   <TheAppMenu></TheAppMenu>
-  <main class="works__main main--scroll-x" @wheel="scrollWithWheel" ref="main">
+  <main
+    class="works__main main--scroll-x"
+    @wheel="scrollWithWheel"
+    @scroll="updateScroll"
+    ref="main"
+  >
     <h1 class="works__title title--vertical" id="title">
       {{ route.path === '/works' ? '&OElig;uvres récentes' : route.params.filter }}
     </h1>
@@ -126,7 +142,7 @@ function scrollWithWheel(e) {
         :hanging="work.display.hanging"
       ></ThumbnailLink>
     </div>
-    <div class="action-bar">
+    <div class="action-bar" :class="{ 'action-bar--arrived': isArrived }">
       <button
         v-if="route.path === '/works' && worksNumber < works.length"
         class="action-bar__see-more-button"
@@ -146,11 +162,12 @@ function scrollWithWheel(e) {
 .works__main {
   --titleSize: 17vw;
   --titleOffset: -3.5vw;
+  --mainHeight: 80vh;
+  --barWidth: calc(10vw + 30px);
 
   display: grid;
-  grid-template-rows: 80vh;
+  grid-template-rows: var(--mainHeight);
   grid-template-columns: var(--titleSize) 1fr auto;
-  gap: 16px;
   width: 100vw;
 }
 .works__title {
@@ -166,21 +183,29 @@ function scrollWithWheel(e) {
 .thumbnails__container {
   display: flex;
   align-items: flex-end;
+  padding-right: var(--barWidth);
 }
 .action-bar {
+  position: absolute;
+  right: 0;
+  translate: 0 2vh;
+  height: calc(var(--mainHeight) - 4vh);
+  width: var(--barWidth);
+  overflow: hidden;
   writing-mode: vertical-lr;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: calc(10vw + 30px);
   font-family: 'Questrial', serif;
   font-size: 32px;
   font-weight: 700;
+  opacity: 0;
+  background: rgb(255, 255, 255, 0.7);
+  backdrop-filter: blur(2px);
+  transition: opacity 200ms ease;
 
   & .action-bar__see-more-button,
   .action-bar__return-link {
-    transform: rotateZ(180deg);
-    color: var(--mainColor);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,15 +213,20 @@ function scrollWithWheel(e) {
     height: auto;
     width: 40px;
     padding: 5px;
-    background: rgb(255, 255, 255, 0.7);
-    backdrop-filter: blur(2px);
-    border-radius: 5px;
-    transition: color 150ms ease;
+    translate: var(--barWidth);
+    transform: rotateZ(180deg);
+    color: var(--mainColor);
+    /* opacity: 0; */
+    transition:
+      color 150ms ease,
+      translate 400ms ease-in;
 
     &:hover,
     &:focus-visible {
       color: var(--saillanceColor);
-      transition: color 150ms ease;
+      transition:
+        color 150ms ease,
+        translate 400ms ease;
     }
   }
   & .action-bar__see-more-button {
@@ -209,6 +239,18 @@ function scrollWithWheel(e) {
     &:focus-visible .action-bar_plus-icon {
       fill: var(--saillanceColor);
       transition: fill 150ms ease;
+    }
+  }
+  &.action-bar--arrived {
+    opacity: 1;
+    transition: opacity 400ms ease 200ms;
+
+    & .action-bar__see-more-button,
+    .action-bar__return-link {
+      translate: 0;
+      transition:
+        color 150ms ease,
+        translate 400ms ease;
     }
   }
 }
@@ -225,6 +267,7 @@ function scrollWithWheel(e) {
   .works__main {
     --titleSize: 5vw;
     --titleOffset: -1vw;
+    --barWidth: calc(1vw + 48px);
   }
 }
 /* .low-title {

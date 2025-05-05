@@ -63,6 +63,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
       :height="work.icon.height"
       :shadow="work.display.hasShadow"
       :hanging="resetHanging"
+      rel="nofollow"
     ></ThumbnailLink>
     <ThumbnailLink
       v-if="laptop || desktop"
@@ -75,6 +76,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
       :height="secondWork.icon.height"
       :shadow="secondWork.display.hasShadow"
       :hanging="resetHanging"
+      rel="nofollow"
     ></ThumbnailLink>
     <nav class="nav-menu">
       <ul class="nav-menu__list">

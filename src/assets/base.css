@@ -17,14 +17,13 @@ li {
   --mainColor: black;
   --saillanceColor: rgb(26, 179, 234);
   --bannerHeight: 64px;
-  --mainHeight: 65vh;
+  --mainHeight: 66vh;
 }
 
 html {
   overflow: hidden;
 }
 body {
-  /* min-height: 100vh; */
   max-height: 100vh;
   font-family: 'Exo 2', serif;
   overflow: hidden;
@@ -39,7 +38,7 @@ button {
   cursor: pointer;
   font-family: 'Exo 2', serif;
   font-size: 1rem;
-  background: white;
+  background: transparent;
   border: none;
 }
 
