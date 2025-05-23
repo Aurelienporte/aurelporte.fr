@@ -4088,8 +4088,8 @@
     "icon": {
       "webp_png": "le_bord_du_monde_xs.webp",
       "jpeg": "le_bord_du_monde_xs.jpeg",
-      "height": 96,
-      "width": 133
+      "height": 97,
+      "width": 134
     },
     "images": {
       "small": {
@@ -4101,13 +4101,13 @@
       "medium": {
         "webp": "le_bord_du_monde_m.webp",
         "jpeg": "le_bord_du_monde_m.jpeg",
-        "width": "",
+        "width": 704,
         "height": ""
       },
       "large": {
         "webp": "le_bord_du_monde_l.webp",
         "jpeg": "le_bord_du_monde_l.jpeg",
-        "width": "",
+        "width": 896,
         "height": ""
       }
     },
