@@ -377,14 +377,15 @@ onClickOutside(infos, (event) => {
   left: 0;
   height: 100%;
   width: 100%;
-  background: radial-gradient(
+  /* background: radial-gradient(
       circle at 100% 30%,
       transparent 20%,
       rgb(26 178 234 / 35%) 65%,
       transparent 85%
     ),
     rgba(21, 20, 50, 0.5);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px); */
+  background: rgba(26, 26, 26, 0.3);
   /* clip-path: polygon(
     0 39%,
     0 44%,
