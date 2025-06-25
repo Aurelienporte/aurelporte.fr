@@ -282,9 +282,8 @@ onClickOutside(infos, (event) => {
     68% 0
   );
   transition:
-    clip-path 300ms ease 100ms,
-    opacity 400ms ease 100ms;
-  /* transition: opacity 400ms ease 100ms; */
+    clip-path 200ms ease-out 100ms,
+    opacity 200ms ease-out 100ms;
 }
 & .work {
   grid-area: 1/1/2/2;
@@ -384,8 +383,6 @@ onClickOutside(infos, (event) => {
       transparent 85%
     ),
     rgba(21, 20, 50, 0.5);
-  /* backdrop-filter: blur(1px); */
-  /* background: rgba(26, 26, 26, 0.3); */
   clip-path: polygon(
     0 39%,
     0 44%,
@@ -401,9 +398,8 @@ onClickOutside(infos, (event) => {
     0 35%
   );
   transition:
-    clip-path 400ms ease,
-    opacity 200ms ease;
-  /* transition: opacity 200ms ease; */
+    clip-path 300ms ease-out,
+    opacity 150ms ease-out;
   opacity: 0.5;
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/

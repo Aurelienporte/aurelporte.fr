@@ -42,9 +42,9 @@ function addBreaks(string) {
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: rgb(255 255 255 / 0.95);
+  background-color: rgb(255 255 255 / 0.9);
   translate: 100vw 66px;
-  transition: all 400ms ease allow-discrete;
+  transition: all 300ms ease-out allow-discrete;
   border: none;
 
   &:popover-open {
@@ -52,12 +52,12 @@ function addBreaks(string) {
     flex-flow: column;
     gap: 1rem;
     translate: 0 66px;
-    transition: all 400ms ease allow-discrete;
+    transition: all 300ms ease-out allow-discrete;
   }
   @starting-style {
     &:popover-open {
       translate: 100vw 66px;
-      transition: all 400ms ease allow-discrete;
+      transition: all 300ms ease-out allow-discrete;
     }
   }
   &.work-label__datasheet {
