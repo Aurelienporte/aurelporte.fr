@@ -267,7 +267,7 @@ onClickOutside(infos, (event) => {
 }
 .artwork__main:has(:popover-open) + .artwork__overlay {
   opacity: 1;
-  clip-path: polygon(
+  /* clip-path: polygon(
     36% 0,
     0 0,
     0 50%,
@@ -280,10 +280,11 @@ onClickOutside(infos, (event) => {
     100% 20%,
     100% 0,
     68% 0
-  );
-  transition:
+  ); */
+  /* transition:
     clip-path 300ms ease 100ms,
-    opacity 400ms ease 100ms;
+    opacity 400ms ease 100ms; */
+  transition: opacity 400ms ease 100ms;
 }
 & .work {
   grid-area: 1/1/2/2;
@@ -384,7 +385,7 @@ onClickOutside(infos, (event) => {
     ),
     rgba(21, 20, 50, 0.5);
   backdrop-filter: blur(1px);
-  clip-path: polygon(
+  /* clip-path: polygon(
     0 39%,
     0 44%,
     0 48%,
@@ -397,10 +398,11 @@ onClickOutside(infos, (event) => {
     0 27%,
     0 31%,
     0 35%
-  );
-  transition:
+  ); */
+  /* transition:
     clip-path 400ms ease,
-    opacity 200ms ease;
+    opacity 200ms ease; */
+  transition: opacity 200ms ease;
   opacity: 0.5;
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
