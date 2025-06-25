@@ -383,8 +383,8 @@ onClickOutside(infos, (event) => {
       rgb(26 178 234 / 35%) 65%,
       transparent 85%
     ),
-    rgba(21, 20, 50, 0.5);
-  backdrop-filter: blur(1px); */
+    rgba(21, 20, 50, 0.5); */
+  backdrop-filter: blur(1px);
   background: rgba(26, 26, 26, 0.3);
   /* clip-path: polygon(
     0 39%,
