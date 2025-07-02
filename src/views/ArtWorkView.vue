@@ -126,27 +126,13 @@ function showLabel(name) {
     activeLabel.value.infos = false
     activeLabel.value.project = !activeLabel.value.project
   }
-  console.log(activeLabel.value)
 }
 
 const infos = useTemplateRef('infos')
 
 onClickOutside(infos, (event) => {
   if (activeLabel.value.description || activeLabel.value.infos || activeLabel.value.project) {
-    console.log(event.target.className)
-    const classList = [
-      'artwork__main',
-      'artwork work',
-      'artwork__container',
-      'artwork__img',
-      'artwork__img artwork__img--shadow',
-      'toolbar',
-      'pseudo-target'
-    ]
-    if (
-      event.target.className === 'artwork__overlay' ||
-      classList.includes(event.target.className)
-    ) {
+    if (event.target.className === 'artwork__overlay') {
       activeLabel.value.description = false
       activeLabel.value.infos = false
       activeLabel.value.project = false

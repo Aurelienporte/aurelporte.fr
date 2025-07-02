@@ -224,7 +224,7 @@ header {
           transparent 85%
         ),
         rgba(21, 20, 50, 0.3);
-      mask:
+      /* mask:
         linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
         radial-gradient(
             calc(var(--borderRadius) * 2) circle at 100% 100%,
@@ -243,7 +243,7 @@ header {
           calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius) var(--borderRadius)
           no-repeat;
       mask-composite: add, add, subtract;
-      mask-mode: luminance;
+      mask-mode: luminance; */
       transition:
         background-color 0.3s ease 0.3s allow-discrete,
         opacity 0.5s ease allow-discrete,
@@ -254,7 +254,7 @@ header {
       &:popover-open::backdrop {
         opacity: 0;
         background: rgb(26 178 234 / 40%);
-        mask:
+        /* mask:
           linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
           radial-gradient(
               calc(var(--borderRadius) * 2) circle at 100% 100%,
@@ -273,7 +273,7 @@ header {
             calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius)
             var(--borderRadius) no-repeat;
         mask-composite: add, add, subtract;
-        mask-mode: luminance;
+        mask-mode: luminance; */
       }
     }
     @starting-style {
