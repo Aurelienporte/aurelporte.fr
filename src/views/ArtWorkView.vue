@@ -102,35 +102,37 @@ function updateWorks(urlSlug) {
 }
 const comingWorks = ref(updateWorks(pageUrlSlug))
 
-const isActive = ref({ description: false, infos: false, project: false })
+const activeLabel = ref({ description: false, infos: false, project: false })
 
-const isLinkVisible = computed(() =>
-  isActive.value.description || isActive.value.infos || isActive.value.project ? false : true
+const isLabelActive = computed(() =>
+  activeLabel.value.description || activeLabel.value.infos || activeLabel.value.project
+    ? false
+    : true
 )
 
 function showLabel(name) {
   if (name === 'description') {
-    isActive.value.description = !isActive.value.description
-    isActive.value.infos = false
-    isActive.value.project = false
+    activeLabel.value.description = !activeLabel.value.description
+    activeLabel.value.infos = false
+    activeLabel.value.project = false
   }
   if (name === 'infos') {
-    isActive.value.description = false
-    isActive.value.infos = !isActive.value.infos
-    isActive.value.project = false
+    activeLabel.value.description = false
+    activeLabel.value.infos = !activeLabel.value.infos
+    activeLabel.value.project = false
   }
   if (name === 'project') {
-    isActive.value.description = false
-    isActive.value.infos = false
-    isActive.value.project = !isActive.value.project
+    activeLabel.value.description = false
+    activeLabel.value.infos = false
+    activeLabel.value.project = !activeLabel.value.project
   }
-  console.log(isActive.value)
+  console.log(activeLabel.value)
 }
 
 const infos = useTemplateRef('infos')
 
 onClickOutside(infos, (event) => {
-  if (isActive.value.description || isActive.value.infos || isActive.value.project) {
+  if (activeLabel.value.description || activeLabel.value.infos || activeLabel.value.project) {
     console.log(event.target.className)
     const classList = [
       'artwork__main',
@@ -145,9 +147,9 @@ onClickOutside(infos, (event) => {
       event.target.className === 'artwork__overlay' ||
       classList.includes(event.target.className)
     ) {
-      isActive.value.description = false
-      isActive.value.infos = false
-      isActive.value.project = false
+      activeLabel.value.description = false
+      activeLabel.value.infos = false
+      activeLabel.value.project = false
     }
   }
 })
@@ -186,7 +188,7 @@ onClickOutside(infos, (event) => {
     ></ArtworkLabel>
 
     <div class="toolbar">
-      <RouterLink v-show="isLinkVisible" :to="comingWorks.previousWork" class="toolbar__link"
+      <RouterLink v-show="isLabelActive" :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
       <span v-if="hasText" class="pseudo-target"></span>
@@ -216,12 +218,14 @@ onClickOutside(infos, (event) => {
         <MapIcon class="toolbar__svg toolbar--open"></MapIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon>
       </button>
-      <RouterLink v-show="isLinkVisible" :to="comingWorks.nextWork" class="toolbar__link"
+      <RouterLink v-show="isLabelActive" :to="comingWorks.nextWork" class="toolbar__link"
         ><ArrowNextIcon class="toolbar__svg"></ArrowNextIcon
       ></RouterLink>
     </div>
   </main>
-  <div class="artwork__overlay"></div>
+  <Transition name="slide-fade">
+    <div v-show="!isLabelActive" class="artwork__overlay"></div>
+  </Transition>
 </template>
 
 <style scoped>
@@ -264,26 +268,6 @@ onClickOutside(infos, (event) => {
       display: block;
     }
   }
-}
-.artwork__main:has(:popover-open) + .artwork__overlay {
-  opacity: 1;
-  clip-path: polygon(
-    36% 0,
-    0 0,
-    0 50%,
-    0 100%,
-    35% 100%,
-    66% 100%,
-    100% 100%,
-    100% 80%,
-    100% 48%,
-    100% 20%,
-    100% 0,
-    68% 0
-  );
-  transition:
-    clip-path 200ms ease-out 100ms,
-    opacity 200ms ease-out 100ms;
 }
 & .work {
   grid-area: 1/1/2/2;
@@ -383,24 +367,22 @@ onClickOutside(infos, (event) => {
       transparent 85%
     ),
     rgba(21, 20, 50, 0.5);
-  clip-path: polygon(
-    0 39%,
-    0 44%,
-    0 48%,
-    0 54%,
-    0 59%,
-    0 63%,
-    0 68%,
-    0 72%,
-    0 76%,
-    0 27%,
-    0 31%,
-    0 35%
-  );
-  transition:
-    clip-path 300ms ease-out,
-    opacity 150ms ease-out;
   opacity: 0.5;
+}
+.slide-fade-enter-active {
+  transition:
+    translate 300ms ease-out,
+    opacity 150ms ease-out;
+}
+.slide-fade-leave-active {
+  transition:
+    translate 200ms ease-out 100ms,
+    opacity 200ms ease-out 100ms;
+}
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  opacity: 0;
+  translate: -100vw;
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
@@ -504,16 +486,23 @@ onClickOutside(infos, (event) => {
     }
   }
   & .artwork__overlay {
-    transition:
-      clip-path 750ms ease 50ms,
-      opacity 400ms ease;
-    clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0);
-  }
-  & .artwork__main:has(:popover-open) + .artwork__overlay {
-    transition:
-      clip-path 500ms ease 100ms,
-      opacity 300ms ease 300ms;
     clip-path: polygon(0 0, 0 10%, 100% 10%, 100% 90%, 0 90%, 0 100%, 100% 100%, 100% 0);
+  }
+  .slide-fade-enter-active {
+    transition:
+      clip-path 500ms ease-out 50ms,
+      opacity 400ms ease-out;
+  }
+  .slide-fade-leave-active {
+    transition:
+      clip-path 500ms ease-out 100ms,
+      opacity 300ms ease-out 100ms;
+  }
+  .slide-fade-enter-from,
+  .slide-fade-leave-to {
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0);
+    opacity: 0;
+    translate: 0; /*looks mandatory to override first declration*/
   }
 }
 </style>
