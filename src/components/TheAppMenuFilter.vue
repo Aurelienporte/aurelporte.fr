@@ -4,6 +4,7 @@ import { normalizeName } from '@/utils'
 import { useRoute } from 'vue-router'
 import { ref, watch } from 'vue'
 import IconChevronRight from './icons/IconChevronRight.vue'
+import MenuItem from './MenuItem.vue'
 
 const route = useRoute()
 let param = ref(route.params.filter)
@@ -39,15 +40,17 @@ function isToogled(payload) {
 }
 </script>
 <template>
-  <li class="filter">
-    <div class="filter__container">
-      <button :class="{ active: visible }" class="filter__title" @click="isToogled(listName)">
-        <span>
-          {{ name }}
-        </span>
-        <IconChevronRight class="title__chevron" :class="{ rotated: visible }"></IconChevronRight>
-      </button>
-    </div>
+  <MenuItem>
+    <button
+      :class="{ active: visible }"
+      class="filter__title navigation-menu__button"
+      @click="isToogled(listName)"
+    >
+      <IconChevronRight class="title__chevron" :class="{ rotated: visible }"></IconChevronRight>
+      <span>
+        {{ name }}
+      </span>
+    </button>
     <ol class="filter__list" :class="{ visible: visible }">
       <li v-for="filter in filters" :key="filter" class="filter__item">
         <RouterLink
@@ -61,59 +64,34 @@ function isToogled(payload) {
         >
       </li>
     </ol>
-  </li>
+  </MenuItem>
 </template>
+
 <style scoped>
 /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/
-.filter {
-  & .filter__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
-    border-width: 1px;
-    border-style: solid;
-    border-image-source: linear-gradient(90deg, transparent 10%, gray 20% 80%, transparent 90%);
-    border-image-slice: 0 0 1;
-    border-image-width: 1px;
-    border-bottom: 1px solid gray;
+.filter__title {
+  display: flex;
+  align-items: center;
+
+  & .active {
+    font-weight: 700;
+    color: var(--saillanceColor);
   }
-  & .filter__title {
-    --buttonHeight: 40px;
-    --error: 2px;
-
-    display: flex;
-    align-items: center;
-    height: var(--buttonHeight);
-    padding: 5px 8px;
-    font-weight: 400;
-    cursor: pointer;
-
-    & span {
-      font-size: 1rem;
-    }
-    &.active {
-      font-weight: 700;
-      color: var(--saillanceColor);
-    }
-    & .title__chevron {
-      align-self: flex-start;
-      translate: 0 calc((var(--buttonHeight) / 2 - var(--error)) - 50%);
-      transition: rotate 200ms ease;
-    }
-    & .rotated {
-      rotate: 90deg;
-      transition: rotate 200ms ease;
-      fill: var(--saillanceColor);
-    }
+  & .title__chevron {
+    translate: 0 1px;
+    transition: rotate 200ms ease;
+  }
+  & .rotated {
+    rotate: 90deg;
+    transition: rotate 200ms ease;
+    fill: var(--saillanceColor);
   }
 }
 .filter__list {
   height: auto;
   max-height: 0vh;
-  transition: all 400ms ease;
+  transition: max-height 150ms ease 150ms;
   overflow: hidden;
-  margin-top: 0;
 
   & .router-link-active {
     font-weight: 700;
@@ -132,9 +110,9 @@ function isToogled(payload) {
 }
 .visible {
   height: auto;
-  max-height: 80vh;
-  margin-top: 16px;
-  transition: all 300ms ease;
+  max-height: calc(var(--mainHeight) - 20vh - 96px);
+  overflow: scroll;
+  transition: max-height 150ms ease 150ms;
 }
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
@@ -202,6 +180,10 @@ function isToogled(payload) {
     }
   }
   .filter__list {
+    & .filter__label {
+      font-size: 1rem;
+    }
+
     & .filter__label:hover {
       font-weight: 700;
       text-decoration: underline;
@@ -209,6 +191,13 @@ function isToogled(payload) {
       text-underline-offset: 5px;
       transition: all 200ms ease;
     }
+  }
+  .visible {
+    height: auto;
+    max-height: calc(var(--menuHeight) - 20vh - 96px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: max-height 150ms ease 150ms;
   }
 }
 </style>

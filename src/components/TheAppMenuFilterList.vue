@@ -4,6 +4,7 @@ import { getYears } from '@/utils'
 import { getProjects } from '@/utils'
 import { ref } from 'vue'
 import IconArrowBack from './icons/IconArrowBack.vue'
+import MenuItem from './MenuItem.vue'
 
 const years = getYears()
 const projects = getProjects()
@@ -44,55 +45,34 @@ function toogleList(listName) {
       :visible="isProjectsVisible"
       @toogle="toogleList($event)"
     ></TheAppMenuFilter>
-    <li class="filter-menu__back-item">
-      <button @click="showMainMenu">
-        <IconArrowBack class="back-button__arrow-back"></IconArrowBack>
+    <MenuItem>
+      <button @click="showMainMenu" class="navigation-menu__button filter-menu__back-button">
+        <IconArrowBack class="back-button__arrow-back"></IconArrowBack> Retour
       </button>
-    </li>
+    </MenuItem>
   </ul>
 </template>
 
 <style>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .filter-menu {
-  --inlinePadding: 48px;
-  display: grid;
-  grid-template-columns: var(--inlinePadding) calc(100vw - var(--inlinePadding) * 2) var(
-      --inlinePadding
-    );
-  grid-template-rows: auto auto;
-  place-content: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  transition: justify-content 150ms ease-out;
+
+  &:has(.visible) {
+    justify-content: flex-start;
+  }
 }
-.filter-menu__back-item {
-  grid-area: 1/1/3/2;
-  align-self: flex-start; /*If center (and no translate) then it will move when a filter is open */
-  transform: translate(0, calc((10vh + 2px) - 50%));
-
-  & button {
-    height: 28px;
-    box-sizing: content-box;
-    padding: 8px;
-  }
-  &::after,
-  &::before {
-    content: '';
-    height: 0vh;
-    width: 4px;
-    transition: height 0.4s ease;
-    align-self: center;
-  }
-
-  &:hover {
-    &::after,
-    &::before {
-      height: 10vh;
-      transition: height 0.4s ease;
-      background: linear-gradient(transparent 10%, black 20% 80%, transparent 90%);
-    }
+.filter-menu__back-button {
+  & .back-button__arrow-back {
+    transform: translate(0, 5px);
   }
 }
 #years {
-  grid-area: 1/2/2/3;
   & .filter__list {
     transition: all 200ms ease;
     display: grid;
@@ -101,99 +81,59 @@ function toogleList(listName) {
   }
 }
 #projects {
-  grid-area: 2/2/3/3;
   & .filter__list {
     display: flex;
     flex-flow: column;
     align-items: center;
+    width: 100%;
   }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .filter-menu {
-    --inlinePadding: 48px;
-    padding: 0 var(--inlinePadding);
-    grid-template-columns: calc(50vw - var(--inlinePadding) * 2);
-    grid-template-rows: auto auto 10vh;
+    padding: 0;
+
+    &:has(.visible) {
+      justify-content: center;
+    }
   }
-  .filter-menu__back-item {
+  .filter-menu__back-button {
     grid-area: 3/1/4/2;
     align-self: center;
     justify-self: center;
-    transform: translate(0, 0);
-  }
-  #years {
-    grid-area: 1/1/2/2;
-  }
-  #projects {
-    grid-area: 2/1/3/2;
   }
 }
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) and (orientation: landscape) {
   .filter-menu {
     --inlinePadding: 48px;
-    padding: 0 var(--inlinePadding);
+    padding: 0;
     grid-template-columns: calc(25vw - var(--inlinePadding) * 2);
     grid-template-rows: repeat(3, auto);
   }
-  .filter-menu__back-item {
+  .filter-menu__back-button {
     grid-area: 3/1/4/2;
     align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translate(0, 0);
     height: 10vh;
 
-    & button {
-      line-height: 1.5rem;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-      background-color: transparent;
-
-      & .back-button__arrow-back {
-        height: 32px;
-        width: 32px;
-        transition: all 200ms ease;
-      }
-    }
-    &::after,
-    &::before {
-      content: '';
-      height: 0vh;
-      width: 4px;
-      transition: height 0.4s ease;
-      align-self: center;
+    & .back-button__arrow-back {
+      height: 24px;
+      width: 24px;
+      transition: all 200ms ease;
+      transform: translate(-5px, 0);
     }
 
     &:hover {
-      &::after,
-      &::before {
-        height: 10vh;
-        transition: height 0.4s ease;
-        background: linear-gradient(transparent 10%, black 20% 80%, transparent 90%);
-      }
-      & button {
-        & .back-button__arrow-back {
-          fill: black;
-          scale: 1.1;
-          height: 32px;
-          width: 32px;
-          transition: all 200ms ease;
-        }
+      & .back-button__arrow-back {
+        fill: black;
+        scale: 1.25;
+        transform: translate(-10px, 0);
+        transition: all 200ms ease;
       }
     }
-  }
-  #years {
-    grid-area: 1/1/2/2;
-  }
-  #projects {
-    grid-area: 2/1/3/2;
   }
 }
 </style>

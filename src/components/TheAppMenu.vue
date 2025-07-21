@@ -1,7 +1,9 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, watch, useTemplateRef } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import TheAppMenuFilterList from './TheAppMenuFilterList.vue'
+import TheAppMenuOverlay from './TheAppMenuOverlay.vue'
+import MenuItem from './MenuItem.vue'
 
 defineProps({
   headerTitle: {
@@ -9,28 +11,48 @@ defineProps({
     required: false
   }
 })
-const setCloseButton = ref(false)
-const clicked = ref(false)
-const isSubmenuVisible = ref(false)
-const isMainMenuVisible = ref(true)
+const menuToggle = defineEmits(['menuToggle'])
 
-function toogleButton() {
-  setCloseButton.value = !setCloseButton.value
-  clicked.value = true
+function onToggling(payload) {
+  menuToggle('menuToggle', payload)
 }
+
+const isMenuActive = ref(false)
+const isFiltersVisible = ref(false)
+const isNavLinksVisible = ref(false)
+
+function toogleMenu() {
+  isMenuActive.value = !isMenuActive.value
+
+  if (isNavLinksVisible.value == false && isFiltersVisible.value == false) {
+    isNavLinksVisible.value = true
+  }
+  onToggling(isMenuActive.value)
+}
+
 function showFilters() {
-  isMainMenuVisible.value = false
-  isSubmenuVisible.value = true
+  isNavLinksVisible.value = false
+  isFiltersVisible.value = true
 }
+
 function hideFilters() {
-  isMainMenuVisible.value = true
-  isSubmenuVisible.value = false
+  isNavLinksVisible.value = true
+  isFiltersVisible.value = false
 }
 
 const route = useRoute()
 const activePath = route.fullPath
 const regex = /\//g
 const slashInPath = activePath.match(regex)
+
+const navMenu = useTemplateRef('navigationMenu')
+
+watch(
+  () => route.path,
+  () => {
+    navMenu.value.hidePopover()
+  }
+)
 </script>
 
 <template>
@@ -38,50 +60,55 @@ const slashInPath = activePath.match(regex)
     <div class="banner">
       <h1 class="banner__title" v-if="headerTitle">{{ headerTitle }}</h1>
       <RouterLink v-else class="banner__title" to="/">Aurel Porté</RouterLink>
-      <button class="burger" popovertarget="navigation-menu" popoveraction="toggle">
-        <span
-          class="burger__dash"
-          :class="{ close: setCloseButton, open: !(setCloseButton == clicked) }"
-        ></span>
-        <span class="burger__dash" :class="{ fadeIn: setCloseButton }"></span
-        ><span
-          class="burger__dash"
-          :class="{ close: setCloseButton, open: !(setCloseButton == clicked) }"
-        ></span>
+      <button
+        class="burger"
+        popovertarget="navigation-menu"
+        popoveraction="toggle"
+        :class="{ 'button--up': isMenuActive }"
+      >
+        <span class="burger__dash" :class="{ close: isMenuActive, open: !isMenuActive }"></span>
+        <span class="burger__dash" :class="{ fadeIn: isMenuActive }"></span
+        ><span class="burger__dash" :class="{ close: isMenuActive, open: !isMenuActive }"></span>
       </button>
     </div>
-    <nav class="navigation-menu" popover id="navigation-menu" @toggle="toogleButton()">
-      <ul class="navigation-menu__list" v-if="isMainMenuVisible">
-        <li class="navigation-menu__item"><RouterLink to="/">Accueil</RouterLink></li>
+    <nav
+      class="navigation-menu"
+      popover
+      id="navigation-menu"
+      ref="navigationMenu"
+      @toggle="toogleMenu()"
+    >
+      <ul class="navigation-menu__list" v-if="isNavLinksVisible">
+        <MenuItem><RouterLink to="/" class="navigation-menu__link">Accueil</RouterLink></MenuItem>
         <!-- Display a link to the works if you're not on the page or a on single work page -->
-        <li
+        <MenuItem
           v-if="
             !(
               activePath === '/works' ||
               (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
             )
           "
-          class="navigation-menu__item"
+          ><RouterLink to="/works" class="navigation-menu__link">&OElig;uvres</RouterLink></MenuItem
         >
-          <RouterLink to="/works">&OElig;uvres</RouterLink>
-        </li>
         <!-- Display filters if you're on the works pages  -->
-        <li
+        <MenuItem
           v-if="
             activePath === '/works' ||
             (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
           "
-          class="navigation-menu__item"
         >
-          <button class="navigation-menu__button" @click="showFilters">Filtres</button>
-        </li>
+          <button class="navigation-menu__button" @click="showFilters">Filtres</button></MenuItem
+        >
         <!-- Display a link to infos if you're not already in the page -->
-        <li v-if="!(activePath === '/infos')" class="navigation-menu__item">
-          <RouterLink to="/infos">Infos</RouterLink>
-        </li>
+        <MenuItem v-if="!(activePath === '/infos')">
+          <RouterLink to="/infos" class="navigation-menu__link">Infos</RouterLink></MenuItem
+        >
       </ul>
-      <TheAppMenuFilterList v-if="isSubmenuVisible" @visible="hideFilters"></TheAppMenuFilterList>
+      <TheAppMenuFilterList v-if="isFiltersVisible" @visible="hideFilters"></TheAppMenuFilterList>
     </nav>
+    <Teleport to="body">
+      <TheAppMenuOverlay :is-visible="isMenuActive"></TheAppMenuOverlay>
+    </Teleport>
   </header>
 </template>
 
@@ -92,11 +119,9 @@ header {
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 12px;
   --navWidth: 100vw;
+  --menuHeight: 66vh;
 
   box-sizing: border-box;
-  position: sticky;
-  left: 0;
-  top: 0;
   border-width: 1px;
   border-style: solid;
   border-image-source: linear-gradient(
@@ -110,6 +135,7 @@ header {
   border-bottom: 1px solid gray;
 
   .banner {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,6 +157,7 @@ header {
     align-items: center;
     height: var(--buttonSide);
     background: white;
+    border-radius: 50%;
     padding: var(--buttonPadding);
     box-sizing: content-box;
     border: none;
@@ -166,12 +193,12 @@ header {
         --switch: -1;
       }
       &.close {
-        animation: closeButton 400ms ease 1 forwards;
+        animation: isMenuActive 300ms ease-out 1 forwards;
       }
       &.open {
         transform: translateY(calc(var(--switch) * (var(--halfSide) - 0.5 * var(--dashHeight))))
           rotate(calc(var(--switch) * 45deg));
-        animation: openButton 400ms ease 1 forwards;
+        animation: openButton 300ms ease 1 forwards;
       }
       &.fadeIn {
         opacity: 0;
@@ -186,154 +213,36 @@ header {
     position: absolute;
     top: var(--bannerHeight);
     left: 0;
-    width: var(--navWidth);
+    width: 100%;
+    height: var(--menuHeight);
     translate: 100vw 0;
-    transition: all 0.4s ease allow-discrete;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, white 0%, rgb(255 255 255/ 0.9) 100%);
+    border-radius: 10px;
+    transition: all 300ms ease-out allow-discrete;
 
-    & .navigation-menu__list {
-      --inlinePadding: 48px;
-      padding: 0 var(--inlinePadding);
-    }
     &:popover-open {
+      transition: all 300ms ease-out allow-discrete;
+      translate: calc(100vw - var(--navWidth)) 0;
+      /* padding is usefull when filters are displayed */
+      padding: 48px 0;
+      border: none;
+    }
+    & .navigation-menu__list {
       display: flex;
       flex-flow: column;
       justify-content: center;
-      transition: all 0.4s ease allow-discrete;
-      translate: calc(100vw - var(--navWidth)) 0;
-      border: none;
-    }
-    &::backdrop {
-      transition:
-        background-color 0.3s ease 0.3s allow-discrete,
-        opacity 0.5s ease allow-discrete,
-        display 0.5s allow-discrete,
-        overlay 0.5s allow-discrete;
+      height: 100%;
     }
 
-    &:popover-open::backdrop {
-      --tabX: calc(89vw - var(--buttonSide));
-      /*computed empty space length, give visible width to the X tab.
-      89vw looks better than 90vw because of the irregular shape*/
-      --borderRadius: 20px;
-
-      opacity: 1;
-      background: radial-gradient(
-          circle at 100% 30%,
-          transparent 20%,
-          rgb(26 178 234 / 35%) 65%,
-          transparent 85%
-        ),
-        rgba(21, 20, 50, 0.3);
-      /* mask:
-        linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
-        radial-gradient(
-            calc(var(--borderRadius) * 2) circle at 100% 100%,
-            #000 50%,
-            #fff calc(50% + 1px)
-          )
-          calc(var(--tabX) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
-        linear-gradient(90deg, #fff var(--tabX), #000 calc(var(--tabX) + 1px)) 0 0 / 100vh
-          var(--bannerHeight) no-repeat,
-        radial-gradient(
-            calc(var(--borderRadius) * 2) circle at 0% 0%,
-            #000 50%,
-            #fff calc(50% + 1px)
-          )
-          calc(var(--tabX) - var(--borderRadius) + 1px)
-          calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius) var(--borderRadius)
-          no-repeat;
-      mask-composite: add, add, subtract;
-      mask-mode: luminance; */
-      transition:
-        background-color 0.3s ease 0.3s allow-discrete,
-        opacity 0.5s ease allow-discrete,
-        display 0.5s allow-discrete,
-        overlay 0.5s allow-discrete;
-    }
-    @starting-style {
-      &:popover-open::backdrop {
-        opacity: 0;
-        background: rgb(26 178 234 / 40%);
-        /* mask:
-          linear-gradient(#000 calc(var(--bannerHeight) + 1px), #fff 0),
-          radial-gradient(
-              calc(var(--borderRadius) * 2) circle at 100% 100%,
-              #000 50%,
-              #fff calc(50% + 1px)
-            )
-            calc(var(--tabX) - 1px) 0 / var(--borderRadius) var(--borderRadius) no-repeat,
-          linear-gradient(90deg, #fff var(--tabX), #000 calc(var(--tabX) + 1px)) 0 0 / 100vh
-            var(--bannerHeight) no-repeat,
-          radial-gradient(
-              calc(var(--borderRadius) * 2) circle at 0% 0%,
-              #000 50%,
-              #fff calc(50% + 1px)
-            )
-            calc(var(--tabX) - var(--borderRadius) + 1px)
-            calc(var(--bannerHeight) - var(--borderRadius)) / var(--borderRadius)
-            var(--borderRadius) no-repeat;
-        mask-composite: add, add, subtract;
-        mask-mode: luminance; */
-      }
-    }
     @starting-style {
       &:popover-open {
         translate: 100vw 0;
       }
     }
   }
-
-  .navigation-menu__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    background: white;
-    border-width: 1px;
-    border-style: solid;
-    border-image-source: linear-gradient(90deg, transparent 10%, gray 20% 80%, transparent 90%);
-    border-image-slice: 0 0 1;
-    border-image-width: 1px;
-    border-bottom: 1px solid gray;
-
-    &::after,
-    &::before {
-      content: '';
-      height: 0vh;
-      width: 4px;
-      transition: height 0.4s ease;
-      align-self: center;
-    }
-
-    &:hover {
-      &::after,
-      &::before {
-        height: 10vh;
-        transition: height 0.4s ease;
-        background: linear-gradient(transparent 10%, black 20% 80%, transparent 90%);
-      }
-    }
-    &:last-child {
-      border: none;
-    }
-    &:hover {
-      :is(a, .navigation-menu__button) {
-        font-weight: 700;
-        transition: font-weight 0.2s ease;
-      }
-    }
-    :is(a, .navigation-menu__button) {
-      padding: 8px 16px;
-      transition: font-weight 0.2s ease;
-    }
-    & .navigation-menu__button {
-      font-size: 1rem;
-      background-color: transparent;
-      border: none;
-    }
-  }
 }
-@keyframes closeButton {
+@keyframes isMenuActive {
   0% {
     transform: translateY(0) rotate(0);
   }
@@ -359,10 +268,12 @@ header {
     transform: translateY(0) rotate(0);
   }
 }
+
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
   header {
     --navWidth: 50vw;
+    --menuHeight: calc(100vh - 2 * (var(--bannerHeight)));
 
     border-image-width: 2px;
     border-image-source: linear-gradient(
@@ -380,63 +291,21 @@ header {
       );
     }
     .navigation-menu {
-      height: calc(100vh - 2 * (var(--bannerHeight)));
+      height: var(--menuHeight);
+      width: var(--navWidth);
       border-radius: 0 0 0 var(--bannerHeight);
-
-      &:popover-open::backdrop {
-        --borderRadius: var(--bannerHeight);
-        --tabX: calc(100vw - var(--navWidth));
-
-        mask:
-          linear-gradient(#000 var(--bannerHeight), #fff 0),
-          linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
-          radial-gradient(
-              calc(var(--borderRadius) * 2) circle at -1px 100%,
-              #000 50%,
-              #fff calc(50% + 1px)
-            )
-            calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
-            no-repeat;
-        mask-composite: add, subtract;
-        mask-mode: luminance;
-        transition:
-          background-color 0.3s ease 0.3s allow-discrete,
-          opacity 0.5s ease allow-discrete,
-          display 0.5s allow-discrete,
-          overlay 0.5s allow-discrete;
-      }
-      @starting-style {
-        &:popover-open::backdrop {
-          opacity: 0;
-          background: rgb(26 178 234 / 40%);
-          mask:
-            linear-gradient(#000 var(--bannerHeight), #fff 0),
-            linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
-            radial-gradient(
-                calc(var(--borderRadius) * 2) circle at -1px 100%,
-                #000 50%,
-                #fff calc(50% + 1px)
-              )
-              calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
-              no-repeat;
-          mask-composite: add, subtract;
-          mask-mode: luminance;
-        }
-      }
-    }
-    & .navigation-menu__item {
-      :is(a, .navigation-menu__button) {
-        font-size: 1.5rem;
-      }
+      background-color: rgb(255 255 255 / 1);
     }
   }
 }
+
 /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/ /******LAPTOP ******/
 @media screen and (1024px <= width) and (orientation: landscape) {
   header {
     --buttonSide: 30px;
     --buttonPadding: 9px;
     --navWidth: 25vw;
+    --menuHeight: calc(100vh - 2 * var(--bannerHeight));
 
     border-image-width: 2px;
     /*border-image is not displayed if width is under 2px */
@@ -458,64 +327,21 @@ header {
     .banner {
       padding-inline: 1vw calc(1vw - var(--buttonPadding));
     }
-    .navigation-menu {
-      height: calc(100vh - 2 * var(--bannerHeight));
+    & .navigation-menu {
+      height: var(--menuHeight);
+      width: var(--navWidth);
       border-radius: 0 0 0 var(--bannerHeight);
 
-      &:popover-open::backdrop {
-        --borderRadius: var(--bannerHeight);
-        --tabX: calc(100vw - var(--navWidth));
-
-        mask:
-          linear-gradient(#000 var(--bannerHeight), #fff 0),
-          linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
-          radial-gradient(
-              calc(var(--borderRadius) * 2) circle at -1px 100%,
-              #000 50%,
-              #fff calc(50% + 1px)
-            )
-            calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
-            no-repeat;
-        mask-composite: add, subtract;
-        mask-mode: luminance;
-        transition:
-          background-color 0.3s ease 0.3s allow-discrete,
-          opacity 0.5s ease allow-discrete,
-          display 0.5s allow-discrete,
-          overlay 0.5s allow-discrete;
+      &:popover-open {
+        padding: 0 0 48px;
       }
-      @starting-style {
-        &:popover-open::backdrop {
-          opacity: 0;
-          background: rgb(26 178 234 / 40%);
-          mask:
-            linear-gradient(#000 10vh, #fff 0),
-            linear-gradient(90deg, #fff var(--tabX), #000 var(--tabX)),
-            radial-gradient(
-                calc(var(--borderRadius) * 2) circle at -1px 100%,
-                #000 50%,
-                #fff calc(50% + 1px)
-              )
-              calc(var(--tabX) - var(--borderRadius)) 0 / var(--borderRadius) var(--borderRadius)
-              no-repeat;
-          mask-composite: add, subtract;
-          mask-mode: luminance;
-        }
-      }
-    }
-    & .navigation-menu__item {
-      border-image-width: 2px;
-      border-image-source: linear-gradient(90deg, transparent 0%, gray 20% 80%, transparent 100%);
 
-      :is(a, .navigation-menu__button) {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+      &:is(a, .navigation-menu__button) {
+        grid-area: 1/1/2/2;
+        padding: 8px;
+        transition: font-weight 0.2s ease;
+        height: auto;
+        box-sizing: border-box;
       }
     }
   }

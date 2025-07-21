@@ -69,9 +69,6 @@ defineProps({
       background-color: var(--saillanceColor);
     }
     &:hover {
-      /* text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 5px; */
       .socials__name::after {
         width: 100%;
         transition: width 200ms ease;

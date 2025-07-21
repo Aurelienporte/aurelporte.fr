@@ -123,18 +123,6 @@ function addBreaks(string) {
         translate: 100% 0;
       }
     }
-    /* &::backdrop {
-      background: radial-gradient(
-          circle at 100% 30%,
-          transparent 20%,
-          rgb(26 178 234 / 35%) 65%,
-          transparent 85%
-        ),
-        rgba(21, 20, 50, 0.5);
-      backdrop-filter: blur(1px);
-      mask: linear-gradient(180deg, white 0 10%, black 10% 90%, white 90% 100%);
-      mask-mode: luminance;
-    } */
   }
 }
 </style>

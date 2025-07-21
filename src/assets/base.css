@@ -37,7 +37,6 @@ body {
 button {
   cursor: pointer;
   font-family: 'Exo 2', serif;
-  font-size: 1rem;
   background: transparent;
   border: none;
 }
@@ -64,6 +63,10 @@ h1 {
   :root {
     --bannerHeight: 8vh;
     --mainHeight: 76vh;
+
+    --borderRadius: var(--bannerHeight);
+    --tabX: calc(100vw - var(--navWidth));
+    --navWidth: 50vw;
   }
 
   p {

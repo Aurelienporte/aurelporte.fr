@@ -14,6 +14,7 @@ import { useRoute, RouterLink } from 'vue-router'
 import { getYears, filterByProject, filterByYear } from '@/utils'
 import worksData from '@/data.json'
 import projectsDdata from '@/dataProjects.json'
+import AppOverlay from '@/components/ArtworkLabelOverlay.vue'
 
 const route = useRoute()
 const pageUrlSlug = route.params.worktitle
@@ -106,8 +107,8 @@ const activeLabel = ref({ description: false, infos: false, project: false })
 
 const isLabelActive = computed(() =>
   activeLabel.value.description || activeLabel.value.infos || activeLabel.value.project
-    ? false
-    : true
+    ? true
+    : false
 )
 
 function showLabel(name) {
@@ -132,16 +133,21 @@ const infos = useTemplateRef('infos')
 
 onClickOutside(infos, (event) => {
   if (activeLabel.value.description || activeLabel.value.infos || activeLabel.value.project) {
-    if (event.target.className === 'artwork__overlay') {
+    if (event.target.className === 'overlay') {
       activeLabel.value.description = false
       activeLabel.value.infos = false
       activeLabel.value.project = false
     }
   }
 })
+const isToolbarDisabled = ref(false)
+
+function enableToolbar(boolean) {
+  setTimeout(() => (isToolbarDisabled.value = boolean), 300)
+}
 </script>
 <template>
-  <TheAppMenu></TheAppMenu>
+  <TheAppMenu @menu-toggle="enableToolbar($event)"></TheAppMenu>
   <main class="artwork__main">
     <ArtworkPicture
       class="work"
@@ -173,14 +179,15 @@ onClickOutside(infos, (event) => {
       :title="projectText.name"
     ></ArtworkLabel>
 
-    <div class="toolbar">
-      <RouterLink v-show="isLabelActive" :to="comingWorks.previousWork" class="toolbar__link"
+    <div class="toolbar" :inert="isToolbarDisabled">
+      <RouterLink v-show="!isLabelActive" :to="comingWorks.previousWork" class="toolbar__link"
         ><IconArrowBack class="toolbar__svg"></IconArrowBack
       ></RouterLink>
       <span v-if="hasText" class="pseudo-target"></span>
       <button
         :disabled="hasText"
         class="toolbar__button"
+        :class="{ 'button--up': isLabelActive }"
         @click="showLabel('description')"
         popovertarget="description"
         popoveraction="toggle"
@@ -189,6 +196,7 @@ onClickOutside(infos, (event) => {
         <CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
       ><button
         class="toolbar__button"
+        :class="{ 'button--up': isLabelActive }"
         @click="showLabel('infos')"
         popovertarget="infos"
         popoveraction="toggle"
@@ -197,6 +205,7 @@ onClickOutside(infos, (event) => {
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon></button
       ><button
         class="toolbar__button"
+        :class="{ 'button--up': isLabelActive }"
         @click="showLabel('project')"
         popovertarget="project"
         popoveraction="toggle"
@@ -204,14 +213,15 @@ onClickOutside(infos, (event) => {
         <MapIcon class="toolbar__svg toolbar--open"></MapIcon
         ><CloseIcon class="toolbar__svg toolbar--close"></CloseIcon>
       </button>
-      <RouterLink v-show="isLabelActive" :to="comingWorks.nextWork" class="toolbar__link"
+      <RouterLink v-show="!isLabelActive" :to="comingWorks.nextWork" class="toolbar__link"
         ><ArrowNextIcon class="toolbar__svg"></ArrowNextIcon
       ></RouterLink>
     </div>
   </main>
-  <Transition name="slide-fade">
+  <!-- <Transition name="slide-fade">
     <div v-show="!isLabelActive" class="artwork__overlay"></div>
-  </Transition>
+  </Transition> -->
+  <AppOverlay :is-visible="isLabelActive"></AppOverlay>
 </template>
 
 <style scoped>
@@ -303,7 +313,7 @@ onClickOutside(infos, (event) => {
     place-content: center;
     background-color: white;
     border-radius: 50%;
-    z-index: 5;
+    /* z-index: 5; */
 
     &:disabled {
       z-index: 0;
@@ -340,7 +350,7 @@ onClickOutside(infos, (event) => {
 .toolbar--close {
   display: none;
 }
-& .artwork__overlay {
+/* & .artwork__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -369,7 +379,7 @@ onClickOutside(infos, (event) => {
 .slide-fade-leave-to {
   opacity: 0;
   translate: -100vw;
-}
+} */
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .artwork__main {
@@ -471,7 +481,7 @@ onClickOutside(infos, (event) => {
       }
     }
   }
-  & .artwork__overlay {
+  /* & .artwork__overlay {
     clip-path: polygon(0 0, 0 10%, 100% 10%, 100% 90%, 0 90%, 0 100%, 100% 100%, 100% 0);
   }
   .slide-fade-enter-active {
@@ -488,7 +498,7 @@ onClickOutside(infos, (event) => {
   .slide-fade-leave-to {
     clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0);
     opacity: 0;
-    translate: 0; /*looks mandatory to override first declration*/
-  }
+    translate: 0;
+  } */
 }
 </style>

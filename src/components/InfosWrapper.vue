@@ -62,17 +62,6 @@ defineProps({
   }
   .infos-wrapper__title--high {
     translate: -1.5vw;
-    /* position: relative; */
-    /* &::after {
-      content: '';
-      background-color: white;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 4vw;
-      translate: -2.75vw;
-    } */
   }
   .infos-wrapper__title--low {
     display: none;
