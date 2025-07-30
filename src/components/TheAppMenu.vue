@@ -299,6 +299,11 @@ header {
       &:popover-open {
         translate: calc(100vw - var(--navWidth)) 0;
       }
+          @starting-style {
+      &:popover-open {
+        translate: 100vw 0;
+      }
+    }
     }
   }
 }
@@ -331,7 +336,7 @@ header {
     .banner {
       padding-inline: 1vw calc(1vw - var(--buttonPadding));
     }
-    & .navigation-menu {
+    .navigation-menu {
       height: var(--menuHeight);
       width: var(--navWidth);
       border-radius: 0 0 0 var(--bannerHeight);
@@ -340,7 +345,11 @@ header {
         padding: 0 0 48px;
         translate: calc(100vw - var(--navWidth)) 0;
       }
-
+    @starting-style {
+      &:popover-open {
+        translate: 100vw 0;
+      }
+    }
       &:is(a, .navigation-menu__button) {
         grid-area: 1/1/2/2;
         padding: 8px;

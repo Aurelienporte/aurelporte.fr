@@ -60,11 +60,18 @@ defineProps({
     mask-mode: luminance;
   }
   .fade-enter-active {
-    transition: opacity 150ms ease-out;
+    transition: opacity 400ms ease-in-out;
   }
-  .fade-leave-active {
-    transition: opacity 150ms ease-out;
-  }
+  /* .fade-leave-active {
+    transition: opacity 5000ms ease-out;
+  } */
+   /*for unknown reason the upper rule doesn't work but the lower does*/
+   .fade-leave-active {
+  transition:
+    translate 200ms ease-out 1000ms,
+    opacity 200ms ease-out 100ms,
+    background-image 150ms ease-out 150ms;
+}
   .fade-enter-from,
   .fade-leave-to {
     opacity: 0;
