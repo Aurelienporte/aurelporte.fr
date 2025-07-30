@@ -18,26 +18,27 @@ defineProps({
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(97deg, rgb(0, 0, 0) -50%, rgb(26 178 234 / 70%));
-  background-color: rgba(21, 20, 50, 0.3);
+  background-image: linear-gradient(97deg, var(--darkColor) -50%, var(--lightColor));
   opacity: 0.75;
 }
 .fade-enter-active {
   transition:
-    opacity 150ms ease-out 150ms,
+    translate 300ms ease-out,
+    opacity 150ms ease-out,
     background-image 150ms ease-out 150ms;
 }
 .fade-leave-active {
   transition:
+    translate 200ms ease-out 100ms,
     opacity 200ms ease-out 100ms,
     background-image 150ms ease-out 150ms;
 }
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+  translate: -100vw;
   background-image: linear-gradient(97deg, rgb(26 178 234 / 90%) -50%, rgb(26 178 234 / 90%));
 }
-
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
   & .menu__overlay {
@@ -104,7 +105,6 @@ defineProps({
   }
   .fade-enter-from,
   .fade-leave-to {
-    /* clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0); */
     opacity: 0;
     translate: 0; /*looks mandatory to override first declration*/
   }

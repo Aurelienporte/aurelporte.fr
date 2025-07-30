@@ -18,27 +18,28 @@ defineProps({
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(97deg, rgb(0, 0, 0) -50%, rgb(26 178 234 / 70%));
+  background-image: linear-gradient(97deg, var(--darkColor) -50%, var(--lightColor));
   opacity: 0.5;
 }
 .slide-fade-enter-active {
   transition:
     translate 300ms ease-out,
-    opacity 150ms ease-out;
+    opacity 150ms ease-out,
+    background-image 150ms ease-out 150ms;
 }
 .slide-fade-leave-active {
   transition:
     translate 200ms ease-out 100ms,
-    opacity 200ms ease-out 100ms;
+    opacity 200ms ease-out 100ms,
+    background-image 150ms ease-out 150ms;
 }
 .slide-fade-enter-from,
 .slide-fade-leave-to {
   opacity: 0;
   translate: -100vw;
+  background-image: linear-gradient(97deg, rgb(26 178 234 / 90%) -50%, rgb(26 178 234 / 90%));
 }
-/****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
-}
+
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) and (orientation: landscape) {
   & .overlay {

@@ -117,7 +117,7 @@ watch(
 header {
   --buttonSide: 24px;
   --halfSide: calc(var(--buttonSide) * 0.5);
-  --buttonPadding: 12px;
+  --buttonPadding: 8px;
   --navWidth: 100vw;
   --menuHeight: 66vh;
 
@@ -213,7 +213,7 @@ header {
     position: absolute;
     top: var(--bannerHeight);
     left: 0;
-    width: 100%;
+    width: 90%;
     height: var(--menuHeight);
     translate: 100vw 0;
     box-sizing: border-box;
@@ -223,7 +223,7 @@ header {
 
     &:popover-open {
       transition: all 300ms ease-out allow-discrete;
-      translate: calc(100vw - var(--navWidth)) 0;
+      translate: calc(100vw - var(--navWidth) + 5% ) 0;
       /* padding is usefull when filters are displayed */
       padding: 48px 0;
       border: none;
@@ -295,6 +295,10 @@ header {
       width: var(--navWidth);
       border-radius: 0 0 0 var(--bannerHeight);
       background-color: rgb(255 255 255 / 1);
+
+      &:popover-open {
+        translate: calc(100vw - var(--navWidth)) 0;
+      }
     }
   }
 }
@@ -334,6 +338,7 @@ header {
 
       &:popover-open {
         padding: 0 0 48px;
+        translate: calc(100vw - var(--navWidth)) 0;
       }
 
       &:is(a, .navigation-menu__button) {

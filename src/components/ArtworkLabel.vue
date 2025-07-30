@@ -37,8 +37,10 @@ function addBreaks(string) {
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .work-label {
+--labelWidth: 90%;
+
   height: var(--mainHeight);
-  width: 100%;
+  width: var(--labelWidth);
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 10px;
@@ -46,12 +48,13 @@ function addBreaks(string) {
   translate: 100vw 66px;
   transition: all 300ms ease-out allow-discrete;
   border: none;
+  text-shadow: 3px 3px 3px  white;
 
   &:popover-open {
     display: flex;
     flex-flow: column;
     gap: 1rem;
-    translate: 0 66px;
+    translate: calc((100% - var(--labelWidth)) * .5) 66px;
     transition: all 300ms ease-out allow-discrete;
   }
   @starting-style {

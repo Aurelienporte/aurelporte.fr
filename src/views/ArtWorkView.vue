@@ -313,7 +313,6 @@ function enableToolbar(boolean) {
     place-content: center;
     background-color: white;
     border-radius: 50%;
-    /* z-index: 5; */
 
     &:disabled {
       z-index: 0;
@@ -343,7 +342,7 @@ function enableToolbar(boolean) {
     padding: 8px;
 
     & .toolbar__svg {
-      fill: #323232;
+      fill: var(--mainColor);
     }
   }
 }
