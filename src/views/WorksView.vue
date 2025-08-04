@@ -4,13 +4,14 @@ import TheAppMenu from '@/components/TheAppMenu.vue'
 import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
 import PlusIcon from '@/components/icons/PlusIcon.vue'
-import { useTemplateRef } from 'vue'
-import { useScroll } from '@vueuse/core'
+import { useTemplateRef, ref, watch } from 'vue'
+import { useScroll, useBreakpoints } from '@vueuse/core'
+import { getYears, getProjects, normalizeProjectName } from '@/utils'
+
 
 const route = useRoute()
 const path = ref(route.path)
 
-import { ref, watch } from 'vue'
 const works = worksData
 const filterActive = ref(route.path === '/works' ? false : route.params.filter)
 
@@ -27,7 +28,6 @@ watch(
   }
 )
 
-import { getYears, getProjects, normalizeProjectName } from '@/utils'
 const years = getYears()
 const projects = getProjects()
 const normalizedProjects = normalizeProjectName()
@@ -38,7 +38,39 @@ let filteredWorks = ref(sortWorks(path.value))
 function showMoreWorks() {
   worksNumber.value += 20
   filteredWorks.value = sortWorks('/works')
+  isArrived.value = false
+  
+    let offSet;
+    if (mobile.value) {
+      offSet = 180
+    } else if (tablet.value) {
+      offSet = 350
+    } else if (laptop.value) {
+      offSet = 500
+    } else if (desktop.value) {
+      offSet = 700
+    }
+
+    const scrollX = useScroll(main, { behavior: 'auto' }).x
+    setTimeout(() => {
+      scrollX.value += offSet
+      }, 100)
+    scrollX.value += offSet
 }
+
+const breakpoints = useBreakpoints({
+  mobile: 0,
+  tablet: 640,
+  laptop: 1024,
+  desktop: 1440
+})
+
+// true or false
+const mobile = breakpoints.between('mobile', 'tablet')
+const tablet = breakpoints.between('tablet', 'laptop')
+const laptop = breakpoints.between('laptop', 'desktop')
+const desktop = breakpoints.greater('desktop')
+
 
 function sortWorks(path) {
   if (path === '/works') {
@@ -216,7 +248,6 @@ function updateScroll(e) {
     translate: var(--barWidth);
     transform: rotateZ(180deg);
     color: var(--mainColor);
-    /* opacity: 0; */
     transition:
       color 150ms ease,
       translate 400ms ease-in;

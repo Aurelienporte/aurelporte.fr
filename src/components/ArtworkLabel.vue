@@ -20,28 +20,31 @@ function addBreaks(string) {
 </script>
 <template>
   <section :id="id" popover class="work-label" :class="{ 'work-label__datasheet': dataSheet }">
-    <h3 class="title--small" :class="{ 'title--italic': dataSheet }">
+    <div class="work-label__container">
+          <h3 class="title--small" :class="{ 'title--italic': dataSheet }">
       {{ title === 'noproject' ? "Née au fil de l'eau" : title }}
-    </h3>
-    <p v-if="dataSheet">
-      {{ materials }},<br />{{
-        height === -1
-          ? 'dimensions variables'
-          : `${height.toLocaleString()}cm x ${width.toLocaleString()}cm`
-      }}{{ depth === '' ? '' : `${depth}cm` }},
-      {{ year }}
-    </p>
-    <p v-else class="work-label__text" v-html="addBreaks(text)"></p>
+      </h3>
+      <p v-if="dataSheet">
+        {{ materials }},<br />{{
+          height === -1
+            ? 'dimensions variables'
+            : `${height.toLocaleString()}cm x ${width.toLocaleString()}cm`
+        }}{{ depth === '' ? '' : `${depth}cm` }},
+        {{ year }}
+      </p>
+      <p v-else class="work-label__text" v-html="addBreaks(text)"></p>
+    </div>
   </section>
 </template>
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .work-label {
 --labelWidth: 90%;
+--labelPadding: 2rem; 
 
   height: var(--mainHeight);
   width: var(--labelWidth);
-  padding: 2rem;
+  padding: var(--labelPadding) 0;
   box-sizing: border-box;
   border-radius: 10px;
   background-color: rgb(255 255 255 / 0.9);
@@ -52,8 +55,6 @@ function addBreaks(string) {
 
   &:popover-open {
     display: flex;
-    flex-flow: column;
-    gap: 1rem;
     translate: calc((100% - var(--labelWidth)) * .5) 66px;
     transition: all 300ms ease-out allow-discrete;
   }
@@ -62,6 +63,13 @@ function addBreaks(string) {
       translate: 100vw 66px;
       transition: all 300ms ease-out allow-discrete;
     }
+  }
+  .work-label__container {
+    overflow: scroll;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    padding: 0 var(--labelPadding);
   }
   &.work-label__datasheet {
     justify-content: center;
@@ -105,7 +113,9 @@ function addBreaks(string) {
 }
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) {
+
   .work-label {
+    --labelPadding: 3rem; 
     --toolbarWidth: -58px; /* = burger width (48px) + lr padding (5px) */
     width: calc(50% + var(--toolbarWidth));
     height: 70vh;
@@ -113,7 +123,7 @@ function addBreaks(string) {
     align-self: center;
     justify-self: end;
     translate: 100% 0;
-    padding: 3rem;
+    padding: var(--labelPadding) 0 0 0;
     /* box-shadow: -3px 2px 3px 0px #0003; */
 
     &:popover-open {
@@ -125,6 +135,11 @@ function addBreaks(string) {
       &:popover-open {
         translate: 100% 0;
       }
+    }
+    .work-label__container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 var(--labelPadding);
     }
   }
 }

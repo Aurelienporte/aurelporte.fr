@@ -140,6 +140,7 @@ onClickOutside(infos, (event) => {
     }
   }
 })
+
 const isToolbarDisabled = ref(false)
 
 function enableToolbar(boolean) {
@@ -218,10 +219,7 @@ function enableToolbar(boolean) {
       ></RouterLink>
     </div>
   </main>
-  <!-- <Transition name="slide-fade">
-    <div v-show="!isLabelActive" class="artwork__overlay"></div>
-  </Transition> -->
-  <AppOverlay :is-visible="isLabelActive"></AppOverlay>
+  <AppOverlay :is-visible="isLabelActive" ref="overlay"></AppOverlay>
 </template>
 
 <style scoped>
