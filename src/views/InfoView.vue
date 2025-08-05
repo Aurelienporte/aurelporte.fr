@@ -3,7 +3,7 @@ import InfosWrapper from '@/components/InfosWrapper.vue'
 import ShowCard from '@/components/ShowCard.vue'
 import TheContact from '@/components/TheContact.vue'
 import SocialLink from '@/components/SocialLink.vue'
-import TheAppMenu from '@/components/TheAppMenu.vue'
+import TheMenu from '@/components/TheMenu.vue'
 import dataExhibitions from '@/dataExhibitions.json'
 import { useBreakpoints } from '@vueuse/core'
 import { ref, useTemplateRef } from 'vue'
@@ -69,7 +69,7 @@ function stopMainScroll(e) {
 </script>
 
 <template>
-  <TheAppMenu header-title="A propos"></TheAppMenu>
+  <TheMenu header-title="A propos"></TheMenu>
   <main class="main--scroll-x infos__main" @wheel="scrollWithWheel" ref="scrollable">
     <InfosWrapper title="Biographie">
       <p class="text">

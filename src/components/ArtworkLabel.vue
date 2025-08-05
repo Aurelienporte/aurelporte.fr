@@ -47,7 +47,7 @@ function addBreaks(string) {
   padding: var(--labelPadding) 0;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: rgb(255 255 255 / 0.9);
+  background-color: rgb(255 255 255 / 0.93);
   translate: 100vw 66px;
   transition: all 300ms ease-out allow-discrete;
   border: none;

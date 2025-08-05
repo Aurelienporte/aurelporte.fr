@@ -1,5 +1,5 @@
 <script setup>
-import TheAppMenu from '@/components/TheAppMenu.vue'
+import TheMenu from '@/components/TheMenu.vue'
 import ArtworkPicture from '@/components/ArtworkPicture.vue'
 import ArtworkLabel from '@/components/ArtworkLabel.vue'
 import TextIcon from '@/components/icons/TextIcon.vue'
@@ -8,13 +8,15 @@ import MapIcon from '@/components/icons/MapIcon.vue'
 import IconArrowBack from '@/components/icons/IconArrowBack.vue'
 import ArrowNextIcon from '@/components/icons/ArrowNextIcon.vue'
 import CloseIcon from '@/components/icons/CloseIcon.vue'
+import AppOverlay from '@/components/ArtworkLabelOverlay.vue'
+
 import { watch, ref, computed, useTemplateRef } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 import { useRoute, RouterLink } from 'vue-router'
+
 import { getYears, filterByProject, filterByYear } from '@/utils'
 import worksData from '@/data.json'
 import projectsDdata from '@/dataProjects.json'
-import AppOverlay from '@/components/ArtworkLabelOverlay.vue'
 
 const route = useRoute()
 const pageUrlSlug = route.params.worktitle
@@ -148,7 +150,7 @@ function enableToolbar(boolean) {
 }
 </script>
 <template>
-  <TheAppMenu @menu-toggle="enableToolbar($event)"></TheAppMenu>
+  <TheMenu @menu-toggle="enableToolbar($event)"></TheMenu>
   <main class="artwork__main">
     <ArtworkPicture
       class="work"
@@ -347,36 +349,7 @@ function enableToolbar(boolean) {
 .toolbar--close {
   display: none;
 }
-/* & .artwork__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: radial-gradient(
-      circle at 100% 30%,
-      transparent 20%,
-      rgb(26 178 234 / 35%) 65%,
-      transparent 85%
-    ),
-    rgba(21, 20, 50, 0.5);
-  opacity: 0.5;
-}
-.slide-fade-enter-active {
-  transition:
-    translate 300ms ease-out,
-    opacity 150ms ease-out;
-}
-.slide-fade-leave-active {
-  transition:
-    translate 200ms ease-out 100ms,
-    opacity 200ms ease-out 100ms;
-}
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  opacity: 0;
-  translate: -100vw;
-} */
+
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .artwork__main {
@@ -478,24 +451,5 @@ function enableToolbar(boolean) {
       }
     }
   }
-  /* & .artwork__overlay {
-    clip-path: polygon(0 0, 0 10%, 100% 10%, 100% 90%, 0 90%, 0 100%, 100% 100%, 100% 0);
-  }
-  .slide-fade-enter-active {
-    transition:
-      clip-path 500ms ease-out 50ms,
-      opacity 400ms ease-out;
-  }
-  .slide-fade-leave-active {
-    transition:
-      clip-path 500ms ease-out 100ms,
-      opacity 300ms ease-out 100ms;
-  }
-  .slide-fade-enter-from,
-  .slide-fade-leave-to {
-    clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0);
-    opacity: 0;
-    translate: 0;
-  } */
 }
 </style>

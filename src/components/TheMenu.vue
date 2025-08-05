@@ -1,8 +1,8 @@
 <script setup>
 import { ref, watch, useTemplateRef } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
-import TheAppMenuFilterList from './TheAppMenuFilterList.vue'
-import TheAppMenuOverlay from './TheAppMenuOverlay.vue'
+import TheMenuFilterMenu from './TheMenuFilterMenu.vue'
+import TheMenuOverlay from './TheMenuOverlay.vue'
 import MenuItem from './MenuItem.vue'
 
 defineProps({
@@ -104,10 +104,10 @@ watch(
           <RouterLink to="/infos" class="navigation-menu__link">Infos</RouterLink></MenuItem
         >
       </ul>
-      <TheAppMenuFilterList v-if="isFiltersVisible" @visible="hideFilters"></TheAppMenuFilterList>
+      <TheMenuFilterMenu v-if="isFiltersVisible" @visible="hideFilters"></TheMenuFilterMenu>
     </nav>
     <Teleport to="body">
-      <TheAppMenuOverlay :is-visible="isMenuActive"></TheAppMenuOverlay>
+      <TheMenuOverlay :is-visible="isMenuActive"></TheMenuOverlay>
     </Teleport>
   </header>
 </template>

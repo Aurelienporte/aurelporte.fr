@@ -1,6 +1,6 @@
 <script setup>
 import worksData from '@/data.json'
-import TheAppMenu from '@/components/TheAppMenu.vue'
+import TheMenu from '@/components/TheMenu.vue'
 import ThumbnailLink from '@/components/ThumbnailLink.vue'
 import { useRoute } from 'vue-router'
 import PlusIcon from '@/components/icons/PlusIcon.vue'
@@ -134,7 +134,7 @@ function updateScroll(e) {
 </script>
 
 <template>
-  <TheAppMenu></TheAppMenu>
+  <TheMenu></TheMenu>
   <main
     class="works__main main--scroll-x"
     @wheel="scrollWithWheel"

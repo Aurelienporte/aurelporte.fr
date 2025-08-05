@@ -20,24 +20,21 @@ defineProps({
   width: 100%;
   background-image: linear-gradient(97deg, var(--darkColor) -50%, var(--lightColor));
   opacity: 0.75;
-}
-.fade-enter-active {
   transition:
     translate 300ms ease-out,
     opacity 150ms ease-out,
     background-image 150ms ease-out 150ms;
 }
-.fade-leave-active {
-  transition:
-    translate 200ms ease-out 100ms,
-    opacity 200ms ease-out 100ms,
-    background-image 150ms ease-out 150ms;
-}
+
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
   translate: -100vw;
-  background-image: linear-gradient(97deg, rgb(26 178 234 / 90%) -50%, rgb(26 178 234 / 90%));
+  background-image: linear-gradient(97deg, var(--saillanceColor) -50%, var(--saillanceColor));
+  transition:
+    translate 200ms ease-out 100ms,
+    opacity 200ms ease-out 100ms,
+    background-image 150ms ease-out 150ms;
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
@@ -58,30 +55,19 @@ defineProps({
         no-repeat;
     mask-composite: add, subtract;
     mask-mode: luminance;
+    transition: opacity 300ms ease-in-out;
   }
-  .fade-enter-active {
-    transition: opacity 400ms ease-in-out;
-  }
-  /* .fade-leave-active {
-    transition: opacity 5000ms ease-out;
-  } */
-   /*for unknown reason the upper rule doesn't work but the lower does*/
-   .fade-leave-active {
-  transition:
-    translate 200ms ease-out 1000ms,
-    opacity 200ms ease-out 100ms,
-    background-image 150ms ease-out 150ms;
-}
   .fade-enter-from,
   .fade-leave-to {
     opacity: 0;
+      transition:
+    translate 100ms ease-out 1000ms,
+    opacity 200ms ease-out 100ms,
+    background-image 150ms ease-out 150ms;
   }
 }
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) and (orientation: landscape) {
-  /* & .overlay {
-    clip-path: polygon(0 0, 0 10%, 100% 10%, 100% 90%, 0 90%, 0 100%, 100% 100%, 100% 0);
-  } */
   & .menu__overlay {
     --borderRadius: var(--bannerHeight);
     --tabX: calc(100vw - var(--navWidth));
@@ -99,21 +85,18 @@ defineProps({
         no-repeat;
     mask-composite: add, subtract;
     mask-mode: luminance;
-  }
-  .fade-enter-active {
     transition:
       clip-path 500ms ease-out 50ms,
       opacity 400ms ease-out;
   }
-  .fade-leave-active {
-    transition:
-      clip-path 500ms ease-out 100ms,
-      opacity 300ms ease-out 100ms;
-  }
+
   .fade-enter-from,
   .fade-leave-to {
     opacity: 0;
     translate: 0; /*looks mandatory to override first declration*/
+    transition:
+      clip-path 500ms ease-out 100ms,
+      opacity 300ms ease-out 100ms;
   }
 }
 </style>

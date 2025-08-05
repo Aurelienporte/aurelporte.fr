@@ -1,5 +1,5 @@
 <script setup>
-import TheAppMenuFilter from './TheAppMenuFilter.vue'
+import MenuFilter from './MenuFilter.vue'
 import { getYears } from '@/utils'
 import { getProjects } from '@/utils'
 import { ref } from 'vue'
@@ -29,22 +29,22 @@ function toogleList(listName) {
 </script>
 <template>
   <ul class="filter-menu">
-    <TheAppMenuFilter
+    <MenuFilter
       name="Par années"
       :filters="years"
       id="years"
       listName="years"
       :visible="isYearsVisible"
       @toogle="toogleList($event)"
-    ></TheAppMenuFilter>
-    <TheAppMenuFilter
+    ></MenuFilter>
+    <MenuFilter
       name="Par projets"
       :filters="projects"
       id="projects"
       list-name="projects"
       :visible="isProjectsVisible"
       @toogle="toogleList($event)"
-    ></TheAppMenuFilter>
+    ></MenuFilter>
     <MenuItem>
       <button @click="showMainMenu" class="navigation-menu__button filter-menu__back-button">
         <IconArrowBack class="back-button__arrow-back"></IconArrowBack> Retour
@@ -61,7 +61,6 @@ function toogleList(listName) {
   justify-content: center;
   height: 100%;
   overflow: hidden;
-  transition: justify-content 150ms ease-out;
 
   &:has(.visible) {
     justify-content: flex-start;
