@@ -5,7 +5,7 @@ import ArtworkLabel from '@/components/ArtworkLabel.vue'
 import TextIcon from '@/components/icons/TextIcon.vue'
 import InfoIcon from '@/components/icons/InfoIcon.vue'
 import MapIcon from '@/components/icons/MapIcon.vue'
-import IconArrowBack from '@/components/icons/IconArrowBack.vue'
+import IconArrowBack from '@/components/icons/ArrowBackIcon.vue'
 import ArrowNextIcon from '@/components/icons/ArrowNextIcon.vue'
 import CloseIcon from '@/components/icons/CloseIcon.vue'
 import AppOverlay from '@/components/ArtworkLabelOverlay.vue'
@@ -224,11 +224,22 @@ function enableToolbar(boolean) {
   <AppOverlay :is-visible="isLabelActive" ref="overlay"></AppOverlay>
 </template>
 
+<style>
+/* GLOBAL CSS VARIABLE */
+:root{
+    --singleWorkMainHeight: 66vh;
+}
+@media screen and (767px < width < 1024px) {
+  :root {
+    --singleWorkMainHeight: 76vh;
+  }
+}
+</style>
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .artwork__main {
   display: grid;
-  grid-template-rows: var(--mainHeight) auto;
+  grid-template-rows: var(--singleWorkMainHeight) auto;
 }
 .artwork__main:has(:popover-open) {
   & .toolbar__link {
@@ -353,7 +364,7 @@ function enableToolbar(boolean) {
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
   .artwork__main {
-    grid-template-rows: var(--mainHeight) 8vh;
+    grid-template-rows: var(--singleWorkMainHeight) 8vh;
   }
   & .toolbar {
     --toolHeight: 44px;

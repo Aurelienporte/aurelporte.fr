@@ -112,13 +112,31 @@ watch(
   </header>
 </template>
 
+<style>
+/* GLOBAL CSS VARIABLE */
+:root {
+  --bannerHeight: 64px;
+  --navWidth: 100vw;
+}
+@media screen and (767px < width < 1024px) {
+  :root {
+    --bannerHeight: 8vh;
+    --navWidth: 50vw;
+  }
+}
+@media screen and (1024px <= width) and (orientation: landscape) {
+  :root {
+    --bannerHeight: 10vh;
+    --navWidth: 25vw;
+  }
+}
+</style>
 <style scoped>
 /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/ /****** SMARTPHONE ******/
 header {
   --buttonSide: 24px;
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 8px;
-  --navWidth: 100vw;
   --menuHeight: 66vh;
 
   box-sizing: border-box;
@@ -272,7 +290,6 @@ header {
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
   header {
-    --navWidth: 50vw;
     --menuHeight: calc(100vh - 2 * (var(--bannerHeight)));
 
     border-image-width: 2px;
@@ -313,7 +330,6 @@ header {
   header {
     --buttonSide: 30px;
     --buttonPadding: 9px;
-    --navWidth: 25vw;
     --menuHeight: calc(100vh - 2 * var(--bannerHeight));
 
     border-image-width: 2px;

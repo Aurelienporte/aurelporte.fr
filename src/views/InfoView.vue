@@ -12,7 +12,7 @@ const breakpoints = useBreakpoints({
   mobile: 0,
   tablet: 640,
   laptop: 1024,
-  desktop: 1440
+  desktop: 1920
 })
 
 // true or false
@@ -33,10 +33,10 @@ function makeSlices() {
     showsPerSlice = 10
   }
   if (laptop.value) {
-    showsPerSlice = 8
+    showsPerSlice = 7
   }
   if (desktop.value) {
-    showsPerSlice = 10
+    showsPerSlice = 14
   }
   console.log({ showsPerSlice })
   let slicesAmount = Math.floor(exhibitions.length / showsPerSlice)

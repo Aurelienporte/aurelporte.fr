@@ -42,7 +42,7 @@ function addBreaks(string) {
 --labelWidth: 90%;
 --labelPadding: 2rem; 
 
-  height: var(--mainHeight);
+  height: var(--singleWorkMainHeight);
   width: var(--labelWidth);
   padding: var(--labelPadding) 0;
   box-sizing: border-box;

@@ -3,7 +3,7 @@ import MenuFilter from './MenuFilter.vue'
 import { getYears } from '@/utils'
 import { getProjects } from '@/utils'
 import { ref } from 'vue'
-import IconArrowBack from './icons/IconArrowBack.vue'
+import ArrowBackIcon from './icons/ArrowBackIcon.vue'
 import MenuItem from './MenuItem.vue'
 
 const years = getYears()
@@ -47,7 +47,7 @@ function toogleList(listName) {
     ></MenuFilter>
     <MenuItem>
       <button @click="showMainMenu" class="navigation-menu__button filter-menu__back-button">
-        <IconArrowBack class="back-button__arrow-back"></IconArrowBack> Retour
+        <ArrowBackIcon class="back-button__arrow-back"></ArrowBackIcon> Retour
       </button>
     </MenuItem>
   </ul>

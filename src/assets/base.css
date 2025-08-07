@@ -11,16 +11,15 @@ li {
   list-style-type: none;
 }
 
-/*Styles for extra component html elements*/
+/*  GLOBAL VARIABLES  GLOBAL VARIABLES  GLOBAL VARIABLES  GLOBAL VARIABLES  GLOBAL VARIABLES  */
 :root {
-  /* --mainColor: #54143b; */
   --mainColor: lch(6 32 287);;
   --saillanceColor: lch(69 56 247);
   --darkColor:lch(6 32 287);
   --lightColor:lch(69 56 247 / 0.7);
-  --bannerHeight: 64px;
-  --mainHeight: 66vh;
 }
+
+/*Styles for extra app elements*/
 
 html {
   overflow: hidden;
@@ -62,15 +61,6 @@ h1 {
 
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width < 1024px) {
-  :root {
-    --bannerHeight: 8vh;
-    --mainHeight: 76vh;
-
-    --borderRadius: var(--bannerHeight);
-    --tabX: calc(100vw - var(--navWidth));
-    --navWidth: 50vw;
-  }
-
   p {
     line-height: 1.4rem;
   }
@@ -81,11 +71,9 @@ h1 {
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
-}
+/* @media screen and (767px < width < 1024px) {
+} */
+
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
-@media screen and (1024px <= width) and (orientation: landscape) {
-  :root {
-    --bannerHeight: 10vh;
-  }
-}
+/* @media screen and (1024px <= width) and (orientation: landscape) {
+} */

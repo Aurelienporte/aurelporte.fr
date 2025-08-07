@@ -18,10 +18,10 @@ const routes = [
   {
     path: '/works',
     children: [
-      { path: '', name: 'works', component: () => import('../views/WorksView.vue') },
+      { path: '', name: 'works', component: () => import('../views/AllWorksView.vue') },
       {
         path: ':worktitle',
-        component: () => import('../views/ArtWorkView.vue'),
+        component: () => import('../views/SingleWorkView.vue'),
         beforeEnter: (to) => {
           const isExistingWork = worksList.find(
             (title) => title.localeCompare(to.params.worktitle) === 0
@@ -33,7 +33,7 @@ const routes = [
       { path: 'explorer', redirect: '/works' },
       {
         path: 'explorer/:filter',
-        component: () => import('../views/WorksView.vue'),
+        component: () => import('../views/AllWorksView.vue'),
         beforeEnter: (to) => {
           const isExistingYear = yearsList.find((filter) => filter === to.params.filter)
           const isExistingName = projectList.find(
@@ -45,7 +45,7 @@ const routes = [
       },
       {
         path: 'explorer/:filter/:worktitle',
-        component: () => import('../views/ArtWorkView.vue'),
+        component: () => import('../views/SingleWorkView.vue'),
         beforeEnter: (to) => {
           const isExistingWork = worksList.find(
             (title) => title.localeCompare(to.params.worktitle) === 0

@@ -41,7 +41,6 @@ defineProps({
   & .menu__overlay {
     --borderRadius: var(--bannerHeight);
     --tabX: calc(100vw - var(--navWidth));
-    --navWidth: 50vw;
 
     mask:
       linear-gradient(#000 var(--bannerHeight), #fff 0),
@@ -71,7 +70,6 @@ defineProps({
   & .menu__overlay {
     --borderRadius: var(--bannerHeight);
     --tabX: calc(100vw - var(--navWidth));
-    --navWidth: 25vw;
 
     mask:
       linear-gradient(#000 var(--bannerHeight), #fff 0),

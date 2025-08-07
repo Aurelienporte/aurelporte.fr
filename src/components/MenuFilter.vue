@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 import { normalizeName } from '@/utils'
 import { useRoute } from 'vue-router'
 import { ref, watch } from 'vue'
-import IconChevronRight from './icons/IconChevronRight.vue'
+import ChevronRightIcon from './icons/ChevronRightIcon.vue'
 import MenuItem from './MenuItem.vue'
 
 const route = useRoute()
@@ -46,7 +46,7 @@ function isToogled(payload) {
       class="filter__title navigation-menu__button"
       @click="isToogled(listName)"
     >
-      <IconChevronRight class="title__chevron" :class="{ rotated: visible }"></IconChevronRight>
+      <ChevronRightIcon class="title__chevron" :class="{ rotated: visible }"></ChevronRightIcon>
       <span>
         {{ name }}
       </span>

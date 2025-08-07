@@ -1,8 +1,8 @@
 <script setup>
-import IconBlueSky from './icons/IconBlueSky.vue'
-import IconBlueskyColor from './icons/IconBlueskyColor.vue'
-import IconPixelfed from './icons/IconPixelfed.vue'
-import IconPixelfedColor from './icons/IconPixelfedColor.vue'
+import BlueSkyIcon from './icons/BlueSkyIcon.vue'
+import BlueskyColorIcon from './icons/BlueskyColorIcon.vue'
+import PixelfedIcon from './icons/PixelfedIcon.vue'
+import PixelfedColorIcon from './icons/PixelfedColorIcon.vue'
 
 defineProps({
   social: {
@@ -16,10 +16,10 @@ defineProps({
 <template>
   <a class="socials__link" :href="url"
     ><span v-if="social === 'Pixelfed'" class="socials__container"
-      ><IconPixelfed class="socials__icon" /><IconPixelfedColor class="socials__icon"
+      ><PixelfedIcon class="socials__icon" /><PixelfedColorIcon class="socials__icon"
     /></span>
     <span v-if="social === 'Bluesky'" class="socials__container"
-      ><IconBlueSky class="socials__icon" /><IconBlueskyColor class="socials__icon" /></span
+      ><BlueSkyIcon class="socials__icon" /><BlueskyColorIcon class="socials__icon" /></span
     ><span class="socials__name">{{ social }}</span></a
   >
 </template>
