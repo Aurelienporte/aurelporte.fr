@@ -110,10 +110,12 @@ function isToogled(payload) {
 }
 .visible {
   height: auto;
-  max-height: calc(var(--mainHeight) - 20vh - 96px);
-  overflow: scroll;
+  max-height: calc(var(--menuHeight) - 20vh - 96px);
+  overflow-x: hidden;
+    overflow-y: auto;
   transition: max-height 150ms ease 150ms;
 }
+
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
   .filter {
@@ -191,13 +193,6 @@ function isToogled(payload) {
       text-underline-offset: 5px;
       transition: all 200ms ease;
     }
-  }
-  .visible {
-    height: auto;
-    max-height: calc(var(--menuHeight) - 20vh - 96px);
-    overflow-x: hidden;
-    overflow-y: auto;
-    transition: max-height 150ms ease 150ms;
   }
 }
 </style>
