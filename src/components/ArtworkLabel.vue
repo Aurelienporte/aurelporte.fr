@@ -13,11 +13,8 @@ defineProps({
     required: false
   }
 })
-function addBreaks(string) {
-  let newStr = string.replaceAll(/[\n]/g, '<br>')
-  return newStr
-}
 </script>
+
 <template>
   <section :id="id" popover class="work-label" :class="{ 'work-label__datasheet': dataSheet }">
     <div class="work-label__container">
@@ -32,10 +29,21 @@ function addBreaks(string) {
         }}{{ depth === '' ? '' : `${depth}cm` }},
         {{ year }}
       </p>
-      <p v-else class="work-label__text" v-html="addBreaks(text)"></p>
+      <div v-else class="work-label__text" v-html="text"></div>
     </div>
   </section>
 </template>
+
+<style>
+/*Styles for tags in v-html content (text element only)*/
+blockquote{
+  font-style: italic;
+}
+hr{
+  border-style: dashed;
+}
+</style>
+
 <style scoped>
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .work-label {
@@ -80,8 +88,11 @@ function addBreaks(string) {
       line-height: 1.5rem;
     }
   }
-  /* .work-label__text {
-  } */
+  .work-label__text {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+  }
 }
 /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
 @media screen and (767px < width <= 1024px) {
