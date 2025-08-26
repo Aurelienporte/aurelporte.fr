@@ -17,17 +17,32 @@ const laptop = breakpoints.between('laptop', 'desktop')
 const desktop = breakpoints.greater('desktop')
 
 const data = worksData
-const lastYears = ['2024', '2023', '2022']
+const lastYears = ['2024', '2023','2022']
 
-function getRandomWork() {
-  let recentWorks = []
+function getRecentWorks() {
+    let recentWorks = []
   for (let y of lastYears) {
     let filteredWorks = data.filter((work) => work.year === y)
     recentWorks.push(filteredWorks)
   }
-  let worksList = recentWorks.flat()
+
+  return recentWorks.flat()
+}
+
+let worksList = getRecentWorks()
+
+
+function getRandomWork() {
   let randomNumber = Math.round(Math.random() * (worksList.length - 1))
   let work = worksList[randomNumber]
+
+  // Remove the work from the array to avoid getting it again
+  worksList.splice(randomNumber, 1)
+  // If the array is empty, refill it
+  if(worksList.length === 0) {
+    worksList = getRecentWorks()
+  }
+
   return work
 }
 const work = ref(getRandomWork())
@@ -217,77 +232,13 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
 .titles-container {
   grid-area: 1/1/4/4;
   overflow-x: hidden;
-
-  /* .high-title,
-  .low-title {
-    display: grid;
-    writing-mode: vertical-lr;
-    font-size: 17vw;
-    font-weight: 700;
-
-    span:nth-child(2) {
-      grid-area: 1/3/2/4;
-    }
-    & span {
-      position: relative;
-
-      &::after,
-      &::before {
-        content: attr(data);
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-      &::after {
-        color: white;
-        background-color: white;
-      }
-    }
-  }
-  .high-title {
-    grid-area: 1/1/3/2;
-    grid-template-columns: auto 11vh 25vh;
-    align-content: end;
-
-    & span {
-      translate: -0.5cap;
-
-      &::after,
-      &::before {
-        translate: 2.2cap;
-      }
-    }
-
-    span:nth-child(1) {
-      justify-self: end;
-    }
-    span:nth-child(2) {
-      justify-self: center;
-    }
-  }
-  .low-title {
-    grid-area: 2/3/4/4;
-    grid-template-columns: 25vh 11vh auto;
-
-    span {
-      translate: 0.9cap;
-
-      &::before,
-      &::after {
-        translate: -2.2cap;
-      }
-    }
-
-    span:nth-child(1) {
-      justify-self: center;
-    }
-  } */
 }
 .home__thumbnail {
   grid-area: 1/2/3/3;
   justify-self: center;
   align-self: center;
   z-index: 5;
+  max-width: 60vw; /* to avoid overflow on small screens, related to grid template */
 }
 .nav-menu {
   grid-area: 2/2/4/3;

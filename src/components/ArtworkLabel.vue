@@ -36,7 +36,7 @@ defineProps({
 
 <style>
 /*Styles for tags in v-html content (text element only)*/
-blockquote{
+blockquote, i, q{
   font-style: italic;
 }
 hr{

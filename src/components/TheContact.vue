@@ -164,6 +164,7 @@ function sendEmail() {
         required
         aria-required="true"
         autocomplete="given-name"
+        autocapitalize="words"
         v-model="formData.forename"
         @input="checkField('forename')"
         @blur="showUserMistake('forename')"
@@ -186,6 +187,7 @@ function sendEmail() {
         maxlength="40"
         pattern="[\p{L}]{1,}[\p{L}'\-\s]{0,40}"
         autocomplete="name"
+        autocapitalize="words"
         v-model="formData.name"
         @input="checkField('name')"
         @blur="showUserMistake('name')"
