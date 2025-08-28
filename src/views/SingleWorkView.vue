@@ -227,7 +227,7 @@ function enableToolbar(boolean) {
 <style>
 /* GLOBAL CSS VARIABLE */
 :root{
-    --singleWorkMainHeight: 66svh;
+    --singleWorkMainHeight: calc(100svh - var(--bannerHeight) * 2);
 }
 @media screen and (767px < width < 1024px) {
   :root {

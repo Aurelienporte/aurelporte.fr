@@ -50,7 +50,8 @@ hr{
 --labelWidth: 90%;
 --labelPadding: 2rem; 
 
-  height: var(--singleWorkMainHeight);
+  /* height: var(--singleWorkMainHeight); */
+  height: 66svh;
   width: var(--labelWidth);
   padding: var(--labelPadding) 0;
   box-sizing: border-box;

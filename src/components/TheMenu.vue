@@ -5,6 +5,7 @@ import TheMenuFilterMenu from './TheMenuFilterMenu.vue'
 import TheMenuOverlay from './TheMenuOverlay.vue'
 import MenuItem from './MenuItem.vue'
 
+
 defineProps({
   headerTitle: {
     type: String,

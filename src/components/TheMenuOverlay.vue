@@ -16,8 +16,8 @@ defineProps({
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100svh;
+  width: 100svw;
   background-image: linear-gradient(97deg, var(--darkColor) -50%, var(--lightColor));
   opacity: 0.75;
   transition:
