@@ -56,7 +56,7 @@ const props = defineProps({
   & .artwork__img {
     width: 100%;
     height: auto;
-    max-height: 60vh;
+    max-height: 60svh;
     border-radius: 2px;
   }
   & .artwork__img--shadow {
@@ -68,7 +68,7 @@ const props = defineProps({
   .artwork {
     & .artwork__img {
       height: auto;
-      max-height: 68vh;
+      max-height: 68svh;
       width: 75%;
     }
   }
@@ -77,7 +77,7 @@ const props = defineProps({
 @media screen and (1024px <= width) and (orientation: landscape) {
   .artwork {
     & .artwork__img {
-      max-height: 70vh;
+      max-height: 70svh;
       max-width: 50vw;
       translate: 0 -5vh; /*centered in screen (banner = 10vh) */
     }
