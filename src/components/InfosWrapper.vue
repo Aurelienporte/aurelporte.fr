@@ -67,4 +67,11 @@ defineProps({
     display: none;
   }
 }
+/***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/
+@media screen and (1921px <= width) {
+  .infos-wrapper {
+    grid-template-columns: 1fr 5fr 1fr;
+    max-width: 750px;
+  }
+}
 </style>

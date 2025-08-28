@@ -463,4 +463,13 @@ function enableToolbar(boolean) {
     }
   }
 }
+/***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/
+@media screen and (1921px <= width) {
+  .artwork__main {
+          &:has(:popover-open) {
+      & .work {
+        translate: -12.5% 0;
+      }
+    }}
+}
 </style>

@@ -154,4 +154,9 @@ hr{
     }
   }
 }
+/***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/ /***** XXL SCREEN *****/
+@media screen and (1921px <= width) {
+  .work-label {
+      max-width: 650px;}
+}
 </style>

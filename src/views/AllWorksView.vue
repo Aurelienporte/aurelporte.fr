@@ -28,11 +28,32 @@ watch(
   }
 )
 
+const breakpoints = useBreakpoints({
+  mobile: 0,
+  tablet: 640,
+  laptop: 1024,
+  desktop: 1440,
+  widescreen: 1920
+})
+
+// true or false
+const mobile = breakpoints.between('mobile', 'tablet')
+const tablet = breakpoints.between('tablet', 'laptop')
+const laptop = breakpoints.between('laptop', 'desktop')
+const desktop = breakpoints.greater('desktop')
+const widescreen = breakpoints.greater('widescreen')
+
 const years = getYears()
 const projects = getProjects()
 const normalizedProjects = normalizeProjectName()
 
 let worksNumber = ref(20)
+
+// Show enough works on widescreen in order to fill the screen and trigger horizontal scroll
+if(widescreen.value) {
+  worksNumber.value = 30
+}
+
 let filteredWorks = ref(sortWorks(path.value))
 
 function showMoreWorks() {
@@ -52,25 +73,14 @@ function showMoreWorks() {
     }
 
     const scrollX = useScroll(main, { behavior: 'auto' }).x
-    setTimeout(() => {
+    if(!mobile.value){
+          setTimeout(() => {
       scrollX.value += offSet
       }, 100)
+    }
+
     scrollX.value += offSet
 }
-
-const breakpoints = useBreakpoints({
-  mobile: 0,
-  tablet: 640,
-  laptop: 1024,
-  desktop: 1440
-})
-
-// true or false
-const mobile = breakpoints.between('mobile', 'tablet')
-const tablet = breakpoints.between('tablet', 'laptop')
-const laptop = breakpoints.between('laptop', 'desktop')
-const desktop = breakpoints.greater('desktop')
-
 
 function sortWorks(path) {
   if (path === '/works') {
