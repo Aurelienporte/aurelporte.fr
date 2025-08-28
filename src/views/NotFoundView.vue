@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router'
 /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/ /***|| SMARTPHONE ||***/
 .notfound {
   box-sizing: border-box;
-  height: 100vh;
+  height: 100svh;
   padding: 2rem;
   display: grid;
   place-content: center;
@@ -37,11 +37,5 @@ import { RouterLink } from 'vue-router'
     font-weight: 600;
     color: var(--saillanceColor);
   }
-}
-/****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/ /****| TABLET |****/
-@media screen and (767px < width < 1024px) {
-}
-/***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
-@media screen and (1024px <= width) and (orientation: landscape) {
 }
 </style>

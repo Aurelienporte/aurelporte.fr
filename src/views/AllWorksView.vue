@@ -73,13 +73,10 @@ function showMoreWorks() {
     }
 
     const scrollX = useScroll(main, { behavior: 'auto' }).x
-    if(!mobile.value){
-          setTimeout(() => {
+    setTimeout(() => {
       scrollX.value += offSet
       }, 100)
-    }
-
-    scrollX.value += offSet
+    // scrollX.value += offSet
 }
 
 function sortWorks(path) {
@@ -204,7 +201,7 @@ function updateScroll(e) {
 .works__main {
   --titleSize: 17vw;
   --titleOffset: -3.5vw;
-  --mainHeight: 80vh;
+  --mainHeight: 80svh;
   --barWidth: calc(10vw + 30px);
 
   display: grid;

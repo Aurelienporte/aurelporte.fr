@@ -2,7 +2,7 @@
 
 /*Styles for class common to different elements*/
 .main--scroll-x {
-  height: 80vh;
+  height: 80svh;
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: thin;

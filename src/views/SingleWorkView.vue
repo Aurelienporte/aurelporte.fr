@@ -227,11 +227,11 @@ function enableToolbar(boolean) {
 <style>
 /* GLOBAL CSS VARIABLE */
 :root{
-    --singleWorkMainHeight: 66vh;
+    --singleWorkMainHeight: 66svh;
 }
 @media screen and (767px < width < 1024px) {
   :root {
-    --singleWorkMainHeight: 76vh;
+    --singleWorkMainHeight: 76svh;
   }
 }
 </style>
@@ -379,7 +379,7 @@ function enableToolbar(boolean) {
 /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/ /***** LAPTOP *****/
 @media screen and (1024px <= width) and (orientation: landscape) {
   .artwork__main {
-    height: 90vh;
+    height: 90svh;
     grid-template-rows: 1fr;
     grid-template-columns: 90vw 10vw;
     place-content: end;
@@ -403,7 +403,7 @@ function enableToolbar(boolean) {
     --toolGap: calc(var(--toolHeight) / 2);
 
     grid-area: 1/2/2/3;
-    height: 80vh; /*centered in screen (banner = 10vh) */
+    height: 80svh; /*centered in screen (banner = 10vh) */
     justify-self: end;
     grid-template-rows: repeat(5, auto);
     grid-template-columns: 1fr;

@@ -119,7 +119,7 @@ const resetHanging = { x: '0', y: '0', leftGap: '0' }
   display: grid;
   grid-template-columns: 20vw 1fr 20vw;
   grid-template-rows: 37.5vh 25vh 37.5vh;
-  height: 100vh;
+  height: 100svh;
 }
 .high-title,
 .low-title {

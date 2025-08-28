@@ -120,13 +120,13 @@ watch(
 }
 @media screen and (767px < width < 1024px) {
   :root {
-    --bannerHeight: 8vh;
+    --bannerHeight: 8svh;
     --navWidth: 50vw;
   }
 }
 @media screen and (1024px <= width) and (orientation: landscape) {
   :root {
-    --bannerHeight: 10vh;
+    --bannerHeight: 10svh;
     --navWidth: 25vw;
   }
 }
@@ -137,7 +137,7 @@ header {
   --buttonSide: 24px;
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 8px;
-  --menuHeight: 66vh;
+  --menuHeight: 66svh;
 
   box-sizing: border-box;
   border-width: 1px;
@@ -290,7 +290,7 @@ header {
 /******* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET *******/
 @media screen and (767px < width <= 1024px) {
   header {
-    --menuHeight: calc(100vh - 2 * (var(--bannerHeight)));
+    --menuHeight: calc(100svh - 2 * (var(--bannerHeight)));
 
     border-image-width: 2px;
     border-image-source: linear-gradient(
@@ -330,7 +330,7 @@ header {
   header {
     --buttonSide: 30px;
     --buttonPadding: 9px;
-    --menuHeight: calc(100vh - 2 * var(--bannerHeight));
+    --menuHeight: calc(100svh - 2 * var(--bannerHeight));
 
     border-image-width: 2px;
     /*border-image is not displayed if width is under 2px */

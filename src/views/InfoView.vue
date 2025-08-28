@@ -116,13 +116,12 @@ function stopMainScroll(e) {
 .text {
   place-self: center;
 }
-.container {
+.container, .contact-container {
   padding-top: 2rem;
 }
 .contact-container {
   display: flex;
   flex-flow: column;
-  padding-top: 2rem;
 }
 .contact__title {
   margin-bottom: 10px;
@@ -138,16 +137,12 @@ function stopMainScroll(e) {
     gap: 0;
   }
   .container {
-    align-self: end;
     display: flex;
     flex-flow: column;
-    height: 70vh;
   }
-  .contact-container {
+  .container, .contact-container {
     align-self: end;
-    display: flex;
-    flex-flow: column;
-    height: 70vh;
+    height: 70svh;
   }
   .socials {
     justify-content: flex-start;
@@ -160,16 +155,12 @@ function stopMainScroll(e) {
     gap: 0;
   }
   .container {
-    align-self: end;
     display: flex;
     flex-flow: column;
-    height: 70vh;
   }
-  .contact-container {
+  .container, .contact-container {
     align-self: end;
-    display: flex;
-    flex-flow: column;
-    height: 70vh;
+    height: 70svh;
   }
   .socials {
     justify-content: flex-start;
