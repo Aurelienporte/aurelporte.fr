@@ -1,19 +1,148 @@
 [
+ {
+    "id": "0",
+    "title": "The End",
+    "year": "2014",
+    "project": "noproject",
+    "urlSlug": "the_end",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc( -40vh + 50%)", "leftGap": "240px" }
+    },
+    "height": 120,
+    "width": 160,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p>Danser sur le passé pour faire du présent une fête.</p><hr><p><i>The End</i> reprend un paysage minier qui a été épuré (au sol principalement) de bon nombre de ses détails. On distingue au fond des entrées de galeries, à droite un wagon et des rails, en haut apparaît le début d’un plafond parsemé de boulonnages (des éléments destinés à prévenir l’effondrement en maintenant solidaires les épaisseurs de roches). Au premier plan une jeune fille danse pieds nus, indifférente à son environnement.</p><p> J’ai vu dans cette association une forme de réponse à la question « Que faire de cet héritage moderne ? De ce temps révolu ? Quelle suite lui donner ? »</p> ",
+    "icon": {
+      "webp_png": "the_end_xs.webp",
+      "jpeg": "the_end_xs.jpeg",
+      "height": 180,
+      "width": 240
+    },
+    "images": {
+      "small": {
+        "webp": "the_end_s.webp",
+        "jpeg": "the_end_s.jpeg",
+        "width": 430,
+        "height": 324
+      },
+      "medium": {
+        "webp": "the_end_m.webp",
+        "jpeg": "the_end_m.jpeg",
+        "width": 704,
+        "height": 528
+      },
+      "large": {
+        "webp": "the_end_l.webp",
+        "jpeg": "the_end_l.jpeg",
+        "width": 896,
+        "height": 672
+      }
+    },
+    "altText": "Peinture d'une mine désaffectée dans laquelle danse une jeune fille"
+  },
   {
-    "id": "98",
+    "id": "1",
+    "title": "Industrial light",
+    "year": "2014",
+    "project": "noproject",
+    "urlSlug": "industrial_light",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc( -50vh + 50%)", "leftGap": "72px" }
+    },
+    "height": 38,
+    "width": 38,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p><i>Industrial light</i> représente une vieille lampe industrielle telle qu’on en trouve dans bon nombre de mines. Cette lampe n’éclaire plus, elle est éclairée. Certains éléments d’étayage (poutres) présents sur la photo d’origine ont été conservés, le reste n’étant plus qu’un fond bleuté, intemporel dans lequel elle flotte, relique d’un ancien monde.</p>",
+    "icon": {
+      "webp_png": "industrial_light_xs.webp",
+      "jpeg": "industrial_light_xs.jpeg",
+      "height": 72,
+      "width": 72
+    },
+    "images": {
+      "small": {
+        "webp": "industrial_light_s.webp",
+        "jpeg": "industrial_light_s.jpeg",
+        "width": 430,
+        "height": 430
+      },
+      "medium": {
+        "webp": "industrial_light_m.webp",
+        "jpeg": "industrial_light_m.jpeg",
+        "width": 704,
+        "height": 704
+      },
+      "large": {
+        "webp": "industrial_light_l.webp",
+        "jpeg": "industrial_light_l.jpeg",
+        "width": 896,
+        "height": 896
+      }
+    },
+    "altText": "Peinture d'une lampe industrielle éteinte ou hors service"
+  },
+  {
+    "id": "2",
+    "title": "La Caverne",
+    "year": "2014",
+    "project": "noproject",
+    "urlSlug": "la_caverne",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc( -40vh + 50%)", "leftGap": "180px" }
+    },
+    "height": 70,
+    "width": 70,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p><i>La Caverne</i> représente une galerie dans une mine abandonnée. L’image est issue du recadrage d’une photo prise au flash dont les ombres ont été gardées. Par le choix de ce motif je souhaitais renvoyer à une triple réalité de  la peinture.</p><p>Sa réalité minérale d’abord : de nombreux pigments sont les produits de réactions chimiques avec des sels métalliques (fer, plomb, cuivre, cadmium, zinc, titane…). Il n’y a en fait pas de peinture sans extraction minière.</p><p>Sa réalité historique ensuite : la peinture est intimement liée au monde souterrain, non pas celui des mines, mais des grottes, dont les parois furent le premier support.</p><p>Sa réalité épistémologique : le peintre, selon Platon, est un producteur d’apparences et donc de mensonge. A ce titre il participe à projeter des ombres sur les parois de notre caverne imaginaire.</p>",
+    "icon": {
+      "webp_png": "la_caverne_xs.webp",
+      "jpeg": "la_caverne_xs.jpeg",
+      "height": 120,
+      "width": 120
+    },
+    "images": {
+      "small": {
+        "webp": "la_caverne_s.webp",
+        "jpeg": "la_caverne_s.jpeg",
+        "width": 430,
+        "height": 430
+      },
+      "medium": {
+        "webp": "la_caverne_m.webp",
+        "jpeg": "la_caverne_m.jpeg",
+        "width": 704,
+        "height": 704
+      },
+      "large": {
+        "webp": "la_caverne_l.webp",
+        "jpeg": "la_caverne_l.jpeg",
+        "width": 896,
+        "height": 896
+      }
+    },
+    "altText": "Peinture d'une mine désaffectée"
+  },
+  {
+    "id": "3",
     "title": "Die Zukunft wird zeigen",
     "year": "2015",
     "project": "noproject",
     "urlSlug": "die_zukunft_wird_zeigen",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0", "y": "calc(-40vh + 113px)", "leftGap": "170px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "225px" }
     },
     "height": 114,
     "width": 150,
     "depth": "",
     "materials": "huile et acrylique sur toile",
-    "text": "noText",
+    "text": "<p>C’est une friche industrielle, la ruine pas si vieille d’un monde révolu.</p><p>Les décombres modernes nous fascinent : ce passé est proche et pourtant l’inconnu demeure entier.</p><p>Votre temps sera vite englouti dans l’amnésie, semblent-ils nous dire.</p><p>Que faire devant cette réalité en pièces détachée, dans cet espace en latence ? Que laisser ? Quoi remonter ?</p><p>Au fond, que de possibles.</p>",
     "icon": {
       "webp_png": "die_zukunft_wird_zeigen_xs.webp",
       "jpeg": "die_zukunft_wird_zeigen.jpeg",
@@ -43,7 +172,7 @@
     "altText": "Peinture d'une usine désaffectée"
   },
   {
-    "id": "0",
+    "id": "4",
     "title": "Double et brisé",
     "year": "2015",
     "project": "Infiltrations",
@@ -86,7 +215,7 @@
     "altText": "Tableau d'une chambre à coucher avec un grand lit défait en son centre"
   },
   {
-    "id": "103",
+    "id": "5",
     "title": "Dazzle-razzle (version 1)",
     "year": "2016",
     "project": "Démochromies",
@@ -129,7 +258,7 @@
     "altText": "Tableau d'un drapeau à rayures noires et blanches inspirées d'un camouflage dazzle"
   },
   {
-    "id": "102",
+    "id": "6",
     "title": "Middleburgh (version 1)",
     "year": "2016",
     "project": "Démochromies",
@@ -172,7 +301,7 @@
     "altText": "Tableau d'un drapeau à fond rouge avec une tour jaune comme emblème central"
   },
   {
-    "id": "101",
+    "id": "7",
     "title": "De sable au heaume d'argent (version 1)",
     "year": "2016",
     "project": "Démochromies",
@@ -215,7 +344,7 @@
     "altText": "Tableau d'un drapeau à fond noir avec un heaume gris au centre"
   },
   {
-    "id": "3",
+    "id": "8",
     "title": "En tout et par tout, [...] rapiessement et bigarrure",
     "year": "2016",
     "project": "Infiltrations",
@@ -258,7 +387,7 @@
     "altText": "Tableau d'un salon dans un loft avec fauteuil, canapé, tapis et table basse"
   },
   {
-    "id": "2",
+    "id": "9",
     "title": "Reprise argus (2)",
     "year": "2016",
     "project": "Reprise argus",
@@ -301,7 +430,7 @@
     "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
-    "id": "1",
+    "id": "10",
     "title": "Reprise argus (1)",
     "year": "2016",
     "project": "Reprise argus",
@@ -344,7 +473,7 @@
     "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
-    "id": "14",
+    "id": "11",
     "title": "Appâts feutrés",
     "year": "2016",
     "project": "Infiltrations",
@@ -384,10 +513,10 @@
         "height": 593
       }
     },
-    "altText": "Tableau d'un salon avec  plusieurs fauteuils, un meuble de rangement et des châteaux de sable au sol."
+    "altText": "Tableau d'un salon avec plusieurs fauteuils, un meuble de rangement et des châteaux de sable au sol."
   },
   {
-    "id": "100",
+    "id": "12",
     "title": "Lippi, le banquet d'Hérode (version 1)",
     "year": "2016",
     "project": "Démochromies",
@@ -430,7 +559,7 @@
     "altText": "Tableau d'un drapeau à fond blanc avec un motif géométrique rouge et noir."
   },
   {
-    "id": "99",
+    "id": "13",
     "title": "Brabant (première version)",
     "year": "2016",
     "project": "Démochromies",
@@ -473,7 +602,7 @@
     "altText": "Tableau d'un drapeau à damier rouge et blanc."
   },
   {
-    "id": "4",
+    "id": "14",
     "title": "Quelque chose de mondial",
     "year": "2015",
     "project": "Infiltrations",
@@ -516,14 +645,14 @@
     "altText": "Tableau d'une façade de maison avec un petit jardin devant"
   },
   {
-    "id": "8",
-    "title": "Lointains alentours (1)",
+    "id": "15",
+    "title": "Lointains alentours (3)",
     "year": "2018",
     "project": "Tableaux pour passants",
-    "urlSlug": "lointains_alentours_1",
+    "urlSlug": "lointains_alentours_3",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-1vh", "leftGap": "27px" }
+      "hanging": { "x": "0", "y": "-2vh", "leftGap": "0" }
     },
     "height": 61,
     "width": 27,
@@ -531,27 +660,27 @@
     "materials": "huile et acrylique sur toile",
     "text": "<p>Paires de tableaux au format d'avertisseur \"sol glissant\" assemblées par le haut, conçues comme des renvois vers un ailleurs marin non identifié.</p><p>Privée d'une signalétique précise, la forme-repère détourne du lieu où elle se trouve posée pour nous perdre vers des horizons azurs ou des remparts de sable érigés face à la mer. Elle n'est pas vidée pour autant de toute information, simplement de sa clarté.</p><p>Alors, qu'y voir ? Avertissement ou promotion, point de départ ou d'arrivée ?</p>",
     "icon": {
-      "webp_png": "lointains_alentours_1_xs.png",
-      "jpeg": "lointains_alentours_1_xs.jpeg",
-      "height": 98,
-      "width": 55
+      "webp_png": "lointains_alentours_3_xs.webp",
+      "jpeg": "lointains_alentours_3_xs.jpeg",
+      "height": 104,
+      "width": 58
     },
     "images": {
       "small": {
-        "webp": "lointains_alentours_1_s.webp",
-        "jpeg": "lointains_alentours_1_s.jpeg",
+        "webp": "lointains_alentours_3_s.webp",
+        "jpeg": "lointains_alentours_3_s.jpeg",
         "width": 278,
         "height": 604
       },
       "medium": {
-        "webp": "lointains_alentours_1_m.webp",
-        "jpeg": "lointains_alentours_1_m.jpeg",
+        "webp": "lointains_alentours_3_m.webp",
+        "jpeg": "lointains_alentours_3_m.jpeg",
         "width": 348,
         "height": 756
       },
       "large": {
-        "webp": "lointains_alentours_1_l.webp",
-        "jpeg": "lointains_alentours_1_l.jpeg",
+        "webp": "lointains_alentours_3_l.webp",
+        "jpeg": "lointains_alentours_3_l.jpeg",
         "width": 427,
         "height": 928
       }
@@ -559,7 +688,7 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "9",
+    "id": "16",
     "title": "Hamburgh #2",
     "year": "2017",
     "project": "Démochromies",
@@ -602,7 +731,7 @@
     "altText": "Tableau d'un drapeau à fond blanc avec une petite tour noire en haut à gauche"
   },
   {
-    "id": "26",
+    "id": "17",
     "title": "Hamburgh",
     "year": "2017",
     "project": "Démochromies",
@@ -645,7 +774,7 @@
     "altText": "Tableau d'un drapeau à fond rouge avec une grosse tour blanche au centre"
   },
   {
-    "id": "17",
+    "id": "18",
     "title": "Hamburgh #3",
     "year": "2017",
     "project": "Démochromies",
@@ -688,7 +817,7 @@
     "altText": "Tableau d'un drapeau à fond rouge avec trois petites tours blanches au centre"
   },
   {
-    "id": "12",
+    "id": "19",
     "title": "De sable au heaume d'argent",
     "year": "2017",
     "project": "Démochromies",
@@ -731,7 +860,7 @@
     "altText": "Tableau d'un drapeau à fond noir avec un heaume gris au centre"
   },
   {
-    "id": "13",
+    "id": "20",
     "title": "Middleburgh",
     "year": "2017",
     "project": "Démochromies",
@@ -778,7 +907,7 @@
     "altText": "Tableau d'un drapeau à fond rouge avec une tour jaune au centre"
   },
   {
-    "id": "19",
+    "id": "21",
     "title": "Riga",
     "year": "2017",
     "project": "Démochromies",
@@ -825,7 +954,7 @@
     "altText": "Tableau d'un drapeau à fond blanc avec un château rouge bordeaux au centre"
   },
   {
-    "id": "28",
+    "id": "22",
     "title": "Memelland",
     "year": "2017",
     "project": "Démochromies",
@@ -872,7 +1001,7 @@
     "altText": "Tableau d'un drapeau biparti horizontalement jaune et rouge avec rond rouge en haut à gauche"
   },
   {
-    "id": "5",
+    "id": "23",
     "title": "Reprise argus (5)",
     "year": "2017",
     "project": "Reprise argus",
@@ -915,14 +1044,14 @@
     "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
-    "id": "20",
-    "title": "Lointains alentours (2)",
+    "id": "24",
+    "title": "Lointains alentours (4)",
     "year": "2018",
     "project": "Tableaux pour passants",
-    "urlSlug": "lointains_alentours_2",
+    "urlSlug": "lointains_alentours_4",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "27px" }
     },
     "height": 61,
     "width": 27,
@@ -930,27 +1059,27 @@
     "materials": "huile et acrylique sur toile",
     "text": "<p>Paires de tableaux au format d'avertisseur \"sol glissant\" assemblées par le haut, conçues comme des renvois vers un ailleurs marin non identifié.</p><p>Privée d'une signalétique précise, la forme-repère détourne du lieu où elle se trouve posée pour nous perdre vers des horizons azurs ou des remparts de sable érigés face à la mer. Elle n'est pas vidée pour autant de toute information, simplement de sa clarté.</p><p>Alors, qu'y voir ? Avertissement ou promotion, point de départ ou d'arrivée ?</p>",
     "icon": {
-      "webp_png": "lointains_alentours_2_xs.png",
-      "jpeg": "lointains_alentours_2_xs.jpeg",
-      "height": 98,
-      "width": 55
+      "webp_png": "lointains_alentours_1_vue_2_xs.webp",
+      "jpeg": "lointains_alentours_1_vue_2_xs.jpeg",
+      "height": 104,
+      "width": 54
     },
     "images": {
       "small": {
-        "webp": "lointains_alentours_2_s.webp",
-        "jpeg": "lointains_alentours_2_s.jpeg",
+        "webp": "lointains_alentours_1_vue_2_s.webp",
+        "jpeg": "lointains_alentours_1_vue_2_s.jpeg",
         "width": 278,
         "height": 604
       },
       "medium": {
-        "webp": "lointains_alentours_2_m.webp",
-        "jpeg": "lointains_alentours_2_m.jpeg",
+        "webp": "lointains_alentours_1_vue_2_m.webp",
+        "jpeg": "lointains_alentours_1_vue_2_m.jpeg",
         "width": 348,
         "height": 756
       },
       "large": {
-        "webp": "lointains_alentours_2_l.webp",
-        "jpeg": "lointains_alentours_2_l.jpeg",
+        "webp": "lointains_alentours_1_vue_2_l.webp",
+        "jpeg": "lointains_alentours_1_vue_2_l.jpeg",
         "width": 427,
         "height": 928
       }
@@ -958,7 +1087,7 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "6",
+    "id": "25",
     "title": "Reprise argus (3)",
     "year": "2017",
     "project": "Reprise argus",
@@ -1001,7 +1130,7 @@
     "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
-    "id": "7",
+    "id": "26",
     "title": "Reprise argus (4)",
     "year": "2017",
     "project": "Reprise argus",
@@ -1044,7 +1173,7 @@
     "altText": "Tableau d'un porte-avions de la première guerre mondiale avec un camouflage dazzle"
   },
   {
-    "id": "21",
+    "id": "27",
     "title": "Trophées",
     "year": "2017",
     "project": "Infiltrations",
@@ -1087,7 +1216,7 @@
     "altText": "Tableau d'un salon avec un parquet, un canapé, un grand tapis des trophées de chasse."
   },
   {
-    "id": "24",
+    "id": "28",
     "title": "Lucca",
     "year": "2017",
     "project": "Démochromies",
@@ -1130,7 +1259,7 @@
     "altText": "Tableau d'un drapeau à fond blanc et à bordure bleue avec un losange rouge au centre"
   },
   {
-    "id": "15",
+    "id": "29",
     "title": "Dazzle-razzle",
     "year": "2017",
     "project": "Démochromies",
@@ -1177,7 +1306,7 @@
     "altText": "Tableau d'un drapeau à rayures noires et blanches inspirées d'un camouflage dazzle"
   },
   {
-    "id": "11",
+    "id": "30",
     "title": "Brabant",
     "year": "2017",
     "project": "Démochromies",
@@ -1220,7 +1349,7 @@
     "altText": "Tableau d'un drapeau à damier rouge et blanc."
   },
   {
-    "id": "25",
+    "id": "31",
     "title": "Koningsberg",
     "year": "2017",
     "project": "Démochromies",
@@ -1263,7 +1392,7 @@
     "altText": "Tableau d'un drapeau à rayures horizontales noires et blanches."
   },
   {
-    "id": "23",
+    "id": "32",
     "title": "Lippi, le banquet d'Hérode",
     "year": "2017",
     "project": "Démochromies",
@@ -1310,7 +1439,7 @@
     "altText": "Tableau d'un drapeau à fond blanc avec un motif géométrique rouge et noir."
   },
   {
-    "id": "10",
+    "id": "33",
     "title": "Parme",
     "year": "2017",
     "project": "Démochromies",
@@ -1357,7 +1486,7 @@
     "altText": "Tableau d'un drapeau à bordure rouge avec le centre divisé en huit triangles jaunes et bleus"
   },
   {
-    "id": "16",
+    "id": "34",
     "title": "Burgkmair, la flagellation du Christ",
     "year": "2017",
     "project": "Démochromies",
@@ -1404,7 +1533,7 @@
     "altText": "Tableau d'un drapeeu à fond bleu avec ule contour d'un grand losange blanc dessiné au centre"
   },
   {
-    "id": "22",
+    "id": "35",
     "title": "Parme #2",
     "year": "2017",
     "project": "Démochromies",
@@ -1451,7 +1580,7 @@
     "altText": "Tableau d'un drapeau à bordure de barettes rouges et blanches, centre à fond blanc avec un losange rouge."
   },
   {
-    "id": "96",
+    "id": "36",
     "title": "Sarre #2",
     "year": "2017",
     "project": "Démochromies",
@@ -1498,7 +1627,7 @@
     "altText": "Tableau d'un drapeau triparti horizontalement bleu blanc noir."
   },
   {
-    "id": "32",
+    "id": "37",
     "title": "Camp de bases",
     "year": "2019",
     "project": "noproject",
@@ -1516,7 +1645,7 @@
       "webp_png": "camp_de_bases_xs.webp",
       "jpeg": "camp_de_bases_xs.jpeg",
       "height": 166,
-      "width": 227
+      "width": 234
     },
     "images": {
       "small": {
@@ -1541,7 +1670,7 @@
     "altText": "Tableau d'un ébouli avec des fanion jaunes, rouges et bleus plantés dans le sol"
   },
   {
-    "id": "27",
+    "id": "38",
     "title": "Nassau",
     "year": "2017",
     "project": "Démochromies",
@@ -1588,7 +1717,7 @@
     "altText": "Tableau d'un drapeau triparti horizontalement orange bleu orange."
   },
   {
-    "id": "29",
+    "id": "39",
     "title": "Modène",
     "year": "2017",
     "project": "Démochromies",
@@ -1631,7 +1760,7 @@
     "altText": "Tableau d'un drapeau triparti horizontalement orange blanc orange au centre un liseré vertical bleu blanc bleu."
   },
   {
-    "id": "30",
+    "id": "40",
     "title": "Sarre",
     "year": "2017",
     "project": "Démochromies",
@@ -1674,7 +1803,7 @@
     "altText": "Tableau d'un drapeau à croix blanche sur fond biparti bleu et rouge"
   },
   {
-    "id": "31",
+    "id": "41",
     "title": "Oldenburg",
     "year": "2017",
     "project": "Démochromies",
@@ -1717,7 +1846,7 @@
     "altText": "Tableau d'un drapeau à croix orange sur fond violet indigo"
   },
   {
-    "id": "33",
+    "id": "42",
     "title": "Crète",
     "year": "2017",
     "project": "Démochromies",
@@ -1764,14 +1893,14 @@
     "altText": "Tableau d'un drapeau à croix blanche sur fond bleu au quart supérieur gauche rouge avec une étoile blanche"
   },
   {
-    "id": "18",
-    "title": "Lointains alentours (3)",
+    "id": "43",
+    "title": "Lointains alentours (2)",
     "year": "2018",
     "project": "Tableaux pour passants",
-    "urlSlug": "lointains_alentours_3",
+    "urlSlug": "lointains_alentours_2",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-2vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "60px" }
     },
     "height": 61,
     "width": 27,
@@ -1779,27 +1908,27 @@
     "materials": "huile et acrylique sur toile",
     "text": "<p>Paires de tableaux au format d'avertisseur \"sol glissant\" assemblées par le haut, conçues comme des renvois vers un ailleurs marin non identifié.</p><p>Privée d'une signalétique précise, la forme-repère détourne du lieu où elle se trouve posée pour nous perdre vers des horizons azurs ou des remparts de sable érigés face à la mer. Elle n'est pas vidée pour autant de toute information, simplement de sa clarté.</p><p>Alors, qu'y voir ? Avertissement ou promotion, point de départ ou d'arrivée ?</p>",
     "icon": {
-      "webp_png": "lointains_alentours_3_xs.png",
-      "jpeg": "lointains_alentours_3_xs.jpeg",
-      "height": 98,
-      "width": 59
+      "webp_png": "lointains_alentours_2_xs.webp",
+      "jpeg": "lointains_alentours_2_xs.jpeg",
+      "height": 104,
+      "width": 60
     },
     "images": {
       "small": {
-        "webp": "lointains_alentours_3_s.webp",
-        "jpeg": "lointains_alentours_3_s.jpeg",
+        "webp": "lointains_alentours_2_s.webp",
+        "jpeg": "lointains_alentours_2_s.jpeg",
         "width": 278,
         "height": 604
       },
       "medium": {
-        "webp": "lointains_alentours_3_m.webp",
-        "jpeg": "lointains_alentours_3_m.jpeg",
+        "webp": "lointains_alentours_2_m.webp",
+        "jpeg": "lointains_alentours_2_m.jpeg",
         "width": 348,
         "height": 756
       },
       "large": {
-        "webp": "lointains_alentours_3_l.webp",
-        "jpeg": "lointains_alentours_3_l.jpeg",
+        "webp": "lointains_alentours_2_l.webp",
+        "jpeg": "lointains_alentours_2_l.jpeg",
         "width": 427,
         "height": 928
       }
@@ -1807,8 +1936,51 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "34",
-    "title": "Masse diplomatie (9)",
+    "id": "44",
+    "title": "Lointains alentours (1)",
+    "year": "2018",
+    "project": "Tableaux pour passants",
+    "urlSlug": "lointains_alentours_1",
+    "display": {
+      "hasShadow": false,
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "27px" }
+    },
+    "height": 61,
+    "width": 27,
+    "depth": "27",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p>Paires de tableaux au format d'avertisseur \"sol glissant\" assemblées par le haut, conçues comme des renvois vers un ailleurs marin non identifié.</p><p>Privée d'une signalétique précise, la forme-repère détourne du lieu où elle se trouve posée pour nous perdre vers des horizons azurs ou des remparts de sable érigés face à la mer. Elle n'est pas vidée pour autant de toute information, simplement de sa clarté.</p><p>Alors, qu'y voir ? Avertissement ou promotion, point de départ ou d'arrivée ?</p>",
+    "icon": {
+      "webp_png": "lointains_alentours_1_xs.webp",
+      "jpeg": "lointains_alentours_1_xs.jpeg",
+      "height": 104,
+      "width": 60
+    },
+    "images": {
+      "small": {
+        "webp": "lointains_alentours_1_s.webp",
+        "jpeg": "lointains_alentours_1_s.jpeg",
+        "width": 278,
+        "height": 604
+      },
+      "medium": {
+        "webp": "lointains_alentours_1_m.webp",
+        "jpeg": "lointains_alentours_1_m.jpeg",
+        "width": 348,
+        "height": 756
+      },
+      "large": {
+        "webp": "lointains_alentours_1_l.webp",
+        "jpeg": "lointains_alentours_1_l.jpeg",
+        "width": 427,
+        "height": 928
+      }
+    },
+    "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
+  },
+  {
+    "id": "45",
+    "title": "Masse diplomatie #9",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_9",
@@ -1850,8 +2022,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "35",
-    "title": "Masse diplomatie (8)",
+    "id": "46",
+    "title": "Masse diplomatie #8",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_8",
@@ -1893,8 +2065,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "36",
-    "title": "Masse diplomatie (7)",
+    "id": "47",
+    "title": "Masse diplomatie #7",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_7",
@@ -1936,8 +2108,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "37",
-    "title": "Masse diplomatie (6)",
+    "id": "48",
+    "title": "Masse diplomatie #6",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_6",
@@ -1979,8 +2151,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "38",
-    "title": "Masse diplomatie (5)",
+    "id": "49",
+    "title": "Masse diplomatie #5",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_5",
@@ -2022,8 +2194,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "39",
-    "title": "Masse diplomatie (4)",
+    "id": "50",
+    "title": "Masse diplomatie #4",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_4",
@@ -2065,8 +2237,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "40",
-    "title": "Masse diplomatie (3)",
+    "id": "51",
+    "title": "Masse diplomatie #3",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_3",
@@ -2108,8 +2280,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "41",
-    "title": "Masse diplomatie (2)",
+    "id": "52",
+    "title": "Masse diplomatie #2",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_2",
@@ -2151,8 +2323,8 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "42",
-    "title": "Masse diplomatie (1)",
+    "id": "53",
+    "title": "Masse diplomatie #1",
     "year": "2019",
     "project": "Masse diplomatie",
     "urlSlug": "masse_diplomatie_1",
@@ -2194,7 +2366,7 @@
     "altText": "Marqueterie d'un schéma de porte-avion en vue aérienne"
   },
   {
-    "id": "48",
+    "id": "54",
     "title": "Oh la la la vie en rose",
     "year": "2021",
     "project": "Home sweet home",
@@ -2237,7 +2409,7 @@
     "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
-    "id": "43",
+    "id": "55",
     "title": "Any where out of the world (3)",
     "year": "2019",
     "project": "Tableaux pour passants",
@@ -2280,7 +2452,7 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "55",
+    "id": "56",
     "title": "Digger",
     "year": "2021",
     "project": "Les envahisseurs",
@@ -2323,7 +2495,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "44",
+    "id": "57",
     "title": "Pyramides",
     "year": "2021",
     "project": "Home sweet home",
@@ -2366,7 +2538,7 @@
     "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
-    "id": "45",
+    "id": "58",
     "title": "Any where out of the world (2)",
     "year": "2019",
     "project": "Tableaux pour passants",
@@ -2409,7 +2581,7 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "46",
+    "id": "59",
     "title": "Any where out of the world (1)",
     "year": "2019",
     "project": "Tableaux pour passants",
@@ -2452,7 +2624,7 @@
     "altText": "Paire de tableaux oblongs assemblés par le haut présenté posés au sol comme une signalisation pour sol glissant."
   },
   {
-    "id": "50",
+    "id": "60",
     "title": "Soviet soucoupe",
     "year": "2021",
     "project": "Les envahisseurs",
@@ -2495,7 +2667,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "51",
+    "id": "61",
     "title": "Viking",
     "year": "2020",
     "project": "Les envahisseurs",
@@ -2538,7 +2710,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "53",
+    "id": "62",
     "title": "Chang'e",
     "year": "2020",
     "project": "Les envahisseurs",
@@ -2581,7 +2753,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "47",
+    "id": "63",
     "title": "Néobucolique",
     "year": "2020",
     "project": "noproject",
@@ -2624,7 +2796,7 @@
     "altText": "Tableau d'un grand paludarium avec un paysage miniature et un agent d'entretiene et un spectateur"
   },
   {
-    "id": "54",
+    "id": "64",
     "title": "Horizon inverse",
     "year": "2020",
     "project": "noproject",
@@ -2667,7 +2839,7 @@
     "altText": "Portrait d'un homme le nez en l'air. Il porte des lunettes et des mitaines. En haut il y a un paysage à l'envers"
   },
   {
-    "id": "49",
+    "id": "65",
     "title": "Any where out of the world (6)",
     "year": "2020",
     "project": "Tableaux pour passants",
@@ -2710,7 +2882,7 @@
     "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
-    "id": "56",
+    "id": "66",
     "title": "Arpenteur",
     "year": "2020",
     "project": "Les envahisseurs",
@@ -2723,7 +2895,7 @@
     "width": 39,
     "depth": "34",
     "materials": "tôle aluminium, planche de balsa, adhésifs, liège d'isolation, câbles et matériaux divers",
-    "text": "<p>La voie est ouverte. Le voyage fut long. On inspecte, mesure, sonde. Prudence. D'autres viendront",
+    "text": "noText",
     "icon": {
       "webp_png": "arpenteur_xs.png",
       "jpeg": "arpenteur_xs.jpeg",
@@ -2753,7 +2925,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "58",
+    "id": "67",
     "title": "Power flower",
     "year": "2020",
     "project": "Les envahisseurs",
@@ -2796,10 +2968,10 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "60",
+    "id": "68",
     "title": "Les vertus",
     "year": "2021",
-    "project": "(Ré)ensauvagement",
+    "project": "Jalons d'un monde à venir",
     "urlSlug": "les_vertus",
     "display": {
       "hasShadow": true,
@@ -2843,10 +3015,10 @@
     "altText": "Tableau d'un paysage urbain avec des jardins ouvriers au premier plan et des tours au fond"
   },
   {
-    "id": "61",
+    "id": "69",
     "title": "Cardons",
     "year": "2021",
-    "project": "(Ré)ensauvagement",
+    "project": "Jalons d'un monde à venir",
     "urlSlug": "cardons",
     "display": {
       "hasShadow": true,
@@ -2890,7 +3062,54 @@
     "altText": "Tableau d'un paysage urbain avec des cultures maraichères au premier plan et des tours au fond"
   },
   {
-    "id": "52",
+    "id": "70",
+    "title": "Barrierd",
+    "year": "2025",
+    "project": "noproject",
+    "urlSlug": "barrierd",
+    "display": {
+      "hasShadow": true,
+      "hanging": {
+        "x": "0",
+        "y": "calc(-50vh + 50%)",
+        "leftGap": "0"
+      }
+    },
+    "height": 65,
+    "width": 82,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "noText",
+    "icon": {
+      "webp_png": "barrierd_xs.webp",
+      "jpeg": "barrierd_xs.jpeg",
+      "height": 104,
+      "width": 132
+    },
+    "images": {
+      "small": {
+        "webp": "barrierd_s.webp",
+        "jpeg": "barrierd_s.jpeg",
+        "width": 430,
+        "height": 340
+      },
+      "medium": {
+        "webp": "barrierd_m.webp",
+        "jpeg": "barrierd_m.jpeg",
+        "width": 704,
+        "height": 558
+      },
+      "large": {
+        "webp": "barrierd_l.webp",
+        "jpeg": "barrierd_l.jpeg",
+        "width": 896,
+        "height": 710
+      }
+    },
+    "altText": "Tableau représentant un homme en train d'assembler les parois d'un aquarium"
+  },
+  {
+    "id": "71",
     "title": "Any where out of the world (5)",
     "year": "2020",
     "project": "Tableaux pour passants",
@@ -2933,7 +3152,7 @@
     "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
-    "id": "57",
+    "id": "72",
     "title": "Any where out of the world (4)",
     "year": "2020",
     "project": "Tableaux pour passants",
@@ -2976,7 +3195,7 @@
     "altText": "Paire de tableaux oblongs sur bois assemblés par le haut se tenant au sol comme un stop trottoir."
   },
   {
-    "id": "62",
+    "id": "73",
     "title": "New Sénart",
     "year": "2022",
     "project": "Home sweet home",
@@ -3019,7 +3238,7 @@
     "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
-    "id": "63",
+    "id": "74",
     "title": "GBA & RAS",
     "year": "2022",
     "project": "(Ré)ensauvagement",
@@ -3062,7 +3281,7 @@
     "altText": "Tableau d'un paysage urbain avec un bord de route au premier plan"
   },
   {
-    "id": "76",
+    "id": "75",
     "title": "Substrat",
     "year": "2023",
     "project": "(Ré)ensauvagement",
@@ -3109,7 +3328,7 @@
     "altText": "Tableau montrant l'intérieur d'un sac de gravats dans lequeul poussent des coquelicots"
   },
   {
-    "id": "77",
+    "id": "76",
     "title": "Substrat #2",
     "year": "2023",
     "project": "(Ré)ensauvagement",
@@ -3152,7 +3371,7 @@
     "altText": "Tableau montrant l'intérieur d'un sac de gravats dans lequeul poussent des coquelicots"
   },
   {
-    "id": "59",
+    "id": "77",
     "title": "La chute du mur",
     "year": "2021",
     "project": "Jalons d'un monde à venir",
@@ -3199,7 +3418,7 @@
     "altText": "Tableau d'un paysage urbain montrant une zone en friche avec un mur effondré et une assemblée de personnes au centre"
   },
   {
-    "id": "75",
+    "id": "78",
     "title": "Surface de projection",
     "year": "2023",
     "project": "(Ré)ensauvagement",
@@ -3246,7 +3465,7 @@
     "altText": "Tableau d'une dent creuse avec un étai et des buddléia au premier plan"
   },
   {
-    "id": "66",
+    "id": "79",
     "title": "Palissade",
     "year": "2022",
     "project": "(Ré)ensauvagement",
@@ -3289,7 +3508,7 @@
     "altText": "tableau d'un bord de route avec un terrain vague encadré de palissades"
   },
   {
-    "id": "74",
+    "id": "80",
     "title": "Haie d'honneur",
     "year": "2023",
     "project": "(Ré)ensauvagement",
@@ -3332,7 +3551,7 @@
     "altText": "Tableau d'une palissade avec des buddleia en fleur qui en dépassent"
   },
   {
-    "id": "64",
+    "id": "81",
     "title": "Ici",
     "year": "2022",
     "project": "(Ré)ensauvagement",
@@ -3375,7 +3594,7 @@
     "altText": "Tableau d'une façade condamnée avec de la végétation qui a poussé devant"
   },
   {
-    "id": "67",
+    "id": "82",
     "title": "Sortie de route",
     "year": "2021",
     "project": "(Ré)ensauvagement",
@@ -3388,7 +3607,7 @@
     "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur toile",
-    "text": "<p>2021, Saint-Denis, abords du Stade de France, à côté de la place de l'écluse, l'été tire sur sa fin, berces et folles herbes ont fanée. La pousse estivale fut spectaculaire. Besoin naturel de combler le vide des lieux, évacués l'année d'avant, pudique écho de la précipitation du nettoyage. Fragment choisi d'un paysage traversé à 90km/h, où tant d'existences auront fait halte.</p>",
+    "text": "<p>Fragment choisi d'un paysage traversé à 90km/h, où tant d'existences auront fait halte.</p>",
     "icon": {
       "webp_png": "sortie_de_route_xs.webp",
       "jpeg": "sortie_de_route_xs.jpeg",
@@ -3418,10 +3637,10 @@
     "altText": "Tableau d'un bord de route avec un grand talus terrassé"
   },
   {
-    "id": "65",
+    "id": "83",
     "title": "Digue",
     "year": "2022",
-    "project": "(Ré)ensauvagement",
+    "project": "noproject",
     "urlSlug": "digue",
     "display": {
       "hasShadow": true,
@@ -3435,7 +3654,7 @@
     "width": 50,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
-    "text": "<p>Sur cette maçonnerie venue coiffer un petit édicule d'aération, des pariétaires de Judée campent obstinément. C'est une forme-barrage, l'image d'un morceau de notre quotidien endormi, qu'il fallait réveiller à coup de couleurs. 2022, Paris 18e, rue Leibniz</p>",
+    "text": "<p>Une maçonnerie coiffe un petit édicule d'aération, des pariétaires de Judée campent obstinément. C'est une forme-barrage, un morceau de notre quotidien endormi, qu'il fallait réveiller à coup de couleurs.</p>",
     "icon": {
       "webp_png": "digue_xs.webp",
       "jpeg": "digue_xs.jpeg",
@@ -3465,7 +3684,7 @@
     "altText": "Tableau d'un édicule coiffé d'un assemblage de pavés destiné à rendre impossible toute assise"
   },
   {
-    "id": "78",
+    "id": "84",
     "title": "Crushed",
     "year": "2023",
     "project": "Jalons d'un monde à venir",
@@ -3482,7 +3701,7 @@
     "width": 50.5,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
-    "text": "noText",
+    "text": "<p><i>Crushed</i> représente, en jouant sur les codes d'organisation du paysage, une accumulation de sacs de gravats ‐ élément omniprésent dans les zones urbaines en forte rénovation. C'est une vue parcellaire et un arrêt marqué du regard sur un résidu de l'activité humaine, où, déjà, les herbes folles s'invitent.</p>",
     "icon": {
       "webp_png": "crushed_xs.webp",
       "jpeg": "crushed_xs.jpeg",
@@ -3512,20 +3731,20 @@
     "altText": "Tableau avec des sacs à gravats remplis."
   },
   {
-    "id": "68",
+    "id": "85",
     "title": "Tambour",
     "year": "2022",
     "project": "Les envahisseurs",
     "urlSlug": "tambour",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-7vh", "leftGap": "25px" }
+      "hanging": { "x": "0", "y": "-10vh", "leftGap": "25px" }
     },
     "height": 18,
     "width": 20,
     "depth": "20",
     "materials": "tôle aluminium, planche de balsa, abs extrudé, bâche, liège d'isolation, adhésifs et matériaux divers",
-    "text": "<p>En 2008, l'ESA annonçait un projet d'alunisseur (ESA Lunar Lander) pour se relancer dans la course vers la Lune. Cependant l'engin ne vit jamais le jour, faute de financements. Ne reste qu'une annonce spectaculaire oubliée et les quelques images alors diffusées, d'un curieux cylindre juché sur quatre pieds dépliables.</p>",
+    "text": "<p>Inspiré du Lunar Lander de l’ESA, un engin européen qui ne vit jamais le jour faute d’accord entre les différents partenaires.</p><p>Comme pour l’art, le secteur spatial est souvent tributaire des politiques publiques et de leur changement d’orientation. De nombreux projets ne passent ainsi pas le stade du concept et restent à l’état d’images qui, accumulées, dessinent notre imaginaire techno-scientifique.</p>",
     "icon": {
       "webp_png": "tambour_xs.png",
       "jpeg": "tambour_xs.jpeg",
@@ -3555,7 +3774,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "73",
+    "id": "86",
     "title": "Structure de dissipation",
     "year": "2023",
     "project": "Les envahisseurs",
@@ -3598,7 +3817,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "72",
+    "id": "87",
     "title": "Star pneumatic",
     "year": "2023",
     "project": "Les envahisseurs",
@@ -3641,14 +3860,14 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "69",
+    "id": "88",
     "title": "Fisher",
     "year": "2022",
     "project": "Les envahisseurs",
     "urlSlug": "fisher",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-5vh", "leftGap": "25px" }
+      "hanging": { "x": "0", "y": "-15vh", "leftGap": "25px" }
     },
     "height": 19,
     "width": 30,
@@ -3684,7 +3903,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "70",
+    "id": "89",
     "title": "Vikram",
     "year": "2022",
     "project": "Les envahisseurs",
@@ -3727,7 +3946,7 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "81",
+    "id": "90",
     "title": "The wind waker",
     "year": "2024",
     "project": "Les envahisseurs",
@@ -3770,20 +3989,20 @@
     "altText": "Volume fait de tôles aluminium et de planches de balsa, réprésentant un atterrisseur spatial"
   },
   {
-    "id": "86",
+    "id": "91",
     "title": "Untitled (2024, concrete block)",
     "year": "2024",
     "project": "Jalons d'un monde à venir",
     "urlSlug": "untitled_2024_concrete_block",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "-105px", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "-105px", "y": "calc(-40vh + 50% + 92px)", "leftGap": "0" }
     },
     "height": 50,
     "width": 40,
     "depth": "",
     "materials": "huile et acrylique sur BA13",
-    "text": "noText",
+    "text": "<p>Il est courant dans les banlieues françaises de trouver des rues entières ponctuées de poteaux montés sur massifs de béton provisoires chargés d’apporter l’électricité et le téléphone aux habitants. Ces blocs, surtout utilisés à proximité des chantiers, sont l’une des composantes de la grammaire visuelle des zones urbaines en pleine rénovation.</p><p>Difficile pour un artiste de ne pas y voir comme une sculpture minimale qui serait échappée du musée ou alors une forme fétiche, un totem contemporain, chargée d’incarner la transformation en cours.</p>",
     "icon": {
       "webp_png": "untitled_2024_concrete_block_xs.webp",
       "jpeg": "untitled_2024_concrete_block_xs.jpeg",
@@ -3813,14 +4032,14 @@
     "altText": "Tableau d'un massif béton pour poteau électrique temporaire sur fond bleu"
   },
   {
-    "id": "71",
+    "id": "92",
     "title": "On and on",
     "year": "2023",
     "project": "Home sweet home",
     "urlSlug": "on_and_on",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "64px" }
     },
     "height": 80,
     "width": 146,
@@ -3856,14 +4075,14 @@
     "altText": "Tableau d'une ville entourée d'un paysage martien"
   },
   {
-    "id": "83",
+    "id": "93",
     "title": "Première pierre",
     "year": "2024",
     "project": "Jalons d'un monde à venir",
     "urlSlug": "premiere_pierre",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0", "y": "calc(-40vh + 50%)", "leftGap": "64px" }
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "96px" }
     },
     "height": 24,
     "width": 28,
@@ -3899,7 +4118,7 @@
     "altText": "Tableau avec scène d'inauguration d'un chantier de construction."
   },
   {
-    "id": "90",
+    "id": "94",
     "title": "Inculture #2",
     "year": "2024",
     "project": "Incultures",
@@ -3985,7 +4204,7 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "88",
+    "id": "96",
     "title": "Inculture (seed)",
     "year": "2024",
     "project": "Incultures",
@@ -3998,7 +4217,7 @@
     "width": -1,
     "depth": "",
     "materials": "acrylique sur mur",
-    "text": "<p>Le point de départ du projet est une plante peinte par Hieronymous Bosch vers 1490 dans un tableau de Saint Jean-Baptiste méditant en pleine nature. Le saint est accompagné d'un buisson étrange, incarnation du mauvais et de l'impie. Il est composé selon le procédé habituel du peintre : par collage d'éléments empruntés au réel. C'est un Frankenstein végétal, aux lignes serpentines, à tiges de ronces porteuses de divers fruits qui attirent la faune alentour et au feuillage polymorphe inspiré du buis, de la vigne et du chardon.</p><p>Dès lors, osons faire de la plante mauvaise une mauvaise herbe. Supposons ses graines tombées du tableau. Elle essaiment et poussent à leur place \"naturelle\" d'adventice, soit en ville dans la maigre fissure séparant le trottoir de la façade. Que reconnait-on alors du vétégal du maitre flamand, posé là à une hauteur infâme et rendu à une taille insignifiante ?</p><p>Comment est regardée la verdure indésirable, qu'en retient-on en mémoire, c'est en fait la question. En vérité, pas grand-chose. Contrairement à la tulipe, à la pivoine, à la rose etc, les mauvaises herbes n'ont pas de place dans nos imaginaires, sinon celle de nuisibles aux cultures. Elles se contentent de \"faire du vert\" et ne produisent rien. Cet inesthétisme improductif les place en hors-champ, les constitue en vivant illégitime à la réprésentation. Ainsi tourne la fabrique de l'ignorance où poussent nos incultures.</p>",
+    "text": "<p>Le point de départ du projet est une plante peinte par Hieronymous Bosch vers 1490 dans un tableau de Saint Jean-Baptiste méditant en pleine nature. Le saint est accompagné d'un buisson étrange, incarnation du mauvais et de l'impie. Il est composé selon le procédé habituel du peintre : par collage d'éléments empruntés au réel. C'est un Frankenstein végétal, aux lignes serpentines, à tiges de ronces porteuses de divers fruits qui attirent la faune alentour et au feuillage polymorphe inspiré du buis, de la vigne et du chardon.</p><p>Dès lors, osons faire de la plante mauvaise une mauvaise herbe. Supposons ses graines tombées du tableau. Elle essaiment et poussent à leur place \"naturelle\" d'adventice, soit en ville dans la maigre fissure séparant le trottoir de la façade. Que reconnait-on alors du vétégal du maitre flamand, placé là, à une hauteur infâme ?</p><p>Comment est regardée la verdure indésirable, qu'en retient-on en mémoire, c'est en fait la question. En vérité, pas grand-chose. Contrairement à la tulipe, à la pivoine, à la rose etc, les mauvaises herbes n'ont pas de place dans nos imaginaires, sinon celle de nuisibles aux cultures. Elles se contentent de \"faire du vert\" et ne produisent rien. Cet inesthétisme improductif les place en hors-champ, les constitue en vivant illégitime à la réprésentation. Ainsi tourne la fabrique de l'ignorance où poussent nos incultures.</p>",
     "icon": {
       "webp_png": "inculture_seed_xs.png",
       "jpeg": "inculture_seed_xs.jpeg",
@@ -4028,7 +4247,7 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "80",
+    "id": "97",
     "title": "La grande lessive",
     "year": "2024",
     "project": "noproject",
@@ -4041,7 +4260,7 @@
     "width": 162,
     "depth": "",
     "materials": "huile et acrylique sur toile",
-    "text": "noText",
+    "text": "<p>En France le karsher est utilisé par la droite comme une métaphore de l’action politique à mener dans les banlieues pauvres. Ce discours nourrit une approche hygiéniste de l’espace urbain et cultive l’amalgame entre pauvreté, délinquance et population immigrée d’un côté et saleté de l’autre.</p>",
     "icon": {
       "webp_png": "la_grande_lessive_xs.webp",
       "jpeg": "la_grande_lessive_xs.jpeg",
@@ -4071,7 +4290,7 @@
     "altText": "Tableau d'un trottoir nettoyé au jet d'eau avec une grand flaque dans laquelle se reflète la ville."
   },
   {
-    "id": "87",
+    "id": "98",
     "title": "Le bord du monde",
     "year": "2024",
     "project": "(Ré)ensauvagement",
@@ -4114,7 +4333,7 @@
     "altText": "Tableau d'un bord de route avec un talus surlequel sont disposés des blocs de béton"
   },
   {
-    "id": "84",
+    "id": "99",
     "title": "Prisme",
     "year": "2024",
     "project": "Jalons d'un monde à venir",
@@ -4157,7 +4376,7 @@
     "altText": "Tableau avec scène d'inauguration d'un chantier de construction."
   },
   {
-    "id": "79",
+    "id": "100",
     "title": "Become",
     "year": "2023",
     "project": "Jalons d'un monde à venir",
@@ -4200,7 +4419,7 @@
     "altText": "Tableau d'un massif béton pour poteau électrique temporaire"
   },
   {
-    "id": "85",
+    "id": "101",
     "title": "Industrial plants",
     "year": "2024",
     "project": "noproject",
@@ -4213,7 +4432,7 @@
     "width": 65,
     "depth": "",
     "materials": "huile et acrylique sur toile",
-    "text": "noText",
+    "text": "<p>Il y a, je trouve, une résonance particulière entre les lieux de conservation de la nature (serres, aquarium etc) et les objets d’art.</p><p>Peut-être car, comme ces derniers, l’œuvre d’art aussi abrite un petit fragment du réel, qu’elle entend présenter de façon authentique et préserver d’aléas extérieurs.</p><p>Peut-être parce que, la serre comme l’œuvre d’art reproduisent si idéalement ce qu’on appelle nature, qu’elles génèrent une énergie paradoxale, celle de l’artifice mis au service de sa propre négation.</p><p>Cependant dans un contexte de sinistre écologique, l’image de la serre nous invite à d’autres pensées : y aura-t-il toujours une place pour le vivant que nous connaissons en dehors d’un dôme de verre ? À quoi rime la célébration de la vie à grand renforts d’images auxquelles elle pourrait bien ne pas survivre ?</p><p>Alors oui, peut-être bien que l’art est aussi, en un sens, un petit écosystème à part où l’on cultive la rareté, où l’on recueille la fragilité d’un monde extérieur, dont il est temps de prendre soin.</p>",
     "icon": {
       "webp_png": "industrial_plants_xs.webp",
       "jpeg": "industrial_plants_xs.jpeg",
@@ -4243,7 +4462,7 @@
     "altText": "Tableau d'une végétation arborée sous dôme géodésique avec des faux nuages"
   },
   {
-    "id": "89",
+    "id": "102",
     "title": "Inculture #1",
     "year": "2024",
     "project": "Incultures",
@@ -4286,11 +4505,11 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "82",
-    "title": "Welcome to the hors champ",
+    "id": "103",
+    "title": "Hors champ",
     "year": "2024",
     "project": "noproject",
-    "urlSlug": "welcome_to_the_hors_champ",
+    "urlSlug": "hors_champ",
     "display": {
       "hasShadow": true,
       "hanging": { "x": "0", "y": "calc(-40vh + 50% + 54px)", "leftGap": "91px" }
@@ -4299,29 +4518,29 @@
     "width": 130,
     "depth": "",
     "materials": "huile et acrylique sur toile",
-    "text": "<p>Soient quelques plantes sauvages prélevées sur le premier talus trouvé, prises en photo, les photos réagencées sur logiciel, l'image finale peinte agrandie avec des couleurs saturées. Du résultat divers scénarios s'esquissent sans se contredire. Nous avons changé de point de vue : nous percevons le monde à la hauteur d'un petit animal. Nous avons changé de point de vue : nous regardons avec des yeux autrement sensibles au spectre de la lumière. Nous avons changé d'époque : projetés dans un futur où les plantes ont muté. Nous avons changé d'époque : renvoyés aux confins de l'histoire du vivant, dans les forêts du Permien ou du Dévonien. Ce qui demeure certain : on se joue de notre ignorance du vivant, car la seule chose reconnaissable c'était la forme des herbes du talus d'à côté.</p><p>En fait, quelle est la place de tels végétaux dans l'histoire de l'art ? Rare, voire inexistante si l'on omet quelques études de plantes de Dürer. Et quelle diversité dans le monde végétal couramment représenté ? Faible, tenant surtout à la tradition du mille-fleurs et son penchant pour l'inventaire de plantes sauvages (à fleurs remarquables donc toujours assez \"nobles\" pour être figurées). Alors que retrouvre-t-on le plus souvent en peinture à leur endroit ? Des taches vertes, quelques effets de texture. Les artistes en réalité font très souvent preuve d'un rapport au vivant appauvri et à travers cela c'est la relation à la nature de nos sociétés qui s'exprime.</p><p>Welcome to the hors champ ne se destine pas à être qu'un correctif, un moyen de faire accéder à la représentation un pan du monde végétal trop méconnu et cantonné aux planches illustrées des botanistes. C'est dabord un moyen d'enchanter le quotidien à peu de frais, en regardant autrement les vététaux des friches (ces habitants du tiers-paysage) et de faire surgir des visions d'ailleurs à partir d'ici, affirmant la porosité du monde, où exotique et banal ne font qu'un, le premier n'étant qu'un moment de l'autre.</p>",
+    "text": "<p><i>Hors champ</i> est une peinture qui joue de notre ignorance du vivant, présentant comme une jungle tropicale quelques plantes sauvages prélevées sur un talus francilien. Le projet ne se destine pas qu’à faire accéder à la représentation un pan du monde végétal méconnu et cantonné aux planches illustrées des botanistes. C’est d’abord un moyen d’enchanter le quotidien à peu de frais, faisant surgir des visions d’ailleurs à partir d’ici, affirmant la porosité du monde, où exotique et banal ne font qu’un, le premier n’étant qu’un moment de l’autre.</p>",
     "icon": {
-      "webp_png": "welcome_to_the_hors_champ_xs.webp",
-      "jpeg": "welcome_to_the_hors_champ_xs.jpeg",
+      "webp_png": "hors_champ_xs.webp",
+      "jpeg": "hors_champ_xs.jpeg",
       "height": 227,
       "width": 182
     },
     "images": {
       "small": {
-        "webp": "welcome_to_the_hors_champ_s.webp",
-        "jpeg": "welcome_to_the_hors_champ_s.jpeg",
+        "webp": "hors_champ_s.webp",
+        "jpeg": "hors_champ_s.jpeg",
         "width": 390,
         "height": 486
       },
       "medium": {
-        "webp": "welcome_to_the_hors_champ_m.webp",
-        "jpeg": "welcome_to_the_hors_champ_m.jpeg",
+        "webp": "hors_champ_m.webp",
+        "jpeg": "hors_champ_m.jpeg",
         "width": 410,
         "height": 511
       },
       "large": {
-        "webp": "welcome_to_the_hors_champ_l.webp",
-        "jpeg": "welcome_to_the_hors_champ_l.jpeg",
+        "webp": "hors_champ_l.webp",
+        "jpeg": "hors_champ_l.jpeg",
         "width": 512,
         "height": 638
       }
@@ -4329,7 +4548,7 @@
     "altText": "Tableau représentant une jungle"
   },
   {
-    "id": "91",
+    "id": "104",
     "title": "Inculture #3",
     "year": "2024",
     "project": "Incultures",
@@ -4372,7 +4591,7 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "92",
+    "id": "105",
     "title": "Inculture #4",
     "year": "2024",
     "project": "Incultures",
@@ -4415,7 +4634,7 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "94",
+    "id": "106",
     "title": "Inculture #6",
     "year": "2024",
     "project": "Incultures",
@@ -4458,14 +4677,57 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "93",
+    "id": "107",
+    "title": "MaP",
+    "year": "2024",
+    "project": "(Ré)ensauvagement",
+    "urlSlug": "map",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "116px" }
+    },
+    "height": 89,
+    "width": 116,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p>Il y a quelques décennies les banlieues parisiennes étaient des zones agricoles. On y trouvait notamment des cultures en vergers clos dont une photo d’archive est à l’origine de ce tableau. J’ai choisis de mettre l’accent sur l’aspect labyrinthique et abandonné de l’espace tout en optant pour une mise en couleur artificielle. On ne peut plus dire où cela se trouve ni s’il s’agit du passé, du présent ou d’une vision du futur.</p><p><i>MaP</i> est à la fois l’acronyme de Murs à Pêches et le mot anglais pour dire carte (plan). Le tableau se construit selon une progression graphique où les masses végétales du devant tendent de plus en plus vers un motif cartographique dans le lointain. En effet, l’amélioration du transport ferré, et donc la connexion du territoire avec l’ailleurs, sont à l’origine du déclin économique de cette activité agricole.</p>",
+    "icon": {
+      "webp_png": "map_xs.webp",
+      "jpeg": "map_xs.jpeg",
+      "height": 133,
+      "width": 174
+    },
+    "images": {
+      "small": {
+        "webp": "map_s.webp",
+        "jpeg": "map_s.jpeg",
+        "width": 430,
+        "height": 330
+      },
+      "medium": {
+        "webp": "map_m.webp",
+        "jpeg": "map_m.jpeg",
+        "width": 704,
+        "height": 540
+      },
+      "large": {
+        "webp": "map_l.webp",
+        "jpeg": "map_l.jpeg",
+        "width": 896,
+        "height": 687
+      }
+    },
+    "altText": "Tableau d'un verger clos qui évoque un labyrinthe dans lequel pousseraient des arbres"
+  },
+  {
+    "id": "108",
     "title": "Inculture #5",
     "year": "2024",
     "project": "Incultures",
     "urlSlug": "inculture_5",
     "display": {
       "hasShadow": false,
-      "hanging": { "x": "0", "y": "-1vh", "leftGap": "0" }
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "58px" }
     },
     "height": -1,
     "width": -1,
@@ -4501,46 +4763,693 @@
     "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
   },
   {
-    "id": "97",
-    "title": "Sans-titre (2024)",
-    "year": "2024",
+    "id": "109",
+    "title": "Déflation",
+    "year": "2025",
     "project": "noproject",
-    "urlSlug": "sans_titre_2024",
+    "urlSlug": "deflation",
     "display": {
       "hasShadow": true,
-      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "87px" }
+      "hanging": { "x": "0", "y": "calc(-40vh + 99px)", "leftGap": "99px" }
     },
-    "height": 89,
-    "width": 116,
+    "height": 33,
+    "width": 41,
+    "depth": "",
+    "materials": "huile sur toile",
+    "text": "noText",
+    "icon": {
+      "webp_png": "deflation_xs.webp",
+      "jpeg": "deflation_xs.jpeg",
+      "height": 54,
+      "width": 66
+    },
+    "images": {
+      "small": {
+        "webp": "deflation_s.webp",
+        "jpeg": "deflation_s.jpeg",
+        "width": 430,
+        "height": 346
+      },
+      "medium": {
+        "webp": "deflation_m.webp",
+        "jpeg": "deflation_m.jpeg",
+        "width": 704,
+        "height": 568
+      },
+      "large": {
+        "webp": "deflation_l.webp",
+        "jpeg": "deflation_l.jpeg",
+        "width": 896,
+        "height": 720
+      }
+    },
+    "altText": "Tableau représentant un ballon de beaudruche dégonflé"
+  },
+  {
+    "id": "110",
+    "title": "Déflation #2",
+    "year": "2025",
+    "project": "noproject",
+    "urlSlug": "deflation_2",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc(-40vh + 99px)", "leftGap": "0" }
+    },
+    "height": 36,
+    "width": 51,
+    "depth": "",
+    "materials": "huile, acrylique et plâtre sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "deflation_2_xs.webp",
+      "jpeg": "deflation_2_xs.jpeg",
+      "height": 56,
+      "width": 80
+    },
+    "images": {
+      "small": {
+        "webp": "deflation_2_s.webp",
+        "jpeg": "deflation_2_s.jpeg",
+        "width": 430,
+        "height": 304
+      },
+      "medium": {
+        "webp": "deflation_2_m.webp",
+        "jpeg": "deflation_2_m.jpeg",
+        "width": 704,
+        "height": 496
+      },
+      "large": {
+        "webp": "deflation_2_l.webp",
+        "jpeg": "deflation_2_l.jpeg",
+        "width": 896,
+        "height": 632
+      }
+    },
+    "altText": "Tableau représentant trois ballons de beaudruche dégonflés au sol"
+  },
+  {
+    "id": "111",
+    "title": "Crushed #3",
+    "year": "2025",
+    "project": "Jalons d'un monde à venir",
+    "urlSlug": "crushed_3",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "40px", "y": "calc(-40vh - 54px)", "leftGap": "45px" }
+    },
+    "height": 62.5,
+    "width": 120,
+    "depth": "",
+    "materials": "huile, acrylique et enduit sur BA13",
+    "text": "<p><i>Crushed #3</i> est conçu comme un regard depuis les coulisses d'une ville en transition. Le tableau organise un vis‐à‐vis entre un quai de stockage de matériaux de construction et l'infrastructure urbaine qui en est le produit.</p>",
+    "icon": {
+      "webp_png": "crushed_3_xs.webp",
+      "jpeg": "crushed_3_xs.jpeg",
+      "height": 100,
+      "width": 192
+    },
+    "images": {
+      "small": {
+        "webp": "crushed_3_s.webp",
+        "jpeg": "crushed_3_s.jpeg",
+        "width": 430,
+        "height": 224
+      },
+      "medium": {
+        "webp": "crushed_3_m.webp",
+        "jpeg": "crushed_3_m.jpeg",
+        "width": 704,
+        "height": 368
+      },
+      "large": {
+        "webp": "crushed_3_l.webp",
+        "jpeg": "crushed_3_l.jpeg",
+        "width": 896,
+        "height": 468
+      }
+    },
+    "altText": "Tableau représentant un quai de stockage de matériaux de construction"
+  },
+  {
+    "id": "112",
+    "title": "CQC #1",
+    "year": "2025",
+    "project": "Ceux qui creusent",
+    "urlSlug": "cqc_1",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc(-40vh + 64px)", "leftGap": "20px" }
+    },
+    "height": 26,
+    "width": 16,
+    "depth": "",
+    "materials": "huile, acrylique et mortier sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "cqc_1_xs.webp",
+      "jpeg": "cqc_1_xs.jpeg",
+      "height": 42,
+      "width": 28
+    },
+    "images": {
+      "small": {
+        "webp": "cqc_1_s.webp",
+        "jpeg": "cqc_1_s.jpeg",
+        "width": 390,
+        "height": 592
+      },
+      "medium": {
+        "webp": "cqc_1_m.webp",
+        "jpeg": "cqc_1_m.jpeg",
+        "width": 410,
+        "height": 623
+      },
+      "large": {
+        "webp": "cqc_1_l.webp",
+        "jpeg": "cqc_1_l.jpeg",
+        "width": 512,
+        "height": 778
+      }
+    },
+    "altText": "Tableau représentant deux chefs d'entreprise en costume en train de creuser"
+  },
+  {
+    "id": "113",
+    "title": "CQC #4",
+    "year": "2025",
+    "project": "Ceux qui creusent",
+    "urlSlug": "cqc_4",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc(-40vh)", "leftGap": "60px" }
+    },
+    "height": 20,
+    "width": 27,
+    "depth": "",
+    "materials": "huile, acrylique et mortier sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "cqc_4_xs.webp",
+      "jpeg": "cqc_4_xs.jpeg",
+      "height": 32,
+      "width": 43
+    },
+    "images": {
+      "small": {
+        "webp": "cqc_4_s.webp",
+        "jpeg": "cqc_4_s.jpeg",
+        "width": 430,
+        "height": 316
+      },
+      "medium": {
+        "webp": "cqc_4_m.webp",
+        "jpeg": "cqc_4_m.jpeg",
+        "width": 704,
+        "height": 516
+      },
+      "large": {
+        "webp": "cqc_4_l.webp",
+        "jpeg": "cqc_4_l.jpeg",
+        "width": 896,
+        "height": 658
+      }
+    },
+    "altText": "Tableau représentant quatre chefs d'entreprise en costume en train de creuser"
+  },
+  {
+    "id": "114",
+    "title": "CQC #3",
+    "year": "2025",
+    "project": "Ceux qui creusent",
+    "urlSlug": "cqc_3",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "-15px", "y": "calc(-40vh + 60px)", "leftGap": "0" }
+    },
+    "height": 23.5,
+    "width": 21.5,
+    "depth": "",
+    "materials": "huile, acrylique, posca et mortier sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "cqc_3_xs.webp",
+      "jpeg": "cqc_3_xs.jpeg",
+      "height": 38,
+      "width": 35
+    },
+    "images": {
+      "small": {
+        "webp": "cqc_3_s.webp",
+        "jpeg": "cqc_3_s.jpeg",
+        "width": 390,
+        "height": 418
+      },
+      "medium": {
+        "webp": "cqc_3_m.webp",
+        "jpeg": "cqc_3_m.jpeg",
+        "width": 410,
+        "height": 440
+      },
+      "large": {
+        "webp": "cqc_3_l.webp",
+        "jpeg": "cqc_3_l.jpeg",
+        "width": 512,
+        "height": 549
+      }
+    },
+    "altText": "Tableau représentant quatre chefs d'entreprise en costume en train de creuser"
+  },
+  {
+    "id": "115",
+    "title": "CQC #2",
+    "year": "2025",
+    "project": "Ceux qui creusent",
+    "urlSlug": "cqc_2",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "36px" }
+    },
+    "height": 22,
+    "width": 24,
+    "depth": "",
+    "materials": "huile, acrylique et mortier sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "cqc_2_xs.webp",
+      "jpeg": "cqc_2_xs.jpeg",
+      "height": 34,
+      "width": 38
+    },
+    "images": {
+      "small": {
+        "webp": "cqc_2_s.webp",
+        "jpeg": "cqc_2_s.jpeg",
+        "width": 430,
+        "height": 385
+      },
+      "medium": {
+        "webp": "cqc_2_m.webp",
+        "jpeg": "cqc_2_m.jpeg",
+        "width": 704,
+        "height": 630
+      },
+      "large": {
+        "webp": "cqc_2_l.webp",
+        "jpeg": "cqc_2_l.jpeg",
+        "width": 896,
+        "height": 802
+      }
+    },
+    "altText": "Tableau représentant trois chefs d'entreprise en costume en train de creuser"
+  },
+  {
+    "id": "116",
+    "title": "CQC #5",
+    "year": "2025",
+    "project": "Ceux qui creusent",
+    "urlSlug": "cqc_5",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "-40vh", "leftGap": "0" }
+    },
+    "height": 21.5,
+    "width": 18.5,
+    "depth": "",
+    "materials": "huile, acrylique, posca et mortier sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "cqc_5_xs.webp",
+      "jpeg": "cqc_5_xs.jpeg",
+      "height": 34,
+      "width": 30
+    },
+    "images": {
+      "small": {
+        "webp": "cqc_5_s.webp",
+        "jpeg": "cqc_5_s.jpeg",
+        "width": 390,
+        "height": 436
+      },
+      "medium": {
+        "webp": "cqc_5_m.webp",
+        "jpeg": "cqc_5_m.jpeg",
+        "width": 410,
+        "height": 460
+      },
+      "large": {
+        "webp": "cqc_5_l.webp",
+        "jpeg": "cqc_5_l.jpeg",
+        "width": 512,
+        "height": 572
+      }
+    },
+    "altText": "Tableau représentant quatre chefs d'entreprise en costume en train de creuser"
+  },
+  {
+    "id": "117",
+    "title": "Crushed #2",
+    "year": "2025",
+    "project": "Jalons d'un monde à venir",
+    "urlSlug": "crushed_2",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc( -40vh - 68px)", "leftGap": "0" }
+    },
+    "height": 50,
+    "width": 83.5,
+    "depth": "",
+    "materials": "huile, acrylique et crépi sur BA13",
+    "text": "<p><i>Crushed #2</i> montre un paysage urbain en pleine transformation à travers la présence temporaire de montagnes de gravats ‐ résultat de la démolition d'un quartier complet. Le tableau emprunte aux codes de représentation de l'espace naturel et de l'espace construit pour exprimer ce moment hybride entre deux réalités ‐ bâtie ou effondrée.</p>",
+    "icon": {
+      "webp_png": "crushed_2_xs.webp",
+      "jpeg": "crushed_2_xs.jpeg",
+      "height": 80,
+      "width": 134
+    },
+    "images": {
+      "small": {
+        "webp": "crushed_2_s.webp",
+        "jpeg": "crushed_2_s.jpeg",
+        "width": 430,
+        "height": 260
+      },
+      "medium": {
+        "webp": "crushed_2_m.webp",
+        "jpeg": "crushed_2_m.jpeg",
+        "width": 704,
+        "height": 428
+      },
+      "large": {
+        "webp": "crushed_2_l.webp",
+        "jpeg": "crushed_2_l.jpeg",
+        "width": 896,
+        "height": 544
+      }
+    },
+    "altText": "Tableau représentant un paysage avec un tas de gravats de béton haut comme un immeuble"
+  },
+     {
+    "id": "118",
+    "title": "Inculture #11",
+    "year": "2025",
+    "project": "Incultures",
+    "urlSlug": "inculture_11",
+    "display": {
+      "hasShadow": false,
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "29px" }
+    },
+    "height": -1,
+    "width": -1,
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "noText",
+    "icon": {
+      "webp_png": "inculture_11_xs.webp",
+      "jpeg": "inculture_11_xs.jpeg",
+      "height": 124,
+      "width": 44
+    },
+    "images": {
+      "small": {
+        "webp": "inculture_11_s.webp",
+        "jpeg": "inculture_11_s.jpeg",
+        "width": 286,
+        "height": 604
+      },
+      "medium": {
+        "webp": "inculture_11_m.webp",
+        "jpeg": "inculture_11_m.jpeg",
+        "width": 358,
+        "height": 756
+      },
+      "large": {
+        "webp": "inculture_11_l.webp",
+        "jpeg": "inculture_11_l.jpeg",
+        "width": 440,
+        "height": 928
+      }
+    },
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
+  },
+   {
+    "id": "119",
+    "title": "Inculture #12",
+    "year": "2025",
+    "project": "Incultures",
+    "urlSlug": "inculture_12",
+    "display": {
+      "hasShadow": false,
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "58px" }
+    },
+    "height": -1,
+    "width": -1,
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "noText",
+    "icon": {
+      "webp_png": "inculture_12_xs.webp",
+      "jpeg": "inculture_12_xs.jpeg",
+      "height": 88,
+      "width": 45
+    },
+    "images": {
+      "small": {
+        "webp": "inculture_12_s.webp",
+        "jpeg": "inculture_12_s.jpeg",
+        "width": 344,
+        "height": 604
+      },
+      "medium": {
+        "webp": "inculture_12_m.webp",
+        "jpeg": "inculture_12_m.jpeg",
+        "width": 410,
+        "height": 724
+      },
+      "large": {
+        "webp": "inculture_12_l.webp",
+        "jpeg": "inculture_12_l.jpeg",
+        "width": 512,
+        "height": 902
+      }
+    },
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
+  },
+   {
+    "id": "120",
+    "title": "Inculture #13",
+    "year": "2025",
+    "project": "Incultures",
+    "urlSlug": "inculture_13",
+    "display": {
+      "hasShadow": false,
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "58px" }
+    },
+    "height": -1,
+    "width": -1,
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "noText",
+    "icon": {
+      "webp_png": "inculture_13_xs.webp",
+      "jpeg": "inculture_13_xs.jpeg",
+      "height": 78,
+      "width": 42
+    },
+    "images": {
+      "small": {
+        "webp": "inculture_13_s.webp",
+        "jpeg": "inculture_13_s.jpeg",
+        "width": 356,
+        "height": 604
+      },
+      "medium": {
+        "webp": "inculture_13_m.webp",
+        "jpeg": "inculture_13_m.jpeg",
+        "width": 410,
+        "height": 698
+      },
+      "large": {
+        "webp": "inculture_13_l.webp",
+        "jpeg": "inculture_13_l.jpeg",
+        "width": 512,
+        "height": 870
+      }
+    },
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
+  },
+  {
+    "id": "121",
+    "title": "Abstraction",
+    "year": "2025",
+    "project": "noproject",
+    "urlSlug": "abstraction",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc( -40vh + 100%)", "leftGap": "0" }
+    },
+    "height": 60.3,
+    "width": 83.5,
+    "depth": "",
+    "materials": "huile, acrylique et crépi sur BA13",
+    "text": "noText",
+    "icon": {
+      "webp_png": "abstraction_xs.webp",
+      "jpeg": "abstraction_xs.jpeg",
+      "height": 96,
+      "width": 134
+    },
+    "images": {
+      "small": {
+        "webp": "abstraction_s.webp",
+        "jpeg": "abstraction_s.jpeg",
+        "width": 430,
+        "height": 312
+      },
+      "medium": {
+        "webp": "abstraction_m.webp",
+        "jpeg": "abstraction_m.jpeg",
+        "width": 704,
+        "height": 508
+      },
+      "large": {
+        "webp": "abstraction_l.webp",
+        "jpeg": "abstraction_l.jpeg",
+        "width": 896,
+        "height": 648
+      }
+    },
+    "altText": "Tableau représentant deux cubes de béton et une tente derrière"
+  },
+  {
+    "id": "122",
+    "title": "Beside the golden door",
+    "year": "2025",
+    "project": "noproject",
+    "urlSlug": "beside_the_golden_door",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "42px", "y": "calc( -40vh - 52px)", "leftGap": "0" }
+    },
+    "height": 81,
+    "width": 100,
+    "depth": "",
+    "materials": "huile et acrylique sur toile",
+    "text": "<p>Ce tableau montre un t-shirt étendu à une corde, elle-même fixée aux barreaux d’une clôture bordée d’une haie. La scène pourrait presque être banale (elle l’est, en un sens). Où je suis en France, il m’est souvent arrivé de trouver des cordes le long des grilles de bâtiments administratifs ou d’entreprise. J’ai longtemps cru qu’il s’agissait là de résidus d’affichage, jusqu’au jour où j’ai compris, dans ces zones frappées de misère, que c’étaient en fait des cordes à linge de fortune.</p>",
+    "icon": {
+      "webp_png": "beside_the_golden_door_xs.webp",
+      "jpeg": "beside_the_golden_door_xs.jpeg",
+      "height": 132,
+      "width": 160
+    },
+    "images": {
+      "small": {
+        "webp": "beside_the_golden_door_s.webp",
+        "jpeg": "beside_the_golden_door_s.jpeg",
+        "width": 430,
+        "height": 348
+      },
+      "medium": {
+        "webp": "beside_the_golden_door_m.webp",
+        "jpeg": "beside_the_golden_door_m.jpeg",
+        "width": 704,
+        "height": 570
+      },
+      "large": {
+        "webp": "beside_the_golden_door_l.webp",
+        "jpeg": "beside_the_golden_door_l.jpeg",
+        "width": 896,
+        "height": 726
+      }
+    },
+    "altText": "Tableau représentant un t-shirt et une paire de chaussettes suspendus à une corde à linge devant une grille"
+  },
+     {
+    "id": "123",
+    "title": "Inculture #10",
+    "year": "2025",
+    "project": "Incultures",
+    "urlSlug": "inculture_10",
+    "display": {
+      "hasShadow": false,
+      "hanging": { "x": "0", "y": "-1vh", "leftGap": "58px" }
+    },
+    "height": -1,
+    "width": -1,
+    "depth": "",
+    "materials": "acrylique sur mur",
+    "text": "noText",
+    "icon": {
+      "webp_png": "inculture_10_xs.webp",
+      "jpeg": "inculture_10_xs.jpeg",
+      "height": 122,
+      "width": 68
+    },
+    "images": {
+      "small": {
+        "webp": "inculture_10_s.webp",
+        "jpeg": "inculture_10_s.jpeg",
+        "width": 390,
+        "height": 564
+      },
+      "medium": {
+        "webp": "inculture_10_m.webp",
+        "jpeg": "inculture_10_m.jpeg",
+        "width": 410,
+        "height": 594
+      },
+      "large": {
+        "webp": "inculture_10_l.webp",
+        "jpeg": "inculture_10_l.jpeg",
+        "width": 512,
+        "height": 742
+      }
+    },
+    "altText": "Peinture murale d'une plante fictive générée par intelligence artificielle"
+  },
+  {
+    "id": "124",
+    "title": "Hors champ #2",
+    "year": "2025",
+    "project": "noproject",
+    "urlSlug": "hors_champ_2",
+    "display": {
+      "hasShadow": true,
+      "hanging": { "x": "0", "y": "calc(-50vh + 50%)", "leftGap": "94px" }
+    },
+    "height": 81,
+    "width": 130,
     "depth": "",
     "materials": "huile et acrylique sur toile",
     "text": "noText",
     "icon": {
-      "webp_png": "sans_titre_2024_xs.webp",
-      "jpeg": "sans_titre_2024_xs.jpeg",
-      "height": 133,
-      "width": 174
+      "webp_png": "hors_champ_2_xs.webp",
+      "jpeg": "hors_champ_2_xs.jpeg",
+      "height": 122,
+      "width": 196
     },
     "images": {
       "small": {
-        "webp": "sans_titre_2024_s.webp",
-        "jpeg": "sans_titre_2024_s.jpeg",
+        "webp": "hors_champ_2_s.webp",
+        "jpeg": "hors_champ_2_s.jpeg",
         "width": 430,
-        "height": 330
+        "height": 268
       },
       "medium": {
-        "webp": "sans_titre_2024_m.webp",
-        "jpeg": "sans_titre_2024_m.jpeg",
+        "webp": "hors_champ_2_m.webp",
+        "jpeg": "hors_champ_2_m.jpeg",
         "width": 704,
-        "height": 540
+        "height": 440
       },
       "large": {
-        "webp": "sans_titre_2024_l.webp",
-        "jpeg": "sans_titre_2024_l.jpeg",
+        "webp": "hors_champ_2_l.webp",
+        "jpeg": "hors_champ_2_l.jpeg",
         "width": 896,
-        "height": 687
+        "height": 558
       }
     },
-    "altText": "Tableau d'un verger clos qui évoque un labyrinthe dans lequel pousseraient des arbres"
+    "altText": "Tableau représentant une jungle"
   }
+
+
 ]

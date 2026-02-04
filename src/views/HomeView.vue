@@ -17,7 +17,7 @@ const laptop = breakpoints.between('laptop', 'desktop')
 const desktop = breakpoints.greater('desktop')
 
 const data = worksData
-const lastYears = ['2024', '2023','2022']
+const lastYears = ['2025', '2024','2023']
 
 function getRecentWorks() {
     let recentWorks = []
