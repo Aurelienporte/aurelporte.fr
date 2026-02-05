@@ -11,17 +11,22 @@
   {
     "id": 5,
     "title": "Viens, mais ne viens pas quand je serai seule",
-    "place": "Galerie Ygrec, cur.Théo Robine-Langlois, Paris, 2017"
+    "place": "Galerie Ygrec, cur. Théo Robine-Langlois, Paris, 2017"
   },
   { "id": 6, "title": "Les Montagnes hallucinées", "place": "Le 87 - Lieu de créations, 2018" },
   {
     "id": 7,
     "title": "Bibelot summer show",
-    "place": "Wendy Gallery, cur.Callisto McNulty, Paris, 2018"
+    "place": "Wendy Gallery, cur. Callisto McNulty, Paris, 2018"
   },
   { "id": 8, "title": "Æmergence (FIAC off)", "place": "La Station, Paris, 2018" },
   { "id": 9, "title": "Novembre à Vitry", "place": "Galerie Jean Collet, Vitry, 2019" },
   { "id": 10, "title": "Voir en Vrai", "place": "The Place to see, La Courneuve, 2023" },
   { "id": 11, "title": "Voir en Vrai #2", "place": "The Place to see, La Courneuve, 2024" },
-  { "id": 12, "title": "Voir en Vrai #3", "place": "The Place to see, La Courneuve, 2024" }
+  { "id": 12, "title": "Voir en Vrai #3", "place": "The Place to see, La Courneuve, 2024" },
+  { "id": 13, "title": "Portes ouvertes des ateliers", "place": "Les Ateliers, La Courneuve, 2025" },
+  { "id": 14, "title": "Voir en Vrai #4", "place": "The Place to see, La Courneuve, 2025" },
+  { "id": 15, "title": "Conférence-workshop Figures de l'espace", "place": "Ecole G. Courbet, Saint-Denis, 2026" },
+  { "id": 16, "title": "Paysages en transition", "place": "La Ferme d'en Haut, Villeneuve d'Ascq, 2026" }
+
 ]
