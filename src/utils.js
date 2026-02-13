@@ -8,7 +8,7 @@ export function getYears() {
       years.push(work.year)
     }
   })
-  return years.sort()
+  return years.sort().reverse()
 }
 
 export function getProjects() {

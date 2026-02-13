@@ -65,6 +65,16 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: () => import('../views/NotFoundView.vue')
+  },
+  {
+    path: '/mentions_legales',
+    name: 'LegalNotice',
+    component: () => import('../views/LegalNoticeView.vue')
+  },
+    {
+    path: '/credits',
+    name: 'Credits',
+    component: () => import('../views/CreditsView.vue')
   }
 ]
 

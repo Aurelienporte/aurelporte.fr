@@ -43,8 +43,6 @@ function hideFilters() {
 
 const route = useRoute()
 const activePath = route.fullPath
-const regex = /\//g
-const slashInPath = activePath.match(regex)
 
 const navMenu = useTemplateRef('navigationMenu')
 
@@ -80,30 +78,20 @@ watch(
       @toggle="toogleMenu()"
     >
       <ul class="navigation-menu__list" v-if="isNavLinksVisible">
-        <MenuItem><RouterLink to="/" class="navigation-menu__link">Accueil</RouterLink></MenuItem>
-        <!-- Display a link to the works if you're not on the page or a on single work page -->
-        <MenuItem
-          v-if="
-            !(
-              activePath === '/works' ||
-              (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
-            )
-          "
-          ><RouterLink to="/works" class="navigation-menu__link">&OElig;uvres</RouterLink></MenuItem
-        >
-        <!-- Display filters if you're on the works pages  -->
-        <MenuItem
-          v-if="
-            activePath === '/works' ||
-            (activePath.substring(0, 16) === '/works/explorer/' && slashInPath.length < 4)
-          "
-        >
-          <button class="navigation-menu__button" @click="showFilters">Filtres</button></MenuItem
-        >
+        <!-- Display a link to the works if you're not on the page -->
+        <MenuItem v-if="!(activePath === '/works')">
+          <RouterLink to="/works" class="navigation-menu__link">&OElig;uvres</RouterLink>
+        </MenuItem>
+
+        <!-- Display filters -->
+        <MenuItem>
+          <button class="navigation-menu__button" @click="showFilters">Filtrer</button>
+        </MenuItem>
+
         <!-- Display a link to infos if you're not already in the page -->
         <MenuItem v-if="!(activePath === '/infos')">
-          <RouterLink to="/infos" class="navigation-menu__link">Infos</RouterLink></MenuItem
-        >
+          <RouterLink to="/infos" class="navigation-menu__link">Infos et contact</RouterLink>
+        </MenuItem>
       </ul>
       <TheMenuFilterMenu v-if="isFiltersVisible" @visible="hideFilters"></TheMenuFilterMenu>
     </nav>
@@ -116,7 +104,7 @@ watch(
 <style>
 /* GLOBAL CSS VARIABLE */
 :root {
-  --bannerHeight: 64px;
+  --bannerHeight: min(64px, 10svh);
   --navWidth: 100vw;
 }
 @media screen and (767px < width < 1024px) {

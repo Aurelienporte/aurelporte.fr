@@ -4,6 +4,7 @@ import ShowCard from '@/components/ShowCard.vue'
 import TheContact from '@/components/TheContact.vue'
 import SocialLink from '@/components/SocialLink.vue'
 import TheMenu from '@/components/TheMenu.vue'
+import TheFooter from '@/components/TheFooter.vue'
 import dataExhibitions from '@/dataExhibitions.json'
 import { useBreakpoints } from '@vueuse/core'
 import { ref, useTemplateRef } from 'vue'
@@ -38,7 +39,7 @@ function makeSlices() {
   if (desktop.value) {
     showsPerSlice = 14
   }
-  console.log({ showsPerSlice })
+
   let slicesAmount = Math.floor(exhibitions.length / showsPerSlice)
   const hasRemainder = exhibitions.length % showsPerSlice
 
@@ -49,11 +50,12 @@ function makeSlices() {
     let slice = exhibitions.slice(i * showsPerSlice, (i + 1) * showsPerSlice)
     exhibSlices.push(slice)
   }
-  console.log(exhibSlices)
 }
 makeSlices()
 
 const main = useTemplateRef('scrollable')
+let isScrollable = ref(true)
+
 function scrollWithWheel(e) {
   if (isScrollable.value) {
     e.preventDefault()
@@ -62,7 +64,7 @@ function scrollWithWheel(e) {
     return
   }
 }
-let isScrollable = ref(true)
+
 function stopMainScroll(e) {
   isScrollable.value = !e
 }
@@ -104,6 +106,7 @@ function stopMainScroll(e) {
       </div>
     </InfosWrapper>
   </main>
+  <TheFooter></TheFooter>
 </template>
 
 <style scoped>

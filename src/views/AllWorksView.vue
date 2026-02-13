@@ -106,6 +106,15 @@ function filterByYear(year) {
 function filterByProject(project) {
   let filteredWorks = []
   filteredWorks = works.filter((work) => work.project === project)
+  filteredWorks.sort((a, b) => {
+    if (a.year < b.year) {
+      return 1
+    }
+    if (a.year > b.year) {
+      return -1
+    }
+    return 0
+  })
   return filteredWorks
 }
 
@@ -141,7 +150,7 @@ function updateScroll(e) {
 </script>
 
 <template>
-  <TheMenu></TheMenu>
+  <TheMenu header-title="&OElig;uvres"></TheMenu>
   <main
     class="works__main main--scroll-x"
     @wheel="scrollWithWheel"
