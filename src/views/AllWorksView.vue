@@ -147,10 +147,37 @@ function updateScroll(e) {
   const scrollEnd = useScroll(main).arrivedState
   isArrived.value = scrollEnd.right
 }
+
+function adaptHeaderTitle(){
+    // if (path.value === '/works') {
+    //   console.log('path is works')
+    // return '&OElig;uvres'
+    // } else {
+    //   let filter = route.params.filter
+    //   if (years.includes(filter)) {
+    //   return 'Filtrer par années'}
+    // if (normalizedProjects.includes(filter)) {
+    //   return 'Filtrer par projets'
+    //   }   
+    // }
+    if (route.path.includes('explorer')) {
+        let filter = route.params.filter
+
+        if (years.includes(filter)) {
+          return 'Filtrer par années'
+        }
+        if (normalizedProjects.includes(filter)) {
+          return 'Filtrer par projets'
+        }  
+    }
+    if (!route.path.includes('explorer')) {
+      return false
+    }
+  }
 </script>
 
 <template>
-  <TheMenu header-title="&OElig;uvres"></TheMenu>
+  <TheMenu :header-title="adaptHeaderTitle() ? adaptHeaderTitle() : '&OElig;uvres'"></TheMenu>
   <main
     class="works__main main--scroll-x"
     @wheel="scrollWithWheel"

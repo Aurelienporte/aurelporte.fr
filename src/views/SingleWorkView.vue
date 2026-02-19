@@ -14,7 +14,7 @@ import { watch, ref, computed, useTemplateRef } from 'vue'
 import { onClickOutside } from '@vueuse/core'
 import { useRoute, RouterLink } from 'vue-router'
 
-import { getYears, filterByProject, filterByYear } from '@/utils'
+import { getYears, filterByProject, filterByYear, normalizeName, getProjects } from '@/utils'
 import worksData from '@/data.json'
 import projectsDdata from '@/dataProjects.json'
 
@@ -148,9 +148,34 @@ const isToolbarDisabled = ref(false)
 function enableToolbar(boolean) {
   setTimeout(() => (isToolbarDisabled.value = boolean), 300)
 }
+function getTitleFromFilter() {
+  const filter = route.params.filter
+  const years = getYears()
+  const projects = getProjects()
+
+  if (years.includes(filter)) {
+    return filter
+  } else {
+    for (let i = 0; i < projects.length; i++) {
+      if (normalizeName(projects[i]) === filter) {
+        return projects[i]
+      }
+    }
+  }
+}
+const headerTitle = computed(() => {
+  if (route.path.includes('explorer')) {
+    return getTitleFromFilter()
+  } else if (!route.path.includes('explorer')) {
+    return artwork.value.title
+  } else {
+    return false
+  }
+})
+console.log(headerTitle.value)
 </script>
 <template>
-  <TheMenu @menu-toggle="enableToolbar($event)"></TheMenu>
+  <TheMenu @menu-toggle="enableToolbar($event)" :header-title="headerTitle"></TheMenu>
   <main class="artwork__main">
     <ArtworkPicture
       class="work"

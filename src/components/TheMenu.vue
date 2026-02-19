@@ -126,6 +126,7 @@ header {
   --buttonSide: 24px;
   --halfSide: calc(var(--buttonSide) * 0.5);
   --buttonPadding: 8px;
+  --buttonWidth: calc(var(--buttonSide) + 2 * var(--buttonPadding));
   --menuHeight: 66svh;
 
   box-sizing: border-box;
@@ -143,18 +144,29 @@ header {
 
   .banner {
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 3fr 1fr var(--buttonWidth);
     align-items: center;
     height: var(--bannerHeight);
     padding-inline: 5vw calc(5vw - var(--buttonPadding));
     padding-block: 0;
 
+      &::after{
+        content: '';
+        height: 100%;
+        grid-area: 1/2/2/3;
+        background: linear-gradient(90deg, transparent 0%, white 100%);
+      }
+
     & .banner__title {
+      grid-area: 1/1/2/3;
       font-family: 'Questrial', serif;
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--mainColor);
+      text-wrap: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
   .burger {

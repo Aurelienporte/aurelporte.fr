@@ -55,13 +55,9 @@ function isToogled(payload) {
       <li v-for="filter in filters" :key="filter" class="filter__item">
         <RouterLink
           class="filter__label"
-          :to="
-            param === `${normalizeName(filter)}`
-              ? '/works'
-              : `/works/explorer/${normalizeName(filter)}`
-          "
-          >{{ filter }}</RouterLink
-        >
+          :to="`/works/explorer/${normalizeName(filter)}`"
+        >{{ filter }}
+        </RouterLink>
       </li>
     </ol>
   </MenuItem>
