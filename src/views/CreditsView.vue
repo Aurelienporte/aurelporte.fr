@@ -12,7 +12,7 @@ import TheFooter from '@/components/TheFooter.vue';
         <h3 class="credits__subtitle">Ceci n'est pas un site</h3>
         <p class="credits__text">
             C'est une Progressive Web Appli&shy;ca&shy;tion (PWA) réalisée en&nbsp;Java&shy;Script, HTML et&nbsp;CSS avec Vue.js.
-            Il&nbsp;est par con&shy;sé&shy;quent possible de le télé&shy;char&shy;ger et de le con&shy;sul&shy;ter comme une application native.
+            Il&nbsp;est par con&shy;sé&shy;quent possible de la télé&shy;char&shy;ger et de la con&shy;sul&shy;ter comme une application native.
         </p>
         <h3 class="credits__subtitle">Vue.js</h3>
         <p class="credits__text">
@@ -50,7 +50,7 @@ import TheFooter from '@/components/TheFooter.vue';
             liberté d'expression et le contrôle des données personnelles.
         </p>
         <p class="credits__text">
-            Elles sont sans publicité ni algo&shy;rith&shy;mes de recomman&shy;dation, et n'exi&shy;gent pas la&nbsp;création
+            Elles sont sans publicité ni algo&shy;rith&shy;mes de recomman&shy;dation, et&nbsp;n'exi&shy;gent pas la&nbsp;création
              d'un compte pour consulter les conte&shy;nus. Elles ne financent pas l'extrè&shy;me droite ni ne portent atteinte à&nbsp;la démocratie.
         </p>
         <h3 class="credits__subtitle">Bluesky</h3>
