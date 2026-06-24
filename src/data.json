@@ -5449,6 +5449,53 @@
       }
     },
     "altText": "Tableau représentant une jungle"
+  },
+    {
+    "id": "125",
+    "title": "Mother of thousands",
+    "year": "2022",
+    "project": "Jalons d'un monde à venir",
+    "urlSlug": "mother_of_thousands",
+    "display": {
+      "hasShadow": true,
+      "hanging": {
+        "x": "0",
+        "y": "calc(-30vh + 50%)",
+        "leftGap": "30px"
+      }
+    },
+    "height": 35,
+    "width": 50,
+    "depth": "",
+    "materials": "huile et acrylique sur BA13",
+    "text": "<p>Végétalisation de surface en cours.<br>Depuis l’un des coins d’une jardinière postée à l’entrée d’un immeuble une cymbalaire étend un voile de verdure chaotique vers d’impeccables rangées de galets, cachant progressivement le mortier qui retient les pierres.<br>Une association heureuse, un peu trop,<br>Un peu trop cache-misère.</p>",
+    "icon": {
+      "webp_png": "mother_of_thousands_xs.webp",
+      "jpeg": "mother_of_thousands_xs.jpeg",
+      "height": 56,
+      "width": 80
+    },
+    "images": {
+      "small": {
+        "webp": "mother_of_thousands_s.webp",
+        "jpeg": "mother_of_thousands_s.jpeg",
+        "width": 430,
+        "height": 302
+      },
+      "medium": {
+        "webp": "mother_of_thousands_m.webp",
+        "jpeg": "mother_of_thousands_m.jpeg",
+        "width": 704,
+        "height": 493
+      },
+      "large": {
+        "webp": "mother_of_thousands_l.webp",
+        "jpeg": "mother_of_thousands_l.jpeg",
+        "width": 896,
+        "height": 627
+      }
+    },
+    "altText": "Tableau représentant une surface de galets blancs scellés dans du ciment. Au premier plan, une cymbalaire pousse entre les pierres."
   }
 
 
